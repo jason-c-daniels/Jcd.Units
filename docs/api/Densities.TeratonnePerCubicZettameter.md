@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicZettameter Field
 
-teratonne per cubic zettameter defined such that: gigatonne per cubic exameter = Tt/Zm³ ×  
+teratonne per cubic zettameter defined such that: gigatonne per cubic exameter = Tt/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

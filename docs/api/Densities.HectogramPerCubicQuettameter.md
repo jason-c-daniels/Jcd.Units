@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicQuettameter Field
 
-hectogram per cubic quettameter defined such that: kilogram per cubic ronnameter = hg/Qm³ ×  
+hectogram per cubic quettameter defined such that: kilogram per cubic ronnameter = hg/Qm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicFemtometer Field
 
-nanogram per cubic femtometer defined such that: microgram per cubic picometer = ng/fm³ ×  
+nanogram per cubic femtometer defined such that: microgram per cubic picometer = ng/fm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

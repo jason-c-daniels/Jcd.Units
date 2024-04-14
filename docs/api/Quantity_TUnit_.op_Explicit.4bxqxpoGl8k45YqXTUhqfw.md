@@ -17,5 +17,5 @@ public static double explicit operator double(Jcd.Units.Quantity<TUnit> q);
 The quantity to convert.
 
 #### Returns
-[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  
+[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 The raw double representation without any unit of measure.

@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareNanosecond Field
 
-attometer per square nanosecond defined such that: femtometer per square microsecond = am/ns² ×  
+attometer per square nanosecond defined such that: femtometer per square microsecond = am/ns² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

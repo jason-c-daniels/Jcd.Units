@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareBillionYears Field
 
-meter per square billion years defined such that: meter per square million years = m/Gyr² ×  
+meter per square billion years defined such that: meter per square million years = m/Gyr² ×
 (1.0)/((1000.0)*(1000.0)).
 
 ```csharp

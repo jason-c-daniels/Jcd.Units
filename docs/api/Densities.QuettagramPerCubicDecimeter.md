@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicDecimeter Field
 
-quettagram per cubic decimeter defined such that: ronnagram per cubic meter = Qg/dm³ ×  
+quettagram per cubic decimeter defined such that: ronnagram per cubic meter = Qg/dm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

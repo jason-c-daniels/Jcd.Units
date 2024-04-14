@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicExameter Field
 
-hectotonne per cubic exameter defined such that: dekatonne per cubic petameter = ht/Em³ ×  
+hectotonne per cubic exameter defined such that: dekatonne per cubic petameter = ht/Em³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

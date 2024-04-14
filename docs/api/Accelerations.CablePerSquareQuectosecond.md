@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareQuectosecond Field
 
-cable per square quectosecond defined such that: fathom per square rontosecond = cable/qs² ×  
+cable per square quectosecond defined such that: fathom per square rontosecond = cable/qs² ×
 (100.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

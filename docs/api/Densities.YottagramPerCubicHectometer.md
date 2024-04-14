@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicHectometer Field
 
-yottagram per cubic hectometer defined such that: zettagram per cubic dekameter = Yg/hm³ ×  
+yottagram per cubic hectometer defined such that: zettagram per cubic dekameter = Yg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicCentimeter Field
 
-tonne per cubic centimeter defined such that: megagram per cubic decimeter = t/cm³ ×  
+tonne per cubic centimeter defined such that: megagram per cubic decimeter = t/cm³ ×
 (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicTerameter Field
 
-rontotonne per cubic terameter defined such that: yoctotonne per cubic gigameter = rt/Tm³ ×  
+rontotonne per cubic terameter defined such that: yoctotonne per cubic gigameter = rt/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

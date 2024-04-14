@@ -17,5 +17,5 @@ public static TimeSpan ToTimeSpan(this Jcd.Units.Quantity<Jcd.Units.UnitTypes.Du
 The [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') to convert.
 
 #### Returns
-[System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan')  
+[System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan')
 The [System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan') representation of the [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')

@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareNanosecond Field
 
-yard per square nanosecond defined such that: foot per square microsecond = yd/ns² ×  
+yard per square nanosecond defined such that: foot per square microsecond = yd/ns² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

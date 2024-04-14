@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareQuectosecond Field
 
-planck-length per square quectosecond defined such that: SI meter per square rontosecond = ℓₚ/qs² ×  
+planck-length per square quectosecond defined such that: SI meter per square rontosecond = ℓₚ/qs² ×
 (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

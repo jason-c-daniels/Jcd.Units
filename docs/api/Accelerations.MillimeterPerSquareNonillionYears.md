@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareNonillionYears Field
 
-millimeter per square nonillion years defined such that: centimeter per square octillion years = mm/Qyr² ×  
+millimeter per square nonillion years defined such that: centimeter per square octillion years = mm/Qyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

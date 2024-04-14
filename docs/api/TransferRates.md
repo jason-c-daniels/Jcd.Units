@@ -13,7 +13,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [BitsPerSecond](TransferRates.BitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.BitsPerSecond') | bits per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this<br/>type.) |
+| [BitsPerSecond](TransferRates.BitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.BitsPerSecond') | bits per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
 | [BytesPerSecond](TransferRates.BytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.BytesPerSecond') | bytes per second defined such that: nybbles per second = B/s × 2d. |
 | [ExabitsPerSecond](TransferRates.ExabitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.ExabitsPerSecond') | exabits per second defined such that: petabits per second = Eb/s × 1000.0. |
 | [ExabytesPerSecond](TransferRates.ExabytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.ExabytesPerSecond') | exabytes per second defined such that: petabytes per second = EB/s × 1000.0. |

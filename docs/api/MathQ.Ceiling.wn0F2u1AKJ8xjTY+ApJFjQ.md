@@ -3,7 +3,7 @@
 
 ## MathQ.Ceiling<TUnit>(Quantity<TUnit>) Method
 
-Returns the smallest integral value greater than or equal to the numeric component of the  
+Returns the smallest integral value greater than or equal to the numeric component of the
 [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>').
 
 ```csharp
@@ -26,5 +26,5 @@ The type of unit of measure. (e.g. temperature)
 The quantity
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Ceiling.wn0F2u1AKJ8xjTY+ApJFjQ.md#Jcd.Units.MathQ.Ceiling_TUnit_(Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Ceiling<TUnit>(Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Ceiling.wn0F2u1AKJ8xjTY+ApJFjQ.md#Jcd.Units.MathQ.Ceiling_TUnit_(Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Ceiling<TUnit>(Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 the ceiling of the [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') expressed in the same unit of measure.

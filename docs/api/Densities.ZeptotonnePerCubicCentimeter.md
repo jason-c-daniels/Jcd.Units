@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicCentimeter Field
 
-zeptotonne per cubic centimeter defined such that: attotonne per cubic decimeter = zt/cm³ ×  
+zeptotonne per cubic centimeter defined such that: attotonne per cubic decimeter = zt/cm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

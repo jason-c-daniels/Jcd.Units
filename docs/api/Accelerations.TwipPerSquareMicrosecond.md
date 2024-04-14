@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareMicrosecond Field
 
-twip per square microsecond defined such that: foot per square millisecond = twip/μs² ×  
+twip per square microsecond defined such that: foot per square millisecond = twip/μs² ×
 (1.0/17280.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareQuectosecond Field
 
-inch per square quectosecond defined such that: SI centimeter per square rontosecond = in/qs² ×  
+inch per square quectosecond defined such that: SI centimeter per square rontosecond = in/qs² ×
 (2.54)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

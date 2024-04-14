@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareOctillionYears Field
 
-quectometer per square octillion years defined such that: rontometer per square septillion years = qm/Ryr² ×  
+quectometer per square octillion years defined such that: rontometer per square septillion years = qm/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

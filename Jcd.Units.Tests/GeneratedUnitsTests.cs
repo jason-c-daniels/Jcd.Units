@@ -19,11 +19,11 @@ public class GeneratedUnitsTests : TestBase
       get
       {
          var enumerationTypes = Assembly.GetAssembly(typeof(UnitOfMeasureEnumeration<,>)).FindImplementationsOf(typeof(UnitOfMeasureEnumeration<,>));
-         
+
          return from enumeration in enumerationTypes select new[] { enumeration, enumeration.Invoke("GetAll") };
       }
    }
-   
+
    [Theory]
    [MemberData(nameof(EnumerationsTypesAndUnitOfMeasureInstances))]
    public void All_Enumerations_GetAll_Returns_NonEmpty_Collections(Type enumerationType, IEnumerable unitsOfMeasure)

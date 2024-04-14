@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicExameter Field
 
-tonne per cubic exameter defined such that: megagram per cubic petameter = t/Em³ ×  
+tonne per cubic exameter defined such that: megagram per cubic petameter = t/Em³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

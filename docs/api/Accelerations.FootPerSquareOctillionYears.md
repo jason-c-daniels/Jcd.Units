@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareOctillionYears Field
 
-foot per square octillion years defined such that: inch per square septillion years = ft/Ryr² ×  
+foot per square octillion years defined such that: inch per square septillion years = ft/Ryr² ×
 (12)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicPicometer Field
 
-hectotonne per cubic picometer defined such that: dekatonne per cubic nanometer = ht/pm³ ×  
+hectotonne per cubic picometer defined such that: dekatonne per cubic nanometer = ht/pm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

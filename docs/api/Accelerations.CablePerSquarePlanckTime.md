@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquarePlanckTime Field
 
-cable per square planck-time defined such that: fathom per square microsecond = cable/tₚ² ×  
+cable per square planck-time defined such that: fathom per square microsecond = cable/tₚ² ×
 (100.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

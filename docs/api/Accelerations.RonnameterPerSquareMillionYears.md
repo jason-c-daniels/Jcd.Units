@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareMillionYears Field
 
-ronnameter per square million years defined such that: yottameter per square millennium = Rm/Myr² ×  
+ronnameter per square million years defined such that: yottameter per square millennium = Rm/Myr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicKilometer Field
 
-zeptogram per cubic kilometer defined such that: attogram per cubic hectometer = zg/km³ ×  
+zeptogram per cubic kilometer defined such that: attogram per cubic hectometer = zg/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

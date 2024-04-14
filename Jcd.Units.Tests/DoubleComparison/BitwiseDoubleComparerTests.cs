@@ -26,7 +26,7 @@ public class BitwiseDoubleComparerTests
       var sut = BitwiseDoubleComparer.Instance;
       Assert.Equal(expectedResult, sut.Compare(x, y));
    }
-   
+
    [Theory]
    [InlineData(1.10,         1.55,         false)]
    [InlineData(1.23,         1.23,         true)]
@@ -45,7 +45,7 @@ public class BitwiseDoubleComparerTests
       var sut = BitwiseDoubleComparer.Instance;
       Assert.Equal(expectedResult, sut.Equals(x, y));
    }
-   
+
    [Theory]
    [InlineData(1.23,         1.23)]
    [InlineData(1.123,        1.123)]

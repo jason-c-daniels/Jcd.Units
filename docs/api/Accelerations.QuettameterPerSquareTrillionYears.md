@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareTrillionYears Field
 
-quettameter per square trillion years defined such that: ronnameter per square billion years = Qm/Tyr² ×  
+quettameter per square trillion years defined such that: ronnameter per square billion years = Qm/Tyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

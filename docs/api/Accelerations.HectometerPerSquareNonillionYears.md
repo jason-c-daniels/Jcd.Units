@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareNonillionYears Field
 
-hectometer per square nonillion years defined such that: dekameter per square octillion years = hm/Qyr² ×  
+hectometer per square nonillion years defined such that: dekameter per square octillion years = hm/Qyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicTerameter Field
 
-microgram per cubic terameter defined such that: milligram per cubic gigameter = μg/Tm³ ×  
+microgram per cubic terameter defined such that: milligram per cubic gigameter = μg/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

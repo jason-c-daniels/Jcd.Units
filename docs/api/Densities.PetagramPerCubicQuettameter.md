@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicQuettameter Field
 
-petagram per cubic quettameter defined such that: teragram per cubic ronnameter = Pg/Qm³ ×  
+petagram per cubic quettameter defined such that: teragram per cubic ronnameter = Pg/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

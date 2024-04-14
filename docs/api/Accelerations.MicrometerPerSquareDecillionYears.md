@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareDecillionYears Field
 
-micrometer per square decillion years defined such that: millimeter per square nonillion years = μm/decillion yr² ×  
+micrometer per square decillion years defined such that: millimeter per square nonillion years = μm/decillion yr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

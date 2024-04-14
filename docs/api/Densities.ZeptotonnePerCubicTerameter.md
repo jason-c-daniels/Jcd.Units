@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicTerameter Field
 
-zeptotonne per cubic terameter defined such that: attotonne per cubic gigameter = zt/Tm³ ×  
+zeptotonne per cubic terameter defined such that: attotonne per cubic gigameter = zt/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

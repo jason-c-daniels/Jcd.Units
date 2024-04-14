@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicZettameter Field
 
-centitonne per cubic zettameter defined such that: decitonne per cubic exameter = ct/Zm³ ×  
+centitonne per cubic zettameter defined such that: decitonne per cubic exameter = ct/Zm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

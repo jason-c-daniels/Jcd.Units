@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicTerameter Field
 
-picotonne per cubic terameter defined such that: nanotonne per cubic gigameter = pt/Tm³ ×  
+picotonne per cubic terameter defined such that: nanotonne per cubic gigameter = pt/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

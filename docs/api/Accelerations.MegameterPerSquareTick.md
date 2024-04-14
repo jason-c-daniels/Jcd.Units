@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareTick Field
 
-megameter per square tick defined such that: kilometer per square nanosecond = Mm/tick² ×  
+megameter per square tick defined such that: kilometer per square nanosecond = Mm/tick² ×
 (1000.0)/((100.0)*(100.0)).
 
 ```csharp

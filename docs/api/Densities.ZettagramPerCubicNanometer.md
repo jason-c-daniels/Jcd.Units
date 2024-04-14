@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicNanometer Field
 
-zettagram per cubic nanometer defined such that: exagram per cubic micrometer = Zg/nm³ ×  
+zettagram per cubic nanometer defined such that: exagram per cubic micrometer = Zg/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

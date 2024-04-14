@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareQuintillionYears Field
 
-quectometer per square quintillion years defined such that: rontometer per square quadrillion years = qm/Eyr² ×  
+quectometer per square quintillion years defined such that: rontometer per square quadrillion years = qm/Eyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

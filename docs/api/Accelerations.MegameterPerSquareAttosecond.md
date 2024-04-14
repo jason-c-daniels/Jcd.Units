@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareAttosecond Field
 
-megameter per square attosecond defined such that: kilometer per square femtosecond = Mm/as² ×  
+megameter per square attosecond defined such that: kilometer per square femtosecond = Mm/as² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

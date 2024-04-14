@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareDecillionYears Field
 
-mil per square decillion years defined such that: inch per square nonillion years = mil/decillion yr² ×  
+mil per square decillion years defined such that: inch per square nonillion years = mil/decillion yr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

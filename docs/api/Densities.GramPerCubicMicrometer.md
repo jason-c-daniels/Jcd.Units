@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicMicrometer Field
 
-gram per cubic micrometer defined such that: dekagram per cubic millimeter = g/μm³ ×  
+gram per cubic micrometer defined such that: dekagram per cubic millimeter = g/μm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

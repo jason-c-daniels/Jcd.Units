@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareZeptosecond Field
 
-meter per square zeptosecond defined such that: meter per square attosecond = m/zs² ×  
+meter per square zeptosecond defined such that: meter per square attosecond = m/zs² ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

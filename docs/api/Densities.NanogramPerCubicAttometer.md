@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicAttometer Field
 
-nanogram per cubic attometer defined such that: microgram per cubic femtometer = ng/am³ ×  
+nanogram per cubic attometer defined such that: microgram per cubic femtometer = ng/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareBillionYears Field
 
-femtometer per square billion years defined such that: picometer per square million years = fm/Gyr² ×  
+femtometer per square billion years defined such that: picometer per square million years = fm/Gyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

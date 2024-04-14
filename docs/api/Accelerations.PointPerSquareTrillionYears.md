@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareTrillionYears Field
 
-point per square trillion years defined such that: inch per square billion years = p/Tyr² ×  
+point per square trillion years defined such that: inch per square billion years = p/Tyr² ×
 (1.0/72.0)/((1000.0)*(1000.0)).
 
 ```csharp

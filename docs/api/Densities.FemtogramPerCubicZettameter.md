@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicZettameter Field
 
-femtogram per cubic zettameter defined such that: picogram per cubic exameter = fg/Zm³ ×  
+femtogram per cubic zettameter defined such that: picogram per cubic exameter = fg/Zm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

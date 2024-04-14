@@ -26,7 +26,7 @@ public class BuiltInRoundingComparerTests
       var sut = new BuiltInRoundingComparer(precision);
       Assert.Equal(expectedResult, sut.Compare(x, y));
    }
-   
+
    [Theory]
    [InlineData(1.10,         1.55,         1, false)]
    [InlineData(1.23,         1.24,         1, true)]
@@ -45,7 +45,7 @@ public class BuiltInRoundingComparerTests
       var sut = new BuiltInRoundingComparer(precision);
       Assert.Equal(expectedResult, sut.Equals(x, y));
    }
-   
+
    [Theory]
    [InlineData(1.23,         1.24,         1)]
    [InlineData(1.123,        1.124,        2)]
@@ -58,7 +58,7 @@ public class BuiltInRoundingComparerTests
       var hy = sut.GetHashCode(y);
       Assert.Equal(hx, hy);
    }
-   
+
    [Fact]
    public void Static_Properties_Have_Correct_Values()
    {
@@ -73,7 +73,7 @@ public class BuiltInRoundingComparerTests
       Verify(10, BuiltInRoundingComparer.TenDecimalPlaces);
       Verify(15, BuiltInRoundingComparer.FifteenDecimalPlaces);
       Verify(15, BuiltInRoundingComparer.Default);
-      
+
       void Verify(int expectedDecimalPlaces, BuiltInRoundingComparer item)
       {
          Assert.Equal(expectedDecimalPlaces,   item.DecimalPlaces);

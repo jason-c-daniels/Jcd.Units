@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareSextillionYears Field
 
-terameter per square sextillion years defined such that: gigameter per square quintillion years = Tm/Zyr² ×  
+terameter per square sextillion years defined such that: gigameter per square quintillion years = Tm/Zyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

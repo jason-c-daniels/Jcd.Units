@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicTerameter Field
 
-quectogram per cubic terameter defined such that: rontogram per cubic gigameter = qg/Tm³ ×  
+quectogram per cubic terameter defined such that: rontogram per cubic gigameter = qg/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

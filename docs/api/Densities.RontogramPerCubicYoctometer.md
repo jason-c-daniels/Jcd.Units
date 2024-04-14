@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicYoctometer Field
 
-rontogram per cubic yoctometer defined such that: yoctogram per cubic zeptometer = rg/ym³ ×  
+rontogram per cubic yoctometer defined such that: yoctogram per cubic zeptometer = rg/ym³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

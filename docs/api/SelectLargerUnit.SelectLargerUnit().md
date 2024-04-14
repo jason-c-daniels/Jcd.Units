@@ -3,7 +3,7 @@
 
 ## SelectLargerUnit() Constructor
 
-Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLargerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLargerUnit.Instance') enforcing GC  
+Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLargerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLargerUnit.Instance') enforcing GC
 friendliness.)
 
 ```csharp

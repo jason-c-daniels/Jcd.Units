@@ -3,8 +3,8 @@
 
 ## IUnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double) Method
 
-Given an offset and the coefficient for converting to the fundamental unit  
-of measure, calculate the equivalent offset for the fundamental unit of measure.  
+Given an offset and the coefficient for converting to the fundamental unit
+of measure, calculate the equivalent offset for the fundamental unit of measure.
 (i.e. the one with Coeff = 1 and Offset = 0)
 
 ```csharp
@@ -25,5 +25,5 @@ The coefficient for converting to the fundamental unit of measure.
 The offset to normalize.
 
 #### Returns
-[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  
+[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 The offset for the fundamental unit of measure.

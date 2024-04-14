@@ -10,7 +10,7 @@ internal record ConversionPerfTest() : TemperaturePerfTest("Quantity<T> Unit Con
          Quantity2 = Quantity1.To(F);
          Quantity3 = Quantity2.To(Ra);
       }
-      
+
       return 2 * iterations;
    }
 }

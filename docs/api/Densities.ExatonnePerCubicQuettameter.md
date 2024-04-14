@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicQuettameter Field
 
-exatonne per cubic quettameter defined such that: petatonne per cubic ronnameter = Et/Qm³ ×  
+exatonne per cubic quettameter defined such that: petatonne per cubic ronnameter = Et/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

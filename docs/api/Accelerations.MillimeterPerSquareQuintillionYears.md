@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareQuintillionYears Field
 
-millimeter per square quintillion years defined such that: centimeter per square quadrillion years = mm/Eyr² ×  
+millimeter per square quintillion years defined such that: centimeter per square quadrillion years = mm/Eyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

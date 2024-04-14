@@ -3,7 +3,7 @@
 
 ## SelectFundamentalUnit() Constructor
 
-Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC  
+Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC
 friendliness.)
 
 ```csharp

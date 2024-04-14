@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareOctillionYears Field
 
-planck-length per square octillion years defined such that: SI meter per square septillion years = ℓₚ/Ryr² ×  
+planck-length per square octillion years defined such that: SI meter per square septillion years = ℓₚ/Ryr² ×
 (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp

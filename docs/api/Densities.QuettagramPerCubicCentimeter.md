@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicCentimeter Field
 
-quettagram per cubic centimeter defined such that: ronnagram per cubic decimeter = Qg/cm³ ×  
+quettagram per cubic centimeter defined such that: ronnagram per cubic decimeter = Qg/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareDecillionYears Field
 
-dekameter per square decillion years defined such that: meter per square nonillion years = dam/decillion yr² ×  
+dekameter per square decillion years defined such that: meter per square nonillion years = dam/decillion yr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

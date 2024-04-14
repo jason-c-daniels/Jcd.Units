@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareRontosecond Field
 
-yoctometer per square rontosecond defined such that: zeptometer per square yoctosecond = ym/rs² ×  
+yoctometer per square rontosecond defined such that: zeptometer per square yoctosecond = ym/rs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

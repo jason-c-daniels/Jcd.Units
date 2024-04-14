@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicKilometer Field
 
-femtogram per cubic kilometer defined such that: picogram per cubic hectometer = fg/km³ ×  
+femtogram per cubic kilometer defined such that: picogram per cubic hectometer = fg/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

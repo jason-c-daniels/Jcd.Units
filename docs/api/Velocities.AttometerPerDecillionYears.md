@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerDecillionYears Field
 
-attometer per decillion years defined such that: femtometer per nonillion years = am/decillion yr ×  
+attometer per decillion years defined such that: femtometer per nonillion years = am/decillion yr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicPetameter Field
 
-nanotonne per cubic petameter defined such that: microtonne per cubic terameter = nt/Pm³ ×  
+nanotonne per cubic petameter defined such that: microtonne per cubic terameter = nt/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

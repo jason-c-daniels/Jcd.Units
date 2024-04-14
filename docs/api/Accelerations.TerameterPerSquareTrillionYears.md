@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareTrillionYears Field
 
-terameter per square trillion years defined such that: gigameter per square billion years = Tm/Tyr² ×  
+terameter per square trillion years defined such that: gigameter per square billion years = Tm/Tyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

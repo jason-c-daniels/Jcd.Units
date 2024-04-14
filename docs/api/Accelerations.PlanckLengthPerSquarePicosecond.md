@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquarePicosecond Field
 
-planck-length per square picosecond defined such that: SI meter per square nanosecond = ℓₚ/ps² ×  
+planck-length per square picosecond defined such that: SI meter per square nanosecond = ℓₚ/ps² ×
 (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

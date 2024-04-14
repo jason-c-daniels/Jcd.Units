@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerDecillionYears Field
 
-yottameter per decillion years defined such that: zettameter per nonillion years = Ym/decillion yr ×  
+yottameter per decillion years defined such that: zettameter per nonillion years = Ym/decillion yr ×
 (1000.0)/(1000.0).
 
 ```csharp

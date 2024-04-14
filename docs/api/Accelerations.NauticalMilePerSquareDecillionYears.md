@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareDecillionYears Field
 
-nautical mile per square decillion years defined such that: cable per square nonillion years = nmi/decillion yr² ×  
+nautical mile per square decillion years defined such that: cable per square nonillion years = nmi/decillion yr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

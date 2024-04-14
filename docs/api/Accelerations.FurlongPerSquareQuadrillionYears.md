@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareQuadrillionYears Field
 
-furlong per square quadrillion years defined such that: chain per square trillion years = fur/Pyr² ×  
+furlong per square quadrillion years defined such that: chain per square trillion years = fur/Pyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

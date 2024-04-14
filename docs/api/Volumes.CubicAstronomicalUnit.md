@@ -3,7 +3,7 @@
 
 ## Volumes.CubicAstronomicalUnit Field
 
-cubic astronomical unit defined such that: SI cubic kilometer = AU³ ×  
+cubic astronomical unit defined such that: SI cubic kilometer = AU³ ×
 (149597870.691)*(149597870.691)*(149597870.691).
 
 ```csharp

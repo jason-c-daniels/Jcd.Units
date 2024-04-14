@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicYoctometer Field
 
-kilotonne per cubic yoctometer defined such that: hectotonne per cubic zeptometer = kt/ym³ ×  
+kilotonne per cubic yoctometer defined such that: hectotonne per cubic zeptometer = kt/ym³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicMegameter Field
 
-quectotonne per cubic megameter defined such that: rontotonne per cubic kilometer = qt/Mm³ ×  
+quectotonne per cubic megameter defined such that: rontotonne per cubic kilometer = qt/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

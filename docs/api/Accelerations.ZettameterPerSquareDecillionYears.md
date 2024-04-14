@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareDecillionYears Field
 
-zettameter per square decillion years defined such that: exameter per square nonillion years = Zm/decillion yr² ×  
+zettameter per square decillion years defined such that: exameter per square nonillion years = Zm/decillion yr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

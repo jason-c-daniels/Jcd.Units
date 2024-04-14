@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareCentisecond Field
 
-decimeter per square centisecond defined such that: meter per square decisecond = dm/cs² ×  
+decimeter per square centisecond defined such that: meter per square decisecond = dm/cs² ×
 (1.0/10.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

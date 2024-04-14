@@ -3,7 +3,7 @@
 
 ## MagneticFlux(string, string, MagneticFlux, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') as a  
+Constructs a unit measuring a specified [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') as a
 reference.
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicFemtometer Field
 
-quettagram per cubic femtometer defined such that: ronnagram per cubic picometer = Qg/fm³ ×  
+quettagram per cubic femtometer defined such that: ronnagram per cubic picometer = Qg/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

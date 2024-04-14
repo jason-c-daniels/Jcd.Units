@@ -15,7 +15,7 @@ public sealed class SelectLargerUnit : IUnitSelectionStrategy
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
    public static readonly SelectLargerUnit Instance = new();
-   
+
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
@@ -23,9 +23,9 @@ public sealed class SelectLargerUnit : IUnitSelectionStrategy
    private SelectLargerUnit()
    {
    }
-   
+
    #region IUnitSelectionStrategy Members
-   
+
    /// <summary>
    /// Selects the larger of two units of measure.
    /// </summary>
@@ -41,6 +41,6 @@ public sealed class SelectLargerUnit : IUnitSelectionStrategy
                 ? left
                 : right;
    }
-   
+
    #endregion
 }

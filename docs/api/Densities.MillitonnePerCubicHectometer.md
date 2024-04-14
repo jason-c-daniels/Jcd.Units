@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicHectometer Field
 
-millitonne per cubic hectometer defined such that: centitonne per cubic dekameter = mt/hm³ ×  
+millitonne per cubic hectometer defined such that: centitonne per cubic dekameter = mt/hm³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

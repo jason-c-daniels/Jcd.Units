@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicYoctometer Field
 
-quectotonne per cubic yoctometer defined such that: rontotonne per cubic zeptometer = qt/ym³ ×  
+quectotonne per cubic yoctometer defined such that: rontotonne per cubic zeptometer = qt/ym³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

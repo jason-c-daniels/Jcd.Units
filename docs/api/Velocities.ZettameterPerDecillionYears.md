@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerDecillionYears Field
 
-zettameter per decillion years defined such that: exameter per nonillion years = Zm/decillion yr ×  
+zettameter per decillion years defined such that: exameter per nonillion years = Zm/decillion yr ×
 (1000.0)/(1000.0).
 
 ```csharp

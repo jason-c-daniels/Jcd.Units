@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareOctillionYears Field
 
-yoctometer per square octillion years defined such that: zeptometer per square septillion years = ym/Ryr² ×  
+yoctometer per square octillion years defined such that: zeptometer per square septillion years = ym/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -10,7 +10,7 @@ internal record AsPerfTest() : TemperaturePerfTest("<type>.As(T)")
          Quantity2 = ((double) i).As(F);
          Quantity3 = ((float) i).As(F);
       }
-      
+
       return 3 * iterations;
    }
 }

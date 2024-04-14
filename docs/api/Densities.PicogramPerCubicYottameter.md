@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicYottameter Field
 
-picogram per cubic yottameter defined such that: nanogram per cubic zettameter = pg/Ym³ ×  
+picogram per cubic yottameter defined such that: nanogram per cubic zettameter = pg/Ym³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

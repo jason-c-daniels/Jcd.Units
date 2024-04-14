@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicFemtometer Field
 
-femtotonne per cubic femtometer defined such that: picotonne per cubic picometer = ft/fm³ ×  
+femtotonne per cubic femtometer defined such that: picotonne per cubic picometer = ft/fm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

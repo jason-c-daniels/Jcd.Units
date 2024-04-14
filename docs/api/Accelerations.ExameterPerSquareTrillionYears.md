@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareTrillionYears Field
 
-exameter per square trillion years defined such that: petameter per square billion years = Em/Tyr² ×  
+exameter per square trillion years defined such that: petameter per square billion years = Em/Tyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

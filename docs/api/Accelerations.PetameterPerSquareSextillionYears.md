@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareSextillionYears Field
 
-petameter per square sextillion years defined such that: terameter per square quintillion years = Pm/Zyr² ×  
+petameter per square sextillion years defined such that: terameter per square quintillion years = Pm/Zyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareDecillionYears Field
 
-planck-length per square decillion years defined such that: SI meter per square nonillion years = ℓₚ/decillion yr² ×  
+planck-length per square decillion years defined such that: SI meter per square nonillion years = ℓₚ/decillion yr² ×
 (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp

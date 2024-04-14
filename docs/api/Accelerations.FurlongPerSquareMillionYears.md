@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareMillionYears Field
 
-furlong per square million years defined such that: chain per square millennium = fur/Myr² ×  
+furlong per square million years defined such that: chain per square millennium = fur/Myr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -31,5 +31,5 @@ The [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'S
 The unit of measure to use.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.

@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareFemtosecond Field
 
-decimeter per square femtosecond defined such that: meter per square picosecond = dm/fs² ×  
+decimeter per square femtosecond defined such that: meter per square picosecond = dm/fs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

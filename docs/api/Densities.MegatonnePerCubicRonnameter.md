@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicRonnameter Field
 
-megatonne per cubic ronnameter defined such that: kilotonne per cubic yottameter = Mt/Rm³ ×  
+megatonne per cubic ronnameter defined such that: kilotonne per cubic yottameter = Mt/Rm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

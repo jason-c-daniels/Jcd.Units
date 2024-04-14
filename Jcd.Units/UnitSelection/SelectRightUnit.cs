@@ -15,7 +15,7 @@ public sealed class SelectRightUnit : IUnitSelectionStrategy
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
    public static readonly SelectRightUnit Instance = new();
-   
+
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
@@ -23,9 +23,9 @@ public sealed class SelectRightUnit : IUnitSelectionStrategy
    private SelectRightUnit()
    {
    }
-   
+
    #region IUnitSelectionStrategy Members
-   
+
    /// <summary>
    /// Selects the right hand side of two units of measure.
    /// </summary>
@@ -39,6 +39,6 @@ public sealed class SelectRightUnit : IUnitSelectionStrategy
    {
       return right;
    }
-   
+
    #endregion
 }

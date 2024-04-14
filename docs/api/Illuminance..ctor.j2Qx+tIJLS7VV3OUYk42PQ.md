@@ -3,7 +3,7 @@
 
 ## Illuminance(string, string, Illuminance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') as a  
+Constructs a unit measuring a specified [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') as a
 reference.
 
 ```csharp

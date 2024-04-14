@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicYottameter Field
 
-gram per cubic yottameter defined such that: dekagram per cubic zettameter = g/Ym³ ×  
+gram per cubic yottameter defined such that: dekagram per cubic zettameter = g/Ym³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicYottameter Field
 
-picotonne per cubic yottameter defined such that: nanotonne per cubic zettameter = pt/Ym³ ×  
+picotonne per cubic yottameter defined such that: nanotonne per cubic zettameter = pt/Ym³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

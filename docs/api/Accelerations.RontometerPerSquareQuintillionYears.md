@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareQuintillionYears Field
 
-rontometer per square quintillion years defined such that: yoctometer per square quadrillion years = rm/Eyr² ×  
+rontometer per square quintillion years defined such that: yoctometer per square quadrillion years = rm/Eyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

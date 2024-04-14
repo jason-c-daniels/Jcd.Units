@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareTrillionYears Field
 
-mile per square trillion years defined such that: furlong per square billion years = mi/Tyr² ×  
+mile per square trillion years defined such that: furlong per square billion years = mi/Tyr² ×
 (8.0)/((1000.0)*(1000.0)).
 
 ```csharp

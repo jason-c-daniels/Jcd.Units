@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerQuadrillionYears Field
 
-planck-length per quadrillion years defined such that: SI meter per trillion years = ℓₚ/Pyr ×  
+planck-length per quadrillion years defined such that: SI meter per trillion years = ℓₚ/Pyr ×
 (1.616255E-35)/(1000.0).
 
 ```csharp

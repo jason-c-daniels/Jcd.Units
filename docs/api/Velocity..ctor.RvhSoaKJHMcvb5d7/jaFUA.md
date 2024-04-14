@@ -3,7 +3,7 @@
 
 ## Velocity(string, string, Velocity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') as a  
+Constructs a unit measuring a specified [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') as a
 reference.
 
 ```csharp

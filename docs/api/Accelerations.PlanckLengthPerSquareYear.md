@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareYear Field
 
-planck-length per square year defined such that: SI meter per square day = ℓₚ/yr² ×  
+planck-length per square year defined such that: SI meter per square day = ℓₚ/yr² ×
 (1.616255E-35)/((365.2525)*(365.2525)).
 
 ```csharp

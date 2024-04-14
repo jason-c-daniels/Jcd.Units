@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareMillisecond Field
 
-inch per square millisecond defined such that: SI centimeter per square centisecond = in/ms² ×  
+inch per square millisecond defined such that: SI centimeter per square centisecond = in/ms² ×
 (2.54)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

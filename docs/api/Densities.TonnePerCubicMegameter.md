@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicMegameter Field
 
-tonne per cubic megameter defined such that: megagram per cubic kilometer = t/Mm³ ×  
+tonne per cubic megameter defined such that: megagram per cubic kilometer = t/Mm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

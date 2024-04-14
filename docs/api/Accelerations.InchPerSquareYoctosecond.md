@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareYoctosecond Field
 
-inch per square yoctosecond defined such that: SI centimeter per square zeptosecond = in/ys² ×  
+inch per square yoctosecond defined such that: SI centimeter per square zeptosecond = in/ys² ×
 (2.54)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicMegameter Field
 
-yoctogram per cubic megameter defined such that: zeptogram per cubic kilometer = yg/Mm³ ×  
+yoctogram per cubic megameter defined such that: zeptogram per cubic kilometer = yg/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

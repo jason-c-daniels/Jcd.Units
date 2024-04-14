@@ -3,7 +3,7 @@
 
 ## Frequency(string, string, Frequency, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a  
+Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a
 reference.
 
 ```csharp

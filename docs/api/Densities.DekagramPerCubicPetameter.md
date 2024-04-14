@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicPetameter Field
 
-dekagram per cubic petameter defined such that: hectogram per cubic terameter = dag/Pm³ ×  
+dekagram per cubic petameter defined such that: hectogram per cubic terameter = dag/Pm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

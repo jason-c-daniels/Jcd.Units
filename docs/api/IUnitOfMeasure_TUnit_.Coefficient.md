@@ -3,8 +3,8 @@
 
 ## IUnitOfMeasure<TUnit>.Coefficient Property
 
-The Coefficient relative to the fundamental unit for derived units.  
-This is 1.0 for fundamental units. This should never be 0.  
+The Coefficient relative to the fundamental unit for derived units.
+This is 1.0 for fundamental units. This should never be 0.
 (divide by zero errors will occur.)
 
 ```csharp

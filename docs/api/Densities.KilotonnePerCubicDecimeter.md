@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicDecimeter Field
 
-kilotonne per cubic decimeter defined such that: hectotonne per cubic meter = kt/dm³ ×  
+kilotonne per cubic decimeter defined such that: hectotonne per cubic meter = kt/dm³ ×
 (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

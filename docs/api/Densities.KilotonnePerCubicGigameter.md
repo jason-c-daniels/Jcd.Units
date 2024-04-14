@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicGigameter Field
 
-kilotonne per cubic gigameter defined such that: hectotonne per cubic megameter = kt/Gm³ ×  
+kilotonne per cubic gigameter defined such that: hectotonne per cubic megameter = kt/Gm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

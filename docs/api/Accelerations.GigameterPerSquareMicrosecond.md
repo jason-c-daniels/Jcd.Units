@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareMicrosecond Field
 
-gigameter per square microsecond defined such that: megameter per square millisecond = Gm/μs² ×  
+gigameter per square microsecond defined such that: megameter per square millisecond = Gm/μs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

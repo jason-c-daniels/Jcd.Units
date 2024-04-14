@@ -21,7 +21,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
    /// count, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Amount Count = new("count", "ct.", system: "");
-   
+
    /// <summary>
    /// quantity is a synonym for count
    /// </summary>

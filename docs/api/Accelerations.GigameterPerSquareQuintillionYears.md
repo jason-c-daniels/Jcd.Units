@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareQuintillionYears Field
 
-gigameter per square quintillion years defined such that: megameter per square quadrillion years = Gm/Eyr² ×  
+gigameter per square quintillion years defined such that: megameter per square quadrillion years = Gm/Eyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicGigameter Field
 
-femtotonne per cubic gigameter defined such that: picotonne per cubic megameter = ft/Gm³ ×  
+femtotonne per cubic gigameter defined such that: picotonne per cubic megameter = ft/Gm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

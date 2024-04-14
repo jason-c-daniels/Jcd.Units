@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicDecimeter Field
 
-centigram per cubic decimeter defined such that: decigram per cubic meter = cg/dm³ ×  
+centigram per cubic decimeter defined such that: decigram per cubic meter = cg/dm³ ×
 (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

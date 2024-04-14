@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareRontosecond Field
 
-pica per square rontosecond defined such that: point per square yoctosecond = P/rs² ×  
+pica per square rontosecond defined such that: point per square yoctosecond = P/rs² ×
 (12.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

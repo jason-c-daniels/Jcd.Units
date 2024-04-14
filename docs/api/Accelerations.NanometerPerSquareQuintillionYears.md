@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareQuintillionYears Field
 
-nanometer per square quintillion years defined such that: micrometer per square quadrillion years = nm/Eyr² ×  
+nanometer per square quintillion years defined such that: micrometer per square quadrillion years = nm/Eyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

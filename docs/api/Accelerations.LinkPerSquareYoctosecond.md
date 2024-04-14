@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareYoctosecond Field
 
-link per square yoctosecond defined such that: SI meter per square zeptosecond = li/ys² ×  
+link per square yoctosecond defined such that: SI meter per square zeptosecond = li/ys² ×
 (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

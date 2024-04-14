@@ -31,5 +31,5 @@ The first value to compare.
 The second value to compare.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Min.ec/+L9D1XokRGUNSree8Qw.md#Jcd.Units.MathQ.Min_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Min<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Min.ec/+L9D1XokRGUNSree8Qw.md#Jcd.Units.MathQ.Min_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Min<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 The smaller of two specified [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instances.

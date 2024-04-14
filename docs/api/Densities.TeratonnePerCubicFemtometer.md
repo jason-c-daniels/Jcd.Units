@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicFemtometer Field
 
-teratonne per cubic femtometer defined such that: gigatonne per cubic picometer = Tt/fm³ ×  
+teratonne per cubic femtometer defined such that: gigatonne per cubic picometer = Tt/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

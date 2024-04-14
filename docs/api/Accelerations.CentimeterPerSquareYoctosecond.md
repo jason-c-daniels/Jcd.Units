@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareYoctosecond Field
 
-centimeter per square yoctosecond defined such that: decimeter per square zeptosecond = cm/ys² ×  
+centimeter per square yoctosecond defined such that: decimeter per square zeptosecond = cm/ys² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

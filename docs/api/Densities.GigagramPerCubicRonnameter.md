@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicRonnameter Field
 
-gigagram per cubic ronnameter defined such that: megagram per cubic yottameter = Gg/Rm³ ×  
+gigagram per cubic ronnameter defined such that: megagram per cubic yottameter = Gg/Rm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerDecillionYears Field
 
-planck-length per decillion years defined such that: SI meter per nonillion years = ℓₚ/decillion yr ×  
+planck-length per decillion years defined such that: SI meter per nonillion years = ℓₚ/decillion yr ×
 (1.616255E-35)/(1000.0).
 
 ```csharp

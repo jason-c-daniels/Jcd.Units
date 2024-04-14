@@ -16,14 +16,14 @@ public class GlobalUnitSelectionStrategyTests : TestBase
       var expectedValue = SelectLargerUnit.Instance;
       Assert.Equal(expectedValue, GlobalUnitSelectionStrategy.ForArithmetic);
    }
-   
+
    [Fact]
    public void ForComparison_Get_SelectLargerUnit_Instance_When_Not_Set()
    {
       var expectedValue = SelectLargerUnit.Instance;
       Assert.Equal(expectedValue, GlobalUnitSelectionStrategy.ForComparison);
    }
-   
+
    [Fact]
    public void ForArithmetic_Get_Returns_Expected_Result_When_Set()
    {
@@ -32,7 +32,7 @@ public class GlobalUnitSelectionStrategyTests : TestBase
       GlobalUnitSelectionStrategy.ForArithmetic = expectedValue;
       Assert.Equal(expectedValue, GlobalUnitSelectionStrategy.ForArithmetic);
    }
-   
+
    [Fact]
    public void ForComparison_Get_Returns_Expected_Result_When_Set()
    {
@@ -41,13 +41,13 @@ public class GlobalUnitSelectionStrategyTests : TestBase
       GlobalUnitSelectionStrategy.ForComparison = expectedValue;
       Assert.Equal(expectedValue, GlobalUnitSelectionStrategy.ForComparison);
    }
-   
+
    [Fact]
    public void ForArithmetic_Set_Throws_When_Given_Null()
    {
       Assert.Throws<ArgumentNullException>(() => GlobalUnitSelectionStrategy.ForArithmetic = null);
    }
-   
+
    [Fact]
    public void ForComparison_Set_Throws_When_Given_Null()
    {

@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareQuectosecond Field
 
-yard per square quectosecond defined such that: foot per square rontosecond = yd/qs² ×  
+yard per square quectosecond defined such that: foot per square rontosecond = yd/qs² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

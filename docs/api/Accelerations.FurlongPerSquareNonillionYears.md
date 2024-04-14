@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareNonillionYears Field
 
-furlong per square nonillion years defined such that: chain per square octillion years = fur/Qyr² ×  
+furlong per square nonillion years defined such that: chain per square octillion years = fur/Qyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

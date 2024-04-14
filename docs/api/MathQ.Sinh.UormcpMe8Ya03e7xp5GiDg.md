@@ -17,5 +17,5 @@ public static double Sinh(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle> angle);
 The angle, in any unit of measure for [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.Angles').
 
 #### Returns
-[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  
+[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 The hyperbolic sine of the specified angle.

@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareAttosecond Field
 
-twip per square attosecond defined such that: foot per square femtosecond = twip/as² ×  
+twip per square attosecond defined such that: foot per square femtosecond = twip/as² ×
 (1.0/17280.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

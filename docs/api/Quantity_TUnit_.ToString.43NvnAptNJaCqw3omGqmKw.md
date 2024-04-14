@@ -3,7 +3,7 @@
 
 ## Quantity<TUnit>.ToString(string) Method
 
-Outputs the number formatted according to the [format](Quantity_TUnit_.ToString.43NvnAptNJaCqw3omGqmKw.md#Jcd.Units.Quantity_TUnit_.ToString(string).format 'Jcd.Units.Quantity<TUnit>.ToString(string).format')  
+Outputs the number formatted according to the [format](Quantity_TUnit_.ToString.43NvnAptNJaCqw3omGqmKw.md#Jcd.Units.Quantity_TUnit_.ToString(string).format 'Jcd.Units.Quantity<TUnit>.ToString(string).format')
 with unit symbol.
 
 ```csharp
@@ -18,5 +18,5 @@ public string ToString(string format);
 The format to apply to the number portion
 
 #### Returns
-[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')  
+[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 The formatted value.

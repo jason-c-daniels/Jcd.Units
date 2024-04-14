@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicYottameter Field
 
-megagram per cubic yottameter defined such that: kilogram per cubic zettameter = Mg/Ym³ ×  
+megagram per cubic yottameter defined such that: kilogram per cubic zettameter = Mg/Ym³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

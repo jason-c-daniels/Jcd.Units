@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicMillimeter Field
 
-zeptogram per cubic millimeter defined such that: attogram per cubic centimeter = zg/mm³ ×  
+zeptogram per cubic millimeter defined such that: attogram per cubic centimeter = zg/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicQuettameter Field
 
-rontotonne per cubic quettameter defined such that: yoctotonne per cubic ronnameter = rt/Qm³ ×  
+rontotonne per cubic quettameter defined such that: yoctotonne per cubic ronnameter = rt/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

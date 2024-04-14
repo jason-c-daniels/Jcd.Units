@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicRonnameter Field
 
-teratonne per cubic ronnameter defined such that: gigatonne per cubic yottameter = Tt/Rm³ ×  
+teratonne per cubic ronnameter defined such that: gigatonne per cubic yottameter = Tt/Rm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

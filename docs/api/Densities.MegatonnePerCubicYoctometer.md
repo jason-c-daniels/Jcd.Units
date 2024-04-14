@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicYoctometer Field
 
-megatonne per cubic yoctometer defined such that: kilotonne per cubic zeptometer = Mt/ym³ ×  
+megatonne per cubic yoctometer defined such that: kilotonne per cubic zeptometer = Mt/ym³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

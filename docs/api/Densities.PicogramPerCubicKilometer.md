@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicKilometer Field
 
-picogram per cubic kilometer defined such that: nanogram per cubic hectometer = pg/km³ ×  
+picogram per cubic kilometer defined such that: nanogram per cubic hectometer = pg/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

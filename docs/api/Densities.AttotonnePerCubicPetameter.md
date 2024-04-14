@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicPetameter Field
 
-attotonne per cubic petameter defined such that: femtotonne per cubic terameter = at/Pm³ ×  
+attotonne per cubic petameter defined such that: femtotonne per cubic terameter = at/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

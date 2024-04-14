@@ -19,15 +19,15 @@ public abstract class TestBase
    {
       GlobalDoubleComparisonStrategy.Quantity = GlobalDoubleComparisonStrategy.Default;
       GlobalDoubleComparisonStrategy.UnitOfMeasure = GlobalDoubleComparisonStrategy.Default;
-      
+
       Quantity<UnitOfMeasure1>.DefaultDoubleComparer = null;
       Quantity<UnitOfMeasure1>.ComparisonUnitSelector = null;
       Quantity<UnitOfMeasure1>.ArithmeticUnitSelector = null;
-      
+
       Quantity<Length>.DefaultDoubleComparer = null;
       Quantity<Length>.ComparisonUnitSelector = null;
       Quantity<Length>.ArithmeticUnitSelector = null;
-      
+
       GlobalUnitSelectionStrategy.ForArithmetic = GlobalUnitSelectionStrategy.Default;
       GlobalUnitSelectionStrategy.ForComparison = GlobalUnitSelectionStrategy.Default;
    }

@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareYear Field
 
-micrometer per square year defined such that: millimeter per square day = μm/yr² ×  
+micrometer per square year defined such that: millimeter per square day = μm/yr² ×
 (1.0/1000.0)/((365.2525)*(365.2525)).
 
 ```csharp

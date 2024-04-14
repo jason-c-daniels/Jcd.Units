@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicPetameter Field
 
-femtotonne per cubic petameter defined such that: picotonne per cubic terameter = ft/Pm³ ×  
+femtotonne per cubic petameter defined such that: picotonne per cubic terameter = ft/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

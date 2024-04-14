@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicRontometer Field
 
-nanogram per cubic rontometer defined such that: microgram per cubic yoctometer = ng/rm³ ×  
+nanogram per cubic rontometer defined such that: microgram per cubic yoctometer = ng/rm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

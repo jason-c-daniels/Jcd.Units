@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicZeptometer Field
 
-tonne per cubic zeptometer defined such that: megagram per cubic attometer = t/zm³ ×  
+tonne per cubic zeptometer defined such that: megagram per cubic attometer = t/zm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

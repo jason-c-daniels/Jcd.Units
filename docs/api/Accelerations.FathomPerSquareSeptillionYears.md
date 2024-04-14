@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareSeptillionYears Field
 
-fathom per square septillion years defined such that: foot per square sextillion years = ftm/Yyr² ×  
+fathom per square septillion years defined such that: foot per square sextillion years = ftm/Yyr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

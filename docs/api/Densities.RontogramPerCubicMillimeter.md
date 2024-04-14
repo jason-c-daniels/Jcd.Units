@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicMillimeter Field
 
-rontogram per cubic millimeter defined such that: yoctogram per cubic centimeter = rg/mm³ ×  
+rontogram per cubic millimeter defined such that: yoctogram per cubic centimeter = rg/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

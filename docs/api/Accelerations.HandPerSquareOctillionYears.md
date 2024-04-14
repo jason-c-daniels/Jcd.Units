@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareOctillionYears Field
 
-hand per square octillion years defined such that: inch per square septillion years = hh/Ryr² ×  
+hand per square octillion years defined such that: inch per square septillion years = hh/Ryr² ×
 (4.0)/((1000.0)*(1000.0)).
 
 ```csharp

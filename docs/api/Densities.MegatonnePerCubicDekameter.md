@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicDekameter Field
 
-megatonne per cubic dekameter defined such that: kilotonne per cubic meter = Mt/dam³ ×  
+megatonne per cubic dekameter defined such that: kilotonne per cubic meter = Mt/dam³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

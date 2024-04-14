@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareRontosecond Field
 
-league per square rontosecond defined such that: mile per square yoctosecond = lea/rs² ×  
+league per square rontosecond defined such that: mile per square yoctosecond = lea/rs² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

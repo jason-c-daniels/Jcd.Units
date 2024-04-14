@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareMillionYears Field
 
-petameter per square million years defined such that: terameter per square millennium = Pm/Myr² ×  
+petameter per square million years defined such that: terameter per square millennium = Pm/Myr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareYoctosecond Field
 
-planck-length per square yoctosecond defined such that: SI meter per square zeptosecond = ℓₚ/ys² ×  
+planck-length per square yoctosecond defined such that: SI meter per square zeptosecond = ℓₚ/ys² ×
 (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

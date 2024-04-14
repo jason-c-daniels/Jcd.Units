@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareQuadrillionYears Field
 
-meter per square quadrillion years defined such that: meter per square trillion years = m/Pyr² ×  
+meter per square quadrillion years defined such that: meter per square trillion years = m/Pyr² ×
 (1.0)/((1000.0)*(1000.0)).
 
 ```csharp

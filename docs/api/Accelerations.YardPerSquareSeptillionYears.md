@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareSeptillionYears Field
 
-yard per square septillion years defined such that: foot per square sextillion years = yd/Yyr² ×  
+yard per square septillion years defined such that: foot per square sextillion years = yd/Yyr² ×
 (3.0)/((1000.0)*(1000.0)).
 
 ```csharp

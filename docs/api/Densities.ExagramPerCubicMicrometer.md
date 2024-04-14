@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicMicrometer Field
 
-exagram per cubic micrometer defined such that: petagram per cubic millimeter = Eg/μm³ ×  
+exagram per cubic micrometer defined such that: petagram per cubic millimeter = Eg/μm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

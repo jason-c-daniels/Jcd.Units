@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicMegameter Field
 
-zettagram per cubic megameter defined such that: exagram per cubic kilometer = Zg/Mm³ ×  
+zettagram per cubic megameter defined such that: exagram per cubic kilometer = Zg/Mm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

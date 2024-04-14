@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicMegameter Field
 
-exatonne per cubic megameter defined such that: petatonne per cubic kilometer = Et/Mm³ ×  
+exatonne per cubic megameter defined such that: petatonne per cubic kilometer = Et/Mm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

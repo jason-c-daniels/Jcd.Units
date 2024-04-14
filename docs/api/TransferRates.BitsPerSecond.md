@@ -3,7 +3,7 @@
 
 ## TransferRates.BitsPerSecond Field
 
-bits per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this  
+bits per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this
 type.)
 
 ```csharp

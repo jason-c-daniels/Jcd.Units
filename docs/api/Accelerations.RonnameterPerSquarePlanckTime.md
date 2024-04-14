@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquarePlanckTime Field
 
-ronnameter per square planck-time defined such that: yottameter per square microsecond = Rm/tₚ² ×  
+ronnameter per square planck-time defined such that: yottameter per square microsecond = Rm/tₚ² ×
 (1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

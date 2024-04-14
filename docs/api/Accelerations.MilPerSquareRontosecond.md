@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareRontosecond Field
 
-mil per square rontosecond defined such that: inch per square yoctosecond = mil/rs² ×  
+mil per square rontosecond defined such that: inch per square yoctosecond = mil/rs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

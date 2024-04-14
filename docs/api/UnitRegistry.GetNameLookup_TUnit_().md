@@ -18,5 +18,5 @@ public ILookup<string,TUnit> GetNameLookup<TUnit>()
 The unit of measure type.
 
 #### Returns
-[System.Linq.ILookup](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup 'System.Linq.ILookup')  
+[System.Linq.ILookup](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup 'System.Linq.ILookup')
 A name based [System.Linq.ILookup&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup-2 'System.Linq.ILookup`2') for the requested unit type.

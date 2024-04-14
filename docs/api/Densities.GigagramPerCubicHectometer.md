@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicHectometer Field
 
-gigagram per cubic hectometer defined such that: megagram per cubic dekameter = Gg/hm³ ×  
+gigagram per cubic hectometer defined such that: megagram per cubic dekameter = Gg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

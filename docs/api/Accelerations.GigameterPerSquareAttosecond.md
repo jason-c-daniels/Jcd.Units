@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareAttosecond Field
 
-gigameter per square attosecond defined such that: megameter per square femtosecond = Gm/as² ×  
+gigameter per square attosecond defined such that: megameter per square femtosecond = Gm/as² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

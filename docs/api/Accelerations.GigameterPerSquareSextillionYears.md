@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareSextillionYears Field
 
-gigameter per square sextillion years defined such that: megameter per square quintillion years = Gm/Zyr² ×  
+gigameter per square sextillion years defined such that: megameter per square quintillion years = Gm/Zyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

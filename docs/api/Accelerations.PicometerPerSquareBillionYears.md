@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareBillionYears Field
 
-picometer per square billion years defined such that: nanometer per square million years = pm/Gyr² ×  
+picometer per square billion years defined such that: nanometer per square million years = pm/Gyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

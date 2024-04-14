@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicNanometer Field
 
-zettatonne per cubic nanometer defined such that: exatonne per cubic micrometer = Zt/nm³ ×  
+zettatonne per cubic nanometer defined such that: exatonne per cubic micrometer = Zt/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

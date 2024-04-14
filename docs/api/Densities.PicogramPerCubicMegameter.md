@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicMegameter Field
 
-picogram per cubic megameter defined such that: nanogram per cubic kilometer = pg/Mm³ ×  
+picogram per cubic megameter defined such that: nanogram per cubic kilometer = pg/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareCentisecond Field
 
-cable per square centisecond defined such that: fathom per square decisecond = cable/cs² ×  
+cable per square centisecond defined such that: fathom per square decisecond = cable/cs² ×
 (100.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

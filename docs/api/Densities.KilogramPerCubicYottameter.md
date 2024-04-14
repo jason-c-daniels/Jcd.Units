@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicYottameter Field
 
-kilogram per cubic yottameter defined such that: kilogram per cubic zettameter = kg/Ym³ ×  
+kilogram per cubic yottameter defined such that: kilogram per cubic zettameter = kg/Ym³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareMillionYears Field
 
-inch per square million years defined such that: SI centimeter per square millennium = in/Myr² ×  
+inch per square million years defined such that: SI centimeter per square millennium = in/Myr² ×
 (2.54)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicKilometer Field
 
-yottagram per cubic kilometer defined such that: zettagram per cubic hectometer = Yg/km³ ×  
+yottagram per cubic kilometer defined such that: zettagram per cubic hectometer = Yg/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

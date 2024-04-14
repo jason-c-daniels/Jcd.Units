@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicHectometer Field
 
-milligram per cubic hectometer defined such that: centigram per cubic dekameter = mg/hm³ ×  
+milligram per cubic hectometer defined such that: centigram per cubic dekameter = mg/hm³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

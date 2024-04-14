@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicRontometer Field
 
-hectotonne per cubic rontometer defined such that: dekatonne per cubic yoctometer = ht/rm³ ×  
+hectotonne per cubic rontometer defined such that: dekatonne per cubic yoctometer = ht/rm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareQuectosecond Field
 
-pica per square quectosecond defined such that: point per square rontosecond = P/qs² ×  
+pica per square quectosecond defined such that: point per square rontosecond = P/qs² ×
 (12.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

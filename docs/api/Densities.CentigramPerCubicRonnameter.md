@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicRonnameter Field
 
-centigram per cubic ronnameter defined such that: decigram per cubic yottameter = cg/Rm³ ×  
+centigram per cubic ronnameter defined such that: decigram per cubic yottameter = cg/Rm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

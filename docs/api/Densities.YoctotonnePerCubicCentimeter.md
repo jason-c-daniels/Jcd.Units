@@ -3,7 +3,7 @@
 
 ## Densities.YoctotonnePerCubicCentimeter Field
 
-yoctotonne per cubic centimeter defined such that: zeptotonne per cubic decimeter = yt/cm³ ×  
+yoctotonne per cubic centimeter defined such that: zeptotonne per cubic decimeter = yt/cm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

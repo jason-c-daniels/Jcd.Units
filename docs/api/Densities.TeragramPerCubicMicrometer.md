@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicMicrometer Field
 
-teragram per cubic micrometer defined such that: gigagram per cubic millimeter = Tg/μm³ ×  
+teragram per cubic micrometer defined such that: gigagram per cubic millimeter = Tg/μm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

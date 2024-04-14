@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicFemtometer Field
 
-hectogram per cubic femtometer defined such that: kilogram per cubic picometer = hg/fm³ ×  
+hectogram per cubic femtometer defined such that: kilogram per cubic picometer = hg/fm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

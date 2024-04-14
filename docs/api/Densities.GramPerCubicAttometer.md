@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicAttometer Field
 
-gram per cubic attometer defined such that: dekagram per cubic femtometer = g/am³ ×  
+gram per cubic attometer defined such that: dekagram per cubic femtometer = g/am³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

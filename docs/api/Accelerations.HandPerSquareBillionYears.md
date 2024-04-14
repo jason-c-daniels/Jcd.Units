@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareBillionYears Field
 
-hand per square billion years defined such that: inch per square million years = hh/Gyr² ×  
+hand per square billion years defined such that: inch per square million years = hh/Gyr² ×
 (4.0)/((1000.0)*(1000.0)).
 
 ```csharp

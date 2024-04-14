@@ -3,7 +3,7 @@
 
 ## Temperature(string, string, Temperature, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') as a  
+Constructs a unit measuring a specified [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') as a
 reference.
 
 ```csharp

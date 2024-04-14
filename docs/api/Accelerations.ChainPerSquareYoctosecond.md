@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareYoctosecond Field
 
-chain per square yoctosecond defined such that: yard per square zeptosecond = ch/ys² ×  
+chain per square yoctosecond defined such that: yard per square zeptosecond = ch/ys² ×
 (22.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

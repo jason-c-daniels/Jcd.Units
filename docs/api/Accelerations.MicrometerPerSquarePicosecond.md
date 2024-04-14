@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquarePicosecond Field
 
-micrometer per square picosecond defined such that: millimeter per square nanosecond = μm/ps² ×  
+micrometer per square picosecond defined such that: millimeter per square nanosecond = μm/ps² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

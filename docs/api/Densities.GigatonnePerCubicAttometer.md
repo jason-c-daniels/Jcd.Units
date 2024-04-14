@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicAttometer Field
 
-gigatonne per cubic attometer defined such that: megatonne per cubic femtometer = Gt/am³ ×  
+gigatonne per cubic attometer defined such that: megatonne per cubic femtometer = Gt/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

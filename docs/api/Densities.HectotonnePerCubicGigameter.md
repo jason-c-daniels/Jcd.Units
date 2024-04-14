@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicGigameter Field
 
-hectotonne per cubic gigameter defined such that: dekatonne per cubic megameter = ht/Gm³ ×  
+hectotonne per cubic gigameter defined such that: dekatonne per cubic megameter = ht/Gm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

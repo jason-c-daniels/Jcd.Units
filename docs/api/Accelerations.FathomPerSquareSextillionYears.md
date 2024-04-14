@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareSextillionYears Field
 
-fathom per square sextillion years defined such that: foot per square quintillion years = ftm/Zyr² ×  
+fathom per square sextillion years defined such that: foot per square quintillion years = ftm/Zyr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

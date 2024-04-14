@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareCentury Field
 
-planck-length per square century defined such that: SI meter per square decade = ℓₚ/century² ×  
+planck-length per square century defined such that: SI meter per square decade = ℓₚ/century² ×
 (1.616255E-35)/((10.0)*(10.0)).
 
 ```csharp

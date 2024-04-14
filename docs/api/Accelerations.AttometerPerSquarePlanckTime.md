@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquarePlanckTime Field
 
-attometer per square planck-time defined such that: femtometer per square microsecond = am/tₚ² ×  
+attometer per square planck-time defined such that: femtometer per square microsecond = am/tₚ² ×
 (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareMicrosecond Field
 
-picometer per square microsecond defined such that: nanometer per square millisecond = pm/μs² ×  
+picometer per square microsecond defined such that: nanometer per square millisecond = pm/μs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicYottameter Field
 
-femtotonne per cubic yottameter defined such that: picotonne per cubic zettameter = ft/Ym³ ×  
+femtotonne per cubic yottameter defined such that: picotonne per cubic zettameter = ft/Ym³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

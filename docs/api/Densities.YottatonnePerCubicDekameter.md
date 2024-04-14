@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicDekameter Field
 
-yottatonne per cubic dekameter defined such that: zettatonne per cubic meter = Yt/dam³ ×  
+yottatonne per cubic dekameter defined such that: zettatonne per cubic meter = Yt/dam³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

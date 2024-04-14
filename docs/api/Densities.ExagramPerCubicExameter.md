@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicExameter Field
 
-exagram per cubic exameter defined such that: petagram per cubic petameter = Eg/Em³ ×  
+exagram per cubic exameter defined such that: petagram per cubic petameter = Eg/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

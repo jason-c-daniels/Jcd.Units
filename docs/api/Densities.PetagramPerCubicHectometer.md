@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicHectometer Field
 
-petagram per cubic hectometer defined such that: teragram per cubic dekameter = Pg/hm³ ×  
+petagram per cubic hectometer defined such that: teragram per cubic dekameter = Pg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

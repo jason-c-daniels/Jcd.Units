@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicHectometer Field
 
-quettagram per cubic hectometer defined such that: ronnagram per cubic dekameter = Qg/hm³ ×  
+quettagram per cubic hectometer defined such that: ronnagram per cubic dekameter = Qg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

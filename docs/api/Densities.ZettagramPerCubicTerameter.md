@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicTerameter Field
 
-zettagram per cubic terameter defined such that: exagram per cubic gigameter = Zg/Tm³ ×  
+zettagram per cubic terameter defined such that: exagram per cubic gigameter = Zg/Tm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicFemtometer Field
 
-hectotonne per cubic femtometer defined such that: dekatonne per cubic picometer = ht/fm³ ×  
+hectotonne per cubic femtometer defined such that: dekatonne per cubic picometer = ht/fm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

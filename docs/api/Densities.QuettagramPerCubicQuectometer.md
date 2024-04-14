@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicQuectometer Field
 
-quettagram per cubic quectometer defined such that: ronnagram per cubic rontometer = Qg/qm³ ×  
+quettagram per cubic quectometer defined such that: ronnagram per cubic rontometer = Qg/qm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

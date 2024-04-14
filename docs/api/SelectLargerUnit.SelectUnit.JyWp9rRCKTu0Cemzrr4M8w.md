@@ -33,5 +33,5 @@ The second unit to consider.
 Implements [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit)')
 
 #### Returns
-[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')  
+[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
 The larger unit of measure.

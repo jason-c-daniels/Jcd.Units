@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareAttosecond Field
 
-ronnameter per square attosecond defined such that: yottameter per square femtosecond = Rm/as² ×  
+ronnameter per square attosecond defined such that: yottameter per square femtosecond = Rm/as² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareZeptosecond Field
 
-zeptometer per square zeptosecond defined such that: attometer per square attosecond = zm/zs² ×  
+zeptometer per square zeptosecond defined such that: attometer per square attosecond = zm/zs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

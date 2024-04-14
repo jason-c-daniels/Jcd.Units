@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareBillionYears Field
 
-mil per square billion years defined such that: inch per square million years = mil/Gyr² ×  
+mil per square billion years defined such that: inch per square million years = mil/Gyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

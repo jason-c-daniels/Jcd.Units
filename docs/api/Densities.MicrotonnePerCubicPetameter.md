@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicPetameter Field
 
-microtonne per cubic petameter defined such that: millitonne per cubic terameter = μt/Pm³ ×  
+microtonne per cubic petameter defined such that: millitonne per cubic terameter = μt/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

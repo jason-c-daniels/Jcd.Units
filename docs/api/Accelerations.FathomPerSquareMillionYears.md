@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareMillionYears Field
 
-fathom per square million years defined such that: foot per square millennium = ftm/Myr² ×  
+fathom per square million years defined such that: foot per square millennium = ftm/Myr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

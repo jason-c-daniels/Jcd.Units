@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicExameter Field
 
-gigatonne per cubic exameter defined such that: megatonne per cubic petameter = Gt/Em³ ×  
+gigatonne per cubic exameter defined such that: megatonne per cubic petameter = Gt/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

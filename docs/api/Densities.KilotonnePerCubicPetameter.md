@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicPetameter Field
 
-kilotonne per cubic petameter defined such that: hectotonne per cubic terameter = kt/Pm³ ×  
+kilotonne per cubic petameter defined such that: hectotonne per cubic terameter = kt/Pm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

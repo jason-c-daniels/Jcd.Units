@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquarePlanckTime Field
 
-meter per square planck-time defined such that: meter per square microsecond = m/tₚ² ×  
+meter per square planck-time defined such that: meter per square microsecond = m/tₚ² ×
 (1.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

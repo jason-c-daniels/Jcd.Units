@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicRonnameter Field
 
-zeptogram per cubic ronnameter defined such that: attogram per cubic yottameter = zg/Rm³ ×  
+zeptogram per cubic ronnameter defined such that: attogram per cubic yottameter = zg/Rm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareRontosecond Field
 
-furlong per square rontosecond defined such that: chain per square yoctosecond = fur/rs² ×  
+furlong per square rontosecond defined such that: chain per square yoctosecond = fur/rs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

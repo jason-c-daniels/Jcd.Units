@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerQuintillionYears Field
 
-nanometer per quintillion years defined such that: micrometer per quadrillion years = nm/Eyr ×  
+nanometer per quintillion years defined such that: micrometer per quadrillion years = nm/Eyr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

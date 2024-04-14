@@ -21,20 +21,20 @@ public abstract class Enumeration<TEnumeration, T>
    /// All enumerated elements. Populated in static constructor.
    /// </summary>
    public static readonly ImmutableArray<T> All;
-   
+
    static Enumeration()
    {
       var fields = typeof(TEnumeration).GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly);
-      
+
       var props = typeof(TEnumeration).GetProperties(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly);
-      
+
       All = fields.Where(f => f.FieldType == typeof(T))
                   .Select(f => f.GetValue(null))
                   .Cast<T>()
                   .Concat(props.Where(p => p.PropertyType == typeof(T)).Select(p => p.GetValue(null)).Cast<T>())
                   .ToImmutableArray();
    }
-   
+
    // ReSharper disable once HeapView.BoxingAllocation
    /// <summary>
    /// Retrieves all public static properties of type <typeparamref name="T" />

@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareSextillionYears Field
 
-cable per square sextillion years defined such that: fathom per square quintillion years = cable/Zyr² ×  
+cable per square sextillion years defined such that: fathom per square quintillion years = cable/Zyr² ×
 (100.0)/((1000.0)*(1000.0)).
 
 ```csharp

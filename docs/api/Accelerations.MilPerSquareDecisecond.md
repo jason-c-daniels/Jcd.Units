@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareDecisecond Field
 
-mil per square decisecond defined such that: inch per square second = mil/ds² ×  
+mil per square decisecond defined such that: inch per square second = mil/ds² ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicExameter Field
 
-rontogram per cubic exameter defined such that: yoctogram per cubic petameter = rg/Em³ ×  
+rontogram per cubic exameter defined such that: yoctogram per cubic petameter = rg/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

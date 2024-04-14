@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicPicometer Field
 
-microgram per cubic picometer defined such that: milligram per cubic nanometer = μg/pm³ ×  
+microgram per cubic picometer defined such that: milligram per cubic nanometer = μg/pm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

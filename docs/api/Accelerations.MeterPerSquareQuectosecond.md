@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareQuectosecond Field
 
-meter per square quectosecond defined such that: meter per square rontosecond = m/qs² ×  
+meter per square quectosecond defined such that: meter per square rontosecond = m/qs² ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicHectometer Field
 
-zettatonne per cubic hectometer defined such that: exatonne per cubic dekameter = Zt/hm³ ×  
+zettatonne per cubic hectometer defined such that: exatonne per cubic dekameter = Zt/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

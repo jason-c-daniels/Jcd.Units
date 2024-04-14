@@ -13,7 +13,7 @@ internal record MixedArithmeticDoubleOperationsPerfTest()
          Quantity3 = Quantity2 / 4.0;
          Quantity3 += 13d;
       }
-      
+
       return 4 * iterations;
    }
 }

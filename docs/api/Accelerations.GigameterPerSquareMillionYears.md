@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareMillionYears Field
 
-gigameter per square million years defined such that: megameter per square millennium = Gm/Myr² ×  
+gigameter per square million years defined such that: megameter per square millennium = Gm/Myr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

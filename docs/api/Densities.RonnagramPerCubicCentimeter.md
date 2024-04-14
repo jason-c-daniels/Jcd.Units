@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicCentimeter Field
 
-ronnagram per cubic centimeter defined such that: yottagram per cubic decimeter = Rg/cm³ ×  
+ronnagram per cubic centimeter defined such that: yottagram per cubic decimeter = Rg/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

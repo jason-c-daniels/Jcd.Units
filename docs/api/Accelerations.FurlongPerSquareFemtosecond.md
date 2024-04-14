@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareFemtosecond Field
 
-furlong per square femtosecond defined such that: chain per square picosecond = fur/fs² ×  
+furlong per square femtosecond defined such that: chain per square picosecond = fur/fs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareQuadrillionYears Field
 
-nanometer per square quadrillion years defined such that: micrometer per square trillion years = nm/Pyr² ×  
+nanometer per square quadrillion years defined such that: micrometer per square trillion years = nm/Pyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

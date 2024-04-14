@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicExameter Field
 
-quectogram per cubic exameter defined such that: rontogram per cubic petameter = qg/Em³ ×  
+quectogram per cubic exameter defined such that: rontogram per cubic petameter = qg/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

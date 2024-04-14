@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicZettameter Field
 
-millitonne per cubic zettameter defined such that: centitonne per cubic exameter = mt/Zm³ ×  
+millitonne per cubic zettameter defined such that: centitonne per cubic exameter = mt/Zm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

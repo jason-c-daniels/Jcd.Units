@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareOctillionYears Field
 
-rod per square octillion years defined such that: SI meter per square septillion years = rd/Ryr² ×  
+rod per square octillion years defined such that: SI meter per square septillion years = rd/Ryr² ×
 (5.0292)/((1000.0)*(1000.0)).
 
 ```csharp

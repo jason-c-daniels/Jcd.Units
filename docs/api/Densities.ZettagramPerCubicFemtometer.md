@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicFemtometer Field
 
-zettagram per cubic femtometer defined such that: exagram per cubic picometer = Zg/fm³ ×  
+zettagram per cubic femtometer defined such that: exagram per cubic picometer = Zg/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

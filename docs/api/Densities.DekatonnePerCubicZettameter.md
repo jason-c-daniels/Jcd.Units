@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicZettameter Field
 
-dekatonne per cubic zettameter defined such that: tonne per cubic exameter = dat/Zm³ ×  
+dekatonne per cubic zettameter defined such that: tonne per cubic exameter = dat/Zm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

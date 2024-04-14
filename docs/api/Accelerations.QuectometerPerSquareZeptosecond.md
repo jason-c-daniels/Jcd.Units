@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareZeptosecond Field
 
-quectometer per square zeptosecond defined such that: rontometer per square attosecond = qm/zs² ×  
+quectometer per square zeptosecond defined such that: rontometer per square attosecond = qm/zs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

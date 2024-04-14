@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareYear Field
 
-nanometer per square year defined such that: micrometer per square day = nm/yr² ×  
+nanometer per square year defined such that: micrometer per square day = nm/yr² ×
 (1.0/1000.0)/((365.2525)*(365.2525)).
 
 ```csharp

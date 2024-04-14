@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicFemtometer Field
 
-attogram per cubic femtometer defined such that: femtogram per cubic picometer = ag/fm³ ×  
+attogram per cubic femtometer defined such that: femtogram per cubic picometer = ag/fm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

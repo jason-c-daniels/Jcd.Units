@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicGigameter Field
 
-teratonne per cubic gigameter defined such that: gigatonne per cubic megameter = Tt/Gm³ ×  
+teratonne per cubic gigameter defined such that: gigatonne per cubic megameter = Tt/Gm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

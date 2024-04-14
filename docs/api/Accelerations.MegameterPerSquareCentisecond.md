@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareCentisecond Field
 
-megameter per square centisecond defined such that: kilometer per square decisecond = Mm/cs² ×  
+megameter per square centisecond defined such that: kilometer per square decisecond = Mm/cs² ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

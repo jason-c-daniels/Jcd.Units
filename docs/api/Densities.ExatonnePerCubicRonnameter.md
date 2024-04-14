@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicRonnameter Field
 
-exatonne per cubic ronnameter defined such that: petatonne per cubic yottameter = Et/Rm³ ×  
+exatonne per cubic ronnameter defined such that: petatonne per cubic yottameter = Et/Rm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareQuintillionYears Field
 
-yottameter per square quintillion years defined such that: zettameter per square quadrillion years = Ym/Eyr² ×  
+yottameter per square quintillion years defined such that: zettameter per square quadrillion years = Ym/Eyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

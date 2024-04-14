@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareRontosecond Field
 
-centimeter per square rontosecond defined such that: decimeter per square yoctosecond = cm/rs² ×  
+centimeter per square rontosecond defined such that: decimeter per square yoctosecond = cm/rs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

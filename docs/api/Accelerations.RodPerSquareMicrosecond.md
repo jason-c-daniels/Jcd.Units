@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareMicrosecond Field
 
-rod per square microsecond defined such that: SI meter per square millisecond = rd/μs² ×  
+rod per square microsecond defined such that: SI meter per square millisecond = rd/μs² ×
 (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

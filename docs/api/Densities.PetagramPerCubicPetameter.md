@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicPetameter Field
 
-petagram per cubic petameter defined such that: teragram per cubic terameter = Pg/Pm³ ×  
+petagram per cubic petameter defined such that: teragram per cubic terameter = Pg/Pm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicMicrometer Field
 
-kilogram per cubic micrometer defined such that: kilogram per cubic millimeter = kg/μm³ ×  
+kilogram per cubic micrometer defined such that: kilogram per cubic millimeter = kg/μm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

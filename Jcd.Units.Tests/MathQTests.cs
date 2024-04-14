@@ -13,7 +13,7 @@ namespace Jcd.Units.Tests;
 public class MathQTests
 {
    #region Abs, Ceiling, Floor, Min, Max and similar
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Abs_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -23,7 +23,7 @@ public class MathQTests
       Assert.Equal(unit,             r.Unit);
       Assert.Equal(Math.Abs(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Ceiling_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -33,7 +33,7 @@ public class MathQTests
       Assert.Equal(unit,                 r.Unit);
       Assert.Equal(Math.Ceiling(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Floor_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -43,7 +43,7 @@ public class MathQTests
       Assert.Equal(unit,               r.Unit);
       Assert.Equal(Math.Floor(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Truncate_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -53,7 +53,7 @@ public class MathQTests
       Assert.Equal(unit,                  r.Unit);
       Assert.Equal(Math.Truncate(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(RoundingParams))]
    public void Round_Returns_Expected_Value_In_Expected_Units(double number, Amount unit, int digits, MidpointRounding method)
@@ -63,7 +63,7 @@ public class MathQTests
       Assert.Equal(unit,                               r.Unit);
       Assert.Equal(Math.Round(number, digits, method), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumberAndUnitPairs))]
    public void Min_Returns_Expected_Quantity(double x, double y, Amount unit1, Amount unit2)
@@ -77,7 +77,7 @@ public class MathQTests
                  , r
                   );
    }
-   
+
    [Theory]
    [MemberData(nameof(NumberAndUnitPairs))]
    public void Max_Returns_Expected_Quantity(double x, double y, Amount unit1, Amount unit2)
@@ -91,7 +91,7 @@ public class MathQTests
                  , r
                   );
    }
-   
+
    [Theory]
    [MemberData(nameof(NumberAndUnitTrios))]
    public void Clamp_Returns_Expected_Value_In_Expected_Units(double x, double y, double z, Amount unitX, Amount unitY, Amount unitZ)
@@ -100,27 +100,27 @@ public class MathQTests
       var qx = x.As(unitX);
       var qy = y.As(unitY);
       var qz = z.As(unitZ);
-      
+
       var qy1 = qy;
       var qz1 = qz;
       var qmin = MathQ.Min(qy1, qz1);
       var qmax = MathQ.Max(qy1, qz1);
-      
+
       // ReSharper restore IdentifierTypo
-      
+
       var min = (double) qmin.To(qx.Unit);
       var max = (double) qmax.To(qx.Unit);
-      
+
       var r = MathQ.Clamp(qx, qmin, qmax);
-      
+
       Assert.Equal(unitX,                   r.Unit);
       Assert.Equal(Math.Clamp(x, min, max), (double) r);
    }
-   
+
    #endregion
-   
+
    #region Exponents, Logarithms, Powers, Sign, and Roots
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Exp_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -130,7 +130,7 @@ public class MathQTests
       Assert.Equal(unit,             r.Unit);
       Assert.Equal(Math.Exp(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Log_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -140,7 +140,7 @@ public class MathQTests
       Assert.Equal(unit,             r.Unit);
       Assert.Equal(Math.Log(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersCountUnitsAndBases))]
    public void Log_With_Base_Returns_Expected_Value_In_Expected_Units(double number, Amount unit, double @base)
@@ -150,7 +150,7 @@ public class MathQTests
       Assert.Equal(unit,                    r.Unit);
       Assert.Equal(Math.Log(number, @base), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Log10_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -160,7 +160,7 @@ public class MathQTests
       Assert.Equal(unit,               r.Unit);
       Assert.Equal(Math.Log10(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Log2_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -170,7 +170,7 @@ public class MathQTests
       Assert.Equal(unit,              r.Unit);
       Assert.Equal(Math.Log2(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Cbrt_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -180,7 +180,7 @@ public class MathQTests
       Assert.Equal(unit,              r.Unit);
       Assert.Equal(Math.Cbrt(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersCountUnitsAndBases))]
    public void Pow_Returns_Expected_Value_In_Expected_Units(double number, Amount unit, double pow)
@@ -190,7 +190,7 @@ public class MathQTests
       Assert.Equal(unit,                  r.Unit);
       Assert.Equal(Math.Pow(number, pow), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Sqrt_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -200,7 +200,7 @@ public class MathQTests
       Assert.Equal(unit,              r.Unit);
       Assert.Equal(Math.Sqrt(number), (double) r);
    }
-   
+
    [Theory]
    [MemberData(nameof(NumbersAndCountUnits))]
    public void Sign_Returns_Expected_Value_In_Expected_Units(double number, Amount unit)
@@ -209,11 +209,11 @@ public class MathQTests
       var r = MathQ.Sign(q);
       Assert.Equal(Math.Sign(number), r);
    }
-   
+
    #endregion
-   
+
    #region Trigonometry Functions
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -233,7 +233,7 @@ public class MathQTests
       Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(arcsecond));
       Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -253,7 +253,7 @@ public class MathQTests
       Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(arcsecond));
       Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -273,7 +273,7 @@ public class MathQTests
       Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(arcsecond));
       Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -293,7 +293,7 @@ public class MathQTests
       Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(arcsecond));
       Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -313,7 +313,7 @@ public class MathQTests
       Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(arcsecond));
       Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -333,7 +333,7 @@ public class MathQTests
       Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(arcsecond));
       Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(arcminute));
    }
-   
+
    [Theory]
    [InlineData(0d)]
    [InlineData(359d)]
@@ -353,7 +353,7 @@ public class MathQTests
       Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(arcsecond));
       Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(arcminute));
    }
-   
+
    [Theory]
    [InlineData(1.0d)]
    [InlineData(0.5d)]
@@ -366,16 +366,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos),                comparer);
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acos(cos), (double) MathQ.Acos(cos, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.0d)]
    [InlineData(0.5d)]
@@ -388,16 +388,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin),                comparer);
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asin(sin), (double) MathQ.Asin(sin, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.0d)]
    [InlineData(0.5d)]
@@ -410,16 +410,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan),                comparer);
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan(tan), (double) MathQ.Atan(tan, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.0d,   1.5d)]
    [InlineData(0.5d,   200d)]
@@ -432,16 +432,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y),                comparer);
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atan2(x, y), (double) MathQ.Atan2(x, y, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.1d)]
    [InlineData(11111110.5d)]
@@ -454,16 +454,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan),                comparer);
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Acosh(tan), (double) MathQ.Acosh(tan, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.1d)]
    [InlineData(11111110.5d)]
@@ -476,16 +476,16 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan),                comparer);
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Asinh(tan), (double) MathQ.Asinh(tan, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    [Theory]
    [InlineData(1.0d)]
    [InlineData(0.5d)]
@@ -498,20 +498,20 @@ public class MathQTests
       var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan),                comparer);
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan, Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan, Angles.Degree).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan, Angles.ArcSecond).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan, Angles.ArcMinute).To(Angles.Radian), comparer);
-      
+
       Assert.Equal(Math.Atanh(tan), (double) MathQ.Atanh(tan, Angles.Gradian).To(Angles.Radian), comparer);
    }
-   
+
    #endregion
-   
+
    #region MemberData providers
-   
+
    /// <summary>
    /// returns a set of Amount units and number pairs
    /// </summary>
@@ -521,11 +521,11 @@ public class MathQTests
       {
          var units = new[] { Amounts.Count, Amounts.TenCount, Amounts.HundredCount };
          var numbers = new[] { 10.0, -10.0, 31.6, -31.6 };
-         
+
          return from number in numbers from unit in units select new object[] { number, unit };
       }
    }
-   
+
    /// <summary>
    /// returns a set of Amount units and number pairs
    /// </summary>
@@ -536,11 +536,11 @@ public class MathQTests
          var units = new[] { Amounts.Count, Amounts.TenCount, Amounts.HundredCount };
          var numbers = new[] { 10.0, -10.0, 31.6, -31.6 };
          var bases = new[] { 2d, 4d, 8d, 10d, 16d };
-         
+
          return from number in numbers from unit in units from @base in bases select new object[] { number, unit, @base };
       }
    }
-   
+
    /// <summary>
    /// returns a set of Amount units and number pairs (number1, number2, unit1, unit 2)
    /// </summary>
@@ -550,11 +550,11 @@ public class MathQTests
       {
          var units = new[] { Amounts.Count, Amounts.TenCount, Amounts.HundredCount };
          var numbers = new[] { 1.2, 3.5, 3.7, 10.0, -10.0, 31.6, -31.6, -3.7, -3.5 };
-         
+
          return from number1 in numbers from number2 in numbers from unit1 in units from unit2 in units select new object[] { number1, number2, unit1, unit2 };
       }
    }
-   
+
    /// <summary>
    /// returns a set of Amount units and number trios (number1, number2, number3, unit1, unit2, unit3)
    /// </summary>
@@ -564,7 +564,7 @@ public class MathQTests
       {
          var units = new[] { Amounts.Count, Amounts.TenCount };
          var numbers = new[] { 1.2, 31.6, -3.7, -3.5 };
-         
+
          return
             from number1 in numbers
             from number2 in numbers
@@ -575,7 +575,7 @@ public class MathQTests
             select new object[] { number1, number2, number3, unit1, unit2, unit3 };
       }
    }
-   
+
    /// <summary>
    /// returns a set of value, Amounts units, number of digits to round to, and rounding method.
    /// </summary>
@@ -586,7 +586,7 @@ public class MathQTests
          var units = new[] { Amounts.Count, Amounts.TenCount, Amounts.HundredCount };
          var numbers = new[] { 10.0 + 1d / 3d, -10.11 + 2d / 3d, 31.12 + 1d / 3d, -31.6 + 1d / 3d };
          var places = new[] { 0, 1, 3, 6, 12, 15 };
-         
+
          var methods = new[]
                        {
                           MidpointRounding.ToEven
@@ -595,10 +595,10 @@ public class MathQTests
                         , MidpointRounding.ToNegativeInfinity
                         , MidpointRounding.ToPositiveInfinity
                        };
-         
+
          return from number in numbers from unit in units from digits in places from method in methods select new object[] { number, unit, digits, method };
       }
    }
-   
+
    #endregion
 }

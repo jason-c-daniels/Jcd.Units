@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicMegameter Field
 
-dekatonne per cubic megameter defined such that: tonne per cubic kilometer = dat/Mm³ ×  
+dekatonne per cubic megameter defined such that: tonne per cubic kilometer = dat/Mm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareQuectosecond Field
 
-centimeter per square quectosecond defined such that: decimeter per square rontosecond = cm/qs² ×  
+centimeter per square quectosecond defined such that: decimeter per square rontosecond = cm/qs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

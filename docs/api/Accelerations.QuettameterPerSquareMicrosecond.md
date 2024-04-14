@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareMicrosecond Field
 
-quettameter per square microsecond defined such that: ronnameter per square millisecond = Qm/μs² ×  
+quettameter per square microsecond defined such that: ronnameter per square millisecond = Qm/μs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

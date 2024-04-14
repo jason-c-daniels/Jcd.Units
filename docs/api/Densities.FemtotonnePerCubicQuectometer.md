@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicQuectometer Field
 
-femtotonne per cubic quectometer defined such that: picotonne per cubic rontometer = ft/qm³ ×  
+femtotonne per cubic quectometer defined such that: picotonne per cubic rontometer = ft/qm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

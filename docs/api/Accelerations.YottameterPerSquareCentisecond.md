@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareCentisecond Field
 
-yottameter per square centisecond defined such that: zettameter per square decisecond = Ym/cs² ×  
+yottameter per square centisecond defined such that: zettameter per square decisecond = Ym/cs² ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

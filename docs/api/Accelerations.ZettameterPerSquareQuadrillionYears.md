@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareQuadrillionYears Field
 
-zettameter per square quadrillion years defined such that: exameter per square trillion years = Zm/Pyr² ×  
+zettameter per square quadrillion years defined such that: exameter per square trillion years = Zm/Pyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

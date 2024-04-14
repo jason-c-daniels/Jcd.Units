@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicHectometer Field
 
-teragram per cubic hectometer defined such that: gigagram per cubic dekameter = Tg/hm³ ×  
+teragram per cubic hectometer defined such that: gigagram per cubic dekameter = Tg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicYottameter Field
 
-tonne per cubic yottameter defined such that: megagram per cubic zettameter = t/Ym³ ×  
+tonne per cubic yottameter defined such that: megagram per cubic zettameter = t/Ym³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

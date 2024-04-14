@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicNanometer Field
 
-kilogram per cubic nanometer defined such that: kilogram per cubic micrometer = kg/nm³ ×  
+kilogram per cubic nanometer defined such that: kilogram per cubic micrometer = kg/nm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

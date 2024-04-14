@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicNanometer Field
 
-gigatonne per cubic nanometer defined such that: megatonne per cubic micrometer = Gt/nm³ ×  
+gigatonne per cubic nanometer defined such that: megatonne per cubic micrometer = Gt/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

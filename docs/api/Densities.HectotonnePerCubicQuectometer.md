@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicQuectometer Field
 
-hectotonne per cubic quectometer defined such that: dekatonne per cubic rontometer = ht/qm³ ×  
+hectotonne per cubic quectometer defined such that: dekatonne per cubic rontometer = ht/qm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

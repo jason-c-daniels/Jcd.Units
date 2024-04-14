@@ -23,5 +23,5 @@ the left hand operand
 the right hand operand
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 true if [left](Quantity_TUnit_.op_LessThanOrEqual.MNvcnbrPApSkfbmtSjdRyQ.md#Jcd.Units.Quantity_TUnit_.op_LessThanOrEqual(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).left 'Jcd.Units.Quantity<TUnit>.op_LessThanOrEqual(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).left') is less than or equal to [right](Quantity_TUnit_.op_LessThanOrEqual.MNvcnbrPApSkfbmtSjdRyQ.md#Jcd.Units.Quantity_TUnit_.op_LessThanOrEqual(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).right 'Jcd.Units.Quantity<TUnit>.op_LessThanOrEqual(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).right'); false otherwise.

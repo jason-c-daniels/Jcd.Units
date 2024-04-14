@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareAttosecond Field
 
-centimeter per square attosecond defined such that: decimeter per square femtosecond = cm/as² ×  
+centimeter per square attosecond defined such that: decimeter per square femtosecond = cm/as² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

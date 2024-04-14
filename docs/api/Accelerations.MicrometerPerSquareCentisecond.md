@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareCentisecond Field
 
-micrometer per square centisecond defined such that: millimeter per square decisecond = μm/cs² ×  
+micrometer per square centisecond defined such that: millimeter per square decisecond = μm/cs² ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

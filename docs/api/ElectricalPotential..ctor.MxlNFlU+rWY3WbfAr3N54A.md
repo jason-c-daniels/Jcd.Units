@@ -3,7 +3,7 @@
 
 ## ElectricalPotential(string, string, ElectricalPotential, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another  
+Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another
 [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference.
 
 ```csharp

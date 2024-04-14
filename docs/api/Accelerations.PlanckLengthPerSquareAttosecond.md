@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareAttosecond Field
 
-planck-length per square attosecond defined such that: SI meter per square femtosecond = ℓₚ/as² ×  
+planck-length per square attosecond defined such that: SI meter per square femtosecond = ℓₚ/as² ×
 (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

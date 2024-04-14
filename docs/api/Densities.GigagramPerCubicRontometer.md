@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicRontometer Field
 
-gigagram per cubic rontometer defined such that: megagram per cubic yoctometer = Gg/rm³ ×  
+gigagram per cubic rontometer defined such that: megagram per cubic yoctometer = Gg/rm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

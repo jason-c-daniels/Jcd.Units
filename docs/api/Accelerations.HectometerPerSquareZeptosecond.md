@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareZeptosecond Field
 
-hectometer per square zeptosecond defined such that: dekameter per square attosecond = hm/zs² ×  
+hectometer per square zeptosecond defined such that: dekameter per square attosecond = hm/zs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

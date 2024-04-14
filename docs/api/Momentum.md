@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Momentum(string, string, Momentum, double, double, IValueComparer&lt;double&gt;, string)](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg.md 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a<br/>reference. |
+| [Momentum(string, string, Momentum, double, double, IValueComparer&lt;double&gt;, string)](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg.md 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a reference. |

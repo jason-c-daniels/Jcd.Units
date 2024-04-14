@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareHour Field
 
-planck-length per square hour defined such that: SI meter per square minute = ℓₚ/hr² ×  
+planck-length per square hour defined such that: SI meter per square minute = ℓₚ/hr² ×
 (1.616255E-35)/((60.0)*(60.0)).
 
 ```csharp

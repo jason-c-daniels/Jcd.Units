@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareBillionYears Field
 
-millimeter per square billion years defined such that: centimeter per square million years = mm/Gyr² ×  
+millimeter per square billion years defined such that: centimeter per square million years = mm/Gyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

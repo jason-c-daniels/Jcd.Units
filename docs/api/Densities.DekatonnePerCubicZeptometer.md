@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicZeptometer Field
 
-dekatonne per cubic zeptometer defined such that: tonne per cubic attometer = dat/zm³ ×  
+dekatonne per cubic zeptometer defined such that: tonne per cubic attometer = dat/zm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

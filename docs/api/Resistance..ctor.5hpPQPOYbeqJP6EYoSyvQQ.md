@@ -3,7 +3,7 @@
 
 ## Resistance(string, string, Resistance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') as a  
+Constructs a unit measuring a specified [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') as a
 reference.
 
 ```csharp

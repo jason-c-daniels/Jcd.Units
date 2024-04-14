@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicQuectometer Field
 
-quettatonne per cubic quectometer defined such that: ronnatonne per cubic rontometer = Qt/qm³ ×  
+quettatonne per cubic quectometer defined such that: ronnatonne per cubic rontometer = Qt/qm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

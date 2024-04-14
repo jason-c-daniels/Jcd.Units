@@ -3,7 +3,7 @@
 
 ## QuantityFactoryExtensions.ReplaceUnit<TUnit,TNewUnit>(this Quantity<TUnit>, TNewUnit) Method
 
-Converts an existing [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') into a new quantity replacing the existing units of measure with  
+Converts an existing [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') into a new quantity replacing the existing units of measure with
 the the specified unit of measure, WITHOUT CONVERSION.
 
 ```csharp
@@ -39,5 +39,5 @@ The [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') to c
 The new unit of measure to use.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TNewUnit](QuantityFactoryExtensions.ReplaceUnit.IhgkkdX25MzRn0GZCV7AlQ.md#Jcd.Units.QuantityFactoryExtensions.ReplaceUnit_TUnit,TNewUnit_(thisJcd.Units.Quantity_TUnit_,TNewUnit).TNewUnit 'Jcd.Units.QuantityFactoryExtensions.ReplaceUnit<TUnit,TNewUnit>(this Jcd.Units.Quantity<TUnit>, TNewUnit).TNewUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TNewUnit](QuantityFactoryExtensions.ReplaceUnit.IhgkkdX25MzRn0GZCV7AlQ.md#Jcd.Units.QuantityFactoryExtensions.ReplaceUnit_TUnit,TNewUnit_(thisJcd.Units.Quantity_TUnit_,TNewUnit).TNewUnit 'Jcd.Units.QuantityFactoryExtensions.ReplaceUnit<TUnit,TNewUnit>(this Jcd.Units.Quantity<TUnit>, TNewUnit).TNewUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.

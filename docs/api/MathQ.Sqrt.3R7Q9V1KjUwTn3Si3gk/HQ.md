@@ -25,5 +25,5 @@ The type of unit of measure. (e.g. temperature)
 The number whose sign is to be returned.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Sqrt.3R7Q9V1KjUwTn3Si3gk/HQ.md#Jcd.Units.MathQ.Sqrt_TUnit_(Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Sqrt<TUnit>(Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Sqrt.3R7Q9V1KjUwTn3Si3gk/HQ.md#Jcd.Units.MathQ.Sqrt_TUnit_(Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Sqrt<TUnit>(Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 The square root of the numeric component of the quantity.

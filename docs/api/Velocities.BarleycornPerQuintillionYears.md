@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerQuintillionYears Field
 
-barleycorn per quintillion years defined such that: foot per quadrillion years = barleycorn/Eyr ×  
+barleycorn per quintillion years defined such that: foot per quadrillion years = barleycorn/Eyr ×
 (1.0/36.0)/(1000.0).
 
 ```csharp

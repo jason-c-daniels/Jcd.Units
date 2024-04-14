@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareMillionYears Field
 
-decimeter per square million years defined such that: meter per square millennium = dm/Myr² ×  
+decimeter per square million years defined such that: meter per square millennium = dm/Myr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

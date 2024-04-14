@@ -31,22 +31,22 @@ public class Int64ConversionComparer : IValueComparer<double>
    /// more steps and CPU cycles consumed.
    /// </summary>
    public static readonly Int64ConversionComparer Default = new();
-   
+
    /// <summary>
    /// Compares to three decimal places (base 10).
    /// </summary>
    public static readonly Int64ConversionComparer ThreeDecimalPlaces = new(1000);
-   
+
    /// <summary>
    /// Compares to six places (base 10).
    /// </summary>
    public static readonly Int64ConversionComparer SixDecimalPlaces = new(1000 * 1000);
-   
+
    /// <summary>
    /// Compares to nine decimal places (base 10).
    /// </summary>
    public static readonly Int64ConversionComparer NineDecimalPlaces = new(1000 * 1000);
-   
+
    /// <summary>
    /// Constructs an <see cref="Int64ConversionComparer" /> instance with the given multiplication factor.
    /// </summary>
@@ -55,14 +55,14 @@ public class Int64ConversionComparer : IValueComparer<double>
    {
       Factor = factor;
    }
-   
+
    /// <summary>
    /// The amount to multiply by before conversion and comparison.
    /// </summary>
    public double Factor { get; }
-   
+
    #region IValueComparer<double> Members
-   
+
    /// <summary>
    /// Performs the relational comparison on the params after converting to their <see cref="Int64" /> post-multiplication
    /// representation.
@@ -74,10 +74,10 @@ public class Int64ConversionComparer : IValueComparer<double>
    {
       var xi64 = ToInt64(x);
       var yi64 = ToInt64(y);
-      
+
       return xi64.CompareTo(yi64);
    }
-   
+
    /// <summary>
    /// Performs the equivalence comparison on the params after converting to their <see cref="Int64" /> post-multiplication
    /// representation.
@@ -89,7 +89,7 @@ public class Int64ConversionComparer : IValueComparer<double>
    {
       return Compare(x, y) == 0;
    }
-   
+
    /// <summary>
    /// Creates a stable hash code for a value based on the <see cref="Factor" /> used for
    /// conversion and comparison.
@@ -99,12 +99,12 @@ public class Int64ConversionComparer : IValueComparer<double>
    public int GetHashCode(double val)
    {
       var vi64 = ToInt64(val);
-      
+
       return vi64.GetHashCode();
    }
-   
+
    #endregion
-   
+
    /// <summary>
    /// Multiplies a value by the factor, then converts to an <see cref="Int64" />
    /// </summary>

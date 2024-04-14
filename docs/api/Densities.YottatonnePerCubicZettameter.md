@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicZettameter Field
 
-yottatonne per cubic zettameter defined such that: zettatonne per cubic exameter = Yt/Zm³ ×  
+yottatonne per cubic zettameter defined such that: zettatonne per cubic exameter = Yt/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

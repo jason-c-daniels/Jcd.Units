@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareZeptosecond Field
 
-terameter per square zeptosecond defined such that: gigameter per square attosecond = Tm/zs² ×  
+terameter per square zeptosecond defined such that: gigameter per square attosecond = Tm/zs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

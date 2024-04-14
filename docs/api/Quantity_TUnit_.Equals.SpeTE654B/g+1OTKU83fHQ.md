@@ -17,9 +17,9 @@ public bool Equals(Jcd.Units.Quantity<TUnit> other);
 The other instance to compare against.
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 True if equivalent. False otherwise.
 
 ### Remarks
-The quantity with the smaller unit of measure is converted to the double representation of  
+The quantity with the smaller unit of measure is converted to the double representation of
 the larger unit of measure before comparison.

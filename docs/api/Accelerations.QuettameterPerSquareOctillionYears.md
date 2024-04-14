@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareOctillionYears Field
 
-quettameter per square octillion years defined such that: ronnameter per square septillion years = Qm/Ryr² ×  
+quettameter per square octillion years defined such that: ronnameter per square septillion years = Qm/Ryr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

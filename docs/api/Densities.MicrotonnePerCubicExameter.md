@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicExameter Field
 
-microtonne per cubic exameter defined such that: millitonne per cubic petameter = μt/Em³ ×  
+microtonne per cubic exameter defined such that: millitonne per cubic petameter = μt/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

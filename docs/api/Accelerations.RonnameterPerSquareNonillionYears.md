@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareNonillionYears Field
 
-ronnameter per square nonillion years defined such that: yottameter per square octillion years = Rm/Qyr² ×  
+ronnameter per square nonillion years defined such that: yottameter per square octillion years = Rm/Qyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

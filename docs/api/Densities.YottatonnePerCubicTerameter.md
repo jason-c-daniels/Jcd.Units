@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicTerameter Field
 
-yottatonne per cubic terameter defined such that: zettatonne per cubic gigameter = Yt/Tm³ ×  
+yottatonne per cubic terameter defined such that: zettatonne per cubic gigameter = Yt/Tm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

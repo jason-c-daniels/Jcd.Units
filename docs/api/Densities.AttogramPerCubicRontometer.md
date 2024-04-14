@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicRontometer Field
 
-attogram per cubic rontometer defined such that: femtogram per cubic yoctometer = ag/rm³ ×  
+attogram per cubic rontometer defined such that: femtogram per cubic yoctometer = ag/rm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

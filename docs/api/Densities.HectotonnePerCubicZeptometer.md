@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicZeptometer Field
 
-hectotonne per cubic zeptometer defined such that: dekatonne per cubic attometer = ht/zm³ ×  
+hectotonne per cubic zeptometer defined such that: dekatonne per cubic attometer = ht/zm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

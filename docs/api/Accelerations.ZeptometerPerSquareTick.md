@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareTick Field
 
-zeptometer per square tick defined such that: attometer per square nanosecond = zm/tick² ×  
+zeptometer per square tick defined such that: attometer per square nanosecond = zm/tick² ×
 (1.0/1000.0)/((100.0)*(100.0)).
 
 ```csharp

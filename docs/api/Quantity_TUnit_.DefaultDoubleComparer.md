@@ -3,7 +3,7 @@
 
 ## Quantity<TUnit>.DefaultDoubleComparer Property
 
-Sets the default [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by quantities for the particular unit of  
+Sets the default [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by quantities for the particular unit of
 measure type. (e.g. lengths.)
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicMillimeter Field
 
-zeptotonne per cubic millimeter defined such that: attotonne per cubic centimeter = zt/mm³ ×  
+zeptotonne per cubic millimeter defined such that: attotonne per cubic centimeter = zt/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

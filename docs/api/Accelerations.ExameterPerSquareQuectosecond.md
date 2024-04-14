@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareQuectosecond Field
 
-exameter per square quectosecond defined such that: petameter per square rontosecond = Em/qs² ×  
+exameter per square quectosecond defined such that: petameter per square rontosecond = Em/qs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

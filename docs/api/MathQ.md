@@ -3,7 +3,7 @@
 
 ## MathQ Class
 
-Provides common logarithmic, mathematical and trigonometric functions [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instances.  
+Provides common logarithmic, mathematical and trigonometric functions [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instances.
 This parallels and uses many of the [System.Math](https://docs.microsoft.com/en-us/dotnet/api/System.Math 'System.Math') implementations.
 
 ```csharp
@@ -23,12 +23,12 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Atan2(double, double, Angle)](MathQ.Atan2.k0eAk18QBmbhndvd50uDyg.md 'Jcd.Units.MathQ.Atan2(double, double, Jcd.Units.UnitTypes.Angle)') | Returns the angle whose tangent is the specified number. |
 | [Atanh(double, Angle)](MathQ.Atanh.TTQuT1FpWX5Eow3qm2Lh8A.md 'Jcd.Units.MathQ.Atanh(double, Jcd.Units.UnitTypes.Angle)') | Returns the angle whose hyperbolic tangent is the specified number. |
 | [Cbrt&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Cbrt.JZMTWrMVIFktuvgNzLPKsg.md 'Jcd.Units.MathQ.Cbrt<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the cube root of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') as a new Quantity with the source unit of measure. |
-| [Ceiling&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Ceiling.wn0F2u1AKJ8xjTY+ApJFjQ.md 'Jcd.Units.MathQ.Ceiling<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the smallest integral value greater than or equal to the numeric component of the<br/>[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
-| [Clamp&lt;TUnit&gt;(Quantity&lt;TUnit&gt;, Quantity&lt;TUnit&gt;, Quantity&lt;TUnit&gt;)](MathQ.Clamp.dbd2fWny/h9dwA6t3r1JQw.md 'Jcd.Units.MathQ.Clamp<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>)') | Returns the smallest value that is greater than or equal to the numeric component of a<br/>[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
+| [Ceiling&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Ceiling.wn0F2u1AKJ8xjTY+ApJFjQ.md 'Jcd.Units.MathQ.Ceiling<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the smallest integral value greater than or equal to the numeric component of the [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
+| [Clamp&lt;TUnit&gt;(Quantity&lt;TUnit&gt;, Quantity&lt;TUnit&gt;, Quantity&lt;TUnit&gt;)](MathQ.Clamp.dbd2fWny/h9dwA6t3r1JQw.md 'Jcd.Units.MathQ.Clamp<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>)') | Returns the smallest value that is greater than or equal to the numeric component of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
 | [Cos(Quantity&lt;Angle&gt;)](MathQ.Cos.Mg7fZdKUOEgVmQlJ4MqP6A.md 'Jcd.Units.MathQ.Cos(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle>)') | Returns the cosine of the specified angle. |
 | [Cosh(Quantity&lt;Angle&gt;)](MathQ.Cosh.uRCL6J2d9cTy1aIFCDl1+w.md 'Jcd.Units.MathQ.Cosh(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle>)') | Returns the hyperbolic cosine of the specified angle. |
 | [Exp&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Exp.L4tTY02lOlz7oC4VUTT9Sw.md 'Jcd.Units.MathQ.Exp<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns `e` raised to the specified power as a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
-| [Floor&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Floor.4jGWZASzpugIcEtRIOIKjg.md 'Jcd.Units.MathQ.Floor<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the largest integral value less than or equal to the numeric component of the [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')<br/>. |
+| [Floor&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Floor.4jGWZASzpugIcEtRIOIKjg.md 'Jcd.Units.MathQ.Floor<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the largest integral value less than or equal to the numeric component of the [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') . |
 | [Log&lt;TUnit&gt;(Quantity&lt;TUnit&gt;, double)](MathQ.Log.uqhpB2qC0oAE//BVIurU0Q.md 'Jcd.Units.MathQ.Log<TUnit>(Jcd.Units.Quantity<TUnit>, double)') | Returns the logarithm of a the numeric component of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') in a specified base. |
 | [Log&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Log.YY0o2bZ2DSXbWMNpew0X9g.md 'Jcd.Units.MathQ.Log<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the natural (base e) logarithm of the numeric component of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |
 | [Log10&lt;TUnit&gt;(Quantity&lt;TUnit&gt;)](MathQ.Log10.3edTvSViuZAumDE+vhcKTw.md 'Jcd.Units.MathQ.Log10<TUnit>(Jcd.Units.Quantity<TUnit>)') | Returns the base 10 logarithm of a the numeric component of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>'). |

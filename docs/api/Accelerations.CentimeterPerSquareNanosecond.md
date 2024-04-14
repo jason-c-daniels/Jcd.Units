@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareNanosecond Field
 
-centimeter per square nanosecond defined such that: decimeter per square microsecond = cm/ns² ×  
+centimeter per square nanosecond defined such that: decimeter per square microsecond = cm/ns² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareBillionYears Field
 
-cable per square billion years defined such that: fathom per square million years = cable/Gyr² ×  
+cable per square billion years defined such that: fathom per square million years = cable/Gyr² ×
 (100.0)/((1000.0)*(1000.0)).
 
 ```csharp

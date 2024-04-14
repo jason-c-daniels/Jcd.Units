@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareDecillionYears Field
 
-attometer per square decillion years defined such that: femtometer per square nonillion years = am/decillion yr² ×  
+attometer per square decillion years defined such that: femtometer per square nonillion years = am/decillion yr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

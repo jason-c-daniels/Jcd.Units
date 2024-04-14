@@ -3,7 +3,7 @@
 
 ## Densities.YoctotonnePerCubicMillimeter Field
 
-yoctotonne per cubic millimeter defined such that: zeptotonne per cubic centimeter = yt/mm³ ×  
+yoctotonne per cubic millimeter defined such that: zeptotonne per cubic centimeter = yt/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

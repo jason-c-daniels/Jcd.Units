@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareTrillionYears Field
 
-hectometer per square trillion years defined such that: dekameter per square billion years = hm/Tyr² ×  
+hectometer per square trillion years defined such that: dekameter per square billion years = hm/Tyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -10,7 +10,7 @@ internal record SquaredPerfTest() : TemperaturePerfTest("Quantity<T> squared (wi
          Quantity2 = Quantity1 * Quantity1;
          Quantity3 = Quantity2 * Quantity2;
       }
-      
+
       return 2 * iterations;
    }
 }

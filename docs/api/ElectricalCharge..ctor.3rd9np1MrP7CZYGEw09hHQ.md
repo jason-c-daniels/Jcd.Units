@@ -3,7 +3,7 @@
 
 ## ElectricalCharge(string, string, ElectricalCharge, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another  
+Constructs a unit measuring a specified [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another
 [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') as a reference.
 
 ```csharp

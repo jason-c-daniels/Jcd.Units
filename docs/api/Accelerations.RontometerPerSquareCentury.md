@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareCentury Field
 
-rontometer per square century defined such that: yoctometer per square decade = rm/century² ×  
+rontometer per square century defined such that: yoctometer per square decade = rm/century² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

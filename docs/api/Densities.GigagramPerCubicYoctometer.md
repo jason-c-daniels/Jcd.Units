@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicYoctometer Field
 
-gigagram per cubic yoctometer defined such that: megagram per cubic zeptometer = Gg/ym³ ×  
+gigagram per cubic yoctometer defined such that: megagram per cubic zeptometer = Gg/ym³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

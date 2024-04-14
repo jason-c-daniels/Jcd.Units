@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicQuectometer Field
 
-exagram per cubic quectometer defined such that: petagram per cubic rontometer = Eg/qm³ ×  
+exagram per cubic quectometer defined such that: petagram per cubic rontometer = Eg/qm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

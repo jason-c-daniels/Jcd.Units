@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareRontosecond Field
 
-chain per square rontosecond defined such that: yard per square yoctosecond = ch/rs² ×  
+chain per square rontosecond defined such that: yard per square yoctosecond = ch/rs² ×
 (22.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

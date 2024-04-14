@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareSextillionYears Field
 
-femtometer per square sextillion years defined such that: picometer per square quintillion years = fm/Zyr² ×  
+femtometer per square sextillion years defined such that: picometer per square quintillion years = fm/Zyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity Class
 
-A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the  
+A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the
 magnetic flux.
 
 ```csharp
@@ -14,4 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [MagneticFluxDensity(string, string, MagneticFluxDensity, double, double, IValueComparer&lt;double&gt;, string)](MagneticFluxDensity..ctor.PWJ8qUbx3WRpGtBk6oImNA.md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, Jcd.Units.UnitTypes.MagneticFluxDensity, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another<br/>[MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') as a reference. |
+| [MagneticFluxDensity(string, string, MagneticFluxDensity, double, double, IValueComparer&lt;double&gt;, string)](MagneticFluxDensity..ctor.PWJ8qUbx3WRpGtBk6oImNA.md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, Jcd.Units.UnitTypes.MagneticFluxDensity, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') as a reference. |

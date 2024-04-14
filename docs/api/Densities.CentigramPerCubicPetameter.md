@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicPetameter Field
 
-centigram per cubic petameter defined such that: decigram per cubic terameter = cg/Pm³ ×  
+centigram per cubic petameter defined such that: decigram per cubic terameter = cg/Pm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

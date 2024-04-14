@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareQuectosecond Field
 
-yottameter per square quectosecond defined such that: zettameter per square rontosecond = Ym/qs² ×  
+yottameter per square quectosecond defined such that: zettameter per square rontosecond = Ym/qs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

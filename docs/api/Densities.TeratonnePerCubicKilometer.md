@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicKilometer Field
 
-teratonne per cubic kilometer defined such that: gigatonne per cubic hectometer = Tt/km³ ×  
+teratonne per cubic kilometer defined such that: gigatonne per cubic hectometer = Tt/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

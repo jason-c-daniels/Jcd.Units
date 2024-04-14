@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareZeptosecond Field
 
-hand per square zeptosecond defined such that: inch per square attosecond = hh/zs² ×  
+hand per square zeptosecond defined such that: inch per square attosecond = hh/zs² ×
 (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

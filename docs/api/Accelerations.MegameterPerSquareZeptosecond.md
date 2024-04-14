@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareZeptosecond Field
 
-megameter per square zeptosecond defined such that: kilometer per square attosecond = Mm/zs² ×  
+megameter per square zeptosecond defined such that: kilometer per square attosecond = Mm/zs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

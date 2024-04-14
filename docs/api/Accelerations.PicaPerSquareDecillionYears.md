@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareDecillionYears Field
 
-pica per square decillion years defined such that: point per square nonillion years = P/decillion yr² ×  
+pica per square decillion years defined such that: point per square nonillion years = P/decillion yr² ×
 (12.0)/((1000.0)*(1000.0)).
 
 ```csharp

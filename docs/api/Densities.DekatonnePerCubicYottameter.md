@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicYottameter Field
 
-dekatonne per cubic yottameter defined such that: tonne per cubic zettameter = dat/Ym³ ×  
+dekatonne per cubic yottameter defined such that: tonne per cubic zettameter = dat/Ym³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## ElectricalConductance(string, string, ElectricalConductance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') using another  
+Constructs a unit measuring a specified [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') using another
 [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') as a reference.
 
 ```csharp

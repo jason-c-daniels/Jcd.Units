@@ -31,5 +31,5 @@ The first unit of measure to consider.
 The second unit of measure to consider.
 
 #### Returns
-[TUnit](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w.md#Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit).TUnit')  
+[TUnit](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w.md#Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
 The unit selected

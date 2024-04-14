@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicKilometer Field
 
-microgram per cubic kilometer defined such that: milligram per cubic hectometer = μg/km³ ×  
+microgram per cubic kilometer defined such that: milligram per cubic hectometer = μg/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

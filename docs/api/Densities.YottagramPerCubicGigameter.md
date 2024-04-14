@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicGigameter Field
 
-yottagram per cubic gigameter defined such that: zettagram per cubic megameter = Yg/Gm³ ×  
+yottagram per cubic gigameter defined such that: zettagram per cubic megameter = Yg/Gm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

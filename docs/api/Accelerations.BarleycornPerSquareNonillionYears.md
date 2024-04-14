@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareNonillionYears Field
 
-barleycorn per square nonillion years defined such that: foot per square octillion years = barleycorn/Qyr² ×  
+barleycorn per square nonillion years defined such that: foot per square octillion years = barleycorn/Qyr² ×
 (1.0/36.0)/((1000.0)*(1000.0)).
 
 ```csharp

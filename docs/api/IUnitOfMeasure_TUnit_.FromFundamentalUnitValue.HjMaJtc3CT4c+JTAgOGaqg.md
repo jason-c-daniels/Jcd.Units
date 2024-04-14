@@ -3,8 +3,8 @@
 
 ## IUnitOfMeasure<TUnit>.FromFundamentalUnitValue(double) Method
 
-Given a raw value, convert FROM the fundamental (normalized) base unit representation  
-TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base  
+Given a raw value, convert FROM the fundamental (normalized) base unit representation
+TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
 unit and 0.1m is 100mm )
 
 ```csharp
@@ -19,5 +19,5 @@ double FromFundamentalUnitValue(double normalizedValue);
 the normalized value.
 
 #### Returns
-[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  
+[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 The denormalized value

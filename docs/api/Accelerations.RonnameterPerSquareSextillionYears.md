@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareSextillionYears Field
 
-ronnameter per square sextillion years defined such that: yottameter per square quintillion years = Rm/Zyr² ×  
+ronnameter per square sextillion years defined such that: yottameter per square quintillion years = Rm/Zyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

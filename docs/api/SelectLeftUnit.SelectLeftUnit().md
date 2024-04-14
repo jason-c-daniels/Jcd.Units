@@ -3,7 +3,7 @@
 
 ## SelectLeftUnit() Constructor
 
-Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLeftUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLeftUnit.Instance') enforcing GC  
+Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLeftUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLeftUnit.Instance') enforcing GC
 friendliness.)
 
 ```csharp

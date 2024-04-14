@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicQuettameter Field
 
-yoctogram per cubic quettameter defined such that: zeptogram per cubic ronnameter = yg/Qm³ ×  
+yoctogram per cubic quettameter defined such that: zeptogram per cubic ronnameter = yg/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

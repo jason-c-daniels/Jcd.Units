@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicAttometer Field
 
-microgram per cubic attometer defined such that: milligram per cubic femtometer = μg/am³ ×  
+microgram per cubic attometer defined such that: milligram per cubic femtometer = μg/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

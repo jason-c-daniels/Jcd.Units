@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareMicrosecond Field
 
-meter per square microsecond defined such that: meter per square millisecond = m/μs² ×  
+meter per square microsecond defined such that: meter per square millisecond = m/μs² ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

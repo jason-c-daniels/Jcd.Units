@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareSextillionYears Field
 
-mile per square sextillion years defined such that: furlong per square quintillion years = mi/Zyr² ×  
+mile per square sextillion years defined such that: furlong per square quintillion years = mi/Zyr² ×
 (8.0)/((1000.0)*(1000.0)).
 
 ```csharp

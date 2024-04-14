@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicPicometer Field
 
-gigagram per cubic picometer defined such that: megagram per cubic nanometer = Gg/pm³ ×  
+gigagram per cubic picometer defined such that: megagram per cubic nanometer = Gg/pm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

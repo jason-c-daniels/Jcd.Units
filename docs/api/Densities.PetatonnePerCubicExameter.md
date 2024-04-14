@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicExameter Field
 
-petatonne per cubic exameter defined such that: teratonne per cubic petameter = Pt/Em³ ×  
+petatonne per cubic exameter defined such that: teratonne per cubic petameter = Pt/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

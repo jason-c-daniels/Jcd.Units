@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicAttometer Field
 
-centitonne per cubic attometer defined such that: decitonne per cubic femtometer = ct/am³ ×  
+centitonne per cubic attometer defined such that: decitonne per cubic femtometer = ct/am³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

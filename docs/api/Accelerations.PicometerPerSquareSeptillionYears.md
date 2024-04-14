@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareSeptillionYears Field
 
-picometer per square septillion years defined such that: nanometer per square sextillion years = pm/Yyr² ×  
+picometer per square septillion years defined such that: nanometer per square sextillion years = pm/Yyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

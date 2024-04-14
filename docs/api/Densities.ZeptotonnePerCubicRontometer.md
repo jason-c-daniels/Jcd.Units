@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicRontometer Field
 
-zeptotonne per cubic rontometer defined such that: attotonne per cubic yoctometer = zt/rm³ ×  
+zeptotonne per cubic rontometer defined such that: attotonne per cubic yoctometer = zt/rm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

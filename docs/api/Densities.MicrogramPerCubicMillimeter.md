@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicMillimeter Field
 
-microgram per cubic millimeter defined such that: milligram per cubic centimeter = μg/mm³ ×  
+microgram per cubic millimeter defined such that: milligram per cubic centimeter = μg/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

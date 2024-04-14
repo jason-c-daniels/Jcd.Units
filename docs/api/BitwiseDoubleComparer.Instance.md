@@ -3,7 +3,7 @@
 
 ## BitwiseDoubleComparer.Instance Field
 
-The default instance. Use this instead of constantly creating new ones. It's easier  
+The default instance. Use this instead of constantly creating new ones. It's easier
 on the garbage collector.
 
 ```csharp

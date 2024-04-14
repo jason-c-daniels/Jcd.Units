@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicHectometer Field
 
-femtogram per cubic hectometer defined such that: picogram per cubic dekameter = fg/hm³ ×  
+femtogram per cubic hectometer defined such that: picogram per cubic dekameter = fg/hm³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

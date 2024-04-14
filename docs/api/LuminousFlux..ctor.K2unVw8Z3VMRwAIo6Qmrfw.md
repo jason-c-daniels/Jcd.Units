@@ -3,7 +3,7 @@
 
 ## LuminousFlux(string, string, LuminousFlux, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a  
+Constructs a unit measuring a specified [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a
 reference.
 
 ```csharp

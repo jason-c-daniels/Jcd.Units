@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareQuectosecond Field
 
-point per square quectosecond defined such that: inch per square rontosecond = p/qs² ×  
+point per square quectosecond defined such that: inch per square rontosecond = p/qs² ×
 (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

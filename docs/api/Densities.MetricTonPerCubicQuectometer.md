@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicQuectometer Field
 
-metric ton per cubic quectometer defined such that: megagram per cubic rontometer = mt/qm³ ×  
+metric ton per cubic quectometer defined such that: megagram per cubic rontometer = mt/qm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

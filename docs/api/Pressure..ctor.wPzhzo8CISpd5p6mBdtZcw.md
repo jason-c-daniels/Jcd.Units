@@ -3,7 +3,7 @@
 
 ## Pressure(string, string, Pressure, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a  
+Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a
 reference.
 
 ```csharp

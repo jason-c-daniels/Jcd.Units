@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareOctillionYears Field
 
-pica per square octillion years defined such that: point per square septillion years = P/Ryr² ×  
+pica per square octillion years defined such that: point per square septillion years = P/Ryr² ×
 (12.0)/((1000.0)*(1000.0)).
 
 ```csharp

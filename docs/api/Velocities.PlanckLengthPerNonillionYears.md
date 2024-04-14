@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerNonillionYears Field
 
-planck-length per nonillion years defined such that: SI meter per octillion years = ℓₚ/Qyr ×  
+planck-length per nonillion years defined such that: SI meter per octillion years = ℓₚ/Qyr ×
 (1.616255E-35)/(1000.0).
 
 ```csharp

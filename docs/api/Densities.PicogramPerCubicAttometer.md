@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicAttometer Field
 
-picogram per cubic attometer defined such that: nanogram per cubic femtometer = pg/am³ ×  
+picogram per cubic attometer defined such that: nanogram per cubic femtometer = pg/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

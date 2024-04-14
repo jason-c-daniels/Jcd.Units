@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicFemtometer Field
 
-decitonne per cubic femtometer defined such that: tonne per cubic picometer = dt/fm³ ×  
+decitonne per cubic femtometer defined such that: tonne per cubic picometer = dt/fm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

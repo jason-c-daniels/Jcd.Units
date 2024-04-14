@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Pressure(string, string, Pressure, double, double, IValueComparer&lt;double&gt;, string)](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw.md 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a<br/>reference. |
+| [Pressure(string, string, Pressure, double, double, IValueComparer&lt;double&gt;, string)](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw.md 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a reference. |

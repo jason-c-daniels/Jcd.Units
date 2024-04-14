@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareQuintillionYears Field
 
-femtometer per square quintillion years defined such that: picometer per square quadrillion years = fm/Eyr² ×  
+femtometer per square quintillion years defined such that: picometer per square quadrillion years = fm/Eyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

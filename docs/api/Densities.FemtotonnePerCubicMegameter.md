@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicMegameter Field
 
-femtotonne per cubic megameter defined such that: picotonne per cubic kilometer = ft/Mm³ ×  
+femtotonne per cubic megameter defined such that: picotonne per cubic kilometer = ft/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

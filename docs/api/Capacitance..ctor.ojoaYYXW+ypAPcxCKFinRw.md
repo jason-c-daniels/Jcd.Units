@@ -3,7 +3,7 @@
 
 ## Capacitance(string, string, Capacitance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a  
+Constructs a unit measuring a specified [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a
 reference.
 
 ```csharp

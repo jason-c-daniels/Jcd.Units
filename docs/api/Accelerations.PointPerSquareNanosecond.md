@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareNanosecond Field
 
-point per square nanosecond defined such that: inch per square microsecond = p/ns² ×  
+point per square nanosecond defined such that: inch per square microsecond = p/ns² ×
 (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareQuadrillionYears Field
 
-twip per square quadrillion years defined such that: foot per square trillion years = twip/Pyr² ×  
+twip per square quadrillion years defined such that: foot per square trillion years = twip/Pyr² ×
 (1.0/17280.0)/((1000.0)*(1000.0)).
 
 ```csharp

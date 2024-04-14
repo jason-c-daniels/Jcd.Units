@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerSextillionYears Field
 
-rontometer per sextillion years defined such that: yoctometer per quintillion years = rm/Zyr ×  
+rontometer per sextillion years defined such that: yoctometer per quintillion years = rm/Zyr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

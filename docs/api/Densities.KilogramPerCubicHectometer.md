@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicHectometer Field
 
-kilogram per cubic hectometer defined such that: kilogram per cubic dekameter = kg/hm³ ×  
+kilogram per cubic hectometer defined such that: kilogram per cubic dekameter = kg/hm³ ×
 (1.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

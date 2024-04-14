@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareSeptillionYears Field
 
-league per square septillion years defined such that: mile per square sextillion years = lea/Yyr² ×  
+league per square septillion years defined such that: mile per square sextillion years = lea/Yyr² ×
 (3.0)/((1000.0)*(1000.0)).
 
 ```csharp

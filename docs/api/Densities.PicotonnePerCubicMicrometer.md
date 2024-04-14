@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicMicrometer Field
 
-picotonne per cubic micrometer defined such that: nanotonne per cubic millimeter = pt/μm³ ×  
+picotonne per cubic micrometer defined such that: nanotonne per cubic millimeter = pt/μm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicPicometer Field
 
-petagram per cubic picometer defined such that: teragram per cubic nanometer = Pg/pm³ ×  
+petagram per cubic picometer defined such that: teragram per cubic nanometer = Pg/pm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

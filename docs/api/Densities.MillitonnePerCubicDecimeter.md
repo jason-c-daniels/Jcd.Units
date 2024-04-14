@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicDecimeter Field
 
-millitonne per cubic decimeter defined such that: centitonne per cubic meter = mt/dm³ ×  
+millitonne per cubic decimeter defined such that: centitonne per cubic meter = mt/dm³ ×
 (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

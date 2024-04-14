@@ -3,7 +3,7 @@
 
 ## Duration(string, string, Duration, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a  
+Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a
 reference.
 
 ```csharp

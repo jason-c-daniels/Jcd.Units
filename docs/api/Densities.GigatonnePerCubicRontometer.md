@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicRontometer Field
 
-gigatonne per cubic rontometer defined such that: megatonne per cubic yoctometer = Gt/rm³ ×  
+gigatonne per cubic rontometer defined such that: megatonne per cubic yoctometer = Gt/rm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

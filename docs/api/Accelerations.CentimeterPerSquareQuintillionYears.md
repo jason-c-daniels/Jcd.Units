@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareQuintillionYears Field
 
-centimeter per square quintillion years defined such that: decimeter per square quadrillion years = cm/Eyr² ×  
+centimeter per square quintillion years defined such that: decimeter per square quadrillion years = cm/Eyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

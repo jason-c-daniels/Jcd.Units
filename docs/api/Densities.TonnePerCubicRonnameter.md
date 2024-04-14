@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicRonnameter Field
 
-tonne per cubic ronnameter defined such that: megagram per cubic yottameter = t/Rm³ ×  
+tonne per cubic ronnameter defined such that: megagram per cubic yottameter = t/Rm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicYoctometer Field
 
-yottatonne per cubic yoctometer defined such that: zettatonne per cubic zeptometer = Yt/ym³ ×  
+yottatonne per cubic yoctometer defined such that: zettatonne per cubic zeptometer = Yt/ym³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

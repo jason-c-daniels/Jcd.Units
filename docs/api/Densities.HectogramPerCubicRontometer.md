@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicRontometer Field
 
-hectogram per cubic rontometer defined such that: kilogram per cubic yoctometer = hg/rm³ ×  
+hectogram per cubic rontometer defined such that: kilogram per cubic yoctometer = hg/rm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

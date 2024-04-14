@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Resistance(string, string, Resistance, double, double, IValueComparer&lt;double&gt;, string)](Resistance..ctor.5hpPQPOYbeqJP6EYoSyvQQ.md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, Jcd.Units.UnitTypes.Resistance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') as a<br/>reference. |
+| [Resistance(string, string, Resistance, double, double, IValueComparer&lt;double&gt;, string)](Resistance..ctor.5hpPQPOYbeqJP6EYoSyvQQ.md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, Jcd.Units.UnitTypes.Resistance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') as a reference. |

@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicExameter Field
 
-attogram per cubic exameter defined such that: femtogram per cubic petameter = ag/Em³ ×  
+attogram per cubic exameter defined such that: femtogram per cubic petameter = ag/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

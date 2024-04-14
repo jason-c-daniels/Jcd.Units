@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicKilometer Field
 
-exatonne per cubic kilometer defined such that: petatonne per cubic hectometer = Et/km³ ×  
+exatonne per cubic kilometer defined such that: petatonne per cubic hectometer = Et/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

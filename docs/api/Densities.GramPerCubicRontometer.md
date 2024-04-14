@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicRontometer Field
 
-gram per cubic rontometer defined such that: dekagram per cubic yoctometer = g/rm³ ×  
+gram per cubic rontometer defined such that: dekagram per cubic yoctometer = g/rm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

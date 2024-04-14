@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicQuectometer Field
 
-picogram per cubic quectometer defined such that: nanogram per cubic rontometer = pg/qm³ ×  
+picogram per cubic quectometer defined such that: nanogram per cubic rontometer = pg/qm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

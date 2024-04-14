@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareNanosecond Field
 
-quectometer per square nanosecond defined such that: rontometer per square microsecond = qm/ns² ×  
+quectometer per square nanosecond defined such that: rontometer per square microsecond = qm/ns² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareRontosecond Field
 
-barleycorn per square rontosecond defined such that: foot per square yoctosecond = barleycorn/rs² ×  
+barleycorn per square rontosecond defined such that: foot per square yoctosecond = barleycorn/rs² ×
 (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

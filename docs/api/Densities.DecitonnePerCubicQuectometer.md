@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicQuectometer Field
 
-decitonne per cubic quectometer defined such that: tonne per cubic rontometer = dt/qm³ ×  
+decitonne per cubic quectometer defined such that: tonne per cubic rontometer = dt/qm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

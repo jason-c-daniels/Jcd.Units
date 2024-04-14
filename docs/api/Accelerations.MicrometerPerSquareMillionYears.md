@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareMillionYears Field
 
-micrometer per square million years defined such that: millimeter per square millennium = μm/Myr² ×  
+micrometer per square million years defined such that: millimeter per square millennium = μm/Myr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## TransferRate(string, string, TransferRate, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a  
+Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a
 reference.
 
 ```csharp

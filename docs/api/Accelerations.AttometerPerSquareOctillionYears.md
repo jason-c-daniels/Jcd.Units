@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareOctillionYears Field
 
-attometer per square octillion years defined such that: femtometer per square septillion years = am/Ryr² ×  
+attometer per square octillion years defined such that: femtometer per square septillion years = am/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

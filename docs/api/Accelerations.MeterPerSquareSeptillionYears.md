@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareSeptillionYears Field
 
-meter per square septillion years defined such that: meter per square sextillion years = m/Yyr² ×  
+meter per square septillion years defined such that: meter per square sextillion years = m/Yyr² ×
 (1.0)/((1000.0)*(1000.0)).
 
 ```csharp

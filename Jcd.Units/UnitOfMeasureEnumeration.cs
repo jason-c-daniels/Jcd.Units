@@ -22,12 +22,12 @@ public abstract class UnitOfMeasureEnumeration<TEnumeration, T> : Enumeration<TE
       ByName = All.ToDictionary(u => u.Name);
       BySymbol = All.ToDictionary(u => u.Symbol);
    }
-   
+
    /// <summary>
    /// Looks up an enumerated unit of measure by name.
    /// </summary>
    public static IReadOnlyDictionary<string, T> ByName { get; }
-   
+
    /// <summary>
    /// Looks up an enumerated unit of measure by symbol.
    /// </summary>

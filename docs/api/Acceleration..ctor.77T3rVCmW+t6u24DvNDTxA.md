@@ -3,7 +3,7 @@
 
 ## Acceleration(string, string, Acceleration, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a  
+Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a
 reference.
 
 ```csharp

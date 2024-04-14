@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareQuectosecond Field
 
-thou per square quectosecond defined such that: foot per square rontosecond = th/qs² ×  
+thou per square quectosecond defined such that: foot per square rontosecond = th/qs² ×
 (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

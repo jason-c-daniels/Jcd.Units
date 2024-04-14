@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicCentimeter Field
 
-kilogram per cubic centimeter defined such that: kilogram per cubic decimeter = kg/cm³ ×  
+kilogram per cubic centimeter defined such that: kilogram per cubic decimeter = kg/cm³ ×
 (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

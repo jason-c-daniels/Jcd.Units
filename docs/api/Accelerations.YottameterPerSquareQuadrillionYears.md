@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareQuadrillionYears Field
 
-yottameter per square quadrillion years defined such that: zettameter per square trillion years = Ym/Pyr² ×  
+yottameter per square quadrillion years defined such that: zettameter per square trillion years = Ym/Pyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

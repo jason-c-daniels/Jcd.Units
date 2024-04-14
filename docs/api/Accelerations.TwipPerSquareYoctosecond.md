@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareYoctosecond Field
 
-twip per square yoctosecond defined such that: foot per square zeptosecond = twip/ys² ×  
+twip per square yoctosecond defined such that: foot per square zeptosecond = twip/ys² ×
 (1.0/17280.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

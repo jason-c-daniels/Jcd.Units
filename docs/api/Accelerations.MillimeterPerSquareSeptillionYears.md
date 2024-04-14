@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareSeptillionYears Field
 
-millimeter per square septillion years defined such that: centimeter per square sextillion years = mm/Yyr² ×  
+millimeter per square septillion years defined such that: centimeter per square sextillion years = mm/Yyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

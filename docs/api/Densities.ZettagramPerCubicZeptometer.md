@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicZeptometer Field
 
-zettagram per cubic zeptometer defined such that: exagram per cubic attometer = Zg/zm³ ×  
+zettagram per cubic zeptometer defined such that: exagram per cubic attometer = Zg/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

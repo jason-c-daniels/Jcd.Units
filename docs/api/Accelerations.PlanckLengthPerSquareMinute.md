@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareMinute Field
 
-planck-length per square minute defined such that: SI meter per square second = ℓₚ/min² ×  
+planck-length per square minute defined such that: SI meter per square second = ℓₚ/min² ×
 (1.616255E-35)/((60.0)*(60.0)).
 
 ```csharp

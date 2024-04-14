@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicZettameter Field
 
-metric ton per cubic zettameter defined such that: megagram per cubic exameter = mt/Zm³ ×  
+metric ton per cubic zettameter defined such that: megagram per cubic exameter = mt/Zm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

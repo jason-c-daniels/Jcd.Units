@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareMillionYears Field
 
-hectometer per square million years defined such that: dekameter per square millennium = hm/Myr² ×  
+hectometer per square million years defined such that: dekameter per square millennium = hm/Myr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

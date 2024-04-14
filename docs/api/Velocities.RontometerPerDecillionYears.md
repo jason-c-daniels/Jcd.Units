@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerDecillionYears Field
 
-rontometer per decillion years defined such that: yoctometer per nonillion years = rm/decillion yr ×  
+rontometer per decillion years defined such that: yoctometer per nonillion years = rm/decillion yr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

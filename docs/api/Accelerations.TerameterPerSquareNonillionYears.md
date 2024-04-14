@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareNonillionYears Field
 
-terameter per square nonillion years defined such that: gigameter per square octillion years = Tm/Qyr² ×  
+terameter per square nonillion years defined such that: gigameter per square octillion years = Tm/Qyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

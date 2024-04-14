@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicZettameter Field
 
-ronnagram per cubic zettameter defined such that: yottagram per cubic exameter = Rg/Zm³ ×  
+ronnagram per cubic zettameter defined such that: yottagram per cubic exameter = Rg/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

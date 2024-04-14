@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareZeptosecond Field
 
-point per square zeptosecond defined such that: inch per square attosecond = p/zs² ×  
+point per square zeptosecond defined such that: inch per square attosecond = p/zs² ×
 (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

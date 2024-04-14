@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareCentisecond Field
 
-hectometer per square centisecond defined such that: dekameter per square decisecond = hm/cs² ×  
+hectometer per square centisecond defined such that: dekameter per square decisecond = hm/cs² ×
 (10.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

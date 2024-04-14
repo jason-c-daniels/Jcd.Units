@@ -3,7 +3,7 @@
 
 ## Area Class
 
-A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the  
+A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the
 surface of a three-dimensional object...etc.
 
 ```csharp

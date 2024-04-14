@@ -18,7 +18,7 @@ public sealed class SelectSmallerUnit : IUnitSelectionStrategy
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
    public static readonly SelectSmallerUnit Instance = new();
-   
+
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
@@ -26,9 +26,9 @@ public sealed class SelectSmallerUnit : IUnitSelectionStrategy
    private SelectSmallerUnit()
    {
    }
-   
+
    #region IUnitSelectionStrategy Members
-   
+
    /// <summary>
    /// Selects the smaller of two units of measure.
    /// </summary>
@@ -44,6 +44,6 @@ public sealed class SelectSmallerUnit : IUnitSelectionStrategy
                 ? left
                 : right;
    }
-   
+
    #endregion
 }

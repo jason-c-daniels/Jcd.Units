@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicCentimeter Field
 
-petatonne per cubic centimeter defined such that: teratonne per cubic decimeter = Pt/cm³ ×  
+petatonne per cubic centimeter defined such that: teratonne per cubic decimeter = Pt/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicPicometer Field
 
-teratonne per cubic picometer defined such that: gigatonne per cubic nanometer = Tt/pm³ ×  
+teratonne per cubic picometer defined such that: gigatonne per cubic nanometer = Tt/pm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

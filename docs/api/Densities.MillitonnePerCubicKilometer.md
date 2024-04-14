@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicKilometer Field
 
-millitonne per cubic kilometer defined such that: centitonne per cubic hectometer = mt/km³ ×  
+millitonne per cubic kilometer defined such that: centitonne per cubic hectometer = mt/km³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

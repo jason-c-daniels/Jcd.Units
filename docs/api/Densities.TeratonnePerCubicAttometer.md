@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicAttometer Field
 
-teratonne per cubic attometer defined such that: gigatonne per cubic femtometer = Tt/am³ ×  
+teratonne per cubic attometer defined such that: gigatonne per cubic femtometer = Tt/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

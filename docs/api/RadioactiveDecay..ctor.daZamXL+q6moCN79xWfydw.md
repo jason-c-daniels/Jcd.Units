@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay(string, string, RadioactiveDecay, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another  
+Constructs a unit measuring a specified [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another
 [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') as a reference.
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicGigameter Field
 
-megatonne per cubic gigameter defined such that: kilotonne per cubic megameter = Mt/Gm³ ×  
+megatonne per cubic gigameter defined such that: kilotonne per cubic megameter = Mt/Gm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicPetameter Field
 
-zeptotonne per cubic petameter defined such that: attotonne per cubic terameter = zt/Pm³ ×  
+zeptotonne per cubic petameter defined such that: attotonne per cubic terameter = zt/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

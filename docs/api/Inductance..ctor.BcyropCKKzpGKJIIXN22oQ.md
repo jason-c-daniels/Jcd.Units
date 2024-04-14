@@ -3,7 +3,7 @@
 
 ## Inductance(string, string, Inductance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a  
+Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a
 reference.
 
 ```csharp

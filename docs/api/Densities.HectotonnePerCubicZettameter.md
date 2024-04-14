@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicZettameter Field
 
-hectotonne per cubic zettameter defined such that: dekatonne per cubic exameter = ht/Zm³ ×  
+hectotonne per cubic zettameter defined such that: dekatonne per cubic exameter = ht/Zm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

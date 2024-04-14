@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicRonnameter Field
 
-picogram per cubic ronnameter defined such that: nanogram per cubic yottameter = pg/Rm³ ×  
+picogram per cubic ronnameter defined such that: nanogram per cubic yottameter = pg/Rm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

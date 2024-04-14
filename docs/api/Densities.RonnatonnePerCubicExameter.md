@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicExameter Field
 
-ronnatonne per cubic exameter defined such that: yottatonne per cubic petameter = Rt/Em³ ×  
+ronnatonne per cubic exameter defined such that: yottatonne per cubic petameter = Rt/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

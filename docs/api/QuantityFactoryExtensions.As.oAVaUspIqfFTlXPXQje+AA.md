@@ -31,5 +31,5 @@ The [System.UInt64](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64 'S
 The unit of measure to use.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.oAVaUspIqfFTlXPXQje+AA.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisulong,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this ulong, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.oAVaUspIqfFTlXPXQje+AA.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisulong,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this ulong, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.

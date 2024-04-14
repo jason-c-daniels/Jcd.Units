@@ -16,7 +16,7 @@ Implements [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSel
 
 | Constructors | |
 | :--- | :--- |
-| [SelectFundamentalUnit()](SelectFundamentalUnit.SelectFundamentalUnit().md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectFundamentalUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC<br/>friendliness.) |
+| [SelectFundamentalUnit()](SelectFundamentalUnit.SelectFundamentalUnit().md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectFundamentalUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC friendliness.) |
 
 | Fields | |
 | :--- | :--- |

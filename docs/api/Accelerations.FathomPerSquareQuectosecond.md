@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareQuectosecond Field
 
-fathom per square quectosecond defined such that: foot per square rontosecond = ftm/qs² ×  
+fathom per square quectosecond defined such that: foot per square rontosecond = ftm/qs² ×
 (6.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

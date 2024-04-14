@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicZeptometer Field
 
-megagram per cubic zeptometer defined such that: kilogram per cubic attometer = Mg/zm³ ×  
+megagram per cubic zeptometer defined such that: kilogram per cubic attometer = Mg/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicQuectometer Field
 
-gram per cubic quectometer defined such that: dekagram per cubic rontometer = g/qm³ ×  
+gram per cubic quectometer defined such that: dekagram per cubic rontometer = g/qm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

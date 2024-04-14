@@ -26,7 +26,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [MicronewtonSecond](Momentums.MicronewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.MicronewtonSecond') | micronewton-second defined such that: millinewton-second = μN⋅s × 1.0/1000.0. |
 | [MillinewtonSecond](Momentums.MillinewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.MillinewtonSecond') | millinewton-second defined such that: centinewton-second = mN⋅s × 1.0/10.0. |
 | [NanonewtonSecond](Momentums.NanonewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.NanonewtonSecond') | nanonewton-second defined such that: micronewton-second = nN⋅s × 1.0/1000.0. |
-| [NewtonSecond](Momentums.NewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.NewtonSecond') | newton-second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this<br/>type.) |
+| [NewtonSecond](Momentums.NewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.NewtonSecond') | newton-second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
 | [PetanewtonSecond](Momentums.PetanewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.PetanewtonSecond') | petanewton-second defined such that: teranewton-second = PN⋅s × 1000.0. |
 | [PiconewtonSecond](Momentums.PiconewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.PiconewtonSecond') | piconewton-second defined such that: nanonewton-second = pN⋅s × 1.0/1000.0. |
 | [QuectonewtonSecond](Momentums.QuectonewtonSecond.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums.QuectonewtonSecond') | quectonewton-second defined such that: rontonewton-second = qN⋅s × 1.0/1000.0. |

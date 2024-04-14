@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareOctillionYears Field
 
-micrometer per square octillion years defined such that: millimeter per square septillion years = μm/Ryr² ×  
+micrometer per square octillion years defined such that: millimeter per square septillion years = μm/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

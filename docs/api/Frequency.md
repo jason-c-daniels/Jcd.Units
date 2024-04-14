@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Frequency(string, string, Frequency, double, double, IValueComparer&lt;double&gt;, string)](Frequency..ctor.xtRSrOrRwPHy6baHPhGmCg.md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, Jcd.Units.UnitTypes.Frequency, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a<br/>reference. |
+| [Frequency(string, string, Frequency, double, double, IValueComparer&lt;double&gt;, string)](Frequency..ctor.xtRSrOrRwPHy6baHPhGmCg.md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, Jcd.Units.UnitTypes.Frequency, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a reference. |

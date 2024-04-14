@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareFemtosecond Field
 
-zeptometer per square femtosecond defined such that: attometer per square picosecond = zm/fs² ×  
+zeptometer per square femtosecond defined such that: attometer per square picosecond = zm/fs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

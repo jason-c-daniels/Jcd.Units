@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicAttometer Field
 
-metric ton per cubic attometer defined such that: megagram per cubic femtometer = mt/am³ ×  
+metric ton per cubic attometer defined such that: megagram per cubic femtometer = mt/am³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicCentimeter Field
 
-picotonne per cubic centimeter defined such that: nanotonne per cubic decimeter = pt/cm³ ×  
+picotonne per cubic centimeter defined such that: nanotonne per cubic decimeter = pt/cm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

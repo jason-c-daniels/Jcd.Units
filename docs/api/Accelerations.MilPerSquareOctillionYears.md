@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareOctillionYears Field
 
-mil per square octillion years defined such that: inch per square septillion years = mil/Ryr² ×  
+mil per square octillion years defined such that: inch per square septillion years = mil/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

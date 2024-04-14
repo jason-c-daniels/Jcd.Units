@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicYoctometer Field
 
-teragram per cubic yoctometer defined such that: gigagram per cubic zeptometer = Tg/ym³ ×  
+teragram per cubic yoctometer defined such that: gigagram per cubic zeptometer = Tg/ym³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -17,5 +17,5 @@ public static ValueTuple<double,double> SinCos(Jcd.Units.Quantity<Jcd.Units.Unit
 The angle, in any unit of measure for [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.Angles').
 
 #### Returns
-[System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')  
+[System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')
 The hyperbolic sine of the specified angle.

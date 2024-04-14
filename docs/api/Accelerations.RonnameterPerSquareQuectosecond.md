@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareQuectosecond Field
 
-ronnameter per square quectosecond defined such that: yottameter per square rontosecond = Rm/qs² ×  
+ronnameter per square quectosecond defined such that: yottameter per square rontosecond = Rm/qs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

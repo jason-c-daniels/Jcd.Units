@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicZeptometer Field
 
-picogram per cubic zeptometer defined such that: nanogram per cubic attometer = pg/zm³ ×  
+picogram per cubic zeptometer defined such that: nanogram per cubic attometer = pg/zm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

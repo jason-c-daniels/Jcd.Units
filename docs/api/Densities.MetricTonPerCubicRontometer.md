@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicRontometer Field
 
-metric ton per cubic rontometer defined such that: megagram per cubic yoctometer = mt/rm³ ×  
+metric ton per cubic rontometer defined such that: megagram per cubic yoctometer = mt/rm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

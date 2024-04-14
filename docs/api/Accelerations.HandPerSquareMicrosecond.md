@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareMicrosecond Field
 
-hand per square microsecond defined such that: inch per square millisecond = hh/μs² ×  
+hand per square microsecond defined such that: inch per square millisecond = hh/μs² ×
 (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

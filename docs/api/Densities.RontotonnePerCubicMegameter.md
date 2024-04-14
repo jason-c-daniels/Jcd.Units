@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicMegameter Field
 
-rontotonne per cubic megameter defined such that: yoctotonne per cubic kilometer = rt/Mm³ ×  
+rontotonne per cubic megameter defined such that: yoctotonne per cubic kilometer = rt/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

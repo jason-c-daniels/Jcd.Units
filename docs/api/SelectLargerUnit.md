@@ -16,7 +16,7 @@ Implements [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSel
 
 | Constructors | |
 | :--- | :--- |
-| [SelectLargerUnit()](SelectLargerUnit.SelectLargerUnit().md 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectLargerUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLargerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLargerUnit.Instance') enforcing GC<br/>friendliness.) |
+| [SelectLargerUnit()](SelectLargerUnit.SelectLargerUnit().md 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectLargerUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectLargerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLargerUnit.Instance') enforcing GC friendliness.) |
 
 | Fields | |
 | :--- | :--- |

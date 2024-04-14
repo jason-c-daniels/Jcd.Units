@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareQuectosecond Field
 
-gigameter per square quectosecond defined such that: megameter per square rontosecond = Gm/qs² ×  
+gigameter per square quectosecond defined such that: megameter per square rontosecond = Gm/qs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareDecillionYears Field
 
-quectometer per square decillion years defined such that: rontometer per square nonillion years = qm/decillion yr² ×  
+quectometer per square decillion years defined such that: rontometer per square nonillion years = qm/decillion yr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

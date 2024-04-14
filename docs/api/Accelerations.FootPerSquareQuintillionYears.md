@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareQuintillionYears Field
 
-foot per square quintillion years defined such that: inch per square quadrillion years = ft/Eyr² ×  
+foot per square quintillion years defined such that: inch per square quadrillion years = ft/Eyr² ×
 (12)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareCentisecond Field
 
-rontometer per square centisecond defined such that: yoctometer per square decisecond = rm/cs² ×  
+rontometer per square centisecond defined such that: yoctometer per square decisecond = rm/cs² ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

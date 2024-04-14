@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareAttosecond Field
 
-mil per square attosecond defined such that: inch per square femtosecond = mil/as² ×  
+mil per square attosecond defined such that: inch per square femtosecond = mil/as² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

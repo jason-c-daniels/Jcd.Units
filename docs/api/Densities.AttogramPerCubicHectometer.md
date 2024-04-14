@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicHectometer Field
 
-attogram per cubic hectometer defined such that: femtogram per cubic dekameter = ag/hm³ ×  
+attogram per cubic hectometer defined such that: femtogram per cubic dekameter = ag/hm³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

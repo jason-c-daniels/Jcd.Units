@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareSextillionYears Field
 
-link per square sextillion years defined such that: SI meter per square quintillion years = li/Zyr² ×  
+link per square sextillion years defined such that: SI meter per square quintillion years = li/Zyr² ×
 (0.20116)/((1000.0)*(1000.0)).
 
 ```csharp

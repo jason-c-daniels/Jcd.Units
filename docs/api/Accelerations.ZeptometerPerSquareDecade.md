@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareDecade Field
 
-zeptometer per square decade defined such that: attometer per square year = zm/decade² ×  
+zeptometer per square decade defined such that: attometer per square year = zm/decade² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

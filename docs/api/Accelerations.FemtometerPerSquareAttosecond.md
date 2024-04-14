@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareAttosecond Field
 
-femtometer per square attosecond defined such that: picometer per square femtosecond = fm/as² ×  
+femtometer per square attosecond defined such that: picometer per square femtosecond = fm/as² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

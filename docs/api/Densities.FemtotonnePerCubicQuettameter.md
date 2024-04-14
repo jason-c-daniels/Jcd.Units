@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicQuettameter Field
 
-femtotonne per cubic quettameter defined such that: picotonne per cubic ronnameter = ft/Qm³ ×  
+femtotonne per cubic quettameter defined such that: picotonne per cubic ronnameter = ft/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

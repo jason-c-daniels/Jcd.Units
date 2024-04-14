@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicZettameter Field
 
-quettagram per cubic zettameter defined such that: ronnagram per cubic exameter = Qg/Zm³ ×  
+quettagram per cubic zettameter defined such that: ronnagram per cubic exameter = Qg/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

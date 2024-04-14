@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareFemtosecond Field
 
-petameter per square femtosecond defined such that: terameter per square picosecond = Pm/fs² ×  
+petameter per square femtosecond defined such that: terameter per square picosecond = Pm/fs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

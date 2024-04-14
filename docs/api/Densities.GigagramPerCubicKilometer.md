@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicKilometer Field
 
-gigagram per cubic kilometer defined such that: megagram per cubic hectometer = Gg/km³ ×  
+gigagram per cubic kilometer defined such that: megagram per cubic hectometer = Gg/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

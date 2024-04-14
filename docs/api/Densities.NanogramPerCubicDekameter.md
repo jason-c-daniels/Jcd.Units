@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicDekameter Field
 
-nanogram per cubic dekameter defined such that: microgram per cubic meter = ng/dam³ ×  
+nanogram per cubic dekameter defined such that: microgram per cubic meter = ng/dam³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -18,41 +18,41 @@ Jcd.Units.IUnitOfMeasure<TUnit>
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; UnitOfMeasure<TUnit>
 
-Derived  
-&#8627; [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')  
-&#8627; [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')  
-&#8627; [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')  
-&#8627; [Area](Area.md 'Jcd.Units.UnitTypes.Area')  
-&#8627; [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')  
-&#8627; [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')  
-&#8627; [Density](Density.md 'Jcd.Units.UnitTypes.Density')  
-&#8627; [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')  
-&#8627; [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')  
-&#8627; [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')  
-&#8627; [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')  
-&#8627; [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')  
-&#8627; [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy')  
-&#8627; [Force](Force.md 'Jcd.Units.UnitTypes.Force')  
-&#8627; [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency')  
-&#8627; [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')  
-&#8627; [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance')  
-&#8627; [Length](Length.md 'Jcd.Units.UnitTypes.Length')  
-&#8627; [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')  
-&#8627; [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')  
-&#8627; [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')  
-&#8627; [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')  
-&#8627; [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')  
-&#8627; [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')  
-&#8627; [Power](Power.md 'Jcd.Units.UnitTypes.Power')  
-&#8627; [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')  
-&#8627; [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')  
-&#8627; [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')  
-&#8627; [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')  
-&#8627; [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance')  
-&#8627; [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage')  
-&#8627; [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')  
-&#8627; [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')  
-&#8627; [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')  
+Derived
+&#8627; [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
+&#8627; [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')
+&#8627; [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')
+&#8627; [Area](Area.md 'Jcd.Units.UnitTypes.Area')
+&#8627; [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
+&#8627; [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
+&#8627; [Density](Density.md 'Jcd.Units.UnitTypes.Density')
+&#8627; [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')
+&#8627; [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
+&#8627; [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
+&#8627; [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
+&#8627; [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
+&#8627; [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy')
+&#8627; [Force](Force.md 'Jcd.Units.UnitTypes.Force')
+&#8627; [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency')
+&#8627; [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
+&#8627; [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance')
+&#8627; [Length](Length.md 'Jcd.Units.UnitTypes.Length')
+&#8627; [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
+&#8627; [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
+&#8627; [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
+&#8627; [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
+&#8627; [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')
+&#8627; [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
+&#8627; [Power](Power.md 'Jcd.Units.UnitTypes.Power')
+&#8627; [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')
+&#8627; [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')
+&#8627; [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
+&#8627; [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
+&#8627; [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance')
+&#8627; [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage')
+&#8627; [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')
+&#8627; [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')
+&#8627; [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
 &#8627; [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
 
 Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
@@ -69,7 +69,7 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | [BaseUnitOffset](UnitOfMeasure_TUnit_.BaseUnitOffset.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnitOffset') | The Offset used when initializing the unit of measure with a base unit of measure. |
 | [Coefficient](UnitOfMeasure_TUnit_.Coefficient.md 'Jcd.Units.UnitOfMeasure<TUnit>.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
 | [Comparer](UnitOfMeasure_TUnit_.Comparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.Comparer') | The [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons: where `T` is a [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double'). |
-| [DefaultDoubleComparer](UnitOfMeasure_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by units of measure for this particular unit of<br/>measure type. (e.g. lengths.) |
+| [DefaultDoubleComparer](UnitOfMeasure_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by units of measure for this particular unit of measure type. (e.g. lengths.) |
 | [FundamentalUnit](UnitOfMeasure_TUnit_.FundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.FundamentalUnit') | The unit of measure all others are represented in terms of. |
 | [IsFundamentalUnit](UnitOfMeasure_TUnit_.IsFundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.IsFundamentalUnit') | Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0) |
 | [Name](UnitOfMeasure_TUnit_.Name.md 'Jcd.Units.UnitOfMeasure<TUnit>.Name') | The name of this unit |
@@ -91,7 +91,7 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 
 | Operators | |
 | :--- | :--- |
-| [operator &gt;(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_GreaterThan.1PaSrFoiJTo7T+c0lAAktg.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_GreaterThan(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than the right<br/>one. |
-| [operator &gt;=(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_GreaterThanOrEqual.R0d08Sda2xz912fn6sSwOA.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_GreaterThanOrEqual(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than or equal to<br/>the right one. |
+| [operator &gt;(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_GreaterThan.1PaSrFoiJTo7T+c0lAAktg.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_GreaterThan(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than the right one. |
+| [operator &gt;=(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_GreaterThanOrEqual.R0d08Sda2xz912fn6sSwOA.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_GreaterThanOrEqual(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than or equal to the right one. |
 | [operator &lt;(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_LessThan.Ryf2wTvfKjdlLuccqhkM/Q.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_LessThan(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is less than the right one. |
-| [operator &lt;=(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_LessThanOrEqual.Rl+XHHuF6mR/6riB7FSvUg.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_LessThanOrEqual(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is less than or equal to the<br/>right one. |
+| [operator &lt;=(UnitOfMeasure&lt;TUnit&gt;, UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.op_LessThanOrEqual.Rl+XHHuF6mR/6riB7FSvUg.md 'Jcd.Units.UnitOfMeasure<TUnit>.op_LessThanOrEqual(Jcd.Units.UnitOfMeasure<TUnit>, Jcd.Units.UnitOfMeasure<TUnit>)') | Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is less than or equal to the right one. |

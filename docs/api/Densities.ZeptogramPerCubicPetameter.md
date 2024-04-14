@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicPetameter Field
 
-zeptogram per cubic petameter defined such that: attogram per cubic terameter = zg/Pm³ ×  
+zeptogram per cubic petameter defined such that: attogram per cubic terameter = zg/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

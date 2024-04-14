@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicRontometer Field
 
-petatonne per cubic rontometer defined such that: teratonne per cubic yoctometer = Pt/rm³ ×  
+petatonne per cubic rontometer defined such that: teratonne per cubic yoctometer = Pt/rm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

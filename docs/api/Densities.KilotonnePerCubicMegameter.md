@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicMegameter Field
 
-kilotonne per cubic megameter defined such that: hectotonne per cubic kilometer = kt/Mm³ ×  
+kilotonne per cubic megameter defined such that: hectotonne per cubic kilometer = kt/Mm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

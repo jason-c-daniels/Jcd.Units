@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicQuectometer Field
 
-nanogram per cubic quectometer defined such that: microgram per cubic rontometer = ng/qm³ ×  
+nanogram per cubic quectometer defined such that: microgram per cubic rontometer = ng/qm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

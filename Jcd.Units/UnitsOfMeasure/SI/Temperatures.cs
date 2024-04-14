@@ -22,7 +22,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
    /// type.)
    /// </summary>
    public static readonly Temperature DegreesCelsius = new("degrees celsius", "°C", system: "SI");
-   
+
    /// <summary>
    /// degrees kelvin defined such that: degrees celsius = °K + -273.15
    /// </summary>

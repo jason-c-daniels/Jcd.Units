@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareDecillionYears Field
 
-fathom per square decillion years defined such that: foot per square nonillion years = ftm/decillion yr² ×  
+fathom per square decillion years defined such that: foot per square nonillion years = ftm/decillion yr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

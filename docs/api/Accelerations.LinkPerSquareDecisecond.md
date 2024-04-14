@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareDecisecond Field
 
-link per square decisecond defined such that: SI meter per square second = li/ds² ×  
+link per square decisecond defined such that: SI meter per square second = li/ds² ×
 (0.20116)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

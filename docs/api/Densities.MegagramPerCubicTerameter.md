@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicTerameter Field
 
-megagram per cubic terameter defined such that: kilogram per cubic gigameter = Mg/Tm³ ×  
+megagram per cubic terameter defined such that: kilogram per cubic gigameter = Mg/Tm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

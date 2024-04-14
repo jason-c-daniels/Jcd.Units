@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicRonnameter Field
 
-attogram per cubic ronnameter defined such that: femtogram per cubic yottameter = ag/Rm³ ×  
+attogram per cubic ronnameter defined such that: femtogram per cubic yottameter = ag/Rm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

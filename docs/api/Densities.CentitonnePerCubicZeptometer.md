@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicZeptometer Field
 
-centitonne per cubic zeptometer defined such that: decitonne per cubic attometer = ct/zm³ ×  
+centitonne per cubic zeptometer defined such that: decitonne per cubic attometer = ct/zm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

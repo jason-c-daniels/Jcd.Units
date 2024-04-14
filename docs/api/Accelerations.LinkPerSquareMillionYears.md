@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareMillionYears Field
 
-link per square million years defined such that: SI meter per square millennium = li/Myr² ×  
+link per square million years defined such that: SI meter per square millennium = li/Myr² ×
 (0.20116)/((1000.0)*(1000.0)).
 
 ```csharp

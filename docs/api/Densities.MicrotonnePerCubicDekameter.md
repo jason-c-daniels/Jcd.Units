@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicDekameter Field
 
-microtonne per cubic dekameter defined such that: millitonne per cubic meter = μt/dam³ ×  
+microtonne per cubic dekameter defined such that: millitonne per cubic meter = μt/dam³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

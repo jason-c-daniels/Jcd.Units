@@ -3,7 +3,7 @@
 
 ## Momentums.NewtonSecond Field
 
-newton-second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this  
+newton-second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this
 type.)
 
 ```csharp

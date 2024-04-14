@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareZeptosecond Field
 
-cable per square zeptosecond defined such that: fathom per square attosecond = cable/zs² ×  
+cable per square zeptosecond defined such that: fathom per square attosecond = cable/zs² ×
 (100.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

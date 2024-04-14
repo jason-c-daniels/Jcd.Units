@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareMicrosecond Field
 
-foot per square microsecond defined such that: inch per square millisecond = ft/μs² ×  
+foot per square microsecond defined such that: inch per square millisecond = ft/μs² ×
 (12)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

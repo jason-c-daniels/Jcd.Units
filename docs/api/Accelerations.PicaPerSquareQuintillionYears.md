@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareQuintillionYears Field
 
-pica per square quintillion years defined such that: point per square quadrillion years = P/Eyr² ×  
+pica per square quintillion years defined such that: point per square quadrillion years = P/Eyr² ×
 (12.0)/((1000.0)*(1000.0)).
 
 ```csharp

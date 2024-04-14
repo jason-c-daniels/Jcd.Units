@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareCentury Field
 
-centimeter per square century defined such that: decimeter per square decade = cm/century² ×  
+centimeter per square century defined such that: decimeter per square decade = cm/century² ×
 (1.0/10.0)/((10.0)*(10.0)).
 
 ```csharp

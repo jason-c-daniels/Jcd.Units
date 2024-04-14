@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicCentimeter Field
 
-megagram per cubic centimeter defined such that: kilogram per cubic decimeter = Mg/cm³ ×  
+megagram per cubic centimeter defined such that: kilogram per cubic decimeter = Mg/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

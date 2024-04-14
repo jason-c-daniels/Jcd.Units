@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicRontometer Field
 
-petagram per cubic rontometer defined such that: teragram per cubic yoctometer = Pg/rm³ ×  
+petagram per cubic rontometer defined such that: teragram per cubic yoctometer = Pg/rm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

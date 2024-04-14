@@ -3,7 +3,7 @@
 
 ## BuiltInRoundingComparer(int, MidpointRounding) Constructor
 
-Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding  
+Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding
 method.
 
 ```csharp

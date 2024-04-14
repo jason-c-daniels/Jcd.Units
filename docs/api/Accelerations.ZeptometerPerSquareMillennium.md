@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareMillennium Field
 
-zeptometer per square millennium defined such that: attometer per square century = zm/kyr² ×  
+zeptometer per square millennium defined such that: attometer per square century = zm/kyr² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

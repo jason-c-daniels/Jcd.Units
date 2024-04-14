@@ -12,7 +12,7 @@ namespace Jcd.Units.Tests;
 public class QuantityTests : TestBase
 {
    #region Constructor Tests
-   
+
    [Theory]
    [InlineData(2.3141d,  nameof(UnitOfMeasure1Units.BaseUnit))]
    [InlineData(-2.3141d, nameof(UnitOfMeasure1Units.BaseUnit))]
@@ -24,23 +24,23 @@ public class QuantityTests : TestBase
    {
       var unit = TestUnitProvider.GetUnit(unitName);
       var mockComparer = new Mock<IValueComparer<double>>();
-      
+
       var sut1 = new Quantity<UnitOfMeasure1>(value, unit);
-      
+
       Assert.Equal(unit,  sut1.Unit);
       Assert.Equal(value, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
-      
+
       var sut2 = new Quantity<UnitOfMeasure1>(value, unit, mockComparer.Object);
-      
+
       Assert.Equal(unit,  sut2.Unit);
       Assert.Equal(value, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    #endregion
-   
+
    #region Explicit Conversion Tests
-   
+
    [Theory]
    [InlineData(1d           * 5)]
    [InlineData(1.3d         * 10)]
@@ -52,11 +52,11 @@ public class QuantityTests : TestBase
       var q = expectedValue.As(Temperatures.DegreesKelvin);
       Assert.Equal(expectedValue, (double) q);
    }
-   
+
    #endregion
-   
+
    #region Unary operator tests
-   
+
    [Theory]
    [InlineData(2.3141d,  nameof(UnitOfMeasure1Units.BaseUnit))]
    [InlineData(-2.3141d, nameof(UnitOfMeasure1Units.BaseUnit))]
@@ -68,16 +68,16 @@ public class QuantityTests : TestBase
    {
       var unit = TestUnitProvider.GetUnit(unitName);
       var mockComparer = new Mock<IValueComparer<double>>();
-      
+
       var sut = new Quantity<UnitOfMeasure1>(value, unit, mockComparer.Object);
-      
+
       var res = +sut;
-      
+
       Assert.Equal(unit,  res.Unit);
       Assert.Equal(value, res.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, res.Comparer);
    }
-   
+
    [Theory]
    [InlineData(2.3141d,  nameof(UnitOfMeasure1Units.BaseUnit))]
    [InlineData(-2.3141d, nameof(UnitOfMeasure1Units.BaseUnit))]
@@ -90,16 +90,16 @@ public class QuantityTests : TestBase
       var expectedValue = -value;
       var unit = TestUnitProvider.GetUnit(unitName);
       var mockComparer = new Mock<IValueComparer<double>>();
-      
+
       var sut = new Quantity<UnitOfMeasure1>(value, unit, mockComparer.Object);
-      
+
       var res = -sut;
-      
+
       Assert.Equal(unit,          res.Unit);
       Assert.Equal(expectedValue, res.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, res.Comparer);
    }
-   
+
    [Theory]
    [InlineData(2.3141d,  nameof(UnitOfMeasure1Units.BaseUnit))]
    [InlineData(-2.3141d, nameof(UnitOfMeasure1Units.BaseUnit))]
@@ -112,21 +112,21 @@ public class QuantityTests : TestBase
       var expectedValue = value + 1;
       var unit = TestUnitProvider.GetUnit(unitName);
       var mockComparer = new Mock<IValueComparer<double>>();
-      
+
       var sut = new Quantity<UnitOfMeasure1>(value, unit, mockComparer.Object);
-      
+
       sut++;
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
-      
+
       ++sut;
       expectedValue++;
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    [Theory]
    [InlineData(2.3141d,  nameof(UnitOfMeasure1Units.BaseUnit))]
    [InlineData(-2.3141d, nameof(UnitOfMeasure1Units.BaseUnit))]
@@ -139,25 +139,25 @@ public class QuantityTests : TestBase
       var expectedValue = value - 1;
       var unit = TestUnitProvider.GetUnit(unitName);
       var mockComparer = new Mock<IValueComparer<double>>();
-      
+
       var sut = new Quantity<UnitOfMeasure1>(value, unit, mockComparer.Object);
-      
+
       sut--;
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
-      
+
       --sut;
       expectedValue--;
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    #endregion
-   
+
    #region op_Addition Tests
-   
+
    [Theory]
    [InlineData(nameof(UnitOfMeasure1Units.BaseUnit),     1,   0)]
    [InlineData(nameof(UnitOfMeasure1Units.DerivedUnit1), 2.1, 3.3)]
@@ -166,17 +166,17 @@ public class QuantityTests : TestBase
       var expectedValue = xValue + yValue;
       var mockComparer = new Mock<IValueComparer<double>>();
       var unit = TestUnitProvider.GetUnit(unitName);
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, unit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, unit, mockComparer.Object);
-      
+
       var sut = x + y;
-      
+
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
@@ -184,34 +184,34 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var xUnit1 = TestUnitProvider.DerivedUnitX10;
       var yUnit1 = TestUnitProvider.DerivedUnitX100;
       var expectedValue1 = xValue / 10 + yValue;
-      
+
       var x1 = new Quantity<UnitOfMeasure1>(xValue, xUnit1, mockComparer.Object);
       var y1 = new Quantity<UnitOfMeasure1>(yValue, yUnit1, mockComparer.Object);
-      
+
       var sut1 = x1 + y1;
-      
+
       Assert.Equal(expectedUnit,   sut1.Unit);
       Assert.Equal(expectedValue1, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var xUnit2 = TestUnitProvider.DerivedUnitX100;
       var yUnit2 = TestUnitProvider.DerivedUnitX10;
       var expectedValue2 = xValue + yValue / 10;
-      
+
       var x2 = new Quantity<UnitOfMeasure1>(xValue, xUnit2, mockComparer.Object);
       var y2 = new Quantity<UnitOfMeasure1>(yValue, yUnit2, mockComparer.Object);
-      
+
       var sut2 = x2 + y2;
-      
+
       Assert.Equal(expectedUnit,   sut2.Unit);
       Assert.Equal(expectedValue2, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
@@ -219,25 +219,25 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var expectedValue = xValue + yValue;
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, expectedUnit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, expectedUnit, mockComparer.Object);
-      
+
       var sut1 = x + yValue;
-      
+
       Assert.Equal(expectedUnit,  sut1.Unit);
       Assert.Equal(expectedValue, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var sut2 = xValue + y;
-      
+
       Assert.Equal(expectedUnit,  sut2.Unit);
       Assert.Equal(expectedValue, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Fact]
    public void op_Addition_When_Global_ForArithmetic_Is_Set_Returns_Expected_Unit()
    {
@@ -249,7 +249,7 @@ public class QuantityTests : TestBase
       var r2 = q2 + r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    [Fact]
    public void op_Addition_When_Quantity_ArithmeticUnitSelector_Is_Set_Returns_Expected_Unit()
    {
@@ -261,11 +261,11 @@ public class QuantityTests : TestBase
       var r2 = q2 + r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    #endregion
-   
+
    #region op_Subtraction Tests
-   
+
    [Theory]
    [InlineData(nameof(UnitOfMeasure1Units.BaseUnit),     1,   0)]
    [InlineData(nameof(UnitOfMeasure1Units.DerivedUnit1), 2.1, 3.3)]
@@ -274,17 +274,17 @@ public class QuantityTests : TestBase
       var expectedValue = xValue - yValue;
       var mockComparer = new Mock<IValueComparer<double>>();
       var unit = TestUnitProvider.GetUnit(unitName);
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, unit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, unit, mockComparer.Object);
-      
+
       var sut = x - y;
-      
+
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
@@ -292,34 +292,34 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var xUnit1 = TestUnitProvider.DerivedUnitX10;
       var yUnit1 = TestUnitProvider.DerivedUnitX100;
       var expectedValue1 = xValue / 10 - yValue;
-      
+
       var x1 = new Quantity<UnitOfMeasure1>(xValue, xUnit1, mockComparer.Object);
       var y1 = new Quantity<UnitOfMeasure1>(yValue, yUnit1, mockComparer.Object);
-      
+
       var sut1 = x1 - y1;
-      
+
       Assert.Equal(expectedUnit,   sut1.Unit);
       Assert.Equal(expectedValue1, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var xUnit2 = TestUnitProvider.DerivedUnitX100;
       var yUnit2 = TestUnitProvider.DerivedUnitX10;
       var expectedValue2 = xValue - yValue / 10;
-      
+
       var x2 = new Quantity<UnitOfMeasure1>(xValue, xUnit2, mockComparer.Object);
       var y2 = new Quantity<UnitOfMeasure1>(yValue, yUnit2, mockComparer.Object);
-      
+
       var sut2 = x2 - y2;
-      
+
       Assert.Equal(expectedUnit,   sut2.Unit);
       Assert.Equal(expectedValue2, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
@@ -327,25 +327,25 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var expectedValue = xValue - yValue;
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, expectedUnit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, expectedUnit, mockComparer.Object);
-      
+
       var sut1 = x - yValue;
-      
+
       Assert.Equal(expectedUnit,  sut1.Unit);
       Assert.Equal(expectedValue, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var sut2 = xValue - y;
-      
+
       Assert.Equal(expectedUnit,  sut2.Unit);
       Assert.Equal(expectedValue, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Fact]
    public void op_Subtraction_When_Global_ForArithmetic_Is_Set_Returns_Expected_Unit()
    {
@@ -357,7 +357,7 @@ public class QuantityTests : TestBase
       var r2 = q2 - r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    [Fact]
    public void op_Subtraction_When_Quantity_ArithmeticUnitSelector_Is_Set_Returns_Expected_Unit()
    {
@@ -369,11 +369,11 @@ public class QuantityTests : TestBase
       var r2 = q2 - r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    #endregion
-   
+
    #region op_Multiply Tests
-   
+
    [Theory]
    [InlineData(nameof(UnitOfMeasure1Units.BaseUnit),     1,   0)]
    [InlineData(nameof(UnitOfMeasure1Units.DerivedUnit1), 2.1, 3.3)]
@@ -382,51 +382,51 @@ public class QuantityTests : TestBase
       var expectedValue = xValue * yValue;
       var mockComparer = new Mock<IValueComparer<double>>();
       var unit = TestUnitProvider.GetUnit(unitName);
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, unit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, unit, mockComparer.Object);
-      
+
       var sut = x * y;
-      
+
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
    public void op_Multiply_When_Both_X_And_Y_Are_Different_Unit_Returns_The_Expected_Value_In_The_Larger_Unit(double xValue, double yValue)
    {
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var xUnit1 = TestUnitProvider.DerivedUnitX10;
       var yUnit1 = TestUnitProvider.DerivedUnitX100;
       var expectedValue1 = xValue / 10 * yValue;
-      
+
       var x1 = new Quantity<UnitOfMeasure1>(xValue, xUnit1, TestUnitProvider.SixDecimalPlacesComparer);
       var y1 = new Quantity<UnitOfMeasure1>(yValue, yUnit1, TestUnitProvider.SixDecimalPlacesComparer);
-      
+
       var sut1 = x1 * y1;
-      
+
       Assert.Equal(expectedUnit,   sut1.Unit);
       Assert.Equal(expectedValue1, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(TestUnitProvider.SixDecimalPlacesComparer, sut1.Comparer);
-      
+
       var xUnit2 = TestUnitProvider.DerivedUnitX100;
       var yUnit2 = TestUnitProvider.DerivedUnitX10;
       var expectedValue2 = xValue * (yValue / 10);
-      
+
       var x2 = new Quantity<UnitOfMeasure1>(xValue, xUnit2, TestUnitProvider.SixDecimalPlacesComparer);
       var y2 = new Quantity<UnitOfMeasure1>(yValue, yUnit2, TestUnitProvider.SixDecimalPlacesComparer);
-      
+
       var sut2 = x2 * y2;
-      
+
       Assert.Equal(expectedUnit,   sut2.Unit);
       Assert.Equal(expectedValue2, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(TestUnitProvider.SixDecimalPlacesComparer, sut2.Comparer);
    }
-   
+
    [Theory]
    [InlineData(1,   0)]
    [InlineData(2.1, 3.3)]
@@ -434,25 +434,25 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var expectedValue = xValue * yValue;
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, expectedUnit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, expectedUnit, mockComparer.Object);
-      
+
       var sut1 = x * yValue;
-      
+
       Assert.Equal(expectedUnit,  sut1.Unit);
       Assert.Equal(expectedValue, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var sut2 = xValue * y;
-      
+
       Assert.Equal(expectedUnit,  sut2.Unit);
       Assert.Equal(expectedValue, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Fact]
    public void op_Multiply_When_Global_ForArithmetic_Is_Set_Returns_Expected_Unit()
    {
@@ -464,7 +464,7 @@ public class QuantityTests : TestBase
       var r2 = q2 * r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    [Fact]
    public void op_Multiply_When_Quantity_ArithmeticUnitSelector_Is_Set_Returns_Expected_Unit()
    {
@@ -476,11 +476,11 @@ public class QuantityTests : TestBase
       var r2 = q2 * r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    #endregion
-   
+
    #region op_Division Tests
-   
+
    [Theory]
    [InlineData(nameof(UnitOfMeasure1Units.BaseUnit),     3,   7)]
    [InlineData(nameof(UnitOfMeasure1Units.DerivedUnit1), 2.1, 3.3)]
@@ -489,51 +489,51 @@ public class QuantityTests : TestBase
       var expectedValue = xValue / yValue;
       var mockComparer = new Mock<IValueComparer<double>>();
       var unit = TestUnitProvider.GetUnit(unitName);
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, unit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, unit, mockComparer.Object);
-      
+
       var sut = x / y;
-      
+
       Assert.Equal(unit,          sut.Unit);
       Assert.Equal(expectedValue, sut.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut.Comparer);
    }
-   
+
    [Theory]
    [InlineData(3,   7)]
    [InlineData(2.1, 3.3)]
    public void op_Division_When_Both_X_And_Y_Are_Different_Unit_Returns_The_Expected_Value_In_The_Larger_Unit(double xValue, double yValue)
    {
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var xUnit1 = TestUnitProvider.DerivedUnitX10;
       var yUnit1 = TestUnitProvider.DerivedUnitX100;
       var expectedValue1 = xValue / 10 / yValue;
-      
+
       var x1 = new Quantity<UnitOfMeasure1>(xValue, xUnit1, TestUnitProvider.SixDecimalPlacesComparer);
       var y1 = new Quantity<UnitOfMeasure1>(yValue, yUnit1, TestUnitProvider.SixDecimalPlacesComparer);
-      
+
       var sut1 = x1 / y1;
-      
+
       Assert.Equal(expectedUnit,   sut1.Unit);
       Assert.Equal(expectedValue1, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(TestUnitProvider.SixDecimalPlacesComparer, sut1.Comparer);
-      
+
       var xUnit2 = TestUnitProvider.DerivedUnitX100;
       var yUnit2 = TestUnitProvider.DerivedUnitX10;
       var expectedValue2 = xValue / (yValue / 10);
-      
+
       var x2 = new Quantity<UnitOfMeasure1>(xValue, xUnit2, TestUnitProvider.SixDecimalPlacesComparer);
       var y2 = new Quantity<UnitOfMeasure1>(yValue, yUnit2, TestUnitProvider.SixDecimalPlacesComparer);
-      
+
       var sut2 = x2 / y2;
-      
+
       Assert.Equal(expectedUnit,   sut2.Unit);
       Assert.Equal(expectedValue2, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(TestUnitProvider.SixDecimalPlacesComparer, sut2.Comparer);
    }
-   
+
    [Theory]
    [InlineData(3,   7)]
    [InlineData(2.1, 3.3)]
@@ -541,25 +541,25 @@ public class QuantityTests : TestBase
    {
       var mockComparer = new Mock<IValueComparer<double>>();
       var expectedUnit = TestUnitProvider.DerivedUnitX100;
-      
+
       var expectedValue = xValue / yValue;
-      
+
       var x = new Quantity<UnitOfMeasure1>(xValue, expectedUnit, mockComparer.Object);
       var y = new Quantity<UnitOfMeasure1>(yValue, expectedUnit, mockComparer.Object);
-      
+
       var sut1 = x / yValue;
-      
+
       Assert.Equal(expectedUnit,  sut1.Unit);
       Assert.Equal(expectedValue, sut1.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut1.Comparer);
-      
+
       var sut2 = xValue / y;
-      
+
       Assert.Equal(expectedUnit,  sut2.Unit);
       Assert.Equal(expectedValue, sut2.RawValue, TestUnitProvider.SixDecimalPlacesComparer);
       Assert.Same(mockComparer.Object, sut2.Comparer);
    }
-   
+
    [Fact]
    public void op_Division_When_Global_ForArithmetic_Is_Set_Returns_Expected_Unit()
    {
@@ -571,7 +571,7 @@ public class QuantityTests : TestBase
       var r2 = q2 / r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    [Fact]
    public void op_Division_When_Quantity_ArithmeticUnitSelector_Is_Set_Returns_Expected_Unit()
    {
@@ -583,11 +583,11 @@ public class QuantityTests : TestBase
       var r2 = q2 / r1;
       Assert.Equal(q2.Unit, r2.Unit);
    }
-   
+
    #endregion
-   
+
    #region Equality Member Tests
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     true)]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   false)]
@@ -604,13 +604,13 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue, x.Equals(y));
       Assert.Equal(expectedValue, y.Equals(x));
       Assert.Equal(expectedValue, x == y);
       Assert.Equal(expectedValue, y == x);
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     true)]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   false)]
@@ -627,16 +627,16 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       var hc1 = x.GetHashCode();
       var hc2 = y.GetHashCode();
       Assert.Equal(expectEqualHashCodes, hc1 == hc2);
    }
-   
+
    #endregion
-   
+
    #region Relational Operator/Member Tests
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     0)]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   -1)]
@@ -657,17 +657,17 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue,      x.CompareTo(y));
       Assert.Equal(-1 * expectedValue, y.CompareTo(x));
-      
+
       // ReSharper disable HeapView.BoxingAllocation
       Assert.Equal(expectedValue,      x.CompareTo((object) y));
       Assert.Equal(-1 * expectedValue, y.CompareTo((object) x));
-      
+
       // ReSharper restore HeapView.BoxingAllocation
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1)]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1)]
@@ -684,11 +684,11 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.False(x.CompareTo(null) == 0);
       Assert.False(y.CompareTo(null) == 0);
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     false)] // equal
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   true)]  // less than
@@ -709,10 +709,10 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue, x < y);
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     true)]  // equal
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   true)]  // less than
@@ -733,10 +733,10 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue, x <= y);
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     false)] // equal
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   false)] // less than
@@ -757,10 +757,10 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue, x > y);
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1,                     true)]  // equal
    [InlineData(nameof(TestUnitProvider.DerivedUnitX10), 10,      nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   false)] // less than
@@ -781,14 +781,14 @@ public class QuantityTests : TestBase
       var yUnitOfMeasure = TestUnitProvider.GetUnit(yUnit);
       var x = xValue.As(xUnitOfMeasure);
       var y = yValue.As(yUnitOfMeasure);
-      
+
       Assert.Equal(expectedValue, x >= y);
    }
-   
+
    #endregion
-   
+
    #region ToString Tests
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX100), 1,                     "1.00 du x 100")]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX100), 1.1,                   "1.10 du x 100")]
@@ -805,7 +805,7 @@ public class QuantityTests : TestBase
       var x = value.As(uom);
       Assert.Equal(expectedString, x.ToString());
    }
-   
+
    [Theory]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX100), 1,   "n2", "1.00 du x 100")]
    [InlineData(nameof(TestUnitProvider.DerivedUnitX100), 1.1, "n3", "1.100 du x 100")]
@@ -818,6 +818,6 @@ public class QuantityTests : TestBase
       var x = value.As(uom);
       Assert.Equal(expectedString, x.ToString(format));
    }
-   
+
    #endregion
 }

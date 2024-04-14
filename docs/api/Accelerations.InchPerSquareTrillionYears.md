@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareTrillionYears Field
 
-inch per square trillion years defined such that: SI centimeter per square billion years = in/Tyr² ×  
+inch per square trillion years defined such that: SI centimeter per square billion years = in/Tyr² ×
 (2.54)/((1000.0)*(1000.0)).
 
 ```csharp

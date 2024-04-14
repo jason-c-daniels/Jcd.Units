@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicPetameter Field
 
-picogram per cubic petameter defined such that: nanogram per cubic terameter = pg/Pm³ ×  
+picogram per cubic petameter defined such that: nanogram per cubic terameter = pg/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

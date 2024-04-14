@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareFemtosecond Field
 
-yard per square femtosecond defined such that: foot per square picosecond = yd/fs² ×  
+yard per square femtosecond defined such that: foot per square picosecond = yd/fs² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

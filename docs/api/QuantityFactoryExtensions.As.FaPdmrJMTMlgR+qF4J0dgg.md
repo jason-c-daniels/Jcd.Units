@@ -31,5 +31,5 @@ The [System.SByte](https://docs.microsoft.com/en-us/dotnet/api/System.SByte 'Sys
 The unit of measure to use.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.FaPdmrJMTMlgR+qF4J0dgg.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thissbyte,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this sbyte, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.FaPdmrJMTMlgR+qF4J0dgg.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thissbyte,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this sbyte, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.

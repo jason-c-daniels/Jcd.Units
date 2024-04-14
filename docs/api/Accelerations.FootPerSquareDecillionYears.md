@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareDecillionYears Field
 
-foot per square decillion years defined such that: inch per square nonillion years = ft/decillion yr² ×  
+foot per square decillion years defined such that: inch per square nonillion years = ft/decillion yr² ×
 (12)/((1000.0)*(1000.0)).
 
 ```csharp

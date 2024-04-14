@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareQuintillionYears Field
 
-mile per square quintillion years defined such that: furlong per square quadrillion years = mi/Eyr² ×  
+mile per square quintillion years defined such that: furlong per square quadrillion years = mi/Eyr² ×
 (8.0)/((1000.0)*(1000.0)).
 
 ```csharp

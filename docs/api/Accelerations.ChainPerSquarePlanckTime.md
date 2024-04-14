@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquarePlanckTime Field
 
-chain per square planck-time defined such that: yard per square microsecond = ch/tₚ² ×  
+chain per square planck-time defined such that: yard per square microsecond = ch/tₚ² ×
 (22.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

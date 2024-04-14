@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicZeptometer Field
 
-petagram per cubic zeptometer defined such that: teragram per cubic attometer = Pg/zm³ ×  
+petagram per cubic zeptometer defined such that: teragram per cubic attometer = Pg/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

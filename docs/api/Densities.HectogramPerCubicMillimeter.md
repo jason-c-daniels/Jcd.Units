@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicMillimeter Field
 
-hectogram per cubic millimeter defined such that: kilogram per cubic centimeter = hg/mm³ ×  
+hectogram per cubic millimeter defined such that: kilogram per cubic centimeter = hg/mm³ ×
 (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicDekameter Field
 
-zettagram per cubic dekameter defined such that: exagram per cubic meter = Zg/dam³ ×  
+zettagram per cubic dekameter defined such that: exagram per cubic meter = Zg/dam³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareSextillionYears Field
 
-pica per square sextillion years defined such that: point per square quintillion years = P/Zyr² ×  
+pica per square sextillion years defined such that: point per square quintillion years = P/Zyr² ×
 (12.0)/((1000.0)*(1000.0)).
 
 ```csharp

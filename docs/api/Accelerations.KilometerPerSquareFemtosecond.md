@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareFemtosecond Field
 
-kilometer per square femtosecond defined such that: hectometer per square picosecond = km/fs² ×  
+kilometer per square femtosecond defined such that: hectometer per square picosecond = km/fs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

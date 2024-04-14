@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicMillimeter Field
 
-dekatonne per cubic millimeter defined such that: tonne per cubic centimeter = dat/mm³ ×  
+dekatonne per cubic millimeter defined such that: tonne per cubic centimeter = dat/mm³ ×
 (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

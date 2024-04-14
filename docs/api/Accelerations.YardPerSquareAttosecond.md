@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareAttosecond Field
 
-yard per square attosecond defined such that: foot per square femtosecond = yd/as² ×  
+yard per square attosecond defined such that: foot per square femtosecond = yd/as² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

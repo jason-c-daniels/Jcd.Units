@@ -32,7 +32,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0f)]
    [InlineData(-1f         / 3f)]
@@ -50,7 +50,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0L)]
    [InlineData(-1L)]
@@ -68,7 +68,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0UL)]
    [InlineData(2UL)]
@@ -86,7 +86,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -104,7 +104,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -122,7 +122,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -140,7 +140,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -158,7 +158,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -176,7 +176,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -194,7 +194,7 @@ public class QuantityFactoryExtensionsTests
       Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3)]
@@ -204,11 +204,11 @@ public class QuantityFactoryExtensionsTests
    {
       var l = value.As(Lengths.Attometer);
       var t = l.ReplaceUnit(Temperatures.DegreesKelvin);
-      
+
       Assert.Equal(value,                      (double) t);
       Assert.Equal(Temperatures.DegreesKelvin, t.Unit);
    }
-   
+
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3d)]
@@ -216,10 +216,10 @@ public class QuantityFactoryExtensionsTests
    {
       var ts = new TimeSpan((long) expectedTotalMilliseconds * 10000);
       var q = ts.As(Durations.Millisecond);
-      
+
       Assert.Equal(ts.TotalMilliseconds, q.RawValue);
    }
-   
+
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3d)]

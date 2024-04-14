@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerDecillionYears Field
 
-centimeter per decillion years defined such that: decimeter per nonillion years = cm/decillion yr ×  
+centimeter per decillion years defined such that: decimeter per nonillion years = cm/decillion yr ×
 (1.0/10.0)/(1000.0).
 
 ```csharp

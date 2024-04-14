@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicAttometer Field
 
-microtonne per cubic attometer defined such that: millitonne per cubic femtometer = μt/am³ ×  
+microtonne per cubic attometer defined such that: millitonne per cubic femtometer = μt/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

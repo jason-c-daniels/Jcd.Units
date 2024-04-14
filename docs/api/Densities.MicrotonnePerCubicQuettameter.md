@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicQuettameter Field
 
-microtonne per cubic quettameter defined such that: millitonne per cubic ronnameter = μt/Qm³ ×  
+microtonne per cubic quettameter defined such that: millitonne per cubic ronnameter = μt/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

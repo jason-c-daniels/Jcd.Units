@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareQuadrillionYears Field
 
-attometer per square quadrillion years defined such that: femtometer per square trillion years = am/Pyr² ×  
+attometer per square quadrillion years defined such that: femtometer per square trillion years = am/Pyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

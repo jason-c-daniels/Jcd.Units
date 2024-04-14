@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareBillionYears Field
 
-yard per square billion years defined such that: foot per square million years = yd/Gyr² ×  
+yard per square billion years defined such that: foot per square million years = yd/Gyr² ×
 (3.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicQuettameter Field
 
-teratonne per cubic quettameter defined such that: gigatonne per cubic ronnameter = Tt/Qm³ ×  
+teratonne per cubic quettameter defined such that: gigatonne per cubic ronnameter = Tt/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicQuettameter Field
 
-zeptogram per cubic quettameter defined such that: attogram per cubic ronnameter = zg/Qm³ ×  
+zeptogram per cubic quettameter defined such that: attogram per cubic ronnameter = zg/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

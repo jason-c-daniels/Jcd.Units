@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareOctillionYears Field
 
-zeptometer per square octillion years defined such that: attometer per square septillion years = zm/Ryr² ×  
+zeptometer per square octillion years defined such that: attometer per square septillion years = zm/Ryr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

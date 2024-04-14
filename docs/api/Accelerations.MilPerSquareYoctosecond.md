@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareYoctosecond Field
 
-mil per square yoctosecond defined such that: inch per square zeptosecond = mil/ys² ×  
+mil per square yoctosecond defined such that: inch per square zeptosecond = mil/ys² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

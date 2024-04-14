@@ -3,7 +3,7 @@
 
 ## ElectricalPotential Class
 
-A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a  
+A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a
 specific point.
 
 ```csharp
@@ -14,4 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ElectricalPotential(string, string, ElectricalPotential, double, double, IValueComparer&lt;double&gt;, string)](ElectricalPotential..ctor.MxlNFlU+rWY3WbfAr3N54A.md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, Jcd.Units.UnitTypes.ElectricalPotential, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another<br/>[ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference. |
+| [ElectricalPotential(string, string, ElectricalPotential, double, double, IValueComparer&lt;double&gt;, string)](ElectricalPotential..ctor.MxlNFlU+rWY3WbfAr3N54A.md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, Jcd.Units.UnitTypes.ElectricalPotential, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference. |

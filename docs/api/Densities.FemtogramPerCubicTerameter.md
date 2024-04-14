@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicTerameter Field
 
-femtogram per cubic terameter defined such that: picogram per cubic gigameter = fg/Tm³ ×  
+femtogram per cubic terameter defined such that: picogram per cubic gigameter = fg/Tm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

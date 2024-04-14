@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareAttosecond Field
 
-pica per square attosecond defined such that: point per square femtosecond = P/as² ×  
+pica per square attosecond defined such that: point per square femtosecond = P/as² ×
 (12.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

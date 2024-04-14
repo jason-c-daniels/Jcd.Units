@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicPetameter Field
 
-zettatonne per cubic petameter defined such that: exatonne per cubic terameter = Zt/Pm³ ×  
+zettatonne per cubic petameter defined such that: exatonne per cubic terameter = Zt/Pm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

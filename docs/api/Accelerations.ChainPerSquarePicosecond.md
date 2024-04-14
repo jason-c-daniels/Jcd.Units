@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquarePicosecond Field
 
-chain per square picosecond defined such that: yard per square nanosecond = ch/ps² ×  
+chain per square picosecond defined such that: yard per square nanosecond = ch/ps² ×
 (22.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

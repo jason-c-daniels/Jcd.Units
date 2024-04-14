@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicFemtometer Field
 
-yottagram per cubic femtometer defined such that: zettagram per cubic picometer = Yg/fm³ ×  
+yottagram per cubic femtometer defined such that: zettagram per cubic picometer = Yg/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicYoctometer Field
 
-decigram per cubic yoctometer defined such that: gram per cubic zeptometer = dg/ym³ ×  
+decigram per cubic yoctometer defined such that: gram per cubic zeptometer = dg/ym³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

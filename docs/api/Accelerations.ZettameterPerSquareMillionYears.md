@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareMillionYears Field
 
-zettameter per square million years defined such that: exameter per square millennium = Zm/Myr² ×  
+zettameter per square million years defined such that: exameter per square millennium = Zm/Myr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

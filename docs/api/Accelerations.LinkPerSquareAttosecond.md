@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareAttosecond Field
 
-link per square attosecond defined such that: SI meter per square femtosecond = li/as² ×  
+link per square attosecond defined such that: SI meter per square femtosecond = li/as² ×
 (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

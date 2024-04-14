@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareQuintillionYears Field
 
-rod per square quintillion years defined such that: SI meter per square quadrillion years = rd/Eyr² ×  
+rod per square quintillion years defined such that: SI meter per square quadrillion years = rd/Eyr² ×
 (5.0292)/((1000.0)*(1000.0)).
 
 ```csharp

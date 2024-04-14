@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareBillionYears Field
 
-thou per square billion years defined such that: foot per square million years = th/Gyr² ×  
+thou per square billion years defined such that: foot per square million years = th/Gyr² ×
 (1.0/12000.0)/((1000.0)*(1000.0)).
 
 ```csharp

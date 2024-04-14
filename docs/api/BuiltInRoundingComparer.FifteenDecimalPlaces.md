@@ -3,7 +3,7 @@
 
 ## BuiltInRoundingComparer.FifteenDecimalPlaces Field
 
-A 15 decimal place rounding comparer, using [System.MidpointRounding.ToEven](https://docs.microsoft.com/en-us/dotnet/api/System.MidpointRounding.ToEven 'System.MidpointRounding.ToEven') as the midpoint rounding method.  
+A 15 decimal place rounding comparer, using [System.MidpointRounding.ToEven](https://docs.microsoft.com/en-us/dotnet/api/System.MidpointRounding.ToEven 'System.MidpointRounding.ToEven') as the midpoint rounding method.
 This is the maximum number of valid .
 
 ```csharp

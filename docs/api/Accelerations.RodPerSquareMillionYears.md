@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareMillionYears Field
 
-rod per square million years defined such that: SI meter per square millennium = rd/Myr² ×  
+rod per square million years defined such that: SI meter per square millennium = rd/Myr² ×
 (5.0292)/((1000.0)*(1000.0)).
 
 ```csharp

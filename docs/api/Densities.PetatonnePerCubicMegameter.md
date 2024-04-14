@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicMegameter Field
 
-petatonne per cubic megameter defined such that: teratonne per cubic kilometer = Pt/Mm³ ×  
+petatonne per cubic megameter defined such that: teratonne per cubic kilometer = Pt/Mm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

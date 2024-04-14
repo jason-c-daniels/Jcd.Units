@@ -3,8 +3,8 @@
 
 ## IUnitOfMeasure<TUnit>.ToFundamentalUnitValue(double) Method
 
-Given a raw value, convert TO the fundamental base unit representation  
-FROM the non-base unit representation of  the value. (e.g. 100mm becomes  
+Given a raw value, convert TO the fundamental base unit representation
+FROM the non-base unit representation of  the value. (e.g. 100mm becomes
 0.1 as meters are the base unit)
 
 ```csharp

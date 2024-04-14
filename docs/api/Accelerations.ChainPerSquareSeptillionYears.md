@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareSeptillionYears Field
 
-chain per square septillion years defined such that: yard per square sextillion years = ch/Yyr² ×  
+chain per square septillion years defined such that: yard per square sextillion years = ch/Yyr² ×
 (22.0)/((1000.0)*(1000.0)).
 
 ```csharp

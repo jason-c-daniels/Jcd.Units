@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicZettameter Field
 
-picogram per cubic zettameter defined such that: nanogram per cubic exameter = pg/Zm³ ×  
+picogram per cubic zettameter defined such that: nanogram per cubic exameter = pg/Zm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

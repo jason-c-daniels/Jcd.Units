@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicDekameter Field
 
-hectogram per cubic dekameter defined such that: kilogram per cubic meter = hg/dam³ ×  
+hectogram per cubic dekameter defined such that: kilogram per cubic meter = hg/dam³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

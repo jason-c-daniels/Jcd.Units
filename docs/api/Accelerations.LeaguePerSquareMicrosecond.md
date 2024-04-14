@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareMicrosecond Field
 
-league per square microsecond defined such that: mile per square millisecond = lea/μs² ×  
+league per square microsecond defined such that: mile per square millisecond = lea/μs² ×
 (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

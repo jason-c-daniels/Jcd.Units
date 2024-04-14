@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicPetameter Field
 
-attogram per cubic petameter defined such that: femtogram per cubic terameter = ag/Pm³ ×  
+attogram per cubic petameter defined such that: femtogram per cubic terameter = ag/Pm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

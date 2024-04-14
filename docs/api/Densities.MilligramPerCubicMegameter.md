@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicMegameter Field
 
-milligram per cubic megameter defined such that: centigram per cubic kilometer = mg/Mm³ ×  
+milligram per cubic megameter defined such that: centigram per cubic kilometer = mg/Mm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

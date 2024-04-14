@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicQuectometer Field
 
-megagram per cubic quectometer defined such that: kilogram per cubic rontometer = Mg/qm³ ×  
+megagram per cubic quectometer defined such that: kilogram per cubic rontometer = Mg/qm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

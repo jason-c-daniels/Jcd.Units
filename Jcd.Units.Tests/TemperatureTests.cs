@@ -13,7 +13,7 @@ namespace Jcd.Units.Tests;
 public class TemperatureTests
 {
    private static readonly Temperature DegreesKiloKelvin = new("kilokelvin", "°kK", Temperatures.DegreesKelvin, 1000.0);
-   
+
    private static readonly IReadOnlyList<Temperature> AllTemps = new[]
                                                                  {
                                                                     US.Temperatures.DegreesFahrenheit
@@ -26,9 +26,9 @@ public class TemperatureTests
                                                                   , UnitsOfMeasure.Temperatures.DegreesRømer
                                                                   , DegreesKiloKelvin
                                                                  };
-   
+
    private static readonly Dictionary<string, Temperature> TemperatureBySymbol = AllTemps.ToDictionary(x => x.Symbol);
-   
+
    [Theory]
    [InlineData(-1000d,              "°K",  -1d,                 "°kK")]
    [InlineData(-2000d,              "°K",  -2d,                 "°kK")]
@@ -61,15 +61,15 @@ public class TemperatureTests
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       var su = TemperatureBySymbol[sourceSymbol];
       var tu = TemperatureBySymbol[targetSymbol];
-      
+
       var sq1 = source.As(su);
       var tq = sq1.To(tu);
-      
+
       Assert.Equal(target, (double) tq, comparer);
-      
+
       var tq1 = target.As(tu);
       var sq = tq1.To(su);
-      
+
       Assert.Equal(source, (double) sq, comparer);
    }
 }

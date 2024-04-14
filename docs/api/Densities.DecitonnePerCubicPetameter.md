@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicPetameter Field
 
-decitonne per cubic petameter defined such that: tonne per cubic terameter = dt/Pm³ ×  
+decitonne per cubic petameter defined such that: tonne per cubic terameter = dt/Pm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

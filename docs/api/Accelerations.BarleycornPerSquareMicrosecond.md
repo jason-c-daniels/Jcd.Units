@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareMicrosecond Field
 
-barleycorn per square microsecond defined such that: foot per square millisecond = barleycorn/μs² ×  
+barleycorn per square microsecond defined such that: foot per square millisecond = barleycorn/μs² ×
 (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicPicometer Field
 
-quectotonne per cubic picometer defined such that: rontotonne per cubic nanometer = qt/pm³ ×  
+quectotonne per cubic picometer defined such that: rontotonne per cubic nanometer = qt/pm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

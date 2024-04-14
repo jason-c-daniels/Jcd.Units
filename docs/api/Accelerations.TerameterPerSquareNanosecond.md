@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareNanosecond Field
 
-terameter per square nanosecond defined such that: gigameter per square microsecond = Tm/ns² ×  
+terameter per square nanosecond defined such that: gigameter per square microsecond = Tm/ns² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

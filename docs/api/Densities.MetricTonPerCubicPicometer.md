@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicPicometer Field
 
-metric ton per cubic picometer defined such that: megagram per cubic nanometer = mt/pm³ ×  
+metric ton per cubic picometer defined such that: megagram per cubic nanometer = mt/pm³ ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

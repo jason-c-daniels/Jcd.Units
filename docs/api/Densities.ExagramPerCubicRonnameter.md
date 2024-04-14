@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicRonnameter Field
 
-exagram per cubic ronnameter defined such that: petagram per cubic yottameter = Eg/Rm³ ×  
+exagram per cubic ronnameter defined such that: petagram per cubic yottameter = Eg/Rm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

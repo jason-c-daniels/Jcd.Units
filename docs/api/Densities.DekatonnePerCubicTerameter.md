@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicTerameter Field
 
-dekatonne per cubic terameter defined such that: tonne per cubic gigameter = dat/Tm³ ×  
+dekatonne per cubic terameter defined such that: tonne per cubic gigameter = dat/Tm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

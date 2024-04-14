@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicZeptometer Field
 
-decigram per cubic zeptometer defined such that: gram per cubic attometer = dg/zm³ ×  
+decigram per cubic zeptometer defined such that: gram per cubic attometer = dg/zm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

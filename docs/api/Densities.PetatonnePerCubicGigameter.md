@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicGigameter Field
 
-petatonne per cubic gigameter defined such that: teratonne per cubic megameter = Pt/Gm³ ×  
+petatonne per cubic gigameter defined such that: teratonne per cubic megameter = Pt/Gm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

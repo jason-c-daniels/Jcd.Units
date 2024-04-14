@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicQuectometer Field
 
-microgram per cubic quectometer defined such that: milligram per cubic rontometer = μg/qm³ ×  
+microgram per cubic quectometer defined such that: milligram per cubic rontometer = μg/qm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

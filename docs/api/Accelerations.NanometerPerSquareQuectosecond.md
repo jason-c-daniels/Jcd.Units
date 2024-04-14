@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareQuectosecond Field
 
-nanometer per square quectosecond defined such that: micrometer per square rontosecond = nm/qs² ×  
+nanometer per square quectosecond defined such that: micrometer per square rontosecond = nm/qs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

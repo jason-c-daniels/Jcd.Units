@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicPetameter Field
 
-decigram per cubic petameter defined such that: gram per cubic terameter = dg/Pm³ ×  
+decigram per cubic petameter defined such that: gram per cubic terameter = dg/Pm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

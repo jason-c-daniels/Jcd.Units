@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareYear Field
 
-rontometer per square year defined such that: yoctometer per square day = rm/yr² ×  
+rontometer per square year defined such that: yoctometer per square day = rm/yr² ×
 (1.0/1000.0)/((365.2525)*(365.2525)).
 
 ```csharp

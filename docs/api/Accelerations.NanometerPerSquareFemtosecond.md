@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareFemtosecond Field
 
-nanometer per square femtosecond defined such that: micrometer per square picosecond = nm/fs² ×  
+nanometer per square femtosecond defined such that: micrometer per square picosecond = nm/fs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

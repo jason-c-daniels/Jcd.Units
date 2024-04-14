@@ -3,7 +3,7 @@
 
 ## Quantity<TUnit>.ArithmeticUnitSelector Property
 
-The [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy') used by quantities of the particular unit of  
+The [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy') used by quantities of the particular unit of
 measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
 
 ```csharp

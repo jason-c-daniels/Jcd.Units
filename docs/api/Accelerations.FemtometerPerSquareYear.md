@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareYear Field
 
-femtometer per square year defined such that: picometer per square day = fm/yr² ×  
+femtometer per square year defined such that: picometer per square day = fm/yr² ×
 (1.0/1000.0)/((365.2525)*(365.2525)).
 
 ```csharp

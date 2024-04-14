@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareTick Field
 
-petameter per square tick defined such that: terameter per square nanosecond = Pm/tick² ×  
+petameter per square tick defined such that: terameter per square nanosecond = Pm/tick² ×
 (1000.0)/((100.0)*(100.0)).
 
 ```csharp

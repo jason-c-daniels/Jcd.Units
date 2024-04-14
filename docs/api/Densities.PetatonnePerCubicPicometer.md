@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicPicometer Field
 
-petatonne per cubic picometer defined such that: teratonne per cubic nanometer = Pt/pm³ ×  
+petatonne per cubic picometer defined such that: teratonne per cubic nanometer = Pt/pm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

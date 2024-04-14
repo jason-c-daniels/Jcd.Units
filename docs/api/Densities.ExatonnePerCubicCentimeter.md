@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicCentimeter Field
 
-exatonne per cubic centimeter defined such that: petatonne per cubic decimeter = Et/cm³ ×  
+exatonne per cubic centimeter defined such that: petatonne per cubic decimeter = Et/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

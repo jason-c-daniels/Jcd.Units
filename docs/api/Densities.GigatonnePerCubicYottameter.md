@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicYottameter Field
 
-gigatonne per cubic yottameter defined such that: megatonne per cubic zettameter = Gt/Ym³ ×  
+gigatonne per cubic yottameter defined such that: megatonne per cubic zettameter = Gt/Ym³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

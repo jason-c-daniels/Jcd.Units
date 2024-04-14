@@ -3,7 +3,7 @@
 
 ## CatalyticActivity(string, string, CatalyticActivity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another  
+Constructs a unit measuring a specified [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another
 [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') as a reference.
 
 ```csharp

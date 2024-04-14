@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerQuintillionYears Field
 
-quectometer per quintillion years defined such that: rontometer per quadrillion years = qm/Eyr ×  
+quectometer per quintillion years defined such that: rontometer per quadrillion years = qm/Eyr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicPetameter Field
 
-megagram per cubic petameter defined such that: kilogram per cubic terameter = Mg/Pm³ ×  
+megagram per cubic petameter defined such that: kilogram per cubic terameter = Mg/Pm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicMegameter Field
 
-attogram per cubic megameter defined such that: femtogram per cubic kilometer = ag/Mm³ ×  
+attogram per cubic megameter defined such that: femtogram per cubic kilometer = ag/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

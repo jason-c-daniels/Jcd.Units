@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicQuettameter Field
 
-zeptotonne per cubic quettameter defined such that: attotonne per cubic ronnameter = zt/Qm³ ×  
+zeptotonne per cubic quettameter defined such that: attotonne per cubic ronnameter = zt/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

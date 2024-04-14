@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareMicrosecond Field
 
-fathom per square microsecond defined such that: foot per square millisecond = ftm/μs² ×  
+fathom per square microsecond defined such that: foot per square millisecond = ftm/μs² ×
 (6.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

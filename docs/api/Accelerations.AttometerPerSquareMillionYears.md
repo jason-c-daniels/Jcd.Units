@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareMillionYears Field
 
-attometer per square million years defined such that: femtometer per square millennium = am/Myr² ×  
+attometer per square million years defined such that: femtometer per square millennium = am/Myr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

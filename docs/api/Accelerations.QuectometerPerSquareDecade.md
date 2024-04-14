@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareDecade Field
 
-quectometer per square decade defined such that: rontometer per square year = qm/decade² ×  
+quectometer per square decade defined such that: rontometer per square year = qm/decade² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

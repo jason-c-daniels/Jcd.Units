@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicHectometer Field
 
-exagram per cubic hectometer defined such that: petagram per cubic dekameter = Eg/hm³ ×  
+exagram per cubic hectometer defined such that: petagram per cubic dekameter = Eg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

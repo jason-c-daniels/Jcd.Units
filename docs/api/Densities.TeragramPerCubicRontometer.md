@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicRontometer Field
 
-teragram per cubic rontometer defined such that: gigagram per cubic yoctometer = Tg/rm³ ×  
+teragram per cubic rontometer defined such that: gigagram per cubic yoctometer = Tg/rm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

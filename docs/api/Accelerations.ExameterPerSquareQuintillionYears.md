@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareQuintillionYears Field
 
-exameter per square quintillion years defined such that: petameter per square quadrillion years = Em/Eyr² ×  
+exameter per square quintillion years defined such that: petameter per square quadrillion years = Em/Eyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

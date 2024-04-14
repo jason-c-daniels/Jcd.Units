@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Duration(string, string, Duration, double, double, IValueComparer&lt;double&gt;, string)](Duration..ctor.AFZ25lr4gverASawbkg+Bw.md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a<br/>reference. |
+| [Duration(string, string, Duration, double, double, IValueComparer&lt;double&gt;, string)](Duration..ctor.AFZ25lr4gverASawbkg+Bw.md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a reference. |

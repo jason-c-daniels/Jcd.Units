@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicZettameter Field
 
-yoctogram per cubic zettameter defined such that: zeptogram per cubic exameter = yg/Zm³ ×  
+yoctogram per cubic zettameter defined such that: zeptogram per cubic exameter = yg/Zm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

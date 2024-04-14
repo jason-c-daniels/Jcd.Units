@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareFemtosecond Field
 
-centimeter per square femtosecond defined such that: decimeter per square picosecond = cm/fs² ×  
+centimeter per square femtosecond defined such that: decimeter per square picosecond = cm/fs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

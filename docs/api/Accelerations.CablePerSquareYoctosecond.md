@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareYoctosecond Field
 
-cable per square yoctosecond defined such that: fathom per square zeptosecond = cable/ys² ×  
+cable per square yoctosecond defined such that: fathom per square zeptosecond = cable/ys² ×
 (100.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

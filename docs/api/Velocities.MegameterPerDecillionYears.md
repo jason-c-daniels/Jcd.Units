@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerDecillionYears Field
 
-megameter per decillion years defined such that: kilometer per nonillion years = Mm/decillion yr ×  
+megameter per decillion years defined such that: kilometer per nonillion years = Mm/decillion yr ×
 (1000.0)/(1000.0).
 
 ```csharp

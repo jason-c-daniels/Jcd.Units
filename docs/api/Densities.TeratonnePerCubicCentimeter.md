@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicCentimeter Field
 
-teratonne per cubic centimeter defined such that: gigatonne per cubic decimeter = Tt/cm³ ×  
+teratonne per cubic centimeter defined such that: gigatonne per cubic decimeter = Tt/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

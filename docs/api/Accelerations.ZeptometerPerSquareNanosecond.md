@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareNanosecond Field
 
-zeptometer per square nanosecond defined such that: attometer per square microsecond = zm/ns² ×  
+zeptometer per square nanosecond defined such that: attometer per square microsecond = zm/ns² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquarePlanckTime Field
 
-zettameter per square planck-time defined such that: exameter per square microsecond = Zm/tₚ² ×  
+zettameter per square planck-time defined such that: exameter per square microsecond = Zm/tₚ² ×
 (1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

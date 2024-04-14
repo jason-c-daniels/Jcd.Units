@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicExameter Field
 
-femtogram per cubic exameter defined such that: picogram per cubic petameter = fg/Em³ ×  
+femtogram per cubic exameter defined such that: picogram per cubic petameter = fg/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

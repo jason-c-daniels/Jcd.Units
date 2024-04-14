@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicYoctometer Field
 
-hectogram per cubic yoctometer defined such that: kilogram per cubic zeptometer = hg/ym³ ×  
+hectogram per cubic yoctometer defined such that: kilogram per cubic zeptometer = hg/ym³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

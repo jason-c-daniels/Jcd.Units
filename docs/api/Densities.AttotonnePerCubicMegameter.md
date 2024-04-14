@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicMegameter Field
 
-attotonne per cubic megameter defined such that: femtotonne per cubic kilometer = at/Mm³ ×  
+attotonne per cubic megameter defined such that: femtotonne per cubic kilometer = at/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

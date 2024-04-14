@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareFemtosecond Field
 
-megameter per square femtosecond defined such that: kilometer per square picosecond = Mm/fs² ×  
+megameter per square femtosecond defined such that: kilometer per square picosecond = Mm/fs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

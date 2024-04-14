@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareTick Field
 
-zettameter per square tick defined such that: exameter per square nanosecond = Zm/tick² ×  
+zettameter per square tick defined such that: exameter per square nanosecond = Zm/tick² ×
 (1000.0)/((100.0)*(100.0)).
 
 ```csharp

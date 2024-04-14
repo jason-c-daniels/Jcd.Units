@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquarePlanckTime Field
 
-barleycorn per square planck-time defined such that: foot per square microsecond = barleycorn/tₚ² ×  
+barleycorn per square planck-time defined such that: foot per square microsecond = barleycorn/tₚ² ×
 (1.0/36.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Velocity(string, string, Velocity, double, double, IValueComparer&lt;double&gt;, string)](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA.md 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') as a<br/>reference. |
+| [Velocity(string, string, Velocity, double, double, IValueComparer&lt;double&gt;, string)](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA.md 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') as a reference. |

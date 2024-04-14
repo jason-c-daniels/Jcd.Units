@@ -3,7 +3,7 @@
 
 ## Densities.YoctotonnePerCubicHectometer Field
 
-yoctotonne per cubic hectometer defined such that: zeptotonne per cubic dekameter = yt/hm³ ×  
+yoctotonne per cubic hectometer defined such that: zeptotonne per cubic dekameter = yt/hm³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareCentury Field
 
-gigameter per square century defined such that: megameter per square decade = Gm/century² ×  
+gigameter per square century defined such that: megameter per square decade = Gm/century² ×
 (1000.0)/((10.0)*(10.0)).
 
 ```csharp

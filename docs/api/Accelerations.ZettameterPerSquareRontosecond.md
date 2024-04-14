@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareRontosecond Field
 
-zettameter per square rontosecond defined such that: exameter per square yoctosecond = Zm/rs² ×  
+zettameter per square rontosecond defined such that: exameter per square yoctosecond = Zm/rs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

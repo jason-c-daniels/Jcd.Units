@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquarePlanckTime Field
 
-league per square planck-time defined such that: mile per square microsecond = lea/tₚ² ×  
+league per square planck-time defined such that: mile per square microsecond = lea/tₚ² ×
 (3.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

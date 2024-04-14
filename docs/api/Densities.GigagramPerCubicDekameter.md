@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicDekameter Field
 
-gigagram per cubic dekameter defined such that: megagram per cubic meter = Gg/dam³ ×  
+gigagram per cubic dekameter defined such that: megagram per cubic meter = Gg/dam³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

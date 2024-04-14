@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicQuettameter Field
 
-nanogram per cubic quettameter defined such that: microgram per cubic ronnameter = ng/Qm³ ×  
+nanogram per cubic quettameter defined such that: microgram per cubic ronnameter = ng/Qm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

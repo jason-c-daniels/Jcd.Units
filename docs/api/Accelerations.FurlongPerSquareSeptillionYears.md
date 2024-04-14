@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareSeptillionYears Field
 
-furlong per square septillion years defined such that: chain per square sextillion years = fur/Yyr² ×  
+furlong per square septillion years defined such that: chain per square sextillion years = fur/Yyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

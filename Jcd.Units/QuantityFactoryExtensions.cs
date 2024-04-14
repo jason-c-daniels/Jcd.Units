@@ -30,7 +30,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="float" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -44,7 +44,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts an <see cref="long" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -58,7 +58,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="ulong" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -72,7 +72,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts an <see cref="int" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -86,7 +86,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="uint" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -100,7 +100,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="short" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -114,7 +114,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="ushort" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -128,7 +128,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts an <see cref="sbyte" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -142,7 +142,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="byte" /> into a quantity using the specified unit of measure.
    /// </summary>
@@ -156,7 +156,7 @@ public static class QuantityFactoryExtensions
    {
       return new Quantity<TUnit>(rawValue, unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts an existing <see cref="Quantity{TUnit}" /> into a new quantity replacing the existing units of measure with
    /// the the specified unit of measure, WITHOUT CONVERSION.
@@ -173,7 +173,7 @@ public static class QuantityFactoryExtensions
    {
       return quantity.RawValue.As(unitOfMeasure);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="TimeSpan" /> to a <see cref="Duration" /> represented as the specified unit of time.
    /// </summary>
@@ -185,7 +185,7 @@ public static class QuantityFactoryExtensions
    {
       return timeSpan.TotalMilliseconds.As(Durations.Millisecond).To(timeUnit);
    }
-   
+
    /// <summary>
    /// Converts a <see cref="Duration" /> to a <see cref="TimeSpan" />
    /// </summary>
@@ -196,7 +196,7 @@ public static class QuantityFactoryExtensions
    {
       var ticksDur = duration.To(Durations.Tick);
       var ticks = Convert.ToInt64(Math.Round(ticksDur.RawValue, 0));
-      
+
       return new TimeSpan(ticks);
    }
 }

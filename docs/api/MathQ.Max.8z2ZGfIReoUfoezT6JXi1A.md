@@ -31,5 +31,5 @@ The first value to compare.
 The second value to compare.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Max.8z2ZGfIReoUfoezT6JXi1A.md#Jcd.Units.MathQ.Max_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Max<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Max.8z2ZGfIReoUfoezT6JXi1A.md#Jcd.Units.MathQ.Max_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Max<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 The larger of two specified [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instances.

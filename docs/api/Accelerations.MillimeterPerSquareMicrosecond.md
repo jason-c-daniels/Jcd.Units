@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareMicrosecond Field
 
-millimeter per square microsecond defined such that: centimeter per square millisecond = mm/μs² ×  
+millimeter per square microsecond defined such that: centimeter per square millisecond = mm/μs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicExameter Field
 
-kilogram per cubic exameter defined such that: kilogram per cubic petameter = kg/Em³ ×  
+kilogram per cubic exameter defined such that: kilogram per cubic petameter = kg/Em³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

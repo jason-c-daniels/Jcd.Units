@@ -13,7 +13,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [CubicAstronomicalUnit](Volumes.CubicAstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicAstronomicalUnit') | cubic astronomical unit defined such that: SI cubic kilometer = AU³ ×<br/>(149597870.691)*(149597870.691)*(149597870.691). |
+| [CubicAstronomicalUnit](Volumes.CubicAstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicAstronomicalUnit') | cubic astronomical unit defined such that: SI cubic kilometer = AU³ × (149597870.691)*(149597870.691)*(149597870.691). |
 | [CubicDekalightYear](Volumes.CubicDekalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicDekalightYear') | cubic dekalight-year defined such that: cubic light-year = daly³ × (10.0)*(10.0)*(10.0). |
 | [CubicDekaparsec](Volumes.CubicDekaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicDekaparsec') | cubic dekaparsec defined such that: cubic parsec = dapc³ × (10.0)*(10.0)*(10.0). |
 | [CubicEarthCircumference](Volumes.CubicEarthCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicEarthCircumference') | cubic earth circumference defined such that: cubic earth diameter = C(⊕)³ × (Math.PI)*(Math.PI)*(Math.PI). |
@@ -35,7 +35,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [CubicLightMinute](Volumes.CubicLightMinute.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLightMinute') | cubic light-minute defined such that: cubic light-second = lm³ × (60.0)*(60.0)*(60.0). |
 | [CubicLightSecond](Volumes.CubicLightSecond.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLightSecond') | cubic light-second defined such that: SI cubic meter = ls³ × (299_792_458.0)*(299_792_458.0)*(299_792_458.0). |
 | [CubicLightWeek](Volumes.CubicLightWeek.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLightWeek') | cubic light-week defined such that: cubic light-day = lw³ × (7.0)*(7.0)*(7.0). |
-| [CubicLightYear](Volumes.CubicLightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLightYear') | cubic light-year defined such that: SI cubic meter = ly³ ×<br/>(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0). |
+| [CubicLightYear](Volumes.CubicLightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLightYear') | cubic light-year defined such that: SI cubic meter = ly³ × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0). |
 | [CubicLunarCircumference](Volumes.CubicLunarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarCircumference') | cubic lunar circumference defined such that: cubic lunar diameter = C(L)³ × (Math.PI)*(Math.PI)*(Math.PI). |
 | [CubicLunarDiameter](Volumes.CubicLunarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarDiameter') | cubic lunar diameter defined such that: cubic lunar radius = D(L)³ × (2.0)*(2.0)*(2.0). |
 | [CubicLunarRadius](Volumes.CubicLunarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarRadius') | cubic lunar radius defined such that: SI cubic kilometer = R(L)³ × (1_737.4)*(1_737.4)*(1_737.4). |

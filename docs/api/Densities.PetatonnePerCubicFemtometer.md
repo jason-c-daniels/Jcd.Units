@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicFemtometer Field
 
-petatonne per cubic femtometer defined such that: teratonne per cubic picometer = Pt/fm³ ×  
+petatonne per cubic femtometer defined such that: teratonne per cubic picometer = Pt/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

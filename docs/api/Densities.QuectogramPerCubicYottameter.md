@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicYottameter Field
 
-quectogram per cubic yottameter defined such that: rontogram per cubic zettameter = qg/Ym³ ×  
+quectogram per cubic yottameter defined such that: rontogram per cubic zettameter = qg/Ym³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

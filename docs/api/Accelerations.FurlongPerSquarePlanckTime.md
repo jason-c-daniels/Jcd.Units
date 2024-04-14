@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquarePlanckTime Field
 
-furlong per square planck-time defined such that: chain per square microsecond = fur/tₚ² ×  
+furlong per square planck-time defined such that: chain per square microsecond = fur/tₚ² ×
 (10.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

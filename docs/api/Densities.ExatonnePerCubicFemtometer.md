@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicFemtometer Field
 
-exatonne per cubic femtometer defined such that: petatonne per cubic picometer = Et/fm³ ×  
+exatonne per cubic femtometer defined such that: petatonne per cubic picometer = Et/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

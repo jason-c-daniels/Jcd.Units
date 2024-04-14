@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicKilometer Field
 
-rontogram per cubic kilometer defined such that: yoctogram per cubic hectometer = rg/km³ ×  
+rontogram per cubic kilometer defined such that: yoctogram per cubic hectometer = rg/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

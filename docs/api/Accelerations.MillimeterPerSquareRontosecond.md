@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareRontosecond Field
 
-millimeter per square rontosecond defined such that: centimeter per square yoctosecond = mm/rs² ×  
+millimeter per square rontosecond defined such that: centimeter per square yoctosecond = mm/rs² ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

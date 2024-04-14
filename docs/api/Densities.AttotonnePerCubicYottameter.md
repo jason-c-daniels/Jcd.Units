@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicYottameter Field
 
-attotonne per cubic yottameter defined such that: femtotonne per cubic zettameter = at/Ym³ ×  
+attotonne per cubic yottameter defined such that: femtotonne per cubic zettameter = at/Ym³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicRonnameter Field
 
-decigram per cubic ronnameter defined such that: gram per cubic yottameter = dg/Rm³ ×  
+decigram per cubic ronnameter defined such that: gram per cubic yottameter = dg/Rm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

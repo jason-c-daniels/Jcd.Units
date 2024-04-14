@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquarePlanckTime Field
 
-nautical mile per square planck-time defined such that: cable per square microsecond = nmi/tₚ² ×  
+nautical mile per square planck-time defined such that: cable per square microsecond = nmi/tₚ² ×
 (10.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

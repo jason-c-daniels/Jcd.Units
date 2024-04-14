@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicZettameter Field
 
-milligram per cubic zettameter defined such that: centigram per cubic exameter = mg/Zm³ ×  
+milligram per cubic zettameter defined such that: centigram per cubic exameter = mg/Zm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

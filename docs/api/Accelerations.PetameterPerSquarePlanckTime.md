@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquarePlanckTime Field
 
-petameter per square planck-time defined such that: terameter per square microsecond = Pm/tₚ² ×  
+petameter per square planck-time defined such that: terameter per square microsecond = Pm/tₚ² ×
 (1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

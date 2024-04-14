@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicMegameter Field
 
-quectogram per cubic megameter defined such that: rontogram per cubic kilometer = qg/Mm³ ×  
+quectogram per cubic megameter defined such that: rontogram per cubic kilometer = qg/Mm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

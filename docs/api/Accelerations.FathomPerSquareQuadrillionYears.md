@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareQuadrillionYears Field
 
-fathom per square quadrillion years defined such that: foot per square trillion years = ftm/Pyr² ×  
+fathom per square quadrillion years defined such that: foot per square trillion years = ftm/Pyr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

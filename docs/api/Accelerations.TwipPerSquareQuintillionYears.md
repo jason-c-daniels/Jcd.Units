@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareQuintillionYears Field
 
-twip per square quintillion years defined such that: foot per square quadrillion years = twip/Eyr² ×  
+twip per square quintillion years defined such that: foot per square quadrillion years = twip/Eyr² ×
 (1.0/17280.0)/((1000.0)*(1000.0)).
 
 ```csharp

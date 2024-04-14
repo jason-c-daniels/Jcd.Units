@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicPetameter Field
 
-kilogram per cubic petameter defined such that: kilogram per cubic terameter = kg/Pm³ ×  
+kilogram per cubic petameter defined such that: kilogram per cubic terameter = kg/Pm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

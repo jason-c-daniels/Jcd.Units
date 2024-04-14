@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicAttometer Field
 
-megagram per cubic attometer defined such that: kilogram per cubic femtometer = Mg/am³ ×  
+megagram per cubic attometer defined such that: kilogram per cubic femtometer = Mg/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

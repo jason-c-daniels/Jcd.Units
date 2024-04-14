@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareOctillionYears Field
 
-gigameter per square octillion years defined such that: megameter per square septillion years = Gm/Ryr² ×  
+gigameter per square octillion years defined such that: megameter per square septillion years = Gm/Ryr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

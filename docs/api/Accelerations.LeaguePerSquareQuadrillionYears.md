@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareQuadrillionYears Field
 
-league per square quadrillion years defined such that: mile per square trillion years = lea/Pyr² ×  
+league per square quadrillion years defined such that: mile per square trillion years = lea/Pyr² ×
 (3.0)/((1000.0)*(1000.0)).
 
 ```csharp

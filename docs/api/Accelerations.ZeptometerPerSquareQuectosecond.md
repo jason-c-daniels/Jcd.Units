@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareQuectosecond Field
 
-zeptometer per square quectosecond defined such that: attometer per square rontosecond = zm/qs² ×  
+zeptometer per square quectosecond defined such that: attometer per square rontosecond = zm/qs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

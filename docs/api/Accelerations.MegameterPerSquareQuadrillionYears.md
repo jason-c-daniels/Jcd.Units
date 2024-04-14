@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareQuadrillionYears Field
 
-megameter per square quadrillion years defined such that: kilometer per square trillion years = Mm/Pyr² ×  
+megameter per square quadrillion years defined such that: kilometer per square trillion years = Mm/Pyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

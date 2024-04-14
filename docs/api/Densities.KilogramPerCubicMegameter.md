@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicMegameter Field
 
-kilogram per cubic megameter defined such that: kilogram per cubic kilometer = kg/Mm³ ×  
+kilogram per cubic megameter defined such that: kilogram per cubic kilometer = kg/Mm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

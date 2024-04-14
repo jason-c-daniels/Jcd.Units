@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareMillionYears Field
 
-megameter per square million years defined such that: kilometer per square millennium = Mm/Myr² ×  
+megameter per square million years defined such that: kilometer per square millennium = Mm/Myr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

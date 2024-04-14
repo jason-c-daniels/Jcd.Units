@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareQuectosecond Field
 
-hectometer per square quectosecond defined such that: dekameter per square rontosecond = hm/qs² ×  
+hectometer per square quectosecond defined such that: dekameter per square rontosecond = hm/qs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

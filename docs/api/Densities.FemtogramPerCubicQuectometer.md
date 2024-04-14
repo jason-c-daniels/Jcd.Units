@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicQuectometer Field
 
-femtogram per cubic quectometer defined such that: picogram per cubic rontometer = fg/qm³ ×  
+femtogram per cubic quectometer defined such that: picogram per cubic rontometer = fg/qm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

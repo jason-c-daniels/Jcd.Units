@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareQuectosecond Field
 
-foot per square quectosecond defined such that: inch per square rontosecond = ft/qs² ×  
+foot per square quectosecond defined such that: inch per square rontosecond = ft/qs² ×
 (12)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## IUnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double) Method
 
-Given a coefficient, calculate the equivalent coefficient for the  
+Given a coefficient, calculate the equivalent coefficient for the
 fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0)
 
 ```csharp
@@ -18,5 +18,5 @@ double ComputeFundamentalCoefficient(double coefficient);
 The coefficient to normalize.
 
 #### Returns
-[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  
+[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 The coefficient for the fundamental unit of measure.

@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareMillionYears Field
 
-twip per square million years defined such that: foot per square millennium = twip/Myr² ×  
+twip per square million years defined such that: foot per square millennium = twip/Myr² ×
 (1.0/17280.0)/((1000.0)*(1000.0)).
 
 ```csharp

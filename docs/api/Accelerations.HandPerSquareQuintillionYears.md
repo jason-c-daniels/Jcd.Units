@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareQuintillionYears Field
 
-hand per square quintillion years defined such that: inch per square quadrillion years = hh/Eyr² ×  
+hand per square quintillion years defined such that: inch per square quadrillion years = hh/Eyr² ×
 (4.0)/((1000.0)*(1000.0)).
 
 ```csharp

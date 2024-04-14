@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicHectometer Field
 
-zeptogram per cubic hectometer defined such that: attogram per cubic dekameter = zg/hm³ ×  
+zeptogram per cubic hectometer defined such that: attogram per cubic dekameter = zg/hm³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

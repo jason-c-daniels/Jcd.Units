@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicKilometer Field
 
-teragram per cubic kilometer defined such that: gigagram per cubic hectometer = Tg/km³ ×  
+teragram per cubic kilometer defined such that: gigagram per cubic hectometer = Tg/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

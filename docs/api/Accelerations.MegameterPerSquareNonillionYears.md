@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareNonillionYears Field
 
-megameter per square nonillion years defined such that: kilometer per square octillion years = Mm/Qyr² ×  
+megameter per square nonillion years defined such that: kilometer per square octillion years = Mm/Qyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

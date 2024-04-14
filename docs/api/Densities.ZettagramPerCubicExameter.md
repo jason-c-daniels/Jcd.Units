@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicExameter Field
 
-zettagram per cubic exameter defined such that: exagram per cubic petameter = Zg/Em³ ×  
+zettagram per cubic exameter defined such that: exagram per cubic petameter = Zg/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

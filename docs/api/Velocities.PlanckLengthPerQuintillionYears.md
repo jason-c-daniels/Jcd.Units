@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerQuintillionYears Field
 
-planck-length per quintillion years defined such that: SI meter per quadrillion years = ℓₚ/Eyr ×  
+planck-length per quintillion years defined such that: SI meter per quadrillion years = ℓₚ/Eyr ×
 (1.616255E-35)/(1000.0).
 
 ```csharp

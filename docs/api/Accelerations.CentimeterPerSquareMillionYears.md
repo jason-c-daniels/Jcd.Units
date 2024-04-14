@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareMillionYears Field
 
-centimeter per square million years defined such that: decimeter per square millennium = cm/Myr² ×  
+centimeter per square million years defined such that: decimeter per square millennium = cm/Myr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

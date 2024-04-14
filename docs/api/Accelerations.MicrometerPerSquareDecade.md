@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareDecade Field
 
-micrometer per square decade defined such that: millimeter per square year = μm/decade² ×  
+micrometer per square decade defined such that: millimeter per square year = μm/decade² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareSextillionYears Field
 
-zettameter per square sextillion years defined such that: exameter per square quintillion years = Zm/Zyr² ×  
+zettameter per square sextillion years defined such that: exameter per square quintillion years = Zm/Zyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicQuettameter Field
 
-dekatonne per cubic quettameter defined such that: tonne per cubic ronnameter = dat/Qm³ ×  
+dekatonne per cubic quettameter defined such that: tonne per cubic ronnameter = dat/Qm³ ×
 (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

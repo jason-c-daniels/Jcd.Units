@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareQuadrillionYears Field
 
-planck-length per square quadrillion years defined such that: SI meter per square trillion years = ℓₚ/Pyr² ×  
+planck-length per square quadrillion years defined such that: SI meter per square trillion years = ℓₚ/Pyr² ×
 (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp

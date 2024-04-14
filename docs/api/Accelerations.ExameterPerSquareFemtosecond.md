@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareFemtosecond Field
 
-exameter per square femtosecond defined such that: petameter per square picosecond = Em/fs² ×  
+exameter per square femtosecond defined such that: petameter per square picosecond = Em/fs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

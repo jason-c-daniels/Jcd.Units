@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareSextillionYears Field
 
-millimeter per square sextillion years defined such that: centimeter per square quintillion years = mm/Zyr² ×  
+millimeter per square sextillion years defined such that: centimeter per square quintillion years = mm/Zyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

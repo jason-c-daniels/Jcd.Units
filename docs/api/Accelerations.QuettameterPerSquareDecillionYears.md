@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareDecillionYears Field
 
-quettameter per square decillion years defined such that: ronnameter per square nonillion years = Qm/decillion yr² ×  
+quettameter per square decillion years defined such that: ronnameter per square nonillion years = Qm/decillion yr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

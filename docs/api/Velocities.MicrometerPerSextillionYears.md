@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerSextillionYears Field
 
-micrometer per sextillion years defined such that: millimeter per quintillion years = μm/Zyr ×  
+micrometer per sextillion years defined such that: millimeter per quintillion years = μm/Zyr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicYottameter Field
 
-petagram per cubic yottameter defined such that: teragram per cubic zettameter = Pg/Ym³ ×  
+petagram per cubic yottameter defined such that: teragram per cubic zettameter = Pg/Ym³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

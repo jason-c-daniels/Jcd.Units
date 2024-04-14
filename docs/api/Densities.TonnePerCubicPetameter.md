@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicPetameter Field
 
-tonne per cubic petameter defined such that: megagram per cubic terameter = t/Pm³ ×  
+tonne per cubic petameter defined such that: megagram per cubic terameter = t/Pm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

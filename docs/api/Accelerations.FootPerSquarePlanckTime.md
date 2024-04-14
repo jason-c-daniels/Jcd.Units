@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquarePlanckTime Field
 
-foot per square planck-time defined such that: inch per square microsecond = ft/tₚ² ×  
+foot per square planck-time defined such that: inch per square microsecond = ft/tₚ² ×
 (12)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

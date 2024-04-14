@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicNanometer Field
 
-zeptotonne per cubic nanometer defined such that: attotonne per cubic micrometer = zt/nm³ ×  
+zeptotonne per cubic nanometer defined such that: attotonne per cubic micrometer = zt/nm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

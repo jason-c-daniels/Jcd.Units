@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareOctillionYears Field
 
-fathom per square octillion years defined such that: foot per square septillion years = ftm/Ryr² ×  
+fathom per square octillion years defined such that: foot per square septillion years = ftm/Ryr² ×
 (6.0)/((1000.0)*(1000.0)).
 
 ```csharp

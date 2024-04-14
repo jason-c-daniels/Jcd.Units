@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareQuintillionYears Field
 
-meter per square quintillion years defined such that: meter per square quadrillion years = m/Eyr² ×  
+meter per square quintillion years defined such that: meter per square quadrillion years = m/Eyr² ×
 (1.0)/((1000.0)*(1000.0)).
 
 ```csharp

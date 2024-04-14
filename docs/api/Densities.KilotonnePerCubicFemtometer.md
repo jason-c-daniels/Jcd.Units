@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicFemtometer Field
 
-kilotonne per cubic femtometer defined such that: hectotonne per cubic picometer = kt/fm³ ×  
+kilotonne per cubic femtometer defined such that: hectotonne per cubic picometer = kt/fm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

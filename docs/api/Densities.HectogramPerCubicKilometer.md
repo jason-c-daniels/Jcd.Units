@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicKilometer Field
 
-hectogram per cubic kilometer defined such that: kilogram per cubic hectometer = hg/km³ ×  
+hectogram per cubic kilometer defined such that: kilogram per cubic hectometer = hg/km³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

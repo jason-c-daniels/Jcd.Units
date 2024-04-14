@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareBillionYears Field
 
-quectometer per square billion years defined such that: rontometer per square million years = qm/Gyr² ×  
+quectometer per square billion years defined such that: rontometer per square million years = qm/Gyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

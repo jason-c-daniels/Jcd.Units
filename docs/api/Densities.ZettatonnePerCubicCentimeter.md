@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicCentimeter Field
 
-zettatonne per cubic centimeter defined such that: exatonne per cubic decimeter = Zt/cm³ ×  
+zettatonne per cubic centimeter defined such that: exatonne per cubic decimeter = Zt/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

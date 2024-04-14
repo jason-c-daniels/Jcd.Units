@@ -17,5 +17,5 @@ public bool IsSynonym(TUnit other);
 The unit to compare against.
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 true if the coefficient and offset are the same, but symbol, name or system are different.

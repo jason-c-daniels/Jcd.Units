@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareMillionYears Field
 
-barleycorn per square million years defined such that: foot per square millennium = barleycorn/Myr² ×  
+barleycorn per square million years defined such that: foot per square millennium = barleycorn/Myr² ×
 (1.0/36.0)/((1000.0)*(1000.0)).
 
 ```csharp

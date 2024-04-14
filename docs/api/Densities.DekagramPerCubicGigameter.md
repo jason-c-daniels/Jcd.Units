@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicGigameter Field
 
-dekagram per cubic gigameter defined such that: hectogram per cubic megameter = dag/Gm³ ×  
+dekagram per cubic gigameter defined such that: hectogram per cubic megameter = dag/Gm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

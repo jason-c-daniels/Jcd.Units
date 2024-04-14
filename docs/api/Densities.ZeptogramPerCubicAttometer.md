@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicAttometer Field
 
-zeptogram per cubic attometer defined such that: attogram per cubic femtometer = zg/am³ ×  
+zeptogram per cubic attometer defined such that: attogram per cubic femtometer = zg/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

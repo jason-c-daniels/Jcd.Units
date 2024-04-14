@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicKilometer Field
 
-gigatonne per cubic kilometer defined such that: megatonne per cubic hectometer = Gt/km³ ×  
+gigatonne per cubic kilometer defined such that: megatonne per cubic hectometer = Gt/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

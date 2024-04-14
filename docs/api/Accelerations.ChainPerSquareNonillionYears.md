@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareNonillionYears Field
 
-chain per square nonillion years defined such that: yard per square octillion years = ch/Qyr² ×  
+chain per square nonillion years defined such that: yard per square octillion years = ch/Qyr² ×
 (22.0)/((1000.0)*(1000.0)).
 
 ```csharp

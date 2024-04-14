@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicMillimeter Field
 
-nanotonne per cubic millimeter defined such that: microtonne per cubic centimeter = nt/mm³ ×  
+nanotonne per cubic millimeter defined such that: microtonne per cubic centimeter = nt/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

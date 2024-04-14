@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicQuettameter Field
 
-zettatonne per cubic quettameter defined such that: exatonne per cubic ronnameter = Zt/Qm³ ×  
+zettatonne per cubic quettameter defined such that: exatonne per cubic ronnameter = Zt/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicNanometer Field
 
-decigram per cubic nanometer defined such that: gram per cubic micrometer = dg/nm³ ×  
+decigram per cubic nanometer defined such that: gram per cubic micrometer = dg/nm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

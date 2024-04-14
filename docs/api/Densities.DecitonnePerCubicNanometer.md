@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicNanometer Field
 
-decitonne per cubic nanometer defined such that: tonne per cubic micrometer = dt/nm³ ×  
+decitonne per cubic nanometer defined such that: tonne per cubic micrometer = dt/nm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

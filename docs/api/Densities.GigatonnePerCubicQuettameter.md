@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicQuettameter Field
 
-gigatonne per cubic quettameter defined such that: megatonne per cubic ronnameter = Gt/Qm³ ×  
+gigatonne per cubic quettameter defined such that: megatonne per cubic ronnameter = Gt/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

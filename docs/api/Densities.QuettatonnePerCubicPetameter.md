@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicPetameter Field
 
-quettatonne per cubic petameter defined such that: ronnatonne per cubic terameter = Qt/Pm³ ×  
+quettatonne per cubic petameter defined such that: ronnatonne per cubic terameter = Qt/Pm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

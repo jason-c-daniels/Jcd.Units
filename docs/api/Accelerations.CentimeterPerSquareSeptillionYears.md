@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareSeptillionYears Field
 
-centimeter per square septillion years defined such that: decimeter per square sextillion years = cm/Yyr² ×  
+centimeter per square septillion years defined such that: decimeter per square sextillion years = cm/Yyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

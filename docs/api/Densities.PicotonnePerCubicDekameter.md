@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicDekameter Field
 
-picotonne per cubic dekameter defined such that: nanotonne per cubic meter = pt/dam³ ×  
+picotonne per cubic dekameter defined such that: nanotonne per cubic meter = pt/dam³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicPicometer Field
 
-millitonne per cubic picometer defined such that: centitonne per cubic nanometer = mt/pm³ ×  
+millitonne per cubic picometer defined such that: centitonne per cubic nanometer = mt/pm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

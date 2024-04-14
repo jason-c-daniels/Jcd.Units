@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicGigameter Field
 
-nanogram per cubic gigameter defined such that: microgram per cubic megameter = ng/Gm³ ×  
+nanogram per cubic gigameter defined such that: microgram per cubic megameter = ng/Gm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

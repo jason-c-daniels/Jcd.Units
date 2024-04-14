@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicMillimeter Field
 
-centitonne per cubic millimeter defined such that: decitonne per cubic centimeter = ct/mm³ ×  
+centitonne per cubic millimeter defined such that: decitonne per cubic centimeter = ct/mm³ ×
 (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

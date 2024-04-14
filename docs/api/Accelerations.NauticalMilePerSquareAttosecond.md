@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareAttosecond Field
 
-nautical mile per square attosecond defined such that: cable per square femtosecond = nmi/as² ×  
+nautical mile per square attosecond defined such that: cable per square femtosecond = nmi/as² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareDecisecond Field
 
-zettameter per square decisecond defined such that: exameter per square second = Zm/ds² ×  
+zettameter per square decisecond defined such that: exameter per square second = Zm/ds² ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareMillionYears Field
 
-nanometer per square million years defined such that: micrometer per square millennium = nm/Myr² ×  
+nanometer per square million years defined such that: micrometer per square millennium = nm/Myr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

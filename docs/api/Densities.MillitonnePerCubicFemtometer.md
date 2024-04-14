@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicFemtometer Field
 
-millitonne per cubic femtometer defined such that: centitonne per cubic picometer = mt/fm³ ×  
+millitonne per cubic femtometer defined such that: centitonne per cubic picometer = mt/fm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

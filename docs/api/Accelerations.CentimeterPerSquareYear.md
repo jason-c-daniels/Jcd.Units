@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareYear Field
 
-centimeter per square year defined such that: decimeter per square day = cm/yr² ×  
+centimeter per square year defined such that: decimeter per square day = cm/yr² ×
 (1.0/10.0)/((365.2525)*(365.2525)).
 
 ```csharp

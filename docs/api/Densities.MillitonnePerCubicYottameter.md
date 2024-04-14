@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicYottameter Field
 
-millitonne per cubic yottameter defined such that: centitonne per cubic zettameter = mt/Ym³ ×  
+millitonne per cubic yottameter defined such that: centitonne per cubic zettameter = mt/Ym³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicZeptometer Field
 
-quettatonne per cubic zeptometer defined such that: ronnatonne per cubic attometer = Qt/zm³ ×  
+quettatonne per cubic zeptometer defined such that: ronnatonne per cubic attometer = Qt/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

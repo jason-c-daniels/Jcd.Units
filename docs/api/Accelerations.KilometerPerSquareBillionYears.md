@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareBillionYears Field
 
-kilometer per square billion years defined such that: hectometer per square million years = km/Gyr² ×  
+kilometer per square billion years defined such that: hectometer per square million years = km/Gyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDose(string, string, RadiationAbsorbedDose, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') using another  
+Constructs a unit measuring a specified [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') using another
 [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') as a reference.
 
 ```csharp

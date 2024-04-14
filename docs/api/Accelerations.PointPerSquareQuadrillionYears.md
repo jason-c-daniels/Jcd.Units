@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareQuadrillionYears Field
 
-point per square quadrillion years defined such that: inch per square trillion years = p/Pyr² ×  
+point per square quadrillion years defined such that: inch per square trillion years = p/Pyr² ×
 (1.0/72.0)/((1000.0)*(1000.0)).
 
 ```csharp

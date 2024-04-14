@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareZeptosecond Field
 
-mile per square zeptosecond defined such that: furlong per square attosecond = mi/zs² ×  
+mile per square zeptosecond defined such that: furlong per square attosecond = mi/zs² ×
 (8.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

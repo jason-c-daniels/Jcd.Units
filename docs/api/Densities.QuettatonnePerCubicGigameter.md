@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicGigameter Field
 
-quettatonne per cubic gigameter defined such that: ronnatonne per cubic megameter = Qt/Gm³ ×  
+quettatonne per cubic gigameter defined such that: ronnatonne per cubic megameter = Qt/Gm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

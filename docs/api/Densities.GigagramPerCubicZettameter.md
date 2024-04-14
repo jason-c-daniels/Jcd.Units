@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicZettameter Field
 
-gigagram per cubic zettameter defined such that: megagram per cubic exameter = Gg/Zm³ ×  
+gigagram per cubic zettameter defined such that: megagram per cubic exameter = Gg/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareRontosecond Field
 
-gigameter per square rontosecond defined such that: megameter per square yoctosecond = Gm/rs² ×  
+gigameter per square rontosecond defined such that: megameter per square yoctosecond = Gm/rs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

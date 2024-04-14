@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicHectometer Field
 
-rontotonne per cubic hectometer defined such that: yoctotonne per cubic dekameter = rt/hm³ ×  
+rontotonne per cubic hectometer defined such that: yoctotonne per cubic dekameter = rt/hm³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

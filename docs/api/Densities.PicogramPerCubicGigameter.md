@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicGigameter Field
 
-picogram per cubic gigameter defined such that: nanogram per cubic megameter = pg/Gm³ ×  
+picogram per cubic gigameter defined such that: nanogram per cubic megameter = pg/Gm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

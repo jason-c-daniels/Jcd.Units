@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicAttometer Field
 
-rontotonne per cubic attometer defined such that: yoctotonne per cubic femtometer = rt/am³ ×  
+rontotonne per cubic attometer defined such that: yoctotonne per cubic femtometer = rt/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

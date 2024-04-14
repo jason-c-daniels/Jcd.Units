@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicMillimeter Field
 
-femtogram per cubic millimeter defined such that: picogram per cubic centimeter = fg/mm³ ×  
+femtogram per cubic millimeter defined such that: picogram per cubic centimeter = fg/mm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

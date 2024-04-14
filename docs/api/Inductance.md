@@ -3,7 +3,7 @@
 
 ## Inductance Class
 
-A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated  
+A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated
 by a change in the current flow.
 
 ```csharp
@@ -14,4 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Inductance(string, string, Inductance, double, double, IValueComparer&lt;double&gt;, string)](Inductance..ctor.BcyropCKKzpGKJIIXN22oQ.md 'Jcd.Units.UnitTypes.Inductance.Inductance(string, string, Jcd.Units.UnitTypes.Inductance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a<br/>reference. |
+| [Inductance(string, string, Inductance, double, double, IValueComparer&lt;double&gt;, string)](Inductance..ctor.BcyropCKKzpGKJIIXN22oQ.md 'Jcd.Units.UnitTypes.Inductance.Inductance(string, string, Jcd.Units.UnitTypes.Inductance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a reference. |

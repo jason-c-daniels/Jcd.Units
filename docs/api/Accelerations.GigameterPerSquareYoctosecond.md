@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareYoctosecond Field
 
-gigameter per square yoctosecond defined such that: megameter per square zeptosecond = Gm/ys² ×  
+gigameter per square yoctosecond defined such that: megameter per square zeptosecond = Gm/ys² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

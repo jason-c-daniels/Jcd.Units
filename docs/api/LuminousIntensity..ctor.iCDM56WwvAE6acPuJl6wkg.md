@@ -3,7 +3,7 @@
 
 ## LuminousIntensity(string, string, LuminousIntensity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') using another  
+Constructs a unit measuring a specified [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') using another
 [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') as a reference.
 
 ```csharp

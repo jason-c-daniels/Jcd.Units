@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicZettameter Field
 
-petatonne per cubic zettameter defined such that: teratonne per cubic exameter = Pt/Zm³ ×  
+petatonne per cubic zettameter defined such that: teratonne per cubic exameter = Pt/Zm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

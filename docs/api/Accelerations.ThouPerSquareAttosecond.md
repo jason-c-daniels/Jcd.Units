@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareAttosecond Field
 
-thou per square attosecond defined such that: foot per square femtosecond = th/as² ×  
+thou per square attosecond defined such that: foot per square femtosecond = th/as² ×
 (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

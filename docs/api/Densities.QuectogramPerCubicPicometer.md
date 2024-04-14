@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicPicometer Field
 
-quectogram per cubic picometer defined such that: rontogram per cubic nanometer = qg/pm³ ×  
+quectogram per cubic picometer defined such that: rontogram per cubic nanometer = qg/pm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

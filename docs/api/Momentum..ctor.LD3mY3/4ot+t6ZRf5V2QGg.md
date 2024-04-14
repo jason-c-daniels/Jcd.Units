@@ -3,7 +3,7 @@
 
 ## Momentum(string, string, Momentum, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a  
+Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a
 reference.
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicPetameter Field
 
-ronnatonne per cubic petameter defined such that: yottatonne per cubic terameter = Rt/Pm³ ×  
+ronnatonne per cubic petameter defined such that: yottatonne per cubic terameter = Rt/Pm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareYoctosecond Field
 
-kilometer per square yoctosecond defined such that: hectometer per square zeptosecond = km/ys² ×  
+kilometer per square yoctosecond defined such that: hectometer per square zeptosecond = km/ys² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

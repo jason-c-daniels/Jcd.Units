@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicPetameter Field
 
-milligram per cubic petameter defined such that: centigram per cubic terameter = mg/Pm³ ×  
+milligram per cubic petameter defined such that: centigram per cubic terameter = mg/Pm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

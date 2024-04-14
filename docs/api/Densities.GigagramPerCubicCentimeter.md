@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicCentimeter Field
 
-gigagram per cubic centimeter defined such that: megagram per cubic decimeter = Gg/cm³ ×  
+gigagram per cubic centimeter defined such that: megagram per cubic decimeter = Gg/cm³ ×
 (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

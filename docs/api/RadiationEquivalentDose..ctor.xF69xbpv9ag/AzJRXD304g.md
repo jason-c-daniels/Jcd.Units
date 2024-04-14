@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another  
+Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another
 [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference.
 
 ```csharp

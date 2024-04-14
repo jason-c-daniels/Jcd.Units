@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicAttometer Field
 
-yottatonne per cubic attometer defined such that: zettatonne per cubic femtometer = Yt/am³ ×  
+yottatonne per cubic attometer defined such that: zettatonne per cubic femtometer = Yt/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

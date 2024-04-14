@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareZeptosecond Field
 
-barleycorn per square zeptosecond defined such that: foot per square attosecond = barleycorn/zs² ×  
+barleycorn per square zeptosecond defined such that: foot per square attosecond = barleycorn/zs² ×
 (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

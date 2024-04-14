@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicNanometer Field
 
-yottatonne per cubic nanometer defined such that: zettatonne per cubic micrometer = Yt/nm³ ×  
+yottatonne per cubic nanometer defined such that: zettatonne per cubic micrometer = Yt/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

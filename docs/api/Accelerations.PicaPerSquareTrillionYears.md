@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareTrillionYears Field
 
-pica per square trillion years defined such that: point per square billion years = P/Tyr² ×  
+pica per square trillion years defined such that: point per square billion years = P/Tyr² ×
 (12.0)/((1000.0)*(1000.0)).
 
 ```csharp

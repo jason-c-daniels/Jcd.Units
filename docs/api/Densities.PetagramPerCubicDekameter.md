@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicDekameter Field
 
-petagram per cubic dekameter defined such that: teragram per cubic meter = Pg/dam³ ×  
+petagram per cubic dekameter defined such that: teragram per cubic meter = Pg/dam³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicMeter Field
 
-quectotonne per cubic meter defined such that: rontotonne per cubic meter = qt/m³ ×  
+quectotonne per cubic meter defined such that: rontotonne per cubic meter = qt/m³ ×
 (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp

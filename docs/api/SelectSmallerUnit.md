@@ -16,7 +16,7 @@ Implements [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSel
 
 | Constructors | |
 | :--- | :--- |
-| [SelectSmallerUnit()](SelectSmallerUnit.SelectSmallerUnit().md 'Jcd.Units.UnitSelection.SelectSmallerUnit.SelectSmallerUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectSmallerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectSmallerUnit.Instance') enforcing GC<br/>friendliness.) |
+| [SelectSmallerUnit()](SelectSmallerUnit.SelectSmallerUnit().md 'Jcd.Units.UnitSelection.SelectSmallerUnit.SelectSmallerUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectSmallerUnit.Instance.md 'Jcd.Units.UnitSelection.SelectSmallerUnit.Instance') enforcing GC friendliness.) |
 
 | Fields | |
 | :--- | :--- |

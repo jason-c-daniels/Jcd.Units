@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareCentury Field
 
-terameter per square century defined such that: gigameter per square decade = Tm/century² ×  
+terameter per square century defined such that: gigameter per square decade = Tm/century² ×
 (1000.0)/((10.0)*(10.0)).
 
 ```csharp

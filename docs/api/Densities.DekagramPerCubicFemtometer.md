@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicFemtometer Field
 
-dekagram per cubic femtometer defined such that: hectogram per cubic picometer = dag/fm³ ×  
+dekagram per cubic femtometer defined such that: hectogram per cubic picometer = dag/fm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

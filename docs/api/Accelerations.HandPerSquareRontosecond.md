@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareRontosecond Field
 
-hand per square rontosecond defined such that: inch per square yoctosecond = hh/rs² ×  
+hand per square rontosecond defined such that: inch per square yoctosecond = hh/rs² ×
 (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

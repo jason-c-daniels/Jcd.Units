@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicGigameter Field
 
-kilogram per cubic gigameter defined such that: kilogram per cubic megameter = kg/Gm³ ×  
+kilogram per cubic gigameter defined such that: kilogram per cubic megameter = kg/Gm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

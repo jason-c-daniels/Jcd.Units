@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicZeptometer Field
 
-yoctogram per cubic zeptometer defined such that: zeptogram per cubic attometer = yg/zm³ ×  
+yoctogram per cubic zeptometer defined such that: zeptogram per cubic attometer = yg/zm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

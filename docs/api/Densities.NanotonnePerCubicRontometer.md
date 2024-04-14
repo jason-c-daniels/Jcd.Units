@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicRontometer Field
 
-nanotonne per cubic rontometer defined such that: microtonne per cubic yoctometer = nt/rm³ ×  
+nanotonne per cubic rontometer defined such that: microtonne per cubic yoctometer = nt/rm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicMillimeter Field
 
-hectotonne per cubic millimeter defined such that: dekatonne per cubic centimeter = ht/mm³ ×  
+hectotonne per cubic millimeter defined such that: dekatonne per cubic centimeter = ht/mm³ ×
 (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

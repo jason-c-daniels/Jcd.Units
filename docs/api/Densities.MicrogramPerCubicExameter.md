@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicExameter Field
 
-microgram per cubic exameter defined such that: milligram per cubic petameter = μg/Em³ ×  
+microgram per cubic exameter defined such that: milligram per cubic petameter = μg/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

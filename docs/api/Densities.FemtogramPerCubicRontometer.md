@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicRontometer Field
 
-femtogram per cubic rontometer defined such that: picogram per cubic yoctometer = fg/rm³ ×  
+femtogram per cubic rontometer defined such that: picogram per cubic yoctometer = fg/rm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

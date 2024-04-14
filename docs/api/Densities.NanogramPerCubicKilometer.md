@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicKilometer Field
 
-nanogram per cubic kilometer defined such that: microgram per cubic hectometer = ng/km³ ×  
+nanogram per cubic kilometer defined such that: microgram per cubic hectometer = ng/km³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

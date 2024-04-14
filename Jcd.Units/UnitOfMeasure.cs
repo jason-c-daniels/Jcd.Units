@@ -22,12 +22,12 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
    where TUnit : UnitOfMeasure<TUnit>
 {
    private readonly TUnit? _baseUnit;
-   
+
    private readonly TUnit? _fundamentalUnit;
-   
+
    private readonly double _inverseCoefficient = 1;
    private IValueComparer<double>? _comparer;
-   
+
    /// <summary>
    /// Constructs a unit of measure using another <see cref="UnitOfMeasure{TUnit}" /> as a base.
    /// </summary>
@@ -54,14 +54,14 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       Offset = baseUnit?.ComputeFundamentalOffset(Coefficient, offset) ?? 0;
       Comparer = comparer;
    }
-   
+
    // ReSharper disable once StaticMemberInGenericType
    /// <summary>
    /// Sets the <see cref="IValueComparer{Double}" /> used by units of measure for this particular unit of
    /// measure type. (e.g. lengths.)
    /// </summary>
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
-   
+
    // ReSharper disable once MemberCanBeProtected.Global
    /// <summary>
    /// The <see cref="IValueComparer{T}" /> used for comparisons: where <c>T</c> is a <see cref="double" />.
@@ -73,23 +73,23 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
    public IValueComparer<double>? Comparer
    {
       get => _comparer ?? DefaultDoubleComparer ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
-      
+
       // ReSharper disable once PropertyCanBeMadeInitOnly.Global, MemberCanBeProtected.Global
       set => _comparer = value;
    }
-   
+
    /// <summary>
    /// The Coefficient used when initializing the unit of measure with a base unit of measure.
    /// </summary>
    public double BaseUnitCoefficient { get; protected init; } = 1.0;
-   
+
    /// <summary>
    /// The Offset used when initializing the unit of measure with a base unit of measure.
    /// </summary>
    public double BaseUnitOffset { get; protected init; }
-   
+
    #region IUnitOfMeasure<TUnit> Members
-   
+
    /// <summary>
    /// The unit of measure all others are represented in terms of.
    /// </summary>
@@ -98,7 +98,7 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       get => _fundamentalUnit ?? (TUnit) this;
       protected init => _fundamentalUnit = value;
    }
-   
+
    /// <summary>
    /// The unit of measure this one was defined in terms of.
    /// </summary>
@@ -107,16 +107,16 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       get => _baseUnit ?? (TUnit) this;
       protected init => _baseUnit = value;
    }
-   
+
    /// <summary>
    /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
    /// </summary>
    public bool IsFundamentalUnit => _baseUnit is null;
-   
+
    #endregion
-   
+
    #region Equality members
-   
+
    /// <summary>
    /// Compares this <see cref="UnitOfMeasure{TUnit}" /> to another one for equality.
    /// </summary>
@@ -129,12 +129,12 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return false;
       }
-      
+
       var comparer = Comparer!;
-      
+
       return comparer.Equals(Coefficient, other.Coefficient) && comparer.Equals(Offset, other.Offset);
    }
-   
+
    /// <summary>
    /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}" />
    /// </summary>
@@ -144,23 +144,23 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
    {
       // ReSharper disable once NonReadonlyMemberInGetHashCode
       var comparer = Comparer!;
-      
+
       return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(TUnit));
    }
-   
+
    /// <inheritdoc />
    public sealed override string ToString()
    {
       var sb = new StringBuilder();
       sb.Append($"{Name} ({Symbol})");
-      
+
       return sb.ToString();
    }
-   
+
    #endregion
-   
+
    #region Relational members
-   
+
    /// <summary>
    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}" /> and another one.
    /// </summary>
@@ -173,16 +173,16 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return 1; // sort nulls first.
       }
-      
+
       var comparer = Comparer!;
       var coefficientComparison = comparer.Compare(Coefficient, other.Coefficient);
       var result = coefficientComparison != 0
                       ? coefficientComparison
                       : comparer.Compare(Offset, other.Offset);
-      
+
       return result;
    }
-   
+
    /// <summary>
    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}" /> and another one.
    /// </summary>
@@ -196,12 +196,12 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return 1; // sort nulls first.
       }
-      
+
       return obj is TUnit other
                 ? CompareTo(other)
                 : throw new ArgumentException($"Object must be of type {nameof(UnitOfMeasure<TUnit>)}");
    }
-   
+
    /// <summary>
    /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is less than the right one.
    /// </summary>
@@ -215,25 +215,25 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (ReferenceEquals(left, right))
       {
          return false; // if they're the same instance or both are null.
       }
-      
+
       if (right is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (left is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       return left.CompareTo(right) < 0;
    }
-   
+
    /// <summary>
    /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is greater than the right
    /// one.
@@ -248,25 +248,25 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (ReferenceEquals(left, right))
       {
          return false; // if they're the same instance or both are null.
       }
-      
+
       if (right is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (left is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       return left.CompareTo(right) > 0;
    }
-   
+
    /// <summary>
    /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is less than or equal to the
    /// right one.
@@ -281,25 +281,25 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (ReferenceEquals(left, right))
       {
          return true; // if they're the same instance.
       }
-      
+
       if (right is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (left is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       return left.CompareTo(right) <= 0;
    }
-   
+
    /// <summary>
    /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is greater than or equal to
    /// the right one.
@@ -314,25 +314,25 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (ReferenceEquals(left, right))
       {
          return true; // if they're the same instance.
       }
-      
+
       if (right is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       if (left is null)
       {
          return false; // relationally, nulls do not compare, return false.
       }
-      
+
       return left.CompareTo(right) >= 0;
    }
-   
+
    /// <summary>
    /// Determines if the units of measure are identical in all but system name, name, or symbol.
    /// </summary>
@@ -342,25 +342,25 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
    {
       return CompareTo(other) == 0 && (System != other.System || Name != other.Name || Symbol != other.Symbol);
    }
-   
+
    #endregion
-   
+
    #region Conversion Methods
-   
+
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public double FromFundamentalUnitValue(double normalizedValue)
    {
       return normalizedValue * _inverseCoefficient - Offset;
    }
-   
+
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public double ToFundamentalUnitValue(double denormalizedValue)
    {
       return (denormalizedValue + Offset) * Coefficient;
    }
-   
+
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalCoefficient(double coefficient)
    {
@@ -368,7 +368,7 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
                 ? coefficient
                 : Coefficient * coefficient;
    }
-   
+
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset)
    {
@@ -376,6 +376,6 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
                 ? offset
                 : ToFundamentalUnitValue(offset) / fundamentalCoefficient;
    }
-   
+
    #endregion
 }

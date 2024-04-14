@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicMicrometer Field
 
-attotonne per cubic micrometer defined such that: femtotonne per cubic millimeter = at/μm³ ×  
+attotonne per cubic micrometer defined such that: femtotonne per cubic millimeter = at/μm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

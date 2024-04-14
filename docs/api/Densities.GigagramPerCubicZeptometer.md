@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicZeptometer Field
 
-gigagram per cubic zeptometer defined such that: megagram per cubic attometer = Gg/zm³ ×  
+gigagram per cubic zeptometer defined such that: megagram per cubic attometer = Gg/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicQuettameter Field
 
-exagram per cubic quettameter defined such that: petagram per cubic ronnameter = Eg/Qm³ ×  
+exagram per cubic quettameter defined such that: petagram per cubic ronnameter = Eg/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

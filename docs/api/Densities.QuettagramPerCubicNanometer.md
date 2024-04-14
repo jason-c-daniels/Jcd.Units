@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicNanometer Field
 
-quettagram per cubic nanometer defined such that: ronnagram per cubic micrometer = Qg/nm³ ×  
+quettagram per cubic nanometer defined such that: ronnagram per cubic micrometer = Qg/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

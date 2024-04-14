@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareQuadrillionYears Field
 
-link per square quadrillion years defined such that: SI meter per square trillion years = li/Pyr² ×  
+link per square quadrillion years defined such that: SI meter per square trillion years = li/Pyr² ×
 (0.20116)/((1000.0)*(1000.0)).
 
 ```csharp

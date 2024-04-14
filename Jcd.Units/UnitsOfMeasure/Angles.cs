@@ -21,22 +21,22 @@ public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
    /// radian, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Angle Radian = new("radian", "rad", system: "");
-   
+
    /// <summary>
    /// degree defined such that: radian = ° × (180.0/Math.PI).
    /// </summary>
    public static readonly Angle Degree = new("degree", "°", Radian, 180.0 / Math.PI, system: "");
-   
+
    /// <summary>
    /// arc minute defined such that: degree = ′ × 1.0/60.0.
    /// </summary>
    public static readonly Angle ArcMinute = new("arc minute", "′", Degree, 1.0 / 60.0, system: "");
-   
+
    /// <summary>
    /// arc second defined such that: arc minute = ″ × 1.0/60.0.
    /// </summary>
    public static readonly Angle ArcSecond = new("arc second", "″", ArcMinute, 1.0 / 60.0, system: "");
-   
+
    /// <summary>
    /// gradian defined such that: radian = ᵍ × (Math.PI/200.0).
    /// </summary>

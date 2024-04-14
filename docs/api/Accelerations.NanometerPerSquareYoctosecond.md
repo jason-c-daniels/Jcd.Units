@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareYoctosecond Field
 
-nanometer per square yoctosecond defined such that: micrometer per square zeptosecond = nm/ys² ×  
+nanometer per square yoctosecond defined such that: micrometer per square zeptosecond = nm/ys² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

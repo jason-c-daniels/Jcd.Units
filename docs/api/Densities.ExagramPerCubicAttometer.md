@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicAttometer Field
 
-exagram per cubic attometer defined such that: petagram per cubic femtometer = Eg/am³ ×  
+exagram per cubic attometer defined such that: petagram per cubic femtometer = Eg/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

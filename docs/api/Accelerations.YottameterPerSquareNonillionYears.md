@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareNonillionYears Field
 
-yottameter per square nonillion years defined such that: zettameter per square octillion years = Ym/Qyr² ×  
+yottameter per square nonillion years defined such that: zettameter per square octillion years = Ym/Qyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

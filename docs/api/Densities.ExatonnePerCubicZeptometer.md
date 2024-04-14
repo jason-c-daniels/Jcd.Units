@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicZeptometer Field
 
-exatonne per cubic zeptometer defined such that: petatonne per cubic attometer = Et/zm³ ×  
+exatonne per cubic zeptometer defined such that: petatonne per cubic attometer = Et/zm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

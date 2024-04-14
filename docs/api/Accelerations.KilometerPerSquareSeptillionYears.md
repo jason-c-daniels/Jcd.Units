@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareSeptillionYears Field
 
-kilometer per square septillion years defined such that: hectometer per square sextillion years = km/Yyr² ×  
+kilometer per square septillion years defined such that: hectometer per square sextillion years = km/Yyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

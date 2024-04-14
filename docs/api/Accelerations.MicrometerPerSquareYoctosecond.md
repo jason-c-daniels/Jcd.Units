@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareYoctosecond Field
 
-micrometer per square yoctosecond defined such that: millimeter per square zeptosecond = μm/ys² ×  
+micrometer per square yoctosecond defined such that: millimeter per square zeptosecond = μm/ys² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

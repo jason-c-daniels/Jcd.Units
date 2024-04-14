@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareDecisecond Field
 
-thou per square decisecond defined such that: foot per square second = th/ds² ×  
+thou per square decisecond defined such that: foot per square second = th/ds² ×
 (1.0/12000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp

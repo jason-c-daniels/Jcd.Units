@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareQuintillionYears Field
 
-picometer per square quintillion years defined such that: nanometer per square quadrillion years = pm/Eyr² ×  
+picometer per square quintillion years defined such that: nanometer per square quadrillion years = pm/Eyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

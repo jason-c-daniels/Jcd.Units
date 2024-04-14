@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicYoctometer Field
 
-microgram per cubic yoctometer defined such that: milligram per cubic zeptometer = μg/ym³ ×  
+microgram per cubic yoctometer defined such that: milligram per cubic zeptometer = μg/ym³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

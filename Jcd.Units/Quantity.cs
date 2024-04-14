@@ -28,7 +28,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    private static IUnitSelectionStrategy? _comparisonUnitSelector = null;
    private static IUnitSelectionStrategy? _arithmeticUnitSelector = null;
    private readonly IValueComparer<double>? _comparer = null;
-   
+
    /// <summary>
    /// Represents a quantity with an associated unit of measure.
    /// </summary>
@@ -40,13 +40,13 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       _comparer = baseUnitComparer;
    }
-   
+
    /// <summary>
    /// Sets the default <see cref="IValueComparer{Double}" /> used by quantities for the particular unit of
    /// measure type. (e.g. lengths.)
    /// </summary>
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
-   
+
    /// <summary>
    /// The <see cref="IUnitSelectionStrategy" /> used by quantities of the particular unit of
    /// measure type (e.g. lengths) to select which unit of measure will be used to perform comparisons.
@@ -56,7 +56,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       get => _comparisonUnitSelector ?? GlobalUnitSelectionStrategy.ForComparison;
       set => _comparisonUnitSelector = value;
    }
-   
+
    /// <summary>
    /// The <see cref="IUnitSelectionStrategy" /> used by quantities of the particular unit of
    /// measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
@@ -66,7 +66,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       get => _arithmeticUnitSelector ?? GlobalUnitSelectionStrategy.ForArithmetic;
       set => _arithmeticUnitSelector = value;
    }
-   
+
    /// <summary>
    /// The <see cref="IValueComparer{T}" /> used for comparisons: where <c>T</c> is a <see cref="double" />.
    /// </summary>
@@ -75,7 +75,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.
    /// </remarks>
    public IValueComparer<double>? Comparer => _comparer ?? DefaultDoubleComparer ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
-   
+
    /// <summary>
    /// Converts the quantity from its current unit of measure to the target unit of measure.
    /// </summary>
@@ -88,19 +88,19 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          return this;
       }
-      
+
       var nv = Unit.IsFundamentalUnit
                   ? RawValue
                   : Unit.ToFundamentalUnitValue(RawValue);
       var dnv = targetUnit.IsFundamentalUnit
                    ? nv
                    : targetUnit.FromFundamentalUnitValue(nv);
-      
+
       return new Quantity<TUnit>(dnv, targetUnit, _comparer);
    }
-   
+
    #region Explicit conversions
-   
+
    /// <summary>
    /// Explicit cast conversion to double.
    /// </summary>
@@ -111,11 +111,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return q.RawValue;
    }
-   
+
    #endregion
-   
+
    #region Overrides of ValueType
-   
+
    /// <summary>
    /// Formats a string with the quantity value followed by the symbol.
    /// </summary>
@@ -125,7 +125,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return ToString("n", CultureInfo.CurrentCulture);
    }
-   
+
    /// <summary>
    /// Outputs the number formatted according to the <paramref name="format" />
    /// with unit symbol.
@@ -137,7 +137,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return ToString(format, CultureInfo.CurrentCulture);
    }
-   
+
    /// <summary>
    /// Formats the value of the current instance using the specified format.
    /// </summary>
@@ -151,20 +151,20 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          format = "n";
       }
-      
+
       provider ??= CultureInfo.CurrentCulture;
-      
+
       var sb = new StringBuilder();
       sb.Append(RawValue.ToString(format, provider));
       sb.Append($" {Unit.Symbol}");
-      
+
       return sb.ToString();
    }
-   
+
    #endregion
-   
+
    #region Quantity to Quantity and unary Quantity arithmetic operators.
-   
+
    /// <summary>
    /// Performs a standard unary "+" operation.
    /// </summary>
@@ -175,7 +175,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return q;
    }
-   
+
    /// <summary>
    /// Performs unary negation on the <see cref="RawValue" /> component and
    /// returns a new <see cref="Quantity{TUnit}" />.
@@ -187,7 +187,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return q with { RawValue = -q.RawValue };
    }
-   
+
    /// <summary>
    /// Performs a unary increment operation.
    /// </summary>
@@ -198,7 +198,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return q with { RawValue = q.RawValue + 1 };
    }
-   
+
    /// <summary>
    /// Performs a unary decrement operation.
    /// </summary>
@@ -209,7 +209,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return q with { RawValue = q.RawValue - 1 };
    }
-   
+
    /// <summary>
    /// Adds two quantities, selecting the larger unit of measure as the common representation.
    /// </summary>
@@ -223,12 +223,12 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          return x with { RawValue = x.RawValue + y.RawValue };
       }
-      
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
-      
+
       return x.To(targetUnit).RawValue + y.To(targetUnit);
    }
-   
+
    /// <summary>
    /// Performs subtraction on two quantities, converting to the larger of the two units of measure.
    /// </summary>
@@ -242,12 +242,12 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          return x with { RawValue = x.RawValue - y.RawValue };
       }
-      
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
-      
+
       return x.To(targetUnit).RawValue - y.To(targetUnit);
    }
-   
+
    /// <summary>
    /// Performs multiplication on two quantities, converting to the larger of the two units of measure.
    /// </summary>
@@ -261,12 +261,12 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          return x with { RawValue = x.RawValue * y.RawValue };
       }
-      
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
-      
+
       return x.To(targetUnit).RawValue * y.To(targetUnit);
    }
-   
+
    /// <summary>
    /// Performs division on two quantities, converting to the larger of the two units of measure.
    /// </summary>
@@ -278,19 +278,19 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    public static Quantity<TUnit> operator /(Quantity<TUnit> x, Quantity<TUnit> y)
    {
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
-      
+
       if (x.Unit == y.Unit)
       {
          return x with { RawValue = x.RawValue / y.RawValue };
       }
-      
+
       return x.To(targetUnit).RawValue / y.To(targetUnit);
    }
-   
+
    #endregion
-   
+
    #region Quantity to double artithmetic operators.
-   
+
    /// <summary>
    /// Performs addition on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -302,7 +302,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return x with { RawValue = x.RawValue + y };
    }
-   
+
    /// <summary>
    /// Performs subtraction on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -314,7 +314,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return x with { RawValue = x.RawValue - y };
    }
-   
+
    /// <summary>
    /// Performs multiplication on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -326,7 +326,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return x with { RawValue = x.RawValue * y };
    }
-   
+
    /// <summary>
    /// Performs division on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -339,11 +339,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return x with { RawValue = x.RawValue / y };
    }
-   
+
    #endregion
-   
+
    #region double to Quantity arithmetic operators.
-   
+
    /// <summary>
    /// Performs addition on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -355,7 +355,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return y with { RawValue = x + y.RawValue };
    }
-   
+
    /// <summary>
    /// Performs subtraction on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -367,7 +367,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return y with { RawValue = x - y.RawValue };
    }
-   
+
    /// <summary>
    /// Performs multiplication on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -379,7 +379,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return y with { RawValue = x * y.RawValue };
    }
-   
+
    /// <summary>
    /// Performs division on a double and a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -392,11 +392,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return y with { RawValue = x / y.RawValue };
    }
-   
+
    #endregion
-   
+
    #region Equality members
-   
+
    /// <summary>
    /// Compares this instance to another <see cref="Quantity{TUnit}" /> instance for equality.
    /// </summary>
@@ -411,7 +411,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return CompareTo(other) == 0;
    }
-   
+
    /// <summary>
    /// Computes a hashcode for the quantity, so that numeric equivalence is maintained
    /// regardless of precise unit of measure is used, the hashcode is calculated on
@@ -423,17 +423,17 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    public override int GetHashCode()
    {
       var dbl = To(Unit.FundamentalUnit).RawValue;
-      
+
       var hc1 = Comparer!.GetHashCode(dbl);
       var hc2 = HashCode.Combine(typeof(Quantity<TUnit>));
-      
+
       return hc1 ^ hc2;
    }
-   
+
    #endregion
-   
+
    #region Relational members
-   
+
    /// <summary>
    /// Compares this instance to another <see cref="Quantity{TUnit}" /> instance for relative value.
    /// </summary>
@@ -447,17 +447,17 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    public int CompareTo(Quantity<TUnit> other)
    {
       var comparer = Comparer!;
-      
+
       if (Unit == other.Unit)
       {
          return comparer.Compare(RawValue, other.RawValue);
       }
-      
+
       var targetUnit = ComparisonUnitSelector!.SelectUnit(Unit, other.Unit);
-      
+
       return comparer.Compare(To(targetUnit).RawValue, other.To(targetUnit).RawValue);
    }
-   
+
    /// <summary>
    /// Compares this instance to another <see cref="Quantity{TUnit}" /> instance for relative value.
    /// </summary>
@@ -470,12 +470,12 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
       {
          return 1;
       }
-      
+
       return obj is Quantity<TUnit> other
                 ? CompareTo(other)
                 : throw new ArgumentException($"Object must be of type {nameof(Quantity<TUnit>)}");
    }
-   
+
    /// <summary>
    /// Performs a less than comparison between two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -487,7 +487,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return left.CompareTo(right) < 0;
    }
-   
+
    /// <summary>
    /// Performs a greater than comparison between two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -499,7 +499,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return left.CompareTo(right) > 0;
    }
-   
+
    /// <summary>
    /// Performs a less than or equals comparison between two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -511,7 +511,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return left.CompareTo(right) <= 0;
    }
-   
+
    /// <summary>
    /// Performs a greater than or equals comparison between two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -523,6 +523,6 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) : ICo
    {
       return left.CompareTo(right) >= 0;
    }
-   
+
    #endregion
 }

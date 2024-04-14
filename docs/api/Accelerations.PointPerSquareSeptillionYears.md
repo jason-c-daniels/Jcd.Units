@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareSeptillionYears Field
 
-point per square septillion years defined such that: inch per square sextillion years = p/Yyr² ×  
+point per square septillion years defined such that: inch per square sextillion years = p/Yyr² ×
 (1.0/72.0)/((1000.0)*(1000.0)).
 
 ```csharp

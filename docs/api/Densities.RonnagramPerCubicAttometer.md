@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicAttometer Field
 
-ronnagram per cubic attometer defined such that: yottagram per cubic femtometer = Rg/am³ ×  
+ronnagram per cubic attometer defined such that: yottagram per cubic femtometer = Rg/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

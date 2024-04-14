@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicZettameter Field
 
-attogram per cubic zettameter defined such that: femtogram per cubic exameter = ag/Zm³ ×  
+attogram per cubic zettameter defined such that: femtogram per cubic exameter = ag/Zm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

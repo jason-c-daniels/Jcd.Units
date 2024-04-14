@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareTrillionYears Field
 
-picometer per square trillion years defined such that: nanometer per square billion years = pm/Tyr² ×  
+picometer per square trillion years defined such that: nanometer per square billion years = pm/Tyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

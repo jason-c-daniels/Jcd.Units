@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicQuettameter Field
 
-petatonne per cubic quettameter defined such that: teratonne per cubic ronnameter = Pt/Qm³ ×  
+petatonne per cubic quettameter defined such that: teratonne per cubic ronnameter = Pt/Qm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicNanometer Field
 
-megagram per cubic nanometer defined such that: kilogram per cubic micrometer = Mg/nm³ ×  
+megagram per cubic nanometer defined such that: kilogram per cubic micrometer = Mg/nm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

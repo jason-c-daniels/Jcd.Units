@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicQuettameter Field
 
-kilogram per cubic quettameter defined such that: kilogram per cubic ronnameter = kg/Qm³ ×  
+kilogram per cubic quettameter defined such that: kilogram per cubic ronnameter = kg/Qm³ ×
 (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

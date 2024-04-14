@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareYoctosecond Field
 
-petameter per square yoctosecond defined such that: terameter per square zeptosecond = Pm/ys² ×  
+petameter per square yoctosecond defined such that: terameter per square zeptosecond = Pm/ys² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

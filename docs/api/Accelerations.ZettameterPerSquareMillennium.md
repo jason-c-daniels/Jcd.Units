@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareMillennium Field
 
-zettameter per square millennium defined such that: exameter per square century = Zm/kyr² ×  
+zettameter per square millennium defined such that: exameter per square century = Zm/kyr² ×
 (1000.0)/((10.0)*(10.0)).
 
 ```csharp

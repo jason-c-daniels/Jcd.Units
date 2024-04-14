@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareOctillionYears Field
 
-nautical mile per square octillion years defined such that: cable per square septillion years = nmi/Ryr² ×  
+nautical mile per square octillion years defined such that: cable per square septillion years = nmi/Ryr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicMegameter Field
 
-yottatonne per cubic megameter defined such that: zettatonne per cubic kilometer = Yt/Mm³ ×  
+yottatonne per cubic megameter defined such that: zettatonne per cubic kilometer = Yt/Mm³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicCentimeter Field
 
-femtotonne per cubic centimeter defined such that: picotonne per cubic decimeter = ft/cm³ ×  
+femtotonne per cubic centimeter defined such that: picotonne per cubic decimeter = ft/cm³ ×
 (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp

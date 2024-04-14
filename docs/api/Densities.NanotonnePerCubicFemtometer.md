@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicFemtometer Field
 
-nanotonne per cubic femtometer defined such that: microtonne per cubic picometer = nt/fm³ ×  
+nanotonne per cubic femtometer defined such that: microtonne per cubic picometer = nt/fm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

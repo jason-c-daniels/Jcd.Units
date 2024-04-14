@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicNanometer Field
 
-yoctogram per cubic nanometer defined such that: zeptogram per cubic micrometer = yg/nm³ ×  
+yoctogram per cubic nanometer defined such that: zeptogram per cubic micrometer = yg/nm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

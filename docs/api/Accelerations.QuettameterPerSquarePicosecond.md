@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquarePicosecond Field
 
-quettameter per square picosecond defined such that: ronnameter per square nanosecond = Qm/ps² ×  
+quettameter per square picosecond defined such that: ronnameter per square nanosecond = Qm/ps² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

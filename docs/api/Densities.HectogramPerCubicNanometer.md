@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicNanometer Field
 
-hectogram per cubic nanometer defined such that: kilogram per cubic micrometer = hg/nm³ ×  
+hectogram per cubic nanometer defined such that: kilogram per cubic micrometer = hg/nm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

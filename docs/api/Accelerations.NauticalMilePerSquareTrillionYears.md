@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareTrillionYears Field
 
-nautical mile per square trillion years defined such that: cable per square billion years = nmi/Tyr² ×  
+nautical mile per square trillion years defined such that: cable per square billion years = nmi/Tyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

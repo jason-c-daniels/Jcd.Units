@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Acceleration(string, string, Acceleration, double, double, IValueComparer&lt;double&gt;, string)](Acceleration..ctor.77T3rVCmW+t6u24DvNDTxA.md 'Jcd.Units.UnitTypes.Acceleration.Acceleration(string, string, Jcd.Units.UnitTypes.Acceleration, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a<br/>reference. |
+| [Acceleration(string, string, Acceleration, double, double, IValueComparer&lt;double&gt;, string)](Acceleration..ctor.77T3rVCmW+t6u24DvNDTxA.md 'Jcd.Units.UnitTypes.Acceleration.Acceleration(string, string, Jcd.Units.UnitTypes.Acceleration, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a reference. |

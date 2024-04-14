@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareAttosecond Field
 
-quettameter per square attosecond defined such that: ronnameter per square femtosecond = Qm/as² ×  
+quettameter per square attosecond defined such that: ronnameter per square femtosecond = Qm/as² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

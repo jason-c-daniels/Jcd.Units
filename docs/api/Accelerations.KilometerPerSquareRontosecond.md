@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareRontosecond Field
 
-kilometer per square rontosecond defined such that: hectometer per square yoctosecond = km/rs² ×  
+kilometer per square rontosecond defined such that: hectometer per square yoctosecond = km/rs² ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

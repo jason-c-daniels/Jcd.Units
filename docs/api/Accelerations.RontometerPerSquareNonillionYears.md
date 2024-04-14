@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareNonillionYears Field
 
-rontometer per square nonillion years defined such that: yoctometer per square octillion years = rm/Qyr² ×  
+rontometer per square nonillion years defined such that: yoctometer per square octillion years = rm/Qyr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

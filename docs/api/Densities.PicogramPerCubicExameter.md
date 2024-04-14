@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicExameter Field
 
-picogram per cubic exameter defined such that: nanogram per cubic petameter = pg/Em³ ×  
+picogram per cubic exameter defined such that: nanogram per cubic petameter = pg/Em³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

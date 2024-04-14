@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicAttometer Field
 
-quectotonne per cubic attometer defined such that: rontotonne per cubic femtometer = qt/am³ ×  
+quectotonne per cubic attometer defined such that: rontotonne per cubic femtometer = qt/am³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

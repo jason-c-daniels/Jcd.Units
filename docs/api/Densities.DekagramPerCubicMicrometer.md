@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicMicrometer Field
 
-dekagram per cubic micrometer defined such that: hectogram per cubic millimeter = dag/μm³ ×  
+dekagram per cubic micrometer defined such that: hectogram per cubic millimeter = dag/μm³ ×
 (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

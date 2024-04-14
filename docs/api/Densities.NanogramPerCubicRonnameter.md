@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicRonnameter Field
 
-nanogram per cubic ronnameter defined such that: microgram per cubic yottameter = ng/Rm³ ×  
+nanogram per cubic ronnameter defined such that: microgram per cubic yottameter = ng/Rm³ ×
 (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

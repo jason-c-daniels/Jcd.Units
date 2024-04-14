@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicTerameter Field
 
-hectogram per cubic terameter defined such that: kilogram per cubic gigameter = hg/Tm³ ×  
+hectogram per cubic terameter defined such that: kilogram per cubic gigameter = hg/Tm³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

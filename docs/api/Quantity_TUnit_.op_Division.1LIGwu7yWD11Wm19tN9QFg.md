@@ -23,10 +23,10 @@ The left hand operand
 The right hand operand.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 The result of the division.
 
 #### Exceptions
 
-[System.DivideByZeroException](https://docs.microsoft.com/en-us/dotnet/api/System.DivideByZeroException 'System.DivideByZeroException')  
+[System.DivideByZeroException](https://docs.microsoft.com/en-us/dotnet/api/System.DivideByZeroException 'System.DivideByZeroException')
 When [y](Quantity_TUnit_.op_Division.1LIGwu7yWD11Wm19tN9QFg.md#Jcd.Units.Quantity_TUnit_.op_Division(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).y 'Jcd.Units.Quantity<TUnit>.op_Division(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).y') is zero.

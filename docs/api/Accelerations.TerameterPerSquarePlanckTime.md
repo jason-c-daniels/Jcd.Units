@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquarePlanckTime Field
 
-terameter per square planck-time defined such that: gigameter per square microsecond = Tm/tₚ² ×  
+terameter per square planck-time defined such that: gigameter per square microsecond = Tm/tₚ² ×
 (1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp

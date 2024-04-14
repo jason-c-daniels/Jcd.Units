@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicExameter Field
 
-decigram per cubic exameter defined such that: gram per cubic petameter = dg/Em³ ×  
+decigram per cubic exameter defined such that: gram per cubic petameter = dg/Em³ ×
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp

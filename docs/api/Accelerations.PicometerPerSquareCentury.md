@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareCentury Field
 
-picometer per square century defined such that: nanometer per square decade = pm/century² ×  
+picometer per square century defined such that: nanometer per square decade = pm/century² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

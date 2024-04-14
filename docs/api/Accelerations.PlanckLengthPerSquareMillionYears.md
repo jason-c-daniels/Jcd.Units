@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareMillionYears Field
 
-planck-length per square million years defined such that: SI meter per square millennium = ℓₚ/Myr² ×  
+planck-length per square million years defined such that: SI meter per square millennium = ℓₚ/Myr² ×
 (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp

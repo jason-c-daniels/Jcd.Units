@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareDecillionYears Field
 
-inch per square decillion years defined such that: SI centimeter per square nonillion years = in/decillion yr² ×  
+inch per square decillion years defined such that: SI centimeter per square nonillion years = in/decillion yr² ×
 (2.54)/((1000.0)*(1000.0)).
 
 ```csharp

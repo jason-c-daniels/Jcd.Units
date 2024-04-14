@@ -10,7 +10,7 @@ internal record DivideDoubleOperationsPerfTest() : TemperaturePerfTest("Quantity
          Quantity2 = 3         - Quantity1;
          Quantity3 = Quantity2 - 7;
       }
-      
+
       return 2 * iterations;
    }
 }

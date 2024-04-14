@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicPicometer Field
 
-zeptotonne per cubic picometer defined such that: attotonne per cubic nanometer = zt/pm³ ×  
+zeptotonne per cubic picometer defined such that: attotonne per cubic nanometer = zt/pm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

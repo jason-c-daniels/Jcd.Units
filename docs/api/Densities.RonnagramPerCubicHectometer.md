@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicHectometer Field
 
-ronnagram per cubic hectometer defined such that: yottagram per cubic dekameter = Rg/hm³ ×  
+ronnagram per cubic hectometer defined such that: yottagram per cubic dekameter = Rg/hm³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

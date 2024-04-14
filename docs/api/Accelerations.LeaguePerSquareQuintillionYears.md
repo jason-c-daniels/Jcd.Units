@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareQuintillionYears Field
 
-league per square quintillion years defined such that: mile per square quadrillion years = lea/Eyr² ×  
+league per square quintillion years defined such that: mile per square quadrillion years = lea/Eyr² ×
 (3.0)/((1000.0)*(1000.0)).
 
 ```csharp

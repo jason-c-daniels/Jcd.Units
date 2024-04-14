@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicAttometer Field
 
-quettagram per cubic attometer defined such that: ronnagram per cubic femtometer = Qg/am³ ×  
+quettagram per cubic attometer defined such that: ronnagram per cubic femtometer = Qg/am³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

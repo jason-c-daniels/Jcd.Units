@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicKilometer Field
 
-centitonne per cubic kilometer defined such that: decitonne per cubic hectometer = ct/km³ ×  
+centitonne per cubic kilometer defined such that: decitonne per cubic hectometer = ct/km³ ×
 (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

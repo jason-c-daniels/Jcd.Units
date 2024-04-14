@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareDecade Field
 
-attometer per square decade defined such that: femtometer per square year = am/decade² ×  
+attometer per square decade defined such that: femtometer per square year = am/decade² ×
 (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp

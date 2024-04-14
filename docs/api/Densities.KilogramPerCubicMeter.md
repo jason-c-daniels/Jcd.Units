@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicMeter Field
 
-kilogram per cubic meter, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for  
+kilogram per cubic meter, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for
 this type.)
 
 ```csharp

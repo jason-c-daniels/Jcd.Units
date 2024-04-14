@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareRontosecond Field
 
-meter per square rontosecond defined such that: meter per square yoctosecond = m/rs² ×  
+meter per square rontosecond defined such that: meter per square yoctosecond = m/rs² ×
 (1.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

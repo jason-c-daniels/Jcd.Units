@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareYoctosecond Field
 
-megameter per square yoctosecond defined such that: kilometer per square zeptosecond = Mm/ys² ×  
+megameter per square yoctosecond defined such that: kilometer per square zeptosecond = Mm/ys² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

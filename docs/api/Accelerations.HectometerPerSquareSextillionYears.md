@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareSextillionYears Field
 
-hectometer per square sextillion years defined such that: dekameter per square quintillion years = hm/Zyr² ×  
+hectometer per square sextillion years defined such that: dekameter per square quintillion years = hm/Zyr² ×
 (10.0)/((1000.0)*(1000.0)).
 
 ```csharp

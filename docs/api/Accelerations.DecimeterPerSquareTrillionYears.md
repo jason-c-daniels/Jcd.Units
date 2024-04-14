@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareTrillionYears Field
 
-decimeter per square trillion years defined such that: meter per square billion years = dm/Tyr² ×  
+decimeter per square trillion years defined such that: meter per square billion years = dm/Tyr² ×
 (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp

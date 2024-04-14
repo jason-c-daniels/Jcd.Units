@@ -3,7 +3,7 @@
 
 ## MathQ.Clamp<TUnit>(Quantity<TUnit>, Quantity<TUnit>, Quantity<TUnit>) Method
 
-Returns the smallest value that is greater than or equal to the numeric component of a  
+Returns the smallest value that is greater than or equal to the numeric component of a
 [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>').
 
 ```csharp
@@ -38,5 +38,5 @@ The minimum value.
 The maximum value.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Clamp.dbd2fWny/h9dwA6t3r1JQw.md#Jcd.Units.MathQ.Clamp_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Clamp<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](MathQ.Clamp.dbd2fWny/h9dwA6t3r1JQw.md#Jcd.Units.MathQ.Clamp_TUnit_(Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_,Jcd.Units.Quantity_TUnit_).TUnit 'Jcd.Units.MathQ.Clamp<TUnit>(Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>, Jcd.Units.Quantity<TUnit>).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 the ceiling for the [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>').

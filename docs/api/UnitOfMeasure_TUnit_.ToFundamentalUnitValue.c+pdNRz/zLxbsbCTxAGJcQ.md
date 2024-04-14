@@ -20,5 +20,5 @@ Implements [ToFundamentalUnitValue(double)](IUnitOfMeasure_TUnit_.ToFundamentalU
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
 ### Remarks
-By ensuring that all units of measure provide their own type to the interface  
+By ensuring that all units of measure provide their own type to the interface
 we guarantee compile time detection of certain classes of errors.

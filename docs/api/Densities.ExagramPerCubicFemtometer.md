@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicFemtometer Field
 
-exagram per cubic femtometer defined such that: petagram per cubic picometer = Eg/fm³ ×  
+exagram per cubic femtometer defined such that: petagram per cubic picometer = Eg/fm³ ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose Class
 
-A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing  
+A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing
 radiation.
 
 ```csharp
@@ -14,4 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double, IValueComparer&lt;double&gt;, string)](RadiationEquivalentDose..ctor.xF69xbpv9ag/AzJRXD304g.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, Jcd.Units.UnitTypes.RadiationEquivalentDose, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another<br/>[RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference. |
+| [RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double, IValueComparer&lt;double&gt;, string)](RadiationEquivalentDose..ctor.xF69xbpv9ag/AzJRXD304g.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, Jcd.Units.UnitTypes.RadiationEquivalentDose, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference. |

@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareMillionYears Field
 
-yoctometer per square million years defined such that: zeptometer per square millennium = ym/Myr² ×  
+yoctometer per square million years defined such that: zeptometer per square millennium = ym/Myr² ×
 (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

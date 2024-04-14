@@ -19,7 +19,7 @@ namespace Jcd.Units;
 public static class MathQ
 {
    #region Abs, Ceiling, Floor, Min, Max and similar
-   
+
    /// <summary>
    /// Returns the absolute value of a <see cref="Quantity{TUnit}" /> as a new Quantity with the source unit of measure.
    /// </summary>
@@ -32,7 +32,7 @@ public static class MathQ
    {
       return Math.Abs(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the smallest integral value greater than or equal to the numeric component of the
    /// <see cref="Quantity{TUnit}" />.
@@ -46,7 +46,7 @@ public static class MathQ
    {
       return Math.Ceiling(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the smallest value that is greater than or equal to the numeric component of a
    /// <see cref="Quantity{TUnit}" />.
@@ -62,7 +62,7 @@ public static class MathQ
    {
       return Math.Clamp((double) value, (double) min.To(value.Unit), (double) max.To(value.Unit)).As(value.Unit);
    }
-   
+
    /// <summary>
    /// Returns the largest integral value less than or equal to the numeric component of the <see cref="Quantity{TUnit}" />
    /// .
@@ -76,7 +76,7 @@ public static class MathQ
    {
       return Math.Floor(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the larger of two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -92,7 +92,7 @@ public static class MathQ
                 ? value1
                 : value2;
    }
-   
+
    /// <summary>
    /// Returns the smaller of two <see cref="Quantity{TUnit}" /> instances.
    /// </summary>
@@ -108,7 +108,7 @@ public static class MathQ
                 ? value1
                 : value2;
    }
-   
+
    /// <summary>
    /// Rounds a quantity's numeric component to a specified number of digits using the specified rounding mode.
    /// </summary>
@@ -123,7 +123,7 @@ public static class MathQ
    {
       return Math.Round(quantity.RawValue, digits, mode).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Calculates the integral part of a quantity's numeric component.
    /// </summary>
@@ -136,11 +136,11 @@ public static class MathQ
    {
       return Math.Truncate(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    #endregion
-   
+
    #region Exponents, Logarithms, Powers, Sign, and Roots
-   
+
    /// <summary>
    /// Returns the cube root of a <see cref="Quantity{TUnit}" /> as a new Quantity with the source unit of measure.
    /// </summary>
@@ -153,7 +153,7 @@ public static class MathQ
    {
       return Math.Cbrt(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns <c>e</c> raised to the specified power as a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -166,7 +166,7 @@ public static class MathQ
    {
       return Math.Exp(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the natural (base e) logarithm of the numeric component of a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -179,7 +179,7 @@ public static class MathQ
    {
       return Math.Log(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the logarithm of a the numeric component of a <see cref="Quantity{TUnit}" /> in a specified base.
    /// </summary>
@@ -193,7 +193,7 @@ public static class MathQ
    {
       return Math.Log(quantity.RawValue, @base).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the base 10 logarithm of a the numeric component of a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -206,7 +206,7 @@ public static class MathQ
    {
       return Math.Log10(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the base 2 logarithm of a the numeric component of a <see cref="Quantity{TUnit}" />.
    /// </summary>
@@ -219,7 +219,7 @@ public static class MathQ
    {
       return Math.Log2(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns the <see cref="Quantity{TUnit}" /> raised to the specified power.
    /// </summary>
@@ -233,7 +233,7 @@ public static class MathQ
    {
       return Math.Pow(quantity.RawValue, exponent).As(quantity.Unit);
    }
-   
+
    /// <summary>
    /// Returns an integer indicating the sign of the numeric component of the quantity.
    /// </summary>
@@ -249,7 +249,7 @@ public static class MathQ
    {
       return Math.Sign(quantity.RawValue);
    }
-   
+
    /// <summary>
    /// Returns the square root of the numeric component of the quantity.
    /// </summary>
@@ -262,11 +262,11 @@ public static class MathQ
    {
       return Math.Sqrt(quantity.RawValue).As(quantity.Unit);
    }
-   
+
    #endregion
-   
+
    #region Trigonometry Functions
-   
+
    /// <summary>
    /// Returns the angle whose cosine is the specified number.
    /// </summary>
@@ -277,12 +277,12 @@ public static class MathQ
    public static Quantity<Angle> Acos(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Acos(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose hyperbolic cosine is the specified number.
    /// </summary>
@@ -293,12 +293,12 @@ public static class MathQ
    public static Quantity<Angle> Acosh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Acosh(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose sine is the specified number.
    /// </summary>
@@ -309,12 +309,12 @@ public static class MathQ
    public static Quantity<Angle> Asin(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Asin(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose hyperbolic sine is the specified number.
    /// </summary>
@@ -325,12 +325,12 @@ public static class MathQ
    public static Quantity<Angle> Asinh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Asinh(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose tangent is the specified number.
    /// </summary>
@@ -341,12 +341,12 @@ public static class MathQ
    public static Quantity<Angle> Atan(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atan(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose tangent is the specified number.
    /// </summary>
@@ -358,12 +358,12 @@ public static class MathQ
    public static Quantity<Angle> Atan2(double y, double x, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atan2(y, x).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the angle whose hyperbolic tangent is the specified number.
    /// </summary>
@@ -374,12 +374,12 @@ public static class MathQ
    public static Quantity<Angle> Atanh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atanh(value).As(Angles.Radian);
-      
+
       return outputUnitOfMeasure is null
                 ? degreesRadians
                 : degreesRadians.To(outputUnitOfMeasure);
    }
-   
+
    /// <summary>
    /// Returns the cosine of the specified angle.
    /// </summary>
@@ -391,10 +391,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Cos(rv);
    }
-   
+
    /// <summary>
    /// Returns the hyperbolic cosine of the specified angle.
    /// </summary>
@@ -406,10 +406,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Cosh(rv);
    }
-   
+
    /// <summary>
    /// Returns the sine of the specified angle.
    /// </summary>
@@ -421,10 +421,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Sin(rv);
    }
-   
+
    /// <summary>
    /// Returns the hyperbolic sine of the specified angle.
    /// </summary>
@@ -436,10 +436,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Sinh(rv);
    }
-   
+
    /// <summary>
    /// Returns the hyperbolic sine of the specified angle.
    /// </summary>
@@ -451,10 +451,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.SinCos(rv);
    }
-   
+
    /// <summary>
    /// Returns the tangent of the specified angle.
    /// </summary>
@@ -466,10 +466,10 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Tan(rv);
    }
-   
+
    /// <summary>
    /// Returns the hyperbolic tangent of the specified angle.
    /// </summary>
@@ -481,9 +481,9 @@ public static class MathQ
       var rv = (double) (angle.Unit == Angles.Radian
                             ? angle
                             : angle.To(Angles.Radian));
-      
+
       return Math.Tanh(rv);
    }
-   
+
    #endregion
 }

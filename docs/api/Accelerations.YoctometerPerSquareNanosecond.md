@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareNanosecond Field
 
-yoctometer per square nanosecond defined such that: zeptometer per square microsecond = ym/ns² ×  
+yoctometer per square nanosecond defined such that: zeptometer per square microsecond = ym/ns² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

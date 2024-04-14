@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareFemtosecond Field
 
-rontometer per square femtosecond defined such that: yoctometer per square picosecond = rm/fs² ×  
+rontometer per square femtosecond defined such that: yoctometer per square picosecond = rm/fs² ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

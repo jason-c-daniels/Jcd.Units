@@ -3,7 +3,7 @@
 
 ## QuantityFactoryExtensions Class
 
-Some extension methods to make creating quantities using units of measures,  
+Some extension methods to make creating quantities using units of measures,
 and converting among units of measure easier.
 
 ```csharp
@@ -25,5 +25,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [As&lt;TUnit&gt;(this uint, TUnit)](QuantityFactoryExtensions.As.tlzsFU/z9IJNZq/VOltmmA.md 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this uint, TUnit)') | Converts a [System.UInt32](https://docs.microsoft.com/en-us/dotnet/api/System.UInt32 'System.UInt32') into a quantity using the specified unit of measure. |
 | [As&lt;TUnit&gt;(this ulong, TUnit)](QuantityFactoryExtensions.As.oAVaUspIqfFTlXPXQje+AA.md 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this ulong, TUnit)') | Converts a [System.UInt64](https://docs.microsoft.com/en-us/dotnet/api/System.UInt64 'System.UInt64') into a quantity using the specified unit of measure. |
 | [As&lt;TUnit&gt;(this ushort, TUnit)](QuantityFactoryExtensions.As.JVUxCsRZa8W8nxpDNfVA0A.md 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this ushort, TUnit)') | Converts a [System.UInt16](https://docs.microsoft.com/en-us/dotnet/api/System.UInt16 'System.UInt16') into a quantity using the specified unit of measure. |
-| [ReplaceUnit&lt;TUnit,TNewUnit&gt;(this Quantity&lt;TUnit&gt;, TNewUnit)](QuantityFactoryExtensions.ReplaceUnit.IhgkkdX25MzRn0GZCV7AlQ.md 'Jcd.Units.QuantityFactoryExtensions.ReplaceUnit<TUnit,TNewUnit>(this Jcd.Units.Quantity<TUnit>, TNewUnit)') | Converts an existing [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') into a new quantity replacing the existing units of measure with<br/>the the specified unit of measure, WITHOUT CONVERSION. |
+| [ReplaceUnit&lt;TUnit,TNewUnit&gt;(this Quantity&lt;TUnit&gt;, TNewUnit)](QuantityFactoryExtensions.ReplaceUnit.IhgkkdX25MzRn0GZCV7AlQ.md 'Jcd.Units.QuantityFactoryExtensions.ReplaceUnit<TUnit,TNewUnit>(this Jcd.Units.Quantity<TUnit>, TNewUnit)') | Converts an existing [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') into a new quantity replacing the existing units of measure with the the specified unit of measure, WITHOUT CONVERSION. |
 | [ToTimeSpan(this Quantity&lt;Duration&gt;)](QuantityFactoryExtensions.ToTimeSpan./4fxykkW7DRjkeI6Fp6UpQ.md 'Jcd.Units.QuantityFactoryExtensions.ToTimeSpan(this Jcd.Units.Quantity<Jcd.Units.UnitTypes.Duration>)') | Converts a [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') to a [System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan') |

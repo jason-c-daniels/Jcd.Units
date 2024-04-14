@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicDekameter Field
 
-attogram per cubic dekameter defined such that: femtogram per cubic meter = ag/dam³ ×  
+attogram per cubic dekameter defined such that: femtogram per cubic meter = ag/dam³ ×
 (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

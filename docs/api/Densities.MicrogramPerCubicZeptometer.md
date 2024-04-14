@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicZeptometer Field
 
-microgram per cubic zeptometer defined such that: milligram per cubic attometer = μg/zm³ ×  
+microgram per cubic zeptometer defined such that: milligram per cubic attometer = μg/zm³ ×
 (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

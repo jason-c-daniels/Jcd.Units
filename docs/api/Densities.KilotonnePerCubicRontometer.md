@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicRontometer Field
 
-kilotonne per cubic rontometer defined such that: hectotonne per cubic yoctometer = kt/rm³ ×  
+kilotonne per cubic rontometer defined such that: hectotonne per cubic yoctometer = kt/rm³ ×
 (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

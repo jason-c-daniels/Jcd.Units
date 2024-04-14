@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareTrillionYears Field
 
-gigameter per square trillion years defined such that: megameter per square billion years = Gm/Tyr² ×  
+gigameter per square trillion years defined such that: megameter per square billion years = Gm/Tyr² ×
 (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp

@@ -8,6 +8,6 @@ internal abstract record DoublePerfTest(string Description) : PerfTestBase(Descr
    protected double Value1 { get; set; }
    protected double Value2 { get; set; }
    protected double Value3 { get; set; }
-   
+
    protected double Value4 { get; set; }
 }

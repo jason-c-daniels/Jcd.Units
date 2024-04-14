@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicKilometer Field
 
-quettatonne per cubic kilometer defined such that: ronnatonne per cubic hectometer = Qt/km³ ×  
+quettatonne per cubic kilometer defined such that: ronnatonne per cubic hectometer = Qt/km³ ×
 (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp

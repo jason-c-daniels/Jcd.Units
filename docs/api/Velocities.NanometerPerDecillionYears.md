@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerDecillionYears Field
 
-nanometer per decillion years defined such that: micrometer per nonillion years = nm/decillion yr ×  
+nanometer per decillion years defined such that: micrometer per nonillion years = nm/decillion yr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

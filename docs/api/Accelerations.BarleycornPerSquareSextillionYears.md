@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareSextillionYears Field
 
-barleycorn per square sextillion years defined such that: foot per square quintillion years = barleycorn/Zyr² ×  
+barleycorn per square sextillion years defined such that: foot per square quintillion years = barleycorn/Zyr² ×
 (1.0/36.0)/((1000.0)*(1000.0)).
 
 ```csharp

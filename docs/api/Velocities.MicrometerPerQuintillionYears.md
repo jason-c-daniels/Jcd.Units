@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerQuintillionYears Field
 
-micrometer per quintillion years defined such that: millimeter per quadrillion years = μm/Eyr ×  
+micrometer per quintillion years defined such that: millimeter per quadrillion years = μm/Eyr ×
 (1.0/1000.0)/(1000.0).
 
 ```csharp

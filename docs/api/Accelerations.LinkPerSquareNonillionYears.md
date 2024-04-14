@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareNonillionYears Field
 
-link per square nonillion years defined such that: SI meter per square octillion years = li/Qyr² ×  
+link per square nonillion years defined such that: SI meter per square octillion years = li/Qyr² ×
 (0.20116)/((1000.0)*(1000.0)).
 
 ```csharp

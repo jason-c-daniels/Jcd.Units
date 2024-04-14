@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareYoctosecond Field
 
-exameter per square yoctosecond defined such that: petameter per square zeptosecond = Em/ys² ×  
+exameter per square yoctosecond defined such that: petameter per square zeptosecond = Em/ys² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

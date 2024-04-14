@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareSextillionYears Field
 
-meter per square sextillion years defined such that: meter per square quintillion years = m/Zyr² ×  
+meter per square sextillion years defined such that: meter per square quintillion years = m/Zyr² ×
 (1.0)/((1000.0)*(1000.0)).
 
 ```csharp

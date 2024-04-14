@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareRontosecond Field
 
-terameter per square rontosecond defined such that: gigameter per square yoctosecond = Tm/rs² ×  
+terameter per square rontosecond defined such that: gigameter per square yoctosecond = Tm/rs² ×
 (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp

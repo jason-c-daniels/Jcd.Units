@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicExameter Field
 
-gigagram per cubic exameter defined such that: megagram per cubic petameter = Gg/Em³ ×  
+gigagram per cubic exameter defined such that: megagram per cubic petameter = Gg/Em³ ×
 (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
