@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 ## Capacitance(string, string, Capacitance, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [Capacitance](Capacitance.md 'Jcd.Units.
 ```csharp
 public Capacitance(string name, string symbol, Jcd.Units.UnitTypes.Capacitance? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double,Jcd.Units.IValueComparer_double_).name'></a>

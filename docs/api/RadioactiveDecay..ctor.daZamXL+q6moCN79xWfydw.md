@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 ## RadioactiveDecay(string, string, RadioactiveDecay, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') as a reference.
+Constructs a unit measuring a specified [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another
+[RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') as a reference.
 
 ```csharp
 public RadioactiveDecay(string name, string symbol, Jcd.Units.UnitTypes.RadioactiveDecay? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,Jcd.Units.UnitTypes.RadioactiveDecay,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

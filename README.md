@@ -34,7 +34,7 @@ var second = Durations.Second;
 var ms = Durations.Millisecond;
 var min = Durations.Minute;
 
-var oneSecond = 1.As(second); // oneSecond is of type Quantity<Duration> with a RawValue of 1.00d, and a Unit of Second 
+var oneSecond = 1.As(second); // oneSecond is of type Quantity<Duration> with a RawValue of 1.00d, and a Unit of Second
 var oneSInMs = oneSecond.To(ms); // oneSInMs is of type Quantity<Duration> with a RawValue of 1,000.00d and a Unit of Millisecond
 
 var ts = oneSInMs.ToTimeStamp(); // convert the milliseconds to a TimeStamp
@@ -203,7 +203,7 @@ var l3 = 30.As(m);
 var area = (l1*l2).ReplaceUnit(Areas.SquareCentimeter); // Which unit was actually selected? The default is the larger unit!
 
 // Convert l2 to cm instead.
-var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter); 
+var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter);
 
 
 ```

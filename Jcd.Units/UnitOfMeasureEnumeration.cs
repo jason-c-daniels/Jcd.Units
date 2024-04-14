@@ -15,20 +15,19 @@ namespace Jcd.Units;
 /// <typeparam name="TEnumeration">The enumeration type.</typeparam>
 /// <typeparam name="T">The type of the enumerated members.</typeparam>
 public abstract class UnitOfMeasureEnumeration<TEnumeration, T> : Enumeration<TEnumeration, T>
-         where T : IEquatable<T>
-       , IUnitOfMeasure<T>
+   where T : IEquatable<T>, IUnitOfMeasure<T>
 {
    static UnitOfMeasureEnumeration()
    {
-      ByName   = All.ToDictionary(u => u.Name);
+      ByName = All.ToDictionary(u => u.Name);
       BySymbol = All.ToDictionary(u => u.Symbol);
    }
-
+   
    /// <summary>
    /// Looks up an enumerated unit of measure by name.
    /// </summary>
    public static IReadOnlyDictionary<string, T> ByName { get; }
-
+   
    /// <summary>
    /// Looks up an enumerated unit of measure by symbol.
    /// </summary>

@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
 
 ## Volume(string, string, Volume, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [Volume](Volume.md 'Jcd.Units.UnitTypes.
 ```csharp
 public Volume(string name, string symbol, Jcd.Units.UnitTypes.Volume? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).name'></a>

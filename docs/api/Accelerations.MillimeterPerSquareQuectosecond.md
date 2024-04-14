@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.SI.Accelerations')
 
 ## Accelerations.MillimeterPerSquareQuectosecond Field
 
-millimeter per square quectosecond defined such that: centimeter per square rontosecond = mm/qs² × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
+millimeter per square quectosecond defined such that: centimeter per square rontosecond = mm/qs² ×
+(1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareQuectosecond;
 ```
 
 #### Field Value
+
 [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')

@@ -20,11 +20,5 @@ public class Forces : UnitOfMeasureEnumeration<Forces, Force>
    /// <summary>
    /// pound-force defined such that: SI newton = lbf × 4.448222.
    /// </summary>
-   public static readonly Force PoundForce = new (
-                                                  "pound-force"
-                                                , "lbf"
-                                                , SI.Forces.Newton
-                                                , 4.448222
-                                                , system: "US Customary"
-                                                 );
+   public static readonly Force PoundForce = new("pound-force", "lbf", SI.Forces.Newton, 4.448222, system: "US Customary");
 }

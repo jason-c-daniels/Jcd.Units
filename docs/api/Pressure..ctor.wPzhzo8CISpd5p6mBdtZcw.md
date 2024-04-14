@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')
 
 ## Pressure(string, string, Pressure, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a reference.
+Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a
+reference.
 
 ```csharp
 public Pressure(string name, string symbol, Jcd.Units.UnitTypes.Pressure? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
 ## ElectricalPotential(string, string, ElectricalPotential, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference.
+Constructs a unit measuring a specified [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another
+[ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference.
 
 ```csharp
 public ElectricalPotential(string name, string symbol, Jcd.Units.UnitTypes.ElectricalPotential? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string,string,Jcd.Units.UnitTypes.ElectricalPotential,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

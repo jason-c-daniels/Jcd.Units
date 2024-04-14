@@ -11,4 +11,6 @@ namespace Jcd.Units;
 /// multiplication and division. You must take care to change units and unit types
 /// as necessary during computations.
 /// </remarks>
-internal class NamespaceDoc { }
+internal class NamespaceDoc
+{
+}

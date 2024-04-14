@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection').[SelectFundamentalUnit](SelectFundamentalUnit.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit')
 
 ## SelectFundamentalUnit.Instance Field
@@ -10,4 +11,5 @@ public static readonly SelectFundamentalUnit Instance;
 ```
 
 #### Field Value
+
 [SelectFundamentalUnit](SelectFundamentalUnit.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit')

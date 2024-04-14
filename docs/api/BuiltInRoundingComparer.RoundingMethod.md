@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ## BuiltInRoundingComparer.RoundingMethod Property
@@ -10,4 +11,5 @@ public MidpointRounding RoundingMethod { get; }
 ```
 
 #### Property Value
+
 [System.MidpointRounding](https://docs.microsoft.com/en-us/dotnet/api/System.MidpointRounding 'System.MidpointRounding')

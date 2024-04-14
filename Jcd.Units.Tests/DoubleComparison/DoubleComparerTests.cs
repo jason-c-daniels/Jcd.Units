@@ -17,7 +17,7 @@ public class DoubleComparerTests
       var cmp = BitwiseDoubleComparer.Instance;
       Assert.Equal(expected, cmp.Compare(x, y));
    }
-
+   
    [Theory]
    [InlineData(0.0, 0.1, false)]
    [InlineData(0.0, 0.0, true)]
@@ -27,7 +27,7 @@ public class DoubleComparerTests
       var cmp = BitwiseDoubleComparer.Instance;
       Assert.Equal(expected, cmp.Equals(x, y));
    }
-
+   
    [Theory]
    [InlineData(-0.1)]
    [InlineData(0.0)]

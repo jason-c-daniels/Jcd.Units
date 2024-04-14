@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 ## Mass(string, string, Mass, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass
 ```csharp
 public Mass(string name, string symbol, Jcd.Units.UnitTypes.Mass? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Mass.Mass(string,string,Jcd.Units.UnitTypes.Mass,double,double,Jcd.Units.IValueComparer_double_).name'></a>

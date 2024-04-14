@@ -14,14 +14,18 @@ public sealed class SelectLargerUnit : IUnitSelectionStrategy
    /// <summary>
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
-   public static readonly SelectLargerUnit Instance = new ();
-
+   public static readonly SelectLargerUnit Instance = new();
+   
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
    /// </summary>
-   private SelectLargerUnit() { }
-
+   private SelectLargerUnit()
+   {
+   }
+   
+   #region IUnitSelectionStrategy Members
+   
    /// <summary>
    /// Selects the larger of two units of measure.
    /// </summary>
@@ -31,6 +35,12 @@ public sealed class SelectLargerUnit : IUnitSelectionStrategy
    /// <returns>The larger unit of measure.</returns>
    [Pure]
    public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
-            where TUnit : IUnitOfMeasure<TUnit>
-      => left.CompareTo(right) > 0 ? left : right;
+      where TUnit : IUnitOfMeasure<TUnit>
+   {
+      return left.CompareTo(right) > 0
+                ? left
+                : right;
+   }
+   
+   #endregion
 }

@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ## BuiltInRoundingComparer.FiveDecimalPlaces Field
@@ -10,4 +11,5 @@ public static readonly BuiltInRoundingComparer FiveDecimalPlaces;
 ```
 
 #### Field Value
+
 [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')

@@ -4,8 +4,7 @@
 /// <summary>
 /// A test harness for validating
 /// </summary>
-public record UnitOfMeasure1
-         : UnitOfMeasure<UnitOfMeasure1> //(Name, Symbol, Coefficient, Offset)
+public record UnitOfMeasure1 : UnitOfMeasure<UnitOfMeasure1> //(Name, Symbol, Coefficient, Offset)
 {
    /// <summary>
    /// Constructs a unit measuring a specified <see cref="UnitOfMeasure1" /> using another <see cref="UnitOfMeasure1" /> as
@@ -17,16 +16,12 @@ public record UnitOfMeasure1
    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit" /></param>
    /// <param name="offset">The offset from the <paramref name="baseUnit" />.</param>
    /// <param name="comparer">The instance specific <see cref="IValueComparer{T}" /> used for comparisons.</param>
-   public UnitOfMeasure1
-            (
-            string name
-          , string symbol
-          , UnitOfMeasure1? baseUnit = null
-          , double coefficient = 1.0
-          , double offset = 0
-          , IValueComparer<double>? comparer = null
-            )
-            : base(name, symbol, baseUnit, coefficient, offset, comparer) { }
+   public UnitOfMeasure1(
+      string name, string symbol, UnitOfMeasure1? baseUnit = null, double coefficient = 1.0, double offset = 0, IValueComparer<double>? comparer = null
+   )
+      : base(name, symbol, baseUnit, coefficient, offset, comparer)
+   {
+   }
 }
 
 #pragma warning restore CA1067

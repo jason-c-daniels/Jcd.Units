@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 ## Frequency(string, string, Frequency, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a reference.
+Constructs a unit measuring a specified [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a
+reference.
 
 ```csharp
 public Frequency(string name, string symbol, Jcd.Units.UnitTypes.Frequency? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

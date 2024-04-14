@@ -11,7 +11,10 @@ public readonly struct BitwiseDoubleComparer : IValueComparer<double>
    /// operations. You should really implement and use your own comparer as per your application's needs.
    /// </summary>
    /// <remarks>
-   /// <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers 2012 Edition</see>
+   /// <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">
+   /// Comparing
+   /// Floating Point Numbers 2012 Edition
+   /// </see>
    /// by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class
    /// to use for production code.
    /// </remarks>
@@ -23,14 +26,16 @@ public readonly struct BitwiseDoubleComparer : IValueComparer<double>
    /// 1 if <paramref name="x" /> is greater than <paramref name="y" />
    /// </returns>
    public int Compare(double x, double y)
-      => x.CompareTo(y);
-
+   {
+      return x.CompareTo(y);
+   }
+   
    /// <summary>
    /// The default instance. Use this instead of constantly creating new ones. It's easier
    /// on the garbage collector.
    /// </summary>
-   public static readonly BitwiseDoubleComparer Instance = new ();
-
+   public static readonly BitwiseDoubleComparer Instance = new();
+   
    /// <summary>
    /// Compares two doubles for equality.
    /// </summary>
@@ -38,9 +43,13 @@ public readonly struct BitwiseDoubleComparer : IValueComparer<double>
    /// <param name="y">A value to compare.</param>
    /// <returns>true if both are equal, false otherwise.</returns>
    public bool Equals(double x, double y)
-      => x.Equals(y);
-
+   {
+      return x.Equals(y);
+   }
+   
    /// <inheritdoc />
    public int GetHashCode(double obj)
-      => obj.GetHashCode();
+   {
+      return obj.GetHashCode();
+   }
 }

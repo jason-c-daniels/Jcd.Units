@@ -20,11 +20,5 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// <summary>
    /// planck-density defined such that: SI kilogram per cubic meter = ρₚ × 5.1550E+96.
    /// </summary>
-   public static readonly Density PlanckDensity = new (
-                                                       "planck-density"
-                                                     , "ρₚ"
-                                                     , SI.Densities.KilogramPerCubicMeter
-                                                     , 5.1550E+96
-                                                     , system: "Theoretical Physics"
-                                                      );
+   public static readonly Density PlanckDensity = new("planck-density", "ρₚ", SI.Densities.KilogramPerCubicMeter, 5.1550E+96, system: "Theoretical Physics");
 }

@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity<TUnit>.Equals(Quantity<TUnit>) Method
@@ -8,6 +9,7 @@ Compares this instance to another [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jc
 ```csharp
 public bool Equals(Jcd.Units.Quantity<TUnit> other);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.Quantity_TUnit_.Equals(Jcd.Units.Quantity_TUnit_).other'></a>
@@ -17,9 +19,11 @@ public bool Equals(Jcd.Units.Quantity<TUnit> other);
 The other instance to compare against.
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 True if equivalent. False otherwise.
 
 ### Remarks
-The quantity with the smaller unit of measure is converted to the double representation of  
+
+The quantity with the smaller unit of measure is converted to the double representation of
 the larger unit of measure before comparison.

@@ -25,15 +25,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000d     / 3d)]
    [InlineData(-100000000d / 3d)]
    [InlineData(100000000d  / 3d)]
-   public void Double_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (double value)
+   public void Double_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(double value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0f)]
    [InlineData(-1f         / 3f)]
@@ -44,15 +43,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000f     / 3f)]
    [InlineData(-100000000f / 3f)]
    [InlineData(100000000f  / 3f)]
-   public void Float_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (float value)
+   public void Float_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(float value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0L)]
    [InlineData(-1L)]
@@ -63,15 +61,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000L)]
    [InlineData(-100000000L)]
    [InlineData(100000000L)]
-   public void Int64_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (long value)
+   public void Int64_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(long value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0UL)]
    [InlineData(2UL)]
@@ -82,15 +79,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000UL)]
    [InlineData(200000000UL)]
    [InlineData(100000000UL)]
-   public void UInt64_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (ulong value)
+   public void UInt64_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(ulong value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -101,15 +97,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000)]
    [InlineData(-100000000)]
    [InlineData(100000000)]
-   public void Int32_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (int value)
+   public void Int32_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(int value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -120,15 +115,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(100000)]
    [InlineData(200000000)]
    [InlineData(100000000)]
-   public void UInt32_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (uint value)
+   public void UInt32_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(uint value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -139,15 +133,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(10000)]
    [InlineData(-30000)]
    [InlineData(30000)]
-   public void Int16_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (short value)
+   public void Int16_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(short value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -158,15 +151,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(10000)]
    [InlineData(40000)]
    [InlineData(0xFFFF)]
-   public void UInt16_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (ushort value)
+   public void UInt16_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(ushort value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(-1)]
@@ -177,15 +169,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(110)]
    [InlineData(-120)]
    [InlineData(120)]
-   public void SByte_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (sbyte value)
+   public void SByte_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(sbyte value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(0)]
    [InlineData(2)]
@@ -196,15 +187,14 @@ public class QuantityFactoryExtensionsTests
    [InlineData(200)]
    [InlineData(225)]
    [InlineData(255)]
-   public void Byte_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue
-            (byte value)
+   public void Byte_As_Unit_Creates_A_Quantity_For_The_Unit_With_The_Specified_Value_For_RawValue(byte value)
    {
       var u = UnitOfMeasure1Units.DerivedUnit1;
       var q = value.As(u);
-      Assert.Equal(u, q.Unit);
+      Assert.Equal(u,     q.Unit);
       Assert.Equal(value, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3)]
@@ -214,29 +204,29 @@ public class QuantityFactoryExtensionsTests
    {
       var l = value.As(Lengths.Attometer);
       var t = l.ReplaceUnit(Temperatures.DegreesKelvin);
-
-      Assert.Equal(value, (double)t);
+      
+      Assert.Equal(value,                      (double) t);
       Assert.Equal(Temperatures.DegreesKelvin, t.Unit);
    }
-
+   
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3d)]
    public void TimeSpan_As_Duration_Returns_Expected_Value(double expectedTotalMilliseconds)
    {
-      var ts = new TimeSpan((long)expectedTotalMilliseconds * 10000);
-      var q  = ts.As(Durations.Millisecond);
-
+      var ts = new TimeSpan((long) expectedTotalMilliseconds * 10000);
+      var q = ts.As(Durations.Millisecond);
+      
       Assert.Equal(ts.TotalMilliseconds, q.RawValue);
    }
-
+   
    [Theory]
    [InlineData(1000d)]
    [InlineData(1000d / 3d)]
    public void Duration_ToTimeSpan_Returns_Expected_Value(double expectedTotalMilliseconds)
    {
-      var q        = expectedTotalMilliseconds.As(Durations.Millisecond);
-      var ts       = q.ToTimeSpan(); //new TimeSpan((long)expectedTotalMilliseconds * 10000);
+      var q = expectedTotalMilliseconds.As(Durations.Millisecond);
+      var ts = q.ToTimeSpan(); //new TimeSpan((long)expectedTotalMilliseconds * 10000);
       var comparer = new BuiltInRoundingComparer(4);
       Assert.Equal(q.RawValue, ts.TotalMilliseconds, comparer);
    }

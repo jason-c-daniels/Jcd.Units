@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry](UnitRegistry.md 'Jcd.Units.UnitRegistry')
 
 ## UnitRegistry.AutoregisterAllUnitsFrom(Assembly) Method
@@ -8,6 +9,7 @@ Searches all loaded assemblies and registers all unit of measure types from fiel
 ```csharp
 public void AutoregisterAllUnitsFrom(Assembly assembly);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitRegistry.AutoregisterAllUnitsFrom(Assembly).assembly'></a>

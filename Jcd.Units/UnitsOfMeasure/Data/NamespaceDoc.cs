@@ -6,4 +6,6 @@ namespace Jcd.Units.UnitsOfMeasure.Data;
 /// <summary>
 /// Provides units of measure for various Data unit types.
 /// </summary>
-internal class NamespaceDoc { }
+internal class NamespaceDoc
+{
+}

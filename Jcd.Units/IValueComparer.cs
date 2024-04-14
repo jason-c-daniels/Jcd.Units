@@ -17,6 +17,8 @@ namespace Jcd.Units;
 /// application defined comparison operations. It's most useful for <see cref="float" />, <see cref="double" /> and
 /// custom data types.
 /// </remarks>
-public interface IValueComparer<in T> :
-         IComparer<T>
-       , IEqualityComparer<T> { }
+public interface IValueComparer<in T>
+   : IComparer<T>
+   , IEqualityComparer<T>
+{
+}

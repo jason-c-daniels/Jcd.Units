@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Area](Area.md 'Jcd.Units.UnitTypes.Area')
 
 ## Area(string, string, Area, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [Area](Area.md 'Jcd.Units.UnitTypes.Area
 ```csharp
 public Area(string name, string symbol, Jcd.Units.UnitTypes.Area? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Area.Area(string,string,Jcd.Units.UnitTypes.Area,double,double,Jcd.Units.IValueComparer_double_).name'></a>

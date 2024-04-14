@@ -116,7 +116,7 @@ For example to access and use the definition for a meter you could do the follow
 using SI = Jcd.Units.UnitsOfMeasure.SI;
 var meter = SI.Lengths.Meter; // SI is the system of measure namespace. Lengths is the "enumeration" type. Meter is the unit of measure field.
 
-// ... do something with the meter definition ... 
+// ... do something with the meter definition ...
 ```
 
 ## Part 5: Using Units Via the `UnitRegistry` (tightly bound)
@@ -165,7 +165,7 @@ var reg = UnitRegistry<Length>.Default;
 // assign the lookup to a variable to keep references to it short.
 var lookup = reg.NameLookup;
 
-// acquire the unit of measure 
+// acquire the unit of measure
 var m = lookup["meter"].First();
 ```
 
@@ -181,7 +181,7 @@ var reg = UnitRegistry<Length>.Default;
 // assign the lookup to a variable to keep references to it short.
 var lookup = reg.SymbolLookup;
 
-// acquire the unit of measure 
+// acquire the unit of measure
 var m = lookup["m"].First();
 ```
 
@@ -214,7 +214,7 @@ var reg = UnitRegistry.Default;
 // assign the lookup to a variable to keep references to it short.
 var lookup = reg.GetNameLookup<Length>();
 
-// acquire the unit of measure 
+// acquire the unit of measure
 var m = lookup["meter"].First();
 ```
 
@@ -230,7 +230,7 @@ var reg = UnitRegistry.Default;
 // assign the lookup to a variable to keep references to it short.
 var lookup = reg.GetSymbolLookup<Length>();
 
-// acquire the unit of measure 
+// acquire the unit of measure
 var m = lookup["m"].First();
 ```
 

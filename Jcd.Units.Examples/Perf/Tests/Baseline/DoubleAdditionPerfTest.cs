@@ -6,7 +6,7 @@ internal record DoubleAdditionPerfTest() : DoublePerfTest("Add two Doubles")
    {
       Value1 = 1d / 3d;
    }
-
+   
    public override int Execute(int iterations = 1)
    {
       for (var i = 1; i <= iterations; i++)
@@ -14,7 +14,7 @@ internal record DoubleAdditionPerfTest() : DoublePerfTest("Add two Doubles")
          Value2 = Value1 + i;
          Value3 = Value2 + 7.5d;
       }
-
+      
       return 2 * iterations;
    }
 }

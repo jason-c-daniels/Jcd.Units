@@ -21,7 +21,8 @@
          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
          <PrivateAssets>all</PrivateAssets>
       </PackageReference>
-      <PackageReference Include="Jcd.Reflection" Version="1.0.56" />
+      <PackageReference Include="Jcd.Reflection" Version="2.0.26"/>
+      <PackageReference Include="Jcd.RichEnumerations" Version="0.2.24"/>
    </ItemGroup>
 
    <PropertyGroup>
@@ -47,10 +48,10 @@
    </PropertyGroup>
 
    <ItemGroup>
-      <None Include="..\README.md" Pack="true" PackagePath="\" />
-      <None Include="..\LICENSE" Pack="true" PackagePath="\" />
-      <None Include="icon\Jason.C.Daniels.jpg" Pack="true" PackagePath="\" />
-      <None Include="..\nuget.config" Pack="false" PackagePath="\" />
+      <None Include="..\README.md" Pack="true" PackagePath="\"/>
+      <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+      <None Include="icon\Jason.C.Daniels.jpg" Pack="true" PackagePath="\"/>
+      <None Include="..\nuget.config" Pack="false" PackagePath="\"/>
    </ItemGroup>
 
    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

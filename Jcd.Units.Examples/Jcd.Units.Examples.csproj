@@ -11,13 +11,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
    <ItemGroup>
-      <ProjectReference Include="..\Jcd.Units\Jcd.Units.csproj" />
+      <ProjectReference Include="..\Jcd.Units\Jcd.Units.csproj"/>
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="Hardware.Info" Version="11.0.1"/>
-      <PackageReference Include="Jcd.Reflection" Version="1.0.56" />
-      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+      <PackageReference Include="Hardware.Info" Version="100.1.0"/>
+      <PackageReference Include="Jcd.Reflection" Version="2.0.26"/>
+      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.0"/>
    </ItemGroup>
 
    <PropertyGroup>

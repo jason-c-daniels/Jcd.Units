@@ -11,7 +11,7 @@ public class UnitRegistryTests
    [Fact]
    public void AutoRegisterAllUnits_Registers_All_Units()
    {
-      var tempsRegistry   = UnitRegistry<Temperature>.Default;
+      var tempsRegistry = UnitRegistry<Temperature>.Default;
       var lengthsRegistry = UnitRegistry<Temperature>.Default;
       UnitRegistry.Default.AutoregisterAllUnits();
       Assert.True(tempsRegistry.All.Count   > 0);

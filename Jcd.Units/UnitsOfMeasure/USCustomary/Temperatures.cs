@@ -20,12 +20,5 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
    /// <summary>
    /// degrees fahrenheit defined such that: SI degrees celsius = (°F + -32.0) × 5.0/9.0.
    /// </summary>
-   public static readonly Temperature DegreesFahrenheit = new (
-                                                               "degrees fahrenheit"
-                                                             , "°F"
-                                                             , SI.Temperatures.DegreesCelsius
-                                                             , 5.0 / 9.0
-                                                             , -32.0
-                                                             , system: "US Customary"
-                                                              );
+   public static readonly Temperature DegreesFahrenheit = new("degrees fahrenheit", "°F", SI.Temperatures.DegreesCelsius, 5.0 / 9.0, -32.0, system: "US Customary");
 }

@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 ## CatalyticActivity(string, string, CatalyticActivity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') as a reference.
+Constructs a unit measuring a specified [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another
+[CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') as a reference.
 
 ```csharp
 public CatalyticActivity(string name, string symbol, Jcd.Units.UnitTypes.CatalyticActivity? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,Jcd.Units.UnitTypes.CatalyticActivity,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

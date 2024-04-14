@@ -20,11 +20,5 @@ public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
    /// <summary>
    /// planck-time defined such that:  microsecond = tₚ × 5.391247E-38.
    /// </summary>
-   public static readonly Duration PlanckTime = new (
-                                                     "planck-time"
-                                                   , "tₚ"
-                                                   , UnitsOfMeasure.Durations.Microsecond
-                                                   , 5.391247E-38
-                                                   , system: "Theoretical Physics"
-                                                    );
+   public static readonly Duration PlanckTime = new("planck-time", "tₚ", UnitsOfMeasure.Durations.Microsecond, 5.391247E-38, system: "Theoretical Physics");
 }

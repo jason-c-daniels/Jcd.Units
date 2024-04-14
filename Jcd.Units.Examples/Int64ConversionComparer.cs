@@ -31,12 +31,14 @@ public class Int64ConversionComparer : IValueComparer<double>
    {
       Factor = factor;
    }
-
+   
    /// <summary>
    /// The amount to multiply by before conversion and comparison.
    /// </summary>
    public double Factor { get; }
-
+   
+   #region IValueComparer<double> Members
+   
    /// <summary>
    /// Performs the relational comparison on the params after converting to their <see cref="Int64" /> post-multiplication
    /// representation.
@@ -48,10 +50,10 @@ public class Int64ConversionComparer : IValueComparer<double>
    {
       var xi64 = ToInt64(x);
       var yi64 = ToInt64(y);
-
+      
       return xi64.CompareTo(yi64);
    }
-
+   
    /// <summary>
    /// Performs the equivalence comparison on the params after converting to their <see cref="Int64" /> post-multiplication
    /// representation.
@@ -60,8 +62,10 @@ public class Int64ConversionComparer : IValueComparer<double>
    /// <param name="y">The right hand operand to compare.</param>
    /// <returns>-1 if x &lt; y; 1 if x &gt; y; 0 if equivalent.</returns>
    public bool Equals(double x, double y)
-      => Compare(x, y) == 0;
-
+   {
+      return Compare(x, y) == 0;
+   }
+   
    /// <summary>
    /// Creates a stable hash code for a value based on the <see cref="Factor" /> used for
    /// conversion and comparison.
@@ -71,14 +75,19 @@ public class Int64ConversionComparer : IValueComparer<double>
    public int GetHashCode(double val)
    {
       var vi64 = ToInt64(val);
-
+      
       return vi64.GetHashCode();
    }
-
+   
+   #endregion
+   
    /// <summary>
    /// Multiplies a value by the factor, then converts to an <see cref="Int64" />
    /// </summary>
    /// <param name="dbl">the value to convert.</param>
    /// <returns>The multiplied and converted value.</returns>
-   public long ToInt64(double dbl) => Convert.ToInt64(dbl * Factor);
+   public long ToInt64(double dbl)
+   {
+      return Convert.ToInt64(dbl * Factor);
+   }
 }

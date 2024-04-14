@@ -20,11 +20,6 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
    /// <summary>
    /// planck-temperature defined such that: SI degrees kelvin = Tₚ × 1.416784E+32.
    /// </summary>
-   public static readonly Temperature PlanckTemperature = new (
-                                                               "planck-temperature"
-                                                             , "Tₚ"
-                                                             , SI.Temperatures.DegreesKelvin
-                                                             , 1.416784E+32
-                                                             , system: "Theoretical Physics"
-                                                              );
+   public static readonly Temperature PlanckTemperature =
+      new("planck-temperature", "Tₚ", SI.Temperatures.DegreesKelvin, 1.416784E+32, system: "Theoretical Physics");
 }

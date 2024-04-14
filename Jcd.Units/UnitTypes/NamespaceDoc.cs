@@ -6,4 +6,6 @@ namespace Jcd.Units.UnitTypes;
 /// </summary>
 
 // ReSharper disable once UnusedType.Global
-internal class NamespaceDoc { }
+internal class NamespaceDoc
+{
+}

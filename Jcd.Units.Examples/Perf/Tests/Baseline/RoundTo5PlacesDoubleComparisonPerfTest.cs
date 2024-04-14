@@ -14,13 +14,13 @@ internal record RoundTo5PlacesDoubleComparisonPerfTest() : DoublePerfTest("Round
    private readonly IValueComparer<double> _comparer = BuiltInRoundingComparer.FiveDecimalPlaces;
    private bool _r1;
    private bool _r2;
-
+   
    public override void Setup()
    {
       Value1 = 1d        / 3d;
       Value2 = 1.000015d / 3d;
    }
-
+   
    public override int Execute(int iterations = 1)
    {
       for (var i = 0; i < iterations; i++)
@@ -28,7 +28,7 @@ internal record RoundTo5PlacesDoubleComparisonPerfTest() : DoublePerfTest("Round
          _r1 = _comparer.Equals(Value1, Value2);
          _r2 = _comparer.Equals(Value2, Value1);
       }
-
+      
       return 2 * iterations;
    }
 }

@@ -17,11 +17,11 @@ public static class GlobalDoubleComparisonStrategy
    /// The default (bitwise) double comparer. You really should use something else.
    /// </summary>
    public static readonly IValueComparer<double> Default = BitwiseDoubleComparer.Instance;
-
+   
    private static IValueComparer<double> _quantity = Default;
-
+   
    private static IValueComparer<double> _unitOfMeasure = Default;
-
+   
    /// <summary>
    /// The registered double comparer used by Quantities, by default.
    /// </summary>
@@ -34,7 +34,7 @@ public static class GlobalDoubleComparisonStrategy
       get => _quantity;
       set => _quantity = value ?? throw new ArgumentNullException(nameof(value));
    }
-
+   
    /// <summary>
    /// The globally registered double comparer used for comparing <see cref="UnitOfMeasure" /> instances. It's unlikely
    /// that you will actually need to set this to anything other than the default (bitwise comparison)

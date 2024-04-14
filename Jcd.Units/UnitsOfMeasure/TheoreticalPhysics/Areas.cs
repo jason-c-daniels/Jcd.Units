@@ -20,11 +20,6 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// <summary>
    /// square planck-length defined such that: SI square meter = ℓₚ² × (1.616255E-35)*(1.616255E-35).
    /// </summary>
-   public static readonly Area SquarePlanckLength = new (
-                                                         "square planck-length"
-                                                       , "ℓₚ²"
-                                                       , SI.Areas.SquareMeter
-                                                       , 1.616255E-35 * 1.616255E-35
-                                                       , system: "Theoretical Physics"
-                                                        );
+   public static readonly Area SquarePlanckLength =
+      new("square planck-length", "ℓₚ²", SI.Areas.SquareMeter, 1.616255E-35 * 1.616255E-35, system: "Theoretical Physics");
 }

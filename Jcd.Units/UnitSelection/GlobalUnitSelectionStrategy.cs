@@ -17,10 +17,10 @@ public static class GlobalUnitSelectionStrategy
    /// The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations.
    /// </summary>
    public static readonly IUnitSelectionStrategy Default = SelectLargerUnit.Instance;
-
+   
    private static IUnitSelectionStrategy _forArithmetic = Default;
    private static IUnitSelectionStrategy _forComparison = Default;
-
+   
    /// <summary>
    /// The globally registered Unit of Measure selection strategy used for arithmetic operators.
    /// Results will be returned in the unit of measure selected by this unit selection strategy.
@@ -35,7 +35,7 @@ public static class GlobalUnitSelectionStrategy
       get => _forArithmetic;
       set => _forArithmetic = value ?? throw new ArgumentNullException(nameof(value));
    }
-
+   
    /// <summary>
    /// The globally registered Unit of Measure selection strategy used for comparison operators.
    /// Operands will be compared in the units selected by this unit selection strategy.

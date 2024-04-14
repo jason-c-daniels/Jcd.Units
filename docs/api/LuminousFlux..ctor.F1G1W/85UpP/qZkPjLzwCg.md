@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
 ## LuminousFlux(string, string, LuminousFlux, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [LuminousFlux](LuminousFlux.md 'Jcd.Unit
 ```csharp
 public LuminousFlux(string name, string symbol, Jcd.Units.UnitTypes.LuminousFlux? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,Jcd.Units.UnitTypes.LuminousFlux,double,double,Jcd.Units.IValueComparer_double_).name'></a>

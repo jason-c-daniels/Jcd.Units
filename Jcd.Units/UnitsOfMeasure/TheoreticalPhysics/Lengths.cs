@@ -20,11 +20,5 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
    /// <summary>
    /// planck-length defined such that: SI meter = ℓₚ × 1.616255E-35.
    /// </summary>
-   public static readonly Length PlanckLength = new (
-                                                     "planck-length"
-                                                   , "ℓₚ"
-                                                   , SI.Lengths.Meter
-                                                   , 1.616255E-35
-                                                   , system: "Theoretical Physics"
-                                                    );
+   public static readonly Length PlanckLength = new("planck-length", "ℓₚ", SI.Lengths.Meter, 1.616255E-35, system: "Theoretical Physics");
 }

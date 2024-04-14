@@ -14,14 +14,18 @@ public sealed class SelectLeftUnit : IUnitSelectionStrategy
    /// <summary>
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
-   public static readonly SelectLeftUnit Instance = new ();
-
+   public static readonly SelectLeftUnit Instance = new();
+   
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
    /// </summary>
-   private SelectLeftUnit() { }
-
+   private SelectLeftUnit()
+   {
+   }
+   
+   #region IUnitSelectionStrategy Members
+   
    /// <summary>
    /// Selects the left hand side of two units of measure.
    /// </summary>
@@ -31,6 +35,10 @@ public sealed class SelectLeftUnit : IUnitSelectionStrategy
    /// <returns>The larger unit of measure.</returns>
    [Pure]
    public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
-            where TUnit : IUnitOfMeasure<TUnit>
-      => left;
+      where TUnit : IUnitOfMeasure<TUnit>
+   {
+      return left;
+   }
+   
+   #endregion
 }

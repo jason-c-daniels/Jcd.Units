@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 ## ElectricalConductance(string, string, ElectricalConductance, double, double, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Constructs a unit measuring a specified [ElectricalConductance](ElectricalConduc
 ```csharp
 public ElectricalConductance(string name, string symbol, Jcd.Units.UnitTypes.ElectricalConductance? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double,Jcd.Units.IValueComparer_double_).name'></a>

@@ -20,11 +20,5 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    /// <summary>
    /// planck-mass defined such that: SI kilogram = mₚ × 2.176434E-8.
    /// </summary>
-   public static readonly Mass PlanckMass = new (
-                                                 "planck-mass"
-                                               , "mₚ"
-                                               , SI.Masses.Kilogram
-                                               , 2.176434E-8
-                                               , system: "Theoretical Physics"
-                                                );
+   public static readonly Mass PlanckMass = new("planck-mass", "mₚ", SI.Masses.Kilogram, 2.176434E-8, system: "Theoretical Physics");
 }

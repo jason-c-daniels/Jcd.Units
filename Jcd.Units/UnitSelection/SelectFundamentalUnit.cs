@@ -17,14 +17,18 @@ public sealed class SelectFundamentalUnit : IUnitSelectionStrategy
    /// <summary>
    /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
-   public static readonly SelectFundamentalUnit Instance = new ();
-
+   public static readonly SelectFundamentalUnit Instance = new();
+   
    /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
    /// friendliness.)
    /// </summary>
-   private SelectFundamentalUnit() { }
-
+   private SelectFundamentalUnit()
+   {
+   }
+   
+   #region IUnitSelectionStrategy Members
+   
    /// <summary>
    /// Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
    /// </summary>
@@ -34,6 +38,10 @@ public sealed class SelectFundamentalUnit : IUnitSelectionStrategy
    /// <returns>The larger unit of measure.</returns>
    [Pure]
    public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
-            where TUnit : IUnitOfMeasure<TUnit>
-      => left.FundamentalUnit;
+      where TUnit : IUnitOfMeasure<TUnit>
+   {
+      return left.FundamentalUnit;
+   }
+   
+   #endregion
 }

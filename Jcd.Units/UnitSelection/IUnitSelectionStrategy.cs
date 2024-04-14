@@ -15,5 +15,5 @@ public interface IUnitSelectionStrategy
    /// <returns>The unit selected</returns>
    /// <typeparam name="TUnit">The concrete <see cref="UnitOfMeasure{TUnit}" /> type.</typeparam>
    TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
-            where TUnit : IUnitOfMeasure<TUnit>;
+      where TUnit : IUnitOfMeasure<TUnit>;
 }

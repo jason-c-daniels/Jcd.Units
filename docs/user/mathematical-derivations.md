@@ -2,24 +2,25 @@
 
 ## Document Purpose
 
-This document explains the mathematics for the methods used to select an appropriate `Coefficient` and `Offset` when 
+This document explains the mathematics for the methods used to select an appropriate `Coefficient` and `Offset` when
 creating new unit(s) of measure. That process involves extracting components of a conversion formula the reader is
 starting with. These components are used to compute the appropriate `Coefficient` and `Offset`.
 
-To that end, below you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure 
-formulas into the library's standard formula. These derivations, and the conclusions of them, give the reader the 
-specific coefficient and offset transformations necessary to calculate the new coefficient and offset that can be 
+To that end, below you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure
+formulas into the library's standard formula. These derivations, and the conclusions of them, give the reader the
+specific coefficient and offset transformations necessary to calculate the new coefficient and offset that can be
 used with this library.
 
-For just the transformations and code example see: 
-[Function Transformation Cheatsheet](function-transformation-cheatsheet.md) 
+For just the transformations and code example see:
+[Function Transformation Cheatsheet](function-transformation-cheatsheet.md)
 
 ## Intended Audience
+
 The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader
-must be familiar with basic algebraic concepts, standard algebraic notation<sup>7</sup>, and the basics of 
+must be familiar with basic algebraic concepts, standard algebraic notation<sup>7</sup>, and the basics of
 creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661)._
 
-NOTE: This library only handles units of measure conversions where the conversion function can be expressed as a 
+NOTE: This library only handles units of measure conversions where the conversion function can be expressed as a
 linear function, such as: $f(x) = a⋅x + c$. This is a single variable linear function. The following sections detail
 the math behind extracting $a$ and $c$ from that and other single variable linear functions.
 
@@ -35,6 +36,7 @@ As a mathematical formula this is expressed as follows<sup>8</sup>:
 $f(x) = a⋅(x + c)$
 
 FORMULA NOTES:
+
 - $f(x)$ is the function that converts **to** the _base unit_ **from** the _derived unit_.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
@@ -42,22 +44,23 @@ FORMULA NOTES:
 
 This is the _standard formula_ for this library: the linear function representation used by this library.<sup>9</sup>
 Formulas which don't already match this representation must be reworked so that an appropriate $a$ and $c$ can be
-calculated to yield an [equivalent function](https://www.thoughtco.com/understanding-equivalent-equations-4157661). This allows you to use this library to convert to and from the 
+calculated to yield an [equivalent function](https://www.thoughtco.com/understanding-equivalent-equations-4157661). This allows you to use this library to convert to and from the
 unit of measure you'd like to add.
 
 A formula not already expressed as $f(x) = a⋅(x + c)$ is termed the _starting formula_ as it will be used to select an
 $a$ and $c$, creating an equivalent function using the _standard formula_.
 
 To that end, the following sections:
+
 1. Provide guidance for how to select an appropriate $a$ and $c$ for some well known conversions formulas.
-2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the calculations for 
+2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the calculations for
    $a$ and $c$ given a starting formula.
 3. Build on each other and are intended to be read in order.
 4. Do not give advice for non-linear conversion functions. Those are not handled by this library.
 
 ### Notation:
 
-When walking the reader through the derivations the _starting formula_ for a type of conversion is provided. The 
+When walking the reader through the derivations the _starting formula_ for a type of conversion is provided. The
 following notation is used in the _starting formula_:
 
 - $a$ is a coefficient used with this library.
@@ -92,7 +95,7 @@ $f(x) = \frac{1}{a_0}⋅x$
 
 Which is the same as writing:
 
-$f(x) =  \frac{1}{a_0}⋅(x + 0)$
+$f(x) = \frac{1}{a_0}⋅(x + 0)$
 
 This gives us:
 
@@ -141,7 +144,7 @@ $f(x) = a_0⋅(x - c_0)$
 
 This is remarkably close to the desired formula:
 
-$f(x) =  a⋅(x + c)$
+$f(x) = a⋅(x + c)$
 
 When we change subtraction to addition of a negative we get a _standard formula_ representation:
 
@@ -188,7 +191,7 @@ This gives us:
 
 NOTE: This is also the standard algebraic notation for any linear function.
 
-## Subtract the Result of Multiplication from a Constant 
+## Subtract the Result of Multiplication from a Constant
 
 The generic form for this formula is:
 
@@ -206,7 +209,7 @@ _standard formula_, but it is one we've covered above.
 
    $f(x) = -a_0⋅x + c_0$
 
-Now perform the steps for _Coefficient With Offset Applied After Multiplication_, substituting $-a_0$ for $a$ 
+Now perform the steps for _Coefficient With Offset Applied After Multiplication_, substituting $-a_0$ for $a$
 and use $c_0$ _as-is_.
 
 This gives us:
@@ -245,7 +248,7 @@ values you got for $a$ and $c$ and compare the function results.
 
 Delisle Example:
 
-The Delise to Celcius conversion is: 
+The Delise to Celcius conversion is:
 
 $°C = 100 - \frac{2}{3}⋅°De$
 
@@ -259,15 +262,15 @@ From that representation we can extract our terms:
 - $c_0 = 100$
 
 Using the section _Subtract the Result of Multiplication from the Constant_ we see that:
+
 - $a = -a_0 = -\frac{2}{3}$
 - $c = \frac{c_0}{-a_0} = \frac{100}{-\frac{2}{3}} = -\frac{100⋅3}{2} = -150$.
 
 Substituting values in the standard formula gives:
 
-$f(x) = -\frac{2}{3}⋅(x + -150)$ or $f(x) = -\frac{2}{3}⋅(x - 150)$ for a more naturally reading function. 
+$f(x) = -\frac{2}{3}⋅(x + -150)$ or $f(x) = -\frac{2}{3}⋅(x - 150)$ for a more naturally reading function.
 
 This function gives the exact same results as the original.
-
 
 Delisle Code Example:
 
@@ -298,16 +301,16 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
 5. https://mathworld.wolfram.com/Derivation.html
 6. https://www.vocabulary.com/dictionary/derivation [definition #2]
 7. https://mathvault.ca/hub/higher-math/math-symbols/algebra-symbols/ Gives a list of many standard algebraic symbols.
-   - The symbols used in this document are all standard algebraic symbols and may have a different meaning in a 
+   - The symbols used in this document are all standard algebraic symbols and may have a different meaning in a
      different context.
-   - For example: 
-     - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so that meaning does not 
-       apply in this document. 
-     - In this document, $c$ is an arbitrary constant one extracts or computes from a unit of measure conversion 
-       formula. This is consistent with standard algebraic notation as linked above.
+   - For example:
+      - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so that meaning does not
+        apply in this document.
+      - In this document, $c$ is an arbitrary constant one extracts or computes from a unit of measure conversion
+        formula. This is consistent with standard algebraic notation as linked above.
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
    units of measure, nearly arbitrarilty, in terms of each other.
-9. This representation was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar 
-   looking as possible. As a standard linear function the conversion from Fahrenheit to Celcius is: 
-   $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$, or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations 
+9. This representation was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar
+   looking as possible. As a standard linear function the conversion from Fahrenheit to Celcius is:
+   $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$, or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations
    are unfamiliar to most people.

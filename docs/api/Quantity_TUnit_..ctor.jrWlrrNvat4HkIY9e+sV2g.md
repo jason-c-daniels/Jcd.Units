@@ -1,4 +1,5 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity(double, TUnit, IValueComparer<double>) Constructor
@@ -8,6 +9,7 @@ Represents a quantity with an associated unit of measure.
 ```csharp
 public Quantity(double rawValue, TUnit unit, Jcd.Units.IValueComparer<double>? baseUnitComparer=null);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.Quantity_TUnit_.Quantity(double,TUnit,Jcd.Units.IValueComparer_double_).rawValue'></a>

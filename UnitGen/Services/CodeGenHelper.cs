@@ -9,7 +9,8 @@ namespace UnitGen.Services;
 
 public static class CodeGenHelper
 {
-   public static string MakeSymbolName
-            (this string text) => CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Regex.Replace(text, @"\p{P}", " "))
-                                             .Replace(" ", "");
+   public static string MakeSymbolName(this string text)
+   {
+      return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Regex.Replace(text, @"\p{P}", " ")).Replace(" ", "");
+   }
 }

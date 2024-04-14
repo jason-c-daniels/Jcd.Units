@@ -1,14 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.operator >=(UnitOfMeasure<TUnit>, UnitOfMeasure<TUnit>) Operator
 
-Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than or equal to  
+Compares two [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') instances to determine if the left one is greater than or equal to
 the right one.
 
 ```csharp
 public static bool operator >=(Jcd.Units.UnitOfMeasure<TUnit>? left, Jcd.Units.UnitOfMeasure<TUnit>? right);
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.op_GreaterThanOrEqual(Jcd.Units.UnitOfMeasure_TUnit_,Jcd.Units.UnitOfMeasure_TUnit_).left'></a>
@@ -24,5 +26,6 @@ The left [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfM
 The right [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
 true if left is >= right; false otherwise.

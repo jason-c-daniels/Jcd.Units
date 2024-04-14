@@ -1,13 +1,16 @@
 #### [Jcd.Units](index.md 'index')
+
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 ## RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference.
+Constructs a unit measuring a specified [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another
+[RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference.
 
 ```csharp
 public RadiationEquivalentDose(string name, string symbol, Jcd.Units.UnitTypes.RadiationEquivalentDose? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
+
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,Jcd.Units.UnitTypes.RadiationEquivalentDose,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>
