@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[QuantityFactoryExtensions](QuantityFactoryExtensions.md 'Jcd.Units.QuantityFactoryExtensions')
 
 ## QuantityFactoryExtensions.As<TUnit>(this byte, TUnit) Method
@@ -10,7 +9,6 @@ Converts a [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte
 public static Jcd.Units.Quantity<TUnit> As<TUnit>(this byte rawValue, TUnit unitOfMeasure)
     where TUnit : Jcd.Units.UnitOfMeasure<TUnit>;
 ```
-
 #### Type parameters
 
 <a name='Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisbyte,TUnit).TUnit'></a>
@@ -18,7 +16,6 @@ public static Jcd.Units.Quantity<TUnit> As<TUnit>(this byte rawValue, TUnit unit
 `TUnit`
 
 The type of the unit of measure.
-
 #### Parameters
 
 <a name='Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisbyte,TUnit).rawValue'></a>
@@ -34,6 +31,5 @@ The [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'Syste
 The unit of measure to use.
 
 #### Returns
-
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.cbsXG+p4yp9fYuBQ+3CdTA.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisbyte,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this byte, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.cbsXG+p4yp9fYuBQ+3CdTA.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisbyte,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this byte, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
 A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.

@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ## BuiltInRoundingComparer(int, MidpointRounding) Constructor
 
-Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding
+Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding  
 method.
 
 ```csharp
 public BuiltInRoundingComparer(int decimalPlaces, MidpointRounding roundingMethod=0);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int,MidpointRounding).decimalPlaces'></a>

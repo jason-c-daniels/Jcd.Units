@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure(string, string, double, double, string) Constructor
@@ -9,7 +8,6 @@ Base type to simplify creating a unit of measure. This type provides relational 
 ```csharp
 protected UnitOfMeasure(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0, string System="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,double,double,string).Name'></a>

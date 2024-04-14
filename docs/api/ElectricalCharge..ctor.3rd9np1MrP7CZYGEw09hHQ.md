@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 ## ElectricalCharge(string, string, ElectricalCharge, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another
+Constructs a unit measuring a specified [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another  
 [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') as a reference.
 
 ```csharp
 public ElectricalCharge(string name, string symbol, Jcd.Units.UnitTypes.ElectricalCharge? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,Jcd.Units.UnitTypes.ElectricalCharge,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

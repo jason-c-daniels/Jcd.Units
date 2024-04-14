@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.SI.Velocities')
 
 ## Velocities.DecimeterPerFemtosecond Field
@@ -11,5 +10,4 @@ public static readonly Velocity DecimeterPerFemtosecond;
 ```
 
 #### Field Value
-
 [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')

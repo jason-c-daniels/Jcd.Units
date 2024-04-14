@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.Imperial.Velocities')
 
 ## Velocities.ThouPerMinute Field
@@ -11,5 +10,4 @@ public static readonly Velocity ThouPerMinute;
 ```
 
 #### Field Value
-
 [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')

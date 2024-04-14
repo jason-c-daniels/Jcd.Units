@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 ## Inductance(string, string, Inductance, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a
+Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a  
 reference.
 
 ```csharp
 public Inductance(string name, string symbol, Jcd.Units.UnitTypes.Inductance? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Inductance.Inductance(string,string,Jcd.Units.UnitTypes.Inductance,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

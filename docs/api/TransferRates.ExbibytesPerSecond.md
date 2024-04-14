@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.Data](Jcd.Units.UnitsOfMeasure.Data.md 'Jcd.Units.UnitsOfMeasure.Data').[TransferRates](TransferRates.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates')
 
 ## TransferRates.ExbibytesPerSecond Field
@@ -11,5 +10,4 @@ public static readonly TransferRate ExbibytesPerSecond;
 ```
 
 #### Field Value
-
 [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')

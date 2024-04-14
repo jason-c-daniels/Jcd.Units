@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Volumes')
 
 ## Volumes.CubicPlanckLength Field
@@ -11,5 +10,4 @@ public static readonly Volume CubicPlanckLength;
 ```
 
 #### Field Value
-
 [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')

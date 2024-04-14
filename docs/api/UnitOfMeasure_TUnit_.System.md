@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.System Property
@@ -11,5 +10,4 @@ public string System { get; set; }
 ```
 
 #### Property Value
-
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')

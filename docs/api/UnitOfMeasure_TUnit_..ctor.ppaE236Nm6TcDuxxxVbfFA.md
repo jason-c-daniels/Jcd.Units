@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure(string, string, TUnit, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit of measure using another [UnitOfMeasure&lt;TUnit&gt;](UnitOfMe
 ```csharp
 protected UnitOfMeasure(string name, string symbol, TUnit? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')
 
 ## TransferRate(string, string, TransferRate, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a
+Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a  
 reference.
 
 ```csharp
 public TransferRate(string name, string symbol, Jcd.Units.UnitTypes.TransferRate? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.TransferRate.TransferRate(string,string,Jcd.Units.UnitTypes.TransferRate,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

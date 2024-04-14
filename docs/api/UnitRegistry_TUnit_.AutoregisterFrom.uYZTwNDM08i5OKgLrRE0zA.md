@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_.md 'Jcd.Units.UnitRegistry<TUnit>')
 
 ## UnitRegistry<TUnit>.AutoregisterFrom(Assembly) Method
@@ -9,7 +8,6 @@ Searches the specified assembly and registers matching unit types from fields an
 ```csharp
 public void AutoregisterFrom(Assembly assembly);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitRegistry_TUnit_.AutoregisterFrom(Assembly).assembly'></a>

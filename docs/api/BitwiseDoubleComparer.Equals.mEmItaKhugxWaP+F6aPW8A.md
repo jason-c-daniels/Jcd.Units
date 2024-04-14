@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BitwiseDoubleComparer](BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
 
 ## BitwiseDoubleComparer.Equals(double, double) Method
@@ -9,7 +8,6 @@ Compares two doubles for equality.
 ```csharp
 public bool Equals(double x, double y);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Equals(double,double).x'></a>
@@ -25,6 +23,5 @@ A value to compare.
 A value to compare.
 
 #### Returns
-
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 true if both are equal, false otherwise.

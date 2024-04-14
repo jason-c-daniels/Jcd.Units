@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Density](Density.md 'Jcd.Units.UnitTypes.Density')
 
 ## Density(string, string, Density, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit measuring a specified [Density](Density.md 'Jcd.Units.UnitType
 ```csharp
 public Density(string name, string symbol, Jcd.Units.UnitTypes.Density? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Density.Density(string,string,Jcd.Units.UnitTypes.Density,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

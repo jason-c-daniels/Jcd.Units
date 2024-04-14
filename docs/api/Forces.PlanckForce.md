@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Forces](Forces.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Forces')
 
 ## Forces.PlanckForce Field
@@ -11,5 +10,4 @@ public static readonly Force PlanckForce;
 ```
 
 #### Field Value
-
 [Force](Force.md 'Jcd.Units.UnitTypes.Force')

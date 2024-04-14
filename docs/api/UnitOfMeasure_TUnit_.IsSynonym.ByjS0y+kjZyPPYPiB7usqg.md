@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.IsSynonym(TUnit) Method
@@ -9,7 +8,6 @@ Determines if the units of measure are identical in all but system name, name, o
 ```csharp
 public bool IsSynonym(TUnit other);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.IsSynonym(TUnit).other'></a>
@@ -19,6 +17,5 @@ public bool IsSynonym(TUnit other);
 The unit to compare against.
 
 #### Returns
-
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 true if the coefficient and offset are the same, but symbol, name or system are different.

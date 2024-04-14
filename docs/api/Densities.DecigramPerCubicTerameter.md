@@ -1,10 +1,9 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Densities](Densities.md 'Jcd.Units.UnitsOfMeasure.SI.Densities')
 
 ## Densities.DecigramPerCubicTerameter Field
 
-decigram per cubic terameter defined such that: gram per cubic gigameter = dg/Tm³ ×
+decigram per cubic terameter defined such that: gram per cubic gigameter = dg/Tm³ ×  
 (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
@@ -12,5 +11,4 @@ public static readonly Density DecigramPerCubicTerameter;
 ```
 
 #### Field Value
-
 [Density](Density.md 'Jcd.Units.UnitTypes.Density')

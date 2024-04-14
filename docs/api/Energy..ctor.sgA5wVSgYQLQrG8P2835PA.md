@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Energy](Energy.md 'Jcd.Units.UnitTypes.Energy')
 
 ## Energy(string, string, Energy, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit measuring a specified [Energy](Energy.md 'Jcd.Units.UnitTypes.
 ```csharp
 public Energy(string name, string symbol, Jcd.Units.UnitTypes.Energy? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Energy.Energy(string,string,Jcd.Units.UnitTypes.Energy,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary').[Forces](Forces.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Forces')
 
 ## Forces.PoundForce Field
@@ -11,5 +10,4 @@ public static readonly Force PoundForce;
 ```
 
 #### Field Value
-
 [Force](Force.md 'Jcd.Units.UnitTypes.Force')

@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Length](Length.md 'Jcd.Units.UnitTypes.Length')
 
 ## Length(string, string, Length, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit measuring a specified [Length](Length.md 'Jcd.Units.UnitTypes.
 ```csharp
 public Length(string name, string symbol, Jcd.Units.UnitTypes.Length? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Length.Length(string,string,Jcd.Units.UnitTypes.Length,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

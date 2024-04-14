@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
 
 ## Momentum(string, string, Momentum, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a
+Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a  
 reference.
 
 ```csharp
 public Momentum(string name, string symbol, Jcd.Units.UnitTypes.Momentum? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

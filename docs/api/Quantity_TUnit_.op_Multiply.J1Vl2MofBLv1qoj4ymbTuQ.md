@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity<TUnit>.operator *(double, Quantity<TUnit>) Operator
@@ -9,7 +8,6 @@ Performs multiplication on a double and a [Quantity&lt;TUnit&gt;](Quantity_TUnit
 ```csharp
 public static Jcd.Units.Quantity<TUnit> operator *(double x, Jcd.Units.Quantity<TUnit> y);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.Quantity_TUnit_.op_Multiply(double,Jcd.Units.Quantity_TUnit_).x'></a>
@@ -25,6 +23,5 @@ The double operand
 The [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') operand.
 
 #### Returns
-
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
 a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') of the results of the operation in the original unit of measure.

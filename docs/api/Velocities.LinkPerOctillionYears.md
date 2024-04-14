@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Velocities')
 
 ## Velocities.LinkPerOctillionYears Field
@@ -11,5 +10,4 @@ public static readonly Velocity LinkPerOctillionYears;
 ```
 
 #### Field Value
-
 [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')

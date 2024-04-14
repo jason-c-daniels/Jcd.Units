@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical').[Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes')
 
 ## Volumes.CubicRonnaparsec Field
@@ -11,5 +10,4 @@ public static readonly Volume CubicRonnaparsec;
 ```
 
 #### Field Value
-
 [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')

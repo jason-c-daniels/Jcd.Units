@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')
 
 ## Duration(string, string, Duration, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a
+Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a  
 reference.
 
 ```csharp
 public Duration(string name, string symbol, Jcd.Units.UnitTypes.Duration? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

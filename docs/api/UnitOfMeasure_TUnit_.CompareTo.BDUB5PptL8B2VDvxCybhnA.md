@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.CompareTo(object) Method
@@ -9,7 +8,6 @@ Performs a relative comparison between this [UnitOfMeasure&lt;TUnit&gt;](UnitOfM
 ```csharp
 public int CompareTo(object? obj);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(object).obj'></a>
@@ -19,11 +17,10 @@ public int CompareTo(object? obj);
 The [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') to compare against.
 
 #### Returns
-
-[System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+[System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
 -1 if less than; 1 if greater than; 0 if equals.
 
 #### Exceptions
 
-[System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')
+[System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
 When the passed in object is not a [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')

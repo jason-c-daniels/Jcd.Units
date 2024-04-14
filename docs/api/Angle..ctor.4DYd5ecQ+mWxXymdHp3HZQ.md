@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')
 
 ## Angle(string, string, Angle, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit measuring a specified [Angle](Angle.md 'Jcd.Units.UnitTypes.An
 ```csharp
 public Angle(string name, string symbol, Jcd.Units.UnitTypes.Angle? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Angle.Angle(string,string,Jcd.Units.UnitTypes.Angle,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

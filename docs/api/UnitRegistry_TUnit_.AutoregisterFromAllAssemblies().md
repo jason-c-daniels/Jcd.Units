@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_.md 'Jcd.Units.UnitRegistry<TUnit>')
 
 ## UnitRegistry<TUnit>.AutoregisterFromAllAssemblies() Method

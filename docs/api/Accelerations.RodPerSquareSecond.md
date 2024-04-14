@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Accelerations')
 
 ## Accelerations.RodPerSquareSecond Field
@@ -11,5 +10,4 @@ public static readonly Acceleration RodPerSquareSecond;
 ```
 
 #### Field Value
-
 [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')

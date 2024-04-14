@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Accelerations')
 
 ## Accelerations.PlanckLengthPerSquareDay Field
@@ -11,5 +10,4 @@ public static readonly Acceleration PlanckLengthPerSquareDay;
 ```
 
 #### Field Value
-
 [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')

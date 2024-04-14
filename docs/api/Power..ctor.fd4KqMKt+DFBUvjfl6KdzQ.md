@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Power](Power.md 'Jcd.Units.UnitTypes.Power')
 
 ## Power(string, string, Power, double, double, IValueComparer<double>, string) Constructor
@@ -9,7 +8,6 @@ Constructs a unit measuring a specified [Power](Power.md 'Jcd.Units.UnitTypes.Po
 ```csharp
 public Power(string name, string symbol, Jcd.Units.UnitTypes.Power? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Power.Power(string,string,Jcd.Units.UnitTypes.Power,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

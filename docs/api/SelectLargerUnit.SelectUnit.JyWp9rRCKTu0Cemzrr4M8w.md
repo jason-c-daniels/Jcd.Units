@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection').[SelectLargerUnit](SelectLargerUnit.md 'Jcd.Units.UnitSelection.SelectLargerUnit')
 
 ## SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit) Method
@@ -10,7 +9,6 @@ Selects the larger of two units of measure.
 public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
     where TUnit : Jcd.Units.IUnitOfMeasure<TUnit>;
 ```
-
 #### Type parameters
 
 <a name='Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit'></a>
@@ -18,7 +16,6 @@ public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
 `TUnit`
 
 The unit of measure type.
-
 #### Parameters
 
 <a name='Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).left'></a>
@@ -36,6 +33,5 @@ The second unit to consider.
 Implements [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit)')
 
 #### Returns
-
-[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
+[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')  
 The larger unit of measure.

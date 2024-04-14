@@ -2,43 +2,43 @@
 
 ## Jcd.Units.UnitTypes Namespace
 
-Provides classes to aid in creating various types of units of measure
+Provides classes to aid in creating various types of units of measure  
 for use with [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
-| Classes                                                                                             |                                                                                                                                                            |
-|:----------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')                                  | A measurement of rate at which velocity changes with time, in terms of both speed and direction.                                                           |
-| [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')                                                    | A measurement of an arbitrary quantity, number or value of something.                                                                                      |
-| [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')                                                       | A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet.                                            |
-| [Area](Area.md 'Jcd.Units.UnitTypes.Area')                                                          | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object...etc. |
-| [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')                                     | A measurement of the ability of a system to store an electric charge.                                                                                      |
-| [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')                   | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.                                                     |
-| [Density](Density.md 'Jcd.Units.UnitTypes.Density')                                                 | A measurement of mass per unit of volume.                                                                                                                  |
-| [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')                                              | A measurement of a length of time.                                                                                                                         |
-| [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')                      | A measurement of the amount of electricity that a current carries for a given unit of time.                                                                |
-| [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')       | A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance.                              |
-| [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')                   | A measurement of the flow of electricity in a circuit.                                                                                                     |
-| [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')             | A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a specific point.                         |
-| [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy')                                                    | A measurement of the ability to exert a force causing displacement of an object.                                                                           |
-| [Force](Force.md 'Jcd.Units.UnitTypes.Force')                                                       | A measurement of the rate of change of momentum.                                                                                                           |
-| [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency')                                           | A measurement of the number of waves that pass a fixed point in unit time.                                                                                 |
-| [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')                                     | A measurement of the amount of luminous flux per unit area.                                                                                                |
-| [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance')                                        | A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated by a change in the current flow.      |
-| [Length](Length.md 'Jcd.Units.UnitTypes.Length')                                                    | A measure of a unit of distance.                                                                                                                           |
-| [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')                                  | A measure of the perceived power of light.                                                                                                                 |
-| [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')                   | A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.                                       |
-| [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')                                  | A measurement of the total magnetic field which passes through a given area.                                                                               |
-| [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')             | A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux.                                |
-| [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')                                                          | A measurement of how much a particle or object resists change in its direction or speed when a force is applied.                                           |
-| [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')                                              | A measurement of the product of the mass and velocity of an object.                                                                                        |
-| [Power](Power.md 'Jcd.Units.UnitTypes.Power')                                                       | A measurement of the rate at which energy is transferred or converted.                                                                                     |
-| [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')                                              | A measurement of a force per unit area.                                                                                                                    |
-| [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')       | A measurement of the amount of radiation absorbed by an object or person.                                                                                  |
-| [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation.                             |
-| [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')                      | A measurement of the number of atomic nuclei that decay per unit time.                                                                                     |
-| [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance')                                        | A measurement of the opposition to current flow in an electrical circuit.                                                                                  |
-| [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage')                                                 | A measurement of data storage.                                                                                                                             |
-| [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')                                     | A measurement of the energy contained in the motion and vibration of an object's molecules.                                                                |
-| [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')                                  | A measurement of the rate at which data is transferred.                                                                                                    |
-| [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')                                              | A measurement of the rate and direction of motion of an object.                                                                                            |
-| [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')                                                    | A measurement of the amount of three dimensional space occupied by an object.                                                                              |
+| Classes | |
+| :--- | :--- |
+| [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') | A measurement of rate at which velocity changes with time, in terms of both speed and direction. |
+| [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
+| [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') | A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet. |
+| [Area](Area.md 'Jcd.Units.UnitTypes.Area') | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the<br/>surface of a three-dimensional object...etc. |
+| [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
+| [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
+| [Density](Density.md 'Jcd.Units.UnitTypes.Density') | A measurement of mass per unit of volume. |
+| [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') | A measurement of a length of time. |
+| [ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') | A measurement of the amount of electricity that a current carries for a given unit of time. |
+| [ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') | A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical<br/>resistance. |
+| [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') | A measurement of the flow of electricity in a circuit. |
+| [ElectricalPotential](ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') | A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a<br/>specific point. |
+| [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy') | A measurement of the ability to exert a force causing displacement of an object. |
+| [Force](Force.md 'Jcd.Units.UnitTypes.Force') | A measurement of the rate of change of momentum. |
+| [Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency') | A measurement of the number of waves that pass a fixed point in unit time. |
+| [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') | A measurement of the amount of luminous flux per unit area. |
+| [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') | A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated<br/>by a change in the current flow. |
+| [Length](Length.md 'Jcd.Units.UnitTypes.Length') | A measure of a unit of distance. |
+| [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') | A measure of the perceived power of light. |
+| [LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') | A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle. |
+| [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') | A measurement of the total magnetic field which passes through a given area. |
+| [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') | A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the<br/>magnetic flux. |
+| [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass') | A measurement of how much a particle or object resists change in its direction or speed when a force is applied. |
+| [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') | A measurement of the product of the mass and velocity of an object. |
+| [Power](Power.md 'Jcd.Units.UnitTypes.Power') | A measurement of the rate at which energy is transferred or converted. |
+| [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') | A measurement of a force per unit area. |
+| [RadiationAbsorbedDose](RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') | A measurement of the amount of radiation absorbed by an object or person. |
+| [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing<br/>radiation. |
+| [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | A measurement of the number of atomic nuclei that decay per unit time. |
+| [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') | A measurement of the opposition to current flow in an electrical circuit. |
+| [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') | A measurement of data storage. |
+| [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') | A measurement of the energy contained in the motion and vibration of an object's molecules. |
+| [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') | A measurement of the rate at which data is transferred. |
+| [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') | A measurement of the rate and direction of motion of an object. |
+| [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume') | A measurement of the amount of three dimensional space occupied by an object. |

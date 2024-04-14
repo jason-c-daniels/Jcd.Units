@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity(double, TUnit) Constructor
@@ -9,7 +8,6 @@ Represents a quantity with an associated unit of measure.
 ```csharp
 public Quantity(double RawValue, TUnit Unit);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.Quantity_TUnit_.Quantity(double,TUnit).RawValue'></a>

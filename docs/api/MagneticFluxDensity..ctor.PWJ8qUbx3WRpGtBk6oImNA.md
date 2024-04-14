@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
 
 ## MagneticFluxDensity(string, string, MagneticFluxDensity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another
+Constructs a unit measuring a specified [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another  
 [MagneticFluxDensity](MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') as a reference.
 
 ```csharp
 public MagneticFluxDensity(string name, string symbol, Jcd.Units.UnitTypes.MagneticFluxDensity? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string,string,Jcd.Units.UnitTypes.MagneticFluxDensity,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

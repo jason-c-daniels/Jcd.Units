@@ -1,16 +1,14 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
 
 ## Acceleration(string, string, Acceleration, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a
+Constructs a unit measuring a specified [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') using another [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') as a  
 reference.
 
 ```csharp
 public Acceleration(string name, string symbol, Jcd.Units.UnitTypes.Acceleration? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.UnitTypes.Acceleration.Acceleration(string,string,Jcd.Units.UnitTypes.Acceleration,double,double,Jcd.Units.IValueComparer_double_,string).name'></a>

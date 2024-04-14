@@ -1,5 +1,4 @@
 #### [Jcd.Units](index.md 'index')
-
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[MathQ](MathQ.md 'Jcd.Units.MathQ')
 
 ## MathQ.Atan(double, Angle) Method
@@ -9,7 +8,6 @@ Returns the angle whose tangent is the specified number.
 ```csharp
 public static Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle> Atan(double value, Jcd.Units.UnitTypes.Angle? outputUnitOfMeasure=null);
 ```
-
 #### Parameters
 
 <a name='Jcd.Units.MathQ.Atan(double,Jcd.Units.UnitTypes.Angle).value'></a>
@@ -25,6 +23,5 @@ the number to perform the inverse tangent function on.
 The optional, requested output unit of measure.
 
 #### Returns
-
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')  
 The angle whose inverse tangent is the specified number.
