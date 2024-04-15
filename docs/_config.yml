@@ -1,6 +1,6 @@
 title: Jcd.Units
 logo: assets/img/logo.jpg
-description: <a href="/">Jcd.Units</a> -- A unit of measure bound quantity library.
+description: <a href="/Jcd.Units" class="sitelink">Jcd.Units</a> — A unit-of-measure-bound-quantity library.
 markdown: kramdown
 show_downloads: false
 google_analytics:
