@@ -1,6 +1,7 @@
 title: Jcd.Units
 logo: assets/img/logo.jpg
 description: A unit of measure bound quantity library.
+markdown: kramdown
 show_downloads: false
 google_analytics:
 remote_theme: pages-themes/leap-day@v0.2.0
