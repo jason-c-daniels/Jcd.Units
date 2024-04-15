@@ -1,4 +1,4 @@
-# Jcd.Units
+# Jcd.Units README
 
 A *dotnet 6* library that provides a set of utility classes and compile time safety
 for managing unit of measure bound quantities.
@@ -218,5 +218,5 @@ var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter);
 [![Nuget](https://img.shields.io/nuget/v/Jcd.Units?logo=nuget)](https://www.nuget.org/packages/Jcd.Units)
 
 [![API Docs](https://img.shields.io/badge/Read-The%20API%20Documentation-blue?style=for-the-badge)](https://jason-c-daniels.github.io/api)
-[![User Manual](https://img.shields.io/badge/Read-The%20User%20Manual-green?style=for-the-badge)](https://jason-c-daniels.github.io/api/user)
-[![All Documentation](https://img.shields.io/badge/Read-The%20Documentation-yellow?style=for-the-badge)](https://jason-c-daniels.github.io/api/user)
+[![User Manual](https://img.shields.io/badge/Read-The%20User%20Manual-green?style=for-the-badge)](https://jason-c-daniels.github.io/user)
+[![All Documentation](https://img.shields.io/badge/Read-The%20Documentation-yellow?style=for-the-badge)](https://jason-c-daniels.github.io/)

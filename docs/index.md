@@ -1,4 +1,4 @@
-﻿# `Jcd.Units` End User Documentation
+﻿# Jcd.Units Documentation
 
 - The [User Manual](./user/) contains guidance on using the library, as well as important considerations when
   doing so.
