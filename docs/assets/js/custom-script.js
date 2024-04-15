@@ -1,1 +1,3 @@
-﻿$('#banner').css({"background-color":"#ABABFF"});
+﻿$( document ).ready(function() {
+   $('#banner').remove();
+});
