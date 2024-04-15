@@ -1,1 +1,1 @@
-﻿alert("assets/js/custom-script.js");
+﻿$('#banner').css({"background-color":"#ABABFF"});
