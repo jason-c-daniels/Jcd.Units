@@ -6,4 +6,4 @@
   from the source code using the [DefaultDocumentation](https://github.com/Doraku/DefaultDocumentation) tool.
 - The [NIST Reference Documents](./nist/) links various documents used a a reference for implementing portions of
   this library (mostly data and terminology).
-- [README](./README) - The README file.
+- [README](README) - The README file.
