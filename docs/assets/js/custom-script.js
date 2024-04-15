@@ -1,0 +1,1 @@
+﻿alert("assets/js/custom-script.js");
