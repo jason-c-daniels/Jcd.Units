@@ -6,10 +6,13 @@
 A measurement of the total magnetic field which passes through a given area.
 
 ```csharp
-public class MagneticFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.MagneticFlux>
+public class MagneticFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.MagneticFlux>,
+System.IEquatable<Jcd.Units.UnitTypes.MagneticFlux>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; MagneticFlux
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; MagneticFlux
+
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |

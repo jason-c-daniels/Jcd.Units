@@ -7,7 +7,7 @@ Registers a unit of measure with the global registry.
 
 ```csharp
 public void Register<TUnit>(TUnit unit)
-    where TUnit : Jcd.Units.UnitOfMeasure<TUnit>, IEquatable<TUnit>;
+    where TUnit : Jcd.Units.UnitOfMeasure<TUnit>, System.IEquatable<TUnit>;
 ```
 #### Type parameters
 

@@ -1,9 +1,11 @@
 ﻿// ReSharper disable UnusedMember.Global
 // ReSharper disable ClassNeverInstantiated.Global
 
+using Jcd.RichEnumerations.Classes;
+
 namespace Jcd.Units.Examples.Perf.Tests.Baseline;
 
-internal class BaselinePerfTests : Enumeration<BaselinePerfTests, IPerfTest>
+internal class BaselinePerfTests : RichEnumBase<BaselinePerfTests, IPerfTest>
 {
    public static readonly IPerfTest DoubleAdditionPerfTest = new DoubleAdditionPerfTest();
    public static readonly IPerfTest DoubleSubtractionPerfTest = new DoubleSubtractionPerfTest();

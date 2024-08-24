@@ -128,7 +128,7 @@ var biInch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 var usInch = US.Lengths.Inch;
 var usPt   = US.Lengths.Point;
 
-var durs = Durations.GetAll()
+var durs = Durations.All
                     .ToDictionary(x => x.Symbol);
 
 var ms = durs["ms"];
@@ -182,7 +182,7 @@ var zcinR2                              = zeroC.To(R2);
 
 var dnc = R2.FromFundamentalUnitValue(K.Offset);
 
-var allDurations = Durations.GetAll()
+var allDurations = Durations.All
                             .ToList();
 
 Console.WriteLine("Hello, World!");

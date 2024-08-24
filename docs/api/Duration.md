@@ -6,10 +6,13 @@
 A measurement of a length of time.
 
 ```csharp
-public class Duration : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Duration>
+public class Duration : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Duration>,
+System.IEquatable<Jcd.Units.UnitTypes.Duration>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; Duration
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; Duration
+
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |

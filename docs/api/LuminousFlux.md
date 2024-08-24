@@ -6,10 +6,13 @@
 A measure of the perceived power of light.
 
 ```csharp
-public class LuminousFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousFlux>
+public class LuminousFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousFlux>,
+System.IEquatable<Jcd.Units.UnitTypes.LuminousFlux>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; LuminousFlux
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; LuminousFlux
+
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |

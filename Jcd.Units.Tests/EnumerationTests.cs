@@ -12,8 +12,7 @@ public class EnumerationTests : TestBase
    public void GetAll_Returns_Expected_Values()
    {
       var units = UnitOfMeasure1Units
-                 .GetAll()
-                 .ToList();
+                 .All;
 
       const int expectedCount = 3;
       Assert.Equal(expectedCount, units.Count);
@@ -22,8 +21,7 @@ public class EnumerationTests : TestBase
       Assert.Contains(UnitOfMeasure1Units.DerivedUnit2, units);
 
       var otherUnits = UnitOfMeasure1Units2
-                      .GetAll()
-                      .ToList();
+                      .All;
 
       const int otherExpectedCount = 2;
       Assert.Equal(otherExpectedCount, otherUnits.Count);

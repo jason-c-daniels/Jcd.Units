@@ -6,10 +6,13 @@
 A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.
 
 ```csharp
-public class CatalyticActivity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.CatalyticActivity>
+public class CatalyticActivity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.CatalyticActivity>,
+System.IEquatable<Jcd.Units.UnitTypes.CatalyticActivity>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; CatalyticActivity
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; CatalyticActivity
+
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |

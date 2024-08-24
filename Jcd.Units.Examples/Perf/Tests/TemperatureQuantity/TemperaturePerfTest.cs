@@ -26,8 +26,10 @@ internal abstract record TemperaturePerfTest(string Description) : PerfTestBase(
    protected static readonly Temperature Rø = UnitsOfMeasure.Temperatures
                                                             .DegreesRømer;
 
-   protected Quantity<Temperature> Quantity1 { get; set; }
-   protected Quantity<Temperature> Quantity2 { get; set; }
-   protected Quantity<Temperature> Quantity3 { get; set; }
-   protected Quantity<Temperature> Quantity4 { get; set; }
+   private static Quantity<Temperature> DefaultTemp = 0.As(C);
+
+   protected Quantity<Temperature> Quantity1 { get; set; } = DefaultTemp;
+   protected Quantity<Temperature> Quantity2 { get; set; } = DefaultTemp;
+   protected Quantity<Temperature> Quantity3 { get; set; } = DefaultTemp;
+   protected Quantity<Temperature> Quantity4 { get; set; } = DefaultTemp;
 }

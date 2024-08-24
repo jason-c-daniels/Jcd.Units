@@ -6,7 +6,7 @@
 Converts a [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') to a [System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan')
 
 ```csharp
-public static TimeSpan ToTimeSpan(this Jcd.Units.Quantity<Jcd.Units.UnitTypes.Duration> duration);
+public static System.TimeSpan ToTimeSpan(this Jcd.Units.Quantity<Jcd.Units.UnitTypes.Duration> duration);
 ```
 #### Parameters
 

@@ -72,15 +72,12 @@ public class PerformanceTestRunner
       RunTestsInScenario(
                          report
                        , baselineScenario
-                       , BaselinePerfTests.GetAll()
-                                          .ToList()
+                       , BaselinePerfTests.All
                         );
 
-      var quantityScenarios = Scenarios.GetAll()
-                                       .ToList();
+      var quantityScenarios = Scenarios.All;
 
-      var quantityTests = PerfTests.GetAll()
-                                   .ToList();
+      var quantityTests = PerfTests.All;
 
       foreach (var scenario in quantityScenarios) RunTestsInScenario(report, scenario, quantityTests);
    }
