@@ -6,7 +6,9 @@
 The interface defining what every unit of measure must support.
 
 ```csharp
-public interface IUnitOfMeasure<TUnit>
+public interface IUnitOfMeasure<TUnit> :
+System.IComparable<TUnit>,
+System.IComparable
     where TUnit : Jcd.Units.IUnitOfMeasure<TUnit>
 ```
 #### Type parameters
@@ -19,6 +21,8 @@ The type deriving from [IUnitOfMeasure&lt;TUnit&gt;](IUnitOfMeasure_TUnit_.md 'J
 
 Derived  
 &#8627; [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+
+Implements [System.IComparable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1')[TUnit](IUnitOfMeasure_TUnit_.md#Jcd.Units.IUnitOfMeasure_TUnit_.TUnit 'Jcd.Units.IUnitOfMeasure<TUnit>.TUnit')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1'), [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable')
 
 ### Remarks
 By ensuring that all units of measure provide their own type to the interface  

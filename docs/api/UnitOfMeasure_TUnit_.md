@@ -7,7 +7,10 @@ Base type to simplify creating a unit of measure. This type provides relational 
 
 ```csharp
 public abstract class UnitOfMeasure<TUnit> :
-Jcd.Units.IUnitOfMeasure<TUnit>
+Jcd.Units.IUnitOfMeasure<TUnit>,
+System.IComparable<TUnit>,
+System.IComparable,
+System.IEquatable<Jcd.Units.UnitOfMeasure<TUnit>>
     where TUnit : Jcd.Units.UnitOfMeasure<TUnit>
 ```
 #### Type parameters
@@ -16,7 +19,7 @@ Jcd.Units.IUnitOfMeasure<TUnit>
 
 `TUnit`
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; UnitOfMeasure<TUnit>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; UnitOfMeasure<TUnit>
 
 Derived  
 &#8627; [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')  
@@ -55,7 +58,7 @@ Derived
 &#8627; [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')  
 &#8627; [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
 
-Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
+Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>'), [System.IComparable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1'), [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable'), [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |
@@ -88,6 +91,7 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | [GetHashCode()](UnitOfMeasure_TUnit_.GetHashCode().md 'Jcd.Units.UnitOfMeasure<TUnit>.GetHashCode()') | Computes the hash code for this [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |
 | [IsSynonym(TUnit)](UnitOfMeasure_TUnit_.IsSynonym.ByjS0y+kjZyPPYPiB7usqg.md 'Jcd.Units.UnitOfMeasure<TUnit>.IsSynonym(TUnit)') | Determines if the units of measure are identical in all but system name, name, or symbol. |
 | [ToFundamentalUnitValue(double)](UnitOfMeasure_TUnit_.ToFundamentalUnitValue.c+pdNRz/zLxbsbCTxAGJcQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.ToFundamentalUnitValue(double)') | The interface defining what every unit of measure must support. |
+| [ToString()](UnitOfMeasure_TUnit_.ToString().md 'Jcd.Units.UnitOfMeasure<TUnit>.ToString()') | Returns a string that represents the current object. |
 
 | Operators | |
 | :--- | :--- |

@@ -1,5 +1,5 @@
 <!--
-  - Copyright 2023 Jason C. Daniels
+  - Copyright 2024 Jason C. Daniels
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   -
@@ -15,16 +15,17 @@
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="Hardware.Info" Version="11.0.0" />
-      <PackageReference Include="Jcd.Reflection" Version="1.0.56" />
-      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+      <PackageReference Include="Hardware.Info" Version="100.1.0.1" />
+      <PackageReference Include="Jcd.Reflection" Version="2.0.26" />
+      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="8.0.0" />
    </ItemGroup>
 
    <PropertyGroup>
       <OutputType>Exe</OutputType>
-      <TargetFramework>net6.0</TargetFramework>
+      <TargetFramework>net8.0</TargetFramework>
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
+      <LangVersion>latest</LangVersion>
    </PropertyGroup>
 
 </Project>

@@ -145,7 +145,7 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    /// <summary>
    /// metric ton is a synonym for megagram
    /// </summary>
-   public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram, system: "SI");
+   public static readonly Mass MetricTon = new ("metric ton", "Mt", Megagram, system: "SI");
 
    /// <summary>
    /// tonne is a synonym for megagram

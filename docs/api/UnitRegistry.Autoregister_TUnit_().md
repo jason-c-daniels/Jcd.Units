@@ -7,7 +7,7 @@ Searches all loaded assemblies and registers matching unit types from fields and
 
 ```csharp
 public void Autoregister<TUnit>()
-    where TUnit : Jcd.Units.UnitOfMeasure<TUnit>, IEquatable<TUnit>;
+    where TUnit : Jcd.Units.UnitOfMeasure<TUnit>, System.IEquatable<TUnit>;
 ```
 #### Type parameters
 

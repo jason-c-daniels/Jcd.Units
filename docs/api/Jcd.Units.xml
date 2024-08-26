@@ -168,25 +168,6 @@
             outside of your application's startup code.
             </remarks>
         </member>
-        <member name="T:Jcd.Units.Enumeration`2">
-            <summary>
-            The base of all unit of measure enumerations in this library.
-            </summary>
-            <typeparam name="TEnumeration">The enumeration type.</typeparam>
-            <typeparam name="T">The type of the enumerated members.</typeparam>
-        </member>
-        <member name="F:Jcd.Units.Enumeration`2.All">
-            <summary>
-            All enumerated elements. Populated in static constructor.
-            </summary>
-        </member>
-        <member name="M:Jcd.Units.Enumeration`2.GetAll">
-            <summary>
-            Retrieves all public static properties of type <typeparamref name="T" />
-            on the derived enumeration <typeparamref name="TEnumeration" />
-            </summary>
-            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1" /> for all detected members.</returns>
-        </member>
         <member name="T:Jcd.Units.IUnitOfMeasure`1">
             <summary>
             The interface defining what every unit of measure must support.
@@ -1143,7 +1124,7 @@
             The base of all unit of measure enumerations in this library.
             </summary>
             <typeparam name="TEnumeration">The enumeration type.</typeparam>
-            <typeparam name="T">The type of the enumerated members.</typeparam>
+            <typeparam name="TEnumerated">The type of the enumerated members.</typeparam>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasureEnumeration`2.ByName">
             <summary>

@@ -1,9 +1,10 @@
 ﻿// ReSharper disable UnusedMember.Global
 // ReSharper disable ClassNeverInstantiated.Global
+using Jcd.RichEnumerations.Classes;
 
 namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 
-internal class PerfTests : Enumeration<PerfTests, IPerfTest>
+internal class PerfTests : RichEnumBase<PerfTests, IPerfTest>
 {
    public static readonly IPerfTest As = new AsPerfTest();
    public static readonly IPerfTest Conversion = new ConversionPerfTest();

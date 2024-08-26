@@ -7,14 +7,16 @@ Rounds two values then compares them using the builtin Round method of [System.M
 
 ```csharp
 public readonly struct BuiltInRoundingComparer :
-Jcd.Units.IValueComparer<double>
+Jcd.Units.IValueComparer<double>,
+System.Collections.Generic.IComparer<double>,
+System.Collections.Generic.IEqualityComparer<double>
 ```
 
-Implements [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+Implements [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>'), [System.Collections.Generic.IComparer&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1 'System.Collections.Generic.IComparer`1')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer-1 'System.Collections.Generic.IComparer`1'), [System.Collections.Generic.IEqualityComparer&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1 'System.Collections.Generic.IEqualityComparer`1')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer-1 'System.Collections.Generic.IEqualityComparer`1')
 
 | Constructors | |
 | :--- | :--- |
-| [BuiltInRoundingComparer(int, MidpointRounding)](BuiltInRoundingComparer..ctor.tYphWrxAoxUa8qg1tMznVQ.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int, MidpointRounding)') | Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding<br/>method. |
+| [BuiltInRoundingComparer(int, MidpointRounding)](BuiltInRoundingComparer..ctor.YahzZ8wGjUA5WkQhlGHwIg.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int, System.MidpointRounding)') | Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding<br/>method. |
 
 | Fields | |
 | :--- | :--- |

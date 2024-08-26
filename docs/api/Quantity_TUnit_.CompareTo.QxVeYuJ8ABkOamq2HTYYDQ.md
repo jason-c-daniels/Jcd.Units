@@ -16,6 +16,8 @@ public int CompareTo(object? obj);
 
 The other instance to compare against.
 
+Implements [CompareTo(object)](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable.CompareTo#System_IComparable_CompareTo_System_Object_ 'System.IComparable.CompareTo(System.Object)')
+
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
 -1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.

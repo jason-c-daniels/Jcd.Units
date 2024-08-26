@@ -6,7 +6,7 @@
 The rounding method to employ.
 
 ```csharp
-public MidpointRounding RoundingMethod { get; }
+public System.MidpointRounding RoundingMethod { get; }
 ```
 
 #### Property Value

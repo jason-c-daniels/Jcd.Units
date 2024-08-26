@@ -90,7 +90,7 @@
 "SI","Magnetic Flux","weber","Wb","SI","All","SI","weber","1.0","0","0"
 "SI","Magnetic Flux Density","tesla","T","SI","All","SI","tesla","1.0","0","0"
 "SI","Mass","gram","g","SI Mass","All","SI","gram","1.0","0","0"
-"SI","Mass","metric ton","mt",,,"SI","megagram","1.0","0","1"
+"SI","Mass","metric ton","Mt",,,"SI","megagram","1.0","0","1"
 "SI","Mass","tonne","t","SI","All","SI","megagram","1.0","0","2"
 "SI","Momentum","newton-second","N⋅s","SI","All","SI","newton-second","1.0","0","0"
 "SI","Power","watt","W","SI","All","SI","watt","1.0","0","0"

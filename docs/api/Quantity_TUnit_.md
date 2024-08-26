@@ -7,7 +7,10 @@ Represents a quantity with an associated unit of measure.
 
 ```csharp
 public readonly struct Quantity<TUnit> :
-System.IFormattable
+System.IComparable<Jcd.Units.Quantity<TUnit>>,
+System.IFormattable,
+System.IComparable,
+System.IEquatable<Jcd.Units.Quantity<TUnit>>
     where TUnit : Jcd.Units.UnitOfMeasure<TUnit>
 ```
 #### Type parameters
@@ -18,7 +21,7 @@ System.IFormattable
 
 The data type of the unit of measure. It must derive from [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
-Implements [System.IFormattable](https://docs.microsoft.com/en-us/dotnet/api/System.IFormattable 'System.IFormattable')
+Implements [System.IComparable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1')[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable-1 'System.IComparable`1'), [System.IFormattable](https://docs.microsoft.com/en-us/dotnet/api/System.IFormattable 'System.IFormattable'), [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable'), [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |
@@ -42,7 +45,7 @@ Implements [System.IFormattable](https://docs.microsoft.com/en-us/dotnet/api/Sys
 | [GetHashCode()](Quantity_TUnit_.GetHashCode().md 'Jcd.Units.Quantity<TUnit>.GetHashCode()') | Computes a hashcode for the quantity, so that numeric equivalence is maintained<br/>regardless of precise unit of measure is used, the hashcode is calculated on<br/>the fundamental unit representation. TUnit is included in the hashcode to ensure<br/>that differing units do not hash the same. |
 | [To(TUnit)](Quantity_TUnit_.To.J+C5qhOb5vEvPPa1sEADMQ.md 'Jcd.Units.Quantity<TUnit>.To(TUnit)') | Converts the quantity from its current unit of measure to the target unit of measure. |
 | [ToString()](Quantity_TUnit_.ToString().md 'Jcd.Units.Quantity<TUnit>.ToString()') | Formats a string with the quantity value followed by the symbol. |
-| [ToString(string, IFormatProvider)](Quantity_TUnit_.ToString.wNWd/4lJ501b8mznziyFUA.md 'Jcd.Units.Quantity<TUnit>.ToString(string, IFormatProvider)') | Formats the value of the current instance using the specified format. |
+| [ToString(string, IFormatProvider)](Quantity_TUnit_.ToString.bCYruWJK23dcw0i/e0WJlQ.md 'Jcd.Units.Quantity<TUnit>.ToString(string, System.IFormatProvider)') | Formats the value of the current instance using the specified format. |
 | [ToString(string)](Quantity_TUnit_.ToString.43NvnAptNJaCqw3omGqmKw.md 'Jcd.Units.Quantity<TUnit>.ToString(string)') | Outputs the number formatted according to the [format](Quantity_TUnit_.ToString.43NvnAptNJaCqw3omGqmKw.md#Jcd.Units.Quantity_TUnit_.ToString(string).format 'Jcd.Units.Quantity<TUnit>.ToString(string).format')<br/>with unit symbol. |
 
 | Operators | |

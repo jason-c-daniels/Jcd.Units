@@ -1,5 +1,5 @@
 <!--
-  - Copyright 2023 Jason C. Daniels
+  - Copyright 2024 Jason C. Daniels
   -
   - Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
   -
@@ -11,23 +11,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup>
-      <TargetFramework>net6.0</TargetFramework>
+      <TargetFrameworks>net8.0;net6.0;net7.0</TargetFrameworks>
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
-
       <IsPackable>false</IsPackable>
+      <IsTestProject>true</IsTestProject>
+      <LangVersion>latest</LangVersion>
    </PropertyGroup>
 
    <ItemGroup>
-      <PackageReference Include="Jcd.Reflection" Version="1.0.56" />
-      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
-      <PackageReference Include="Moq" Version="4.18.4" />
-      <PackageReference Include="xunit" Version="2.4.2" />
-      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <PackageReference Include="Jcd.Reflection" Version="2.0.26" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
+      <PackageReference Include="Moq" Version="4.20.70" />
+      <PackageReference Include="xunit" Version="2.9.0" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
          <PrivateAssets>all</PrivateAssets>
       </PackageReference>
-      <PackageReference Include="coverlet.collector" Version="3.2.0">
+      <PackageReference Include="coverlet.collector" Version="6.0.2">
          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
          <PrivateAssets>all</PrivateAssets>
       </PackageReference>
@@ -36,11 +37,5 @@
    <ItemGroup>
       <ProjectReference Include="..\Jcd.Units\Jcd.Units.csproj" />
    </ItemGroup>
-
-   <ItemGroup>
-      <None Update="xunit.runner.json">
-         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-   </ItemGroup>
-
+   
 </Project>

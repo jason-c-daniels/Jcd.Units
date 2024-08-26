@@ -6,10 +6,13 @@
 A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.
 
 ```csharp
-public class LuminousIntensity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousIntensity>
+public class LuminousIntensity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousIntensity>,
+System.IEquatable<Jcd.Units.UnitTypes.LuminousIntensity>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; LuminousIntensity
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; LuminousIntensity
+
+Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 | Constructors | |
 | :--- | :--- |

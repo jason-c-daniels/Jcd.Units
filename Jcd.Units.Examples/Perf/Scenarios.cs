@@ -1,5 +1,6 @@
 ﻿#region
 
+using Jcd.RichEnumerations.Classes;
 using Jcd.Units.DoubleComparison;
 using Jcd.Units.UnitSelection;
 using Jcd.Units.UnitTypes;
@@ -13,7 +14,7 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.Examples.Perf;
 
-public class Scenarios : Enumeration<Scenarios, Scenario>
+public class Scenarios : RichEnumBase<Scenarios, Scenario>
 {
    public static readonly Scenario DefaultSettings = new (
                                                           "Using all default settings"

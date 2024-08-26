@@ -22,9 +22,8 @@ public class GeneratedUnitsTests : TestBase
                   Assembly.GetAssembly(typeof(UnitOfMeasureEnumeration<,>))
                           .FindImplementationsOf(typeof(UnitOfMeasureEnumeration<,>));
 
-         return
-                  from enumeration in enumerationTypes
-                  select new[] { enumeration, enumeration.Invoke("GetAll") };
+         return from enumeration in enumerationTypes
+                select new[] { enumeration, enumeration.Invoke("get_All") };
       }
    }
 

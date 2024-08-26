@@ -6,7 +6,7 @@
 Returns the hyperbolic sine of the specified angle.
 
 ```csharp
-public static ValueTuple<double,double> SinCos(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle> angle);
+public static (double Sin,double Cos) SinCos(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle> angle);
 ```
 #### Parameters
 
@@ -17,5 +17,5 @@ public static ValueTuple<double,double> SinCos(Jcd.Units.Quantity<Jcd.Units.Unit
 The angle, in any unit of measure for [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.Angles').
 
 #### Returns
-[System.ValueTuple](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')  
+[&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[,](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.ValueTuple 'System.ValueTuple')  
 The hyperbolic sine of the specified angle.

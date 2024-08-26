@@ -6,8 +6,8 @@
 Returns a lookup of the unit(s) with matching symbols.
 
 ```csharp
-public ILookup<string,TUnit> SymbolLookup { get; }
+public System.Linq.ILookup<string,TUnit> SymbolLookup { get; }
 ```
 
 #### Property Value
-[System.Linq.ILookup](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup 'System.Linq.ILookup')
+[System.Linq.ILookup&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup-2 'System.Linq.ILookup`2')[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')[,](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup-2 'System.Linq.ILookup`2')[TUnit](UnitRegistry_TUnit_.md#Jcd.Units.UnitRegistry_TUnit_.TUnit 'Jcd.Units.UnitRegistry<TUnit>.TUnit')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Linq.ILookup-2 'System.Linq.ILookup`2')
