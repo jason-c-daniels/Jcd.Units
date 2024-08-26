@@ -1157,6 +1157,11 @@
             Returns a lookup of the unit(s) with matching symbols.
             </summary>
         </member>
+        <member name="P:Jcd.Units.UnitRegistry`1.SystemLookup">
+            <summary>
+            Returns a lookup of the unit(s) with matching symbols.
+            </summary>
+        </member>
         <member name="P:Jcd.Units.UnitRegistry`1.All">
             <summary>
             All registered or discovered instances of the type of unit.
@@ -1219,14 +1224,21 @@
             Gets a symbol based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.
             </summary>
             <typeparam name="TUnit">The unit of measure type.</typeparam>
-            <returns>A name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
+            <returns>A symbol based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
         </member>
-        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnits">
+        <member name="M:Jcd.Units.UnitRegistry.GetSystemLookup``1">
+            <summary>
+            Gets a system name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.
+            </summary>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>A system name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnits(System.Boolean)">
             <summary>
             Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnitsFrom(System.Reflection.Assembly)">
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnitsFrom(System.Reflection.Assembly,System.Boolean)">
             <summary>
             Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
             </summary>

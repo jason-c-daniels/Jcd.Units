@@ -33,9 +33,10 @@ public class UnitRegistry<TUnit>
    // ReSharper disable once StaticMemberInGenericType
    private bool _inAutoregister;
 
-   private ILookup<string, TUnit>? _nameLookup;
    private bool _needsRebuild = true;
+   private ILookup<string, TUnit>? _nameLookup;
    private ILookup<string, TUnit>? _symbolLookup;
+   private ILookup<string, TUnit>? _systemLookup;
 
    private UnitRegistry() { }
 
@@ -66,6 +67,19 @@ public class UnitRegistry<TUnit>
    }
 
    /// <summary>
+   /// Returns a lookup of the unit(s) with matching symbols.
+   /// </summary>
+   public ILookup<string, TUnit> SystemLookup
+   {
+      get
+      {
+         RebuildIfNeeded();
+
+         return _systemLookup!;
+      }
+   }
+
+   /// <summary>
    /// All registered or discovered instances of the type of unit.
    /// </summary>
    public IReadOnlyList<TUnit> All => _allItems.ToArray();
@@ -74,11 +88,18 @@ public class UnitRegistry<TUnit>
    {
       if (_needsRebuild)
       {
-         _bagLock.Wait();
+         try
+         {
+            _bagLock.Wait();
 
-         _nameLookup   = _allItems.ToLookup(x => x.Name);
-         _symbolLookup = _allItems.ToLookup(x => x.Symbol);
-         _bagLock.Release();
+            _nameLookup   = _allItems.ToLookup(x => x.Name);
+            _symbolLookup = _allItems.ToLookup(x => x.Symbol);
+            _systemLookup = _allItems.ToLookup(x => x.System);
+         }
+         finally
+         {
+            _bagLock.Release();
+         }
       }
    }
 
@@ -99,15 +120,21 @@ public class UnitRegistry<TUnit>
                where field.PropertyType == typeof(TUnit)
                select field.GetValue(field.Name) as TUnit;
 
-      _bagLock.Wait();
-      _inAutoregister = true;
+      try
+      {
+         _bagLock.Wait();
+         _inAutoregister = true;
 
-      foreach (var unit in fieldUnits) Register(unit);
+         foreach (var unit in fieldUnits) Register(unit);
 
-      foreach (var unit in propertyUnits) Register(unit);
+         foreach (var unit in propertyUnits) Register(unit);
 
-      _inAutoregister = false;
-      _bagLock.Release();
+         _inAutoregister = false;
+      }
+      finally
+      {
+         _bagLock.Release();
+      }
    }
 
    /// <summary>
@@ -128,16 +155,45 @@ public class UnitRegistry<TUnit>
    {
       var locked = false;
 
-      if (!_inAutoregister)
+      try
       {
-         _bagLock.Wait();
-         locked = true;
+         if (!_inAutoregister)
+         {
+            _bagLock.Wait();
+            locked = true;
+         }
+
+         _needsRebuild = true;
+
+         _allItems.Add(unit);
       }
+      finally
+      {
+         if (locked) _bagLock.Release();
+      }
+   }
 
-      _needsRebuild = true;
+   public void Clear()
+   {
+      var locked = false;
+      try
+      {
+         if (!_inAutoregister)
+         {
+            locked = true;
+            _bagLock.Wait();
+         }
 
-      _allItems.Add(unit);
-      if (locked) _bagLock.Release();
+         _allItems.Clear();
+         _symbolLookup = null;
+         _systemLookup = null;
+         _nameLookup   = null;
+         _needsRebuild = true;
+      }
+      finally
+      {
+         if (locked) _bagLock.Release();
+      }
    }
 }
 
@@ -197,31 +253,49 @@ public class UnitRegistry
    /// Gets a symbol based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.
    /// </summary>
    /// <typeparam name="TUnit">The unit of measure type.</typeparam>
-   /// <returns>A name based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.</returns>
+   /// <returns>A symbol based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.</returns>
    public ILookup<string, TUnit> GetSymbolLookup<TUnit>()
             where TUnit : UnitOfMeasure<TUnit>, IEquatable<TUnit>
       => UnitRegistry<TUnit>.Default.SymbolLookup;
 
    /// <summary>
-   /// Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
+   /// Gets a system name based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.
    /// </summary>
-   public void AutoregisterAllUnits()
-   {
-      var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-
-      foreach (var assembly in assemblies) AutoregisterAllUnitsFrom(assembly);
-   }
+   /// <typeparam name="TUnit">The unit of measure type.</typeparam>
+   /// <returns>A system name based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.</returns>
+   public ILookup<string, TUnit> GetSystemLookup<TUnit>()
+            where TUnit : UnitOfMeasure<TUnit>, IEquatable<TUnit>
+      => UnitRegistry<TUnit>.Default.SystemLookup;
 
    /// <summary>
    /// Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
    /// </summary>
-   public void AutoregisterAllUnitsFrom(Assembly assembly)
+   public void AutoregisterAllUnits(bool clearCurrentRegistrations=false)
+   {
+      var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+      foreach (var assembly in assemblies) AutoregisterAllUnitsFrom(assembly, clearCurrentRegistrations);
+   }
+
+   public void Clear<TUnit>() where TUnit : UnitOfMeasure<TUnit>, IEquatable<TUnit>
+      => UnitRegistry<TUnit>.Default.Clear();
+
+   /// <summary>
+   /// Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
+   /// </summary>
+   public void AutoregisterAllUnitsFrom(Assembly assembly, bool clearCurrentRegistrations=false)
    {
       var types = assembly
               .FindImplementationsOf(typeof(UnitOfMeasure<>));
 
       foreach (var type in types)
       {
+         if (clearCurrentRegistrations)
+            typeof(UnitRegistry)
+                    .GetMethod(nameof(Clear))!
+                    .MakeGenericMethod(type)
+                    .Invoke(this, null);
+
          typeof(UnitRegistry)
                  .GetMethod(nameof(Autoregister))!
                  .MakeGenericMethod(type)

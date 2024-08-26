@@ -31,10 +31,13 @@ const int ITERATIONS = 100_000;
 #else
 const int ITERATIONS = 1_000_000;
 #endif
-
+UnitRegistry.Default.AutoregisterAllUnits();
 var tempsX = UnitRegistry<Temperature>.Default.All;
 var nl1    = UnitRegistry<Temperature>.Default.NameLookup;
 var sl1    = UnitRegistry<Temperature>.Default.SymbolLookup;
+var sy1    = UnitRegistry<Temperature>.Default.SystemLookup;
+var sy2    = UnitRegistry.Default.GetSystemLookup<Temperature>();
+var siT= sy2["SI"];
 
 var tC  = new Temperature("C", "C");
 var tt2 = new Temperature("T2", "T2", tC, 10, 5);
@@ -43,7 +46,6 @@ var tK  = new Temperature("K", "K", tC, 1, -273.15);
 var tkK = new Temperature("kK", "kK", tK, 1000d);
 var tde = new Temperature("de", "de", tC, -2d / 3d, -150);
 
-UnitRegistry<Temperature>.Default.AutoregisterFromAllAssemblies();
 var tempsY = UnitRegistry<Temperature>.Default.All;
 var nl2    = UnitRegistry<Temperature>.Default.NameLookup;
 var sl2    = UnitRegistry<Temperature>.Default.SymbolLookup;
@@ -65,7 +67,7 @@ var lengths        = UnitRegistry<Length>.Default.All;
 var lengthByName   = UnitRegistry<Length>.Default.NameLookup;
 var lengthBySymbol = UnitRegistry<Length>.Default.SymbolLookup;
 
-UnitRegistry.Default.AutoregisterAllUnits();
+UnitRegistry.Default.AutoregisterAllUnits(true);
 
 var qtt1         = 200.As(tC);
 var qtt1As2      = qtt1.To(tt2);
@@ -114,12 +116,11 @@ var perfRunner = PerformanceTestRunner.Instance;
 // var ε₀ = 1;
 // execute all of the tests without reporting results to get the code JITed.
 // this yield best case performance. Will need to add an option to ensure its fully JITed
-for (var zx = 0; zx < 2; zx++)
-   perfRunner.RunAllTests(false);
+//for (var zx = 0; zx < 2; zx++)
+   //perfRunner.RunAllTests(false);
 
-perfRunner.RunAllTests();
+//perfRunner.RunAllTests();
 
-return 0;
 
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
@@ -170,8 +171,16 @@ var mm         = Lengths.Millimeter;
 var surveyLink = Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link;
 var surveyRod  = Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod;
 
-var Kilokelvin                          = new Temperature("Kilokelvin", "°kK", K, 1000.0);
-var Millikelvin                         = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
+UnitRegistry.Default.AutoregisterAllUnits(true);
+var Kilokelvin                          = new Temperature("Kilokelvin", "°kK", K, 1000.0, system:"SI");
+var Millikelvin                         = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0, system:"SI");
+UnitRegistry.Default.Register(Kilokelvin);
+UnitRegistry.Default.Register(Millikelvin);
+sy2 = UnitRegistry.Default.GetSystemLookup<Temperature>();
+siT =sy2["SI"];
+
+return 0;
+
 var OneMillikelvinT                     = 1.As(Millikelvin);
 var OneKilokelvinT                      = 1.As(Kilokelvin);
 var OneThousandKelvinT                  = OneKilokelvinT.To(K);

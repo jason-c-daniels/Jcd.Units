@@ -28,6 +28,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [All](UnitRegistry_TUnit_.All.md 'Jcd.Units.UnitRegistry<TUnit>.All') | All registered or discovered instances of the type of unit. |
 | [NameLookup](UnitRegistry_TUnit_.NameLookup.md 'Jcd.Units.UnitRegistry<TUnit>.NameLookup') | Returns a lookup of the named unit to the unit(s) with matching names. |
 | [SymbolLookup](UnitRegistry_TUnit_.SymbolLookup.md 'Jcd.Units.UnitRegistry<TUnit>.SymbolLookup') | Returns a lookup of the unit(s) with matching symbols. |
+| [SystemLookup](UnitRegistry_TUnit_.SystemLookup.md 'Jcd.Units.UnitRegistry<TUnit>.SystemLookup') | Returns a lookup of the unit(s) with matching symbols. |
 
 | Methods | |
 | :--- | :--- |
