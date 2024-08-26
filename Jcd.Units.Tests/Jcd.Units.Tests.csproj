@@ -38,4 +38,9 @@
       <ProjectReference Include="..\Jcd.Units\Jcd.Units.csproj" />
    </ItemGroup>
    
+   <ItemGroup>
+      <None Update="xunit.runner.json">
+         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+   </ItemGroup>
 </Project>
